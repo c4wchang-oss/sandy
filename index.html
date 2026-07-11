@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>挪威縮影 · Norway in a Nutshell</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+TC:wght@300;400;500&family=Raleway:wght@200;300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─────────── PROGRESS BAR ─────────── -->
+  <div id="progress-bar"></div>
+
+  <!-- ─────────── NAV DOTS ─────────── -->
+  <nav id="nav-dots"></nav>
+
+  <!-- ─────────── SLIDE CONTAINER ─────────── -->
+  <div id="slides">
+
+    <!-- SLIDE 0 · Title -->
+    <section class="slide slide-title" data-index="0">
+      <div class="bg-layer" style="background-image: url('photos/cover.jpg')"></div>
+      <div class="bg-gradient title-gradient"></div>
+      <div class="slide-content center">
+        <p class="pre-title fade-up delay-1">2024 · Sandy's Journey</p>
+        <h1 class="main-title fade-up delay-2">挪威縮影</h1>
+        <p class="subtitle fade-up delay-3">Norway in a Nutshell</p>
+        <div class="divider fade-up delay-4"></div>
+        <p class="desc fade-up delay-5">峽灣 · 山鐵 · 瀑布 · 漁村<br>一段穿越北歐靈魂的列車之旅</p>
+        <button class="start-btn fade-up delay-6" onclick="nextSlide()">開始旅程 ▶</button>
+      </div>
+      <div class="scroll-hint">向下滾動或點擊箭頭繼續</div>
+    </section>
+
+    <!-- SLIDE 1 · Route Map -->
+    <section class="slide slide-route" data-index="1">
+      <div class="bg-layer" style="background-image: url('photos/map-bg.jpg')"></div>
+      <div class="bg-gradient dark-gradient"></div>
+      <div class="slide-content">
+        <h2 class="section-title fade-up">旅行路線</h2>
+        <p class="section-subtitle fade-up delay-1">The Route</p>
+        <div class="route-line">
+          <div class="route-stop fade-up delay-1">
+            <div class="stop-dot active"></div>
+            <div class="stop-info">
+              <span class="stop-name">Oslo</span>
+              <span class="stop-zh">奧斯陸</span>
+            </div>
+          </div>
+          <div class="route-connector fade-up delay-2"><span class="transport-icon">🚂</span><span class="transport-label">Bergen Line 5h</span></div>
+          <div class="route-stop fade-up delay-2">
+            <div class="stop-dot"></div>
+            <div class="stop-info">
+              <span class="stop-name">Myrdal</span>
+              <span class="stop-zh">米達爾</span>
+            </div>
+          </div>
+          <div class="route-connector fade-up delay-3"><span class="transport-icon">🚞</span><span class="transport-label">Flåm Railway 1h</span></div>
+          <div class="route-stop fade-up delay-3">
+            <div class="stop-dot"></div>
+            <div class="stop-info">
+              <span class="stop-name">Flåm</span>
+              <span class="stop-zh">弗拉姆</span>
+            </div>
+          </div>
+          <div class="route-connector fade-up delay-4"><span class="transport-icon">⛴</span><span class="transport-label">Nærøyfjord 2h</span></div>
+          <div class="route-stop fade-up delay-4">
+            <div class="stop-dot"></div>
+            <div class="stop-info">
+              <span class="stop-name">Gudvangen</span>
+              <span class="stop-zh">古德旺根</span>
+            </div>
+          </div>
+          <div class="route-connector fade-up delay-5"><span class="transport-icon">🚌</span><span class="transport-label">Bus 1.5h</span></div>
+          <div class="route-stop fade-up delay-5">
+            <div class="stop-dot"></div>
+            <div class="stop-info">
+              <span class="stop-name">Voss</span>
+              <span class="stop-zh">沃斯</span>
+            </div>
+          </div>
+          <div class="route-connector fade-up delay-6"><span class="transport-icon">🚂</span><span class="transport-label">Train 1h</span></div>
+          <div class="route-stop fade-up delay-6">
+            <div class="stop-dot"></div>
+            <div class="stop-info">
+              <span class="stop-name">Bergen</span>
+              <span class="stop-zh">卑爾根</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 2 · Oslo -->
+    <section class="slide slide-oslo" data-index="2">
+      <div class="bg-layer" style="background-image: url('photos/oslo.jpg')"></div>
+      <div class="bg-gradient left-gradient"></div>
+      <div class="slide-content left-align">
+        <div class="location-tag fade-up">📍 起點 · Oslo</div>
+        <h2 class="section-title fade-up delay-1">奧斯陸</h2>
+        <p class="section-subtitle fade-up delay-2">挪威靈魂的起點</p>
+        <p class="body-text fade-up delay-3">
+          奧斯陸是挪威的首都，也是這段旅程的出發地。
+          城市融合了現代建築與北歐傳統文化，
+          奧斯陸峽灣（Oslofjord）和維格蘭雕塑公園是不容錯過的亮點。
+        </p>
+        <div class="fact-chips fade-up delay-4">
+          <span class="chip">🏛 維格蘭公園</span>
+          <span class="chip">🏔 Holmenkollen</span>
+          <span class="chip">🛳 奧斯陸峽灣</span>
+          <span class="chip">🎨 孟克博物館</span>
+        </div>
+      </div>
+      <div class="photo-corner fade-right">
+        <div class="photo-frame" style="background-image: url('photos/oslo-1.jpg')">
+          <span class="photo-label">📷 我們的照片</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 3 · Bergen Railway -->
+    <section class="slide slide-bergen-railway" data-index="3">
+      <div class="bg-layer" style="background-image: url('photos/bergen-railway.jpg')"></div>
+      <div class="bg-gradient bottom-gradient"></div>
+      <div class="slide-content bottom-align">
+        <div class="location-tag fade-up">🚂 Bergen Line · 卑爾根線</div>
+        <h2 class="section-title fade-up delay-1">翻越山脈的鐵道</h2>
+        <p class="section-subtitle fade-up delay-2">Oslo → Myrdal · 世界最壯觀的鐵路之一</p>
+        <p class="body-text fade-up delay-3">
+          Bergen Line 全長 496 公里，穿越挪威中部的高原地帶 Hardangervidda，
+          最高海拔達 1,237 公尺。沿途雪山、高原湖泊與峽谷交替出現，
+          窗外風景如同一幅緩緩展開的北歐畫卷。
+        </p>
+        <div class="stat-row fade-up delay-4">
+          <div class="stat"><span class="stat-num">496</span><span class="stat-label">公里</span></div>
+          <div class="stat"><span class="stat-num">1,237m</span><span class="stat-label">最高海拔</span></div>
+          <div class="stat"><span class="stat-num">~5h</span><span class="stat-label">車程</span></div>
+          <div class="stat"><span class="stat-num">182</span><span class="stat-label">隧道</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 4 · Flåm Railway -->
+    <section class="slide slide-flam" data-index="4">
+      <div class="bg-layer" style="background-image: url('photos/flam.jpg')"></div>
+      <div class="bg-gradient right-gradient"></div>
+      <div class="slide-content right-align">
+        <div class="location-tag fade-up">🚞 Flåmsbana</div>
+        <h2 class="section-title fade-up delay-1">弗拉姆山岳鐵路</h2>
+        <p class="section-subtitle fade-up delay-2">世界最陡峭的鐵路之一</p>
+        <p class="body-text fade-up delay-3">
+          從米達爾（Myrdal，海拔 867m）一路俯衝至弗拉姆（海拔 2m），
+          僅 20 公里卻下降 865 公尺。途中穿越 20 座隧道，
+          在 Kjosfossen 瀑布前停留，讓旅客感受壯闊水幕的震撼。
+        </p>
+        <div class="highlight-box fade-up delay-4">
+          <p class="highlight-text">🌊 Kjosfossen 瀑布<br>落差 225 公尺，雨季水量磅礴</p>
+        </div>
+        <div class="photo-gallery-mini fade-up delay-5">
+          <div class="mini-photo" style="background-image: url('photos/flam-1.jpg')"></div>
+          <div class="mini-photo" style="background-image: url('photos/flam-2.jpg')"></div>
+          <div class="mini-photo" style="background-image: url('photos/flam-3.jpg')"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 5 · Nærøyfjord -->
+    <section class="slide slide-fjord" data-index="5">
+      <div class="bg-layer" style="background-image: url('photos/fjord.jpg')"></div>
+      <div class="bg-gradient center-gradient"></div>
+      <div class="slide-content center">
+        <div class="location-tag fade-up">⛴ UNESCO World Heritage</div>
+        <h2 class="section-title large fade-up delay-1">Nærøyfjord</h2>
+        <p class="section-subtitle fade-up delay-2">納勒峽灣 · 世界最窄峽灣之一</p>
+        <p class="body-text center-text fade-up delay-3">
+          兩岸絕壁高聳入雲，最窄處僅 250 公尺寬，
+          陡峭的山壁從海平面直衝 1,800 公尺。
+          船行其中，彷彿進入了一個被時間遺忘的冰河峽谷秘境。
+        </p>
+        <div class="fjord-facts fade-up delay-4">
+          <div class="fjord-fact">🏔 最高峭壁 <strong>1,800m</strong></div>
+          <div class="fjord-fact">📏 最窄寬度 <strong>250m</strong></div>
+          <div class="fjord-fact">🌊 峽灣長度 <strong>17km</strong></div>
+          <div class="fjord-fact">🦅 UNESCO遺產 <strong>2005年</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 6 · Photo Gallery -->
+    <section class="slide slide-gallery" data-index="6">
+      <div class="bg-gradient gallery-gradient"></div>
+      <div class="slide-content">
+        <h2 class="section-title fade-up">旅途記憶</h2>
+        <p class="section-subtitle fade-up delay-1">Our Moments Along the Way</p>
+        <div class="gallery-grid fade-up delay-2">
+          <div class="gallery-item tall" style="background-image: url('photos/gallery-1.jpg')">
+            <div class="gallery-caption">Flåm Village</div>
+          </div>
+          <div class="gallery-item" style="background-image: url('photos/gallery-2.jpg')">
+            <div class="gallery-caption">峽灣晨霧</div>
+          </div>
+          <div class="gallery-item" style="background-image: url('photos/gallery-3.jpg')">
+            <div class="gallery-caption">山頂積雪</div>
+          </div>
+          <div class="gallery-item wide" style="background-image: url('photos/gallery-4.jpg')">
+            <div class="gallery-caption">Nærøyfjord 峽灣遊船</div>
+          </div>
+          <div class="gallery-item" style="background-image: url('photos/gallery-5.jpg')">
+            <div class="gallery-caption">Kjosfossen 瀑布</div>
+          </div>
+          <div class="gallery-item" style="background-image: url('photos/gallery-6.jpg')">
+            <div class="gallery-caption">Bergen 碼頭</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 7 · Bergen -->
+    <section class="slide slide-bergen" data-index="7">
+      <div class="bg-layer" style="background-image: url('photos/bergen.jpg')"></div>
+      <div class="bg-gradient left-gradient"></div>
+      <div class="slide-content left-align">
+        <div class="location-tag fade-up">📍 終點 · Bergen</div>
+        <h2 class="section-title fade-up delay-1">卑爾根</h2>
+        <p class="section-subtitle fade-up delay-2">七山之城 · 峽灣門戶</p>
+        <p class="body-text fade-up delay-3">
+          卑爾根舊稱「布呂根」（Bryggen），中世紀漢薩同盟的貿易重地。
+          色彩繽紛的木造房屋依水而建，已被列入 UNESCO 世界文化遺產。
+          搭乘 Fløibanen 纜車登上浮伊山，俯瞰整個卑爾根的迷人全景。
+        </p>
+        <div class="fact-chips fade-up delay-4">
+          <span class="chip">🏠 Bryggen 碼頭</span>
+          <span class="chip">🚡 Fløibanen 纜車</span>
+          <span class="chip">🐟 Fish Market</span>
+          <span class="chip">⛅ 挪威最多雨的城市</span>
+        </div>
+        <div class="photo-corner fade-right">
+          <div class="photo-frame" style="background-image: url('photos/bergen-1.jpg')">
+            <span class="photo-label">📷 我們在 Bergen</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 8 · Tips -->
+    <section class="slide slide-tips" data-index="8">
+      <div class="bg-gradient tips-gradient"></div>
+      <div class="slide-content">
+        <h2 class="section-title fade-up">旅行小貼士</h2>
+        <p class="section-subtitle fade-up delay-1">Travel Tips · 給下一位旅人</p>
+        <div class="tips-grid fade-up delay-2">
+          <div class="tip-card">
+            <div class="tip-icon">🎫</div>
+            <h3>提前訂票</h3>
+            <p>Norway in a Nutshell 套票可在 Fjord Tours 網站提前購買，旺季（6–8月）需至少提前 2–3 週</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-icon">📅</div>
+            <h3>最佳季節</h3>
+            <p>5月至9月為最佳造訪時機，峽灣雪融水量最豐沛，日照時間長達20小時</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-icon">🪑</div>
+            <h3>座位選擇</h3>
+            <p>Bergen Line 右側座位景觀更佳；Flåm Railway 左側可欣賞 Kjosfossen 瀑布</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-icon">🧥</div>
+            <h3>準備穿搭</h3>
+            <p>Bergen 全年多雨，防水外套必備。峽灣船程空曠，風大需保暖</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-icon">📷</div>
+            <h3>拍照時機</h3>
+            <p>Flåm Railway 在 Kjosfossen 站會停留約10分鐘，是最佳拍照機會</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-icon">💳</div>
+            <h3>消費</h3>
+            <p>挪威物價偏高，建議攜帶 Visa/Mastercard，各地普遍接受刷卡</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 9 · End -->
+    <section class="slide slide-end" data-index="9">
+      <div class="bg-layer" style="background-image: url('photos/end.jpg')"></div>
+      <div class="bg-gradient end-gradient"></div>
+      <div class="slide-content center">
+        <p class="pre-title fade-up delay-1">Thank You for Watching</p>
+        <h2 class="main-title fade-up delay-2">再見，挪威</h2>
+        <p class="subtitle fade-up delay-3">Farvel, Norge · See You Again</p>
+        <div class="divider fade-up delay-4"></div>
+        <p class="desc fade-up delay-5">
+          每一段旅程，都是與自己的相遇<br>
+          每一座峽灣，都藏著無法複製的美麗
+        </p>
+        <div class="end-credits fade-up delay-6">
+          <p>📍 Oslo · Myrdal · Flåm · Nærøyfjord · Gudvangen · Bergen</p>
+          <p>✈️ Sandy's Norway Trip · 2024</p>
+        </div>
+        <button class="start-btn fade-up delay-7" onclick="goToSlide(0)">重新播放 ↺</button>
+      </div>
+    </section>
+
+  </div><!-- /slides -->
+
+  <!-- ─────────── CONTROLS ─────────── -->
+  <div id="controls">
+    <button id="btn-prev" onclick="prevSlide()" title="上一頁">‹</button>
+    <button id="btn-play" onclick="toggleAutoplay()" title="自動播放">▶</button>
+    <button id="btn-next" onclick="nextSlide()" title="下一頁">›</button>
+  </div>
+
+  <!-- ─────────── SLIDE COUNTER ─────────── -->
+  <div id="counter"><span id="current-num">1</span> / <span id="total-num">10</span></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
