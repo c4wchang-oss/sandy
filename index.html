@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandy 的挪威故事 · Norway in a Nutshell</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+TC:wght@300;400;500&family=Raleway:wght@200;300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Upload Guide Overlay ── -->
+  <div id="upload-guide" class="hidden">
+    <div class="guide-box">
+      <button class="guide-close" onclick="closeGuide()">✕</button>
+      <h3>📸 上傳你的旅遊照片</h3>
+      <p>點擊任意照片格，選擇對應的照片即可自動填入。<br>照片會儲存在瀏覽器中，下次開啟仍會顯示。</p>
+      <div class="guide-list" id="guide-list"></div>
+      <button class="guide-btn" onclick="closeGuide()">開始上傳 →</button>
+    </div>
+  </div>
+
+  <!-- ── Progress Bar ── -->
+  <div id="progress-bar"></div>
+
+  <!-- ── Nav Dots ── -->
+  <nav id="nav-dots"></nav>
+
+  <!-- ── Chapter Label ── -->
+  <div id="chapter-label"></div>
+
+  <!-- ─────────────── SLIDES ─────────────── -->
+  <div id="slides">
+
+    <!-- SLIDE 0 · Cover -->
+    <section class="slide" data-index="0" data-chapter="">
+      <div class="bg-layer cover-bg"></div>
+      <div class="bg-gradient cover-grad"></div>
+      <div class="slide-content center">
+        <p class="pre-title fade-up delay-1">Sandy's Family · Norway 2024</p>
+        <h1 class="main-title fade-up delay-2">挪威縮影</h1>
+        <p class="subtitle fade-up delay-3">Norway in a Nutshell</p>
+        <div class="divider fade-up delay-4"></div>
+        <p class="story-intro fade-up delay-5">一個家庭的北歐冒險<br>峽灣 · 鐵路 · 瀑布 · 飛越山谷</p>
+        <div class="cover-actions fade-up delay-6">
+          <button class="btn-primary" onclick="nextSlide()">開始故事 ▶</button>
+          <button class="btn-ghost" onclick="showGuide()">📷 上傳照片</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 1 · Route -->
+    <section class="slide" data-index="1" data-chapter="旅行路線">
+      <div class="bg-gradient route-grad"></div>
+      <div class="slide-content">
+        <h2 class="section-title fade-up">旅行路線</h2>
+        <p class="section-sub fade-up delay-1">The Norway in a Nutshell Route</p>
+        <div class="route-line fade-up delay-2">
+          <div class="r-stop active"><div class="r-dot"></div><span class="r-name">Oslo</span><span class="r-zh">奧斯陸</span></div>
+          <div class="r-conn"><span class="r-icon">🚂</span><span class="r-desc">Bergen Line · 5h</span></div>
+          <div class="r-stop"><div class="r-dot"></div><span class="r-name">Myrdal</span><span class="r-zh">米達爾</span></div>
+          <div class="r-conn"><span class="r-icon">🚞</span><span class="r-desc">Flåm Railway · 1h</span></div>
+          <div class="r-stop"><div class="r-dot"></div><span class="r-name">Flåm</span><span class="r-zh">弗拉姆</span></div>
+          <div class="r-conn"><span class="r-icon">⛴</span><span class="r-desc">Nærøyfjord · 2h</span></div>
+          <div class="r-stop"><div class="r-dot"></div><span class="r-name">Gudvangen</span><span class="r-zh">古德旺根</span></div>
+          <div class="r-conn"><span class="r-icon">🚌</span><span class="r-desc">Bus · 1.5h</span></div>
+          <div class="r-stop"><div class="r-dot"></div><span class="r-name">Voss</span><span class="r-zh">沃斯</span></div>
+          <div class="r-conn"><span class="r-icon">🚂</span><span class="r-desc">Train · 1h</span></div>
+          <div class="r-stop"><div class="r-dot"></div><span class="r-name">Bergen</span><span class="r-zh">卑爾根</span></div>
+        </div>
+        <p class="route-note fade-up delay-3">★ 本次旅程以弗拉姆（Flåm）為中心展開</p>
+      </div>
+    </section>
+
+    <!-- SLIDE 2 · 弗拉姆的早晨 -->
+    <section class="slide story-slide" data-index="2" data-chapter="Chapter 1 · 弗拉姆的早晨">
+      <div class="bg-gradient story-grad-blue"></div>
+      <div class="story-layout layout-morning">
+        <!-- LEFT: large aerial photo -->
+        <div class="story-photo-block block-large">
+          <div class="photo-slot" data-key="flam-aerial" data-hint="弗拉姆村俯瞰（第1張）" onclick="triggerUpload(this)">
+            <div class="slot-inner">
+              <span class="slot-icon">📷</span>
+              <p class="slot-text">弗拉姆村俯瞰<br><small>從高處看整個村子</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- RIGHT: text + small photo -->
+        <div class="story-text-block">
+          <div class="chapter-badge fade-up">第一章</div>
+          <h2 class="story-title fade-up delay-1">弗拉姆的早晨</h2>
+          <p class="story-body fade-up delay-2">
+            我們住在懸崖邊的飯店，早晨推開窗，整個弗拉姆村就在腳下——
+            一座小小的木屋漁村，被連綿山壁和絲帶瀑布緊緊擁抱著。
+          </p>
+          <p class="story-body fade-up delay-3">
+            早餐時，端著燕麥粥和木瓜，窗外就是世界最美的風景。
+            旅行的滋味，大概就是這樣了。
+          </p>
+          <!-- Breakfast small photo -->
+          <div class="photo-slot small-photo fade-up delay-4" data-key="flam-breakfast" data-hint="飯店早餐（第2張）" onclick="triggerUpload(this)">
+            <div class="slot-inner">
+              <span class="slot-icon">📷</span>
+              <p class="slot-text">早餐配美景<br><small>飯店窗口俯瞰</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 3 · 峽灣啟航 -->
+    <section class="slide story-slide" data-index="3" data-chapter="Chapter 2 · 峽灣啟航">
+      <div class="bg-gradient story-grad-teal"></div>
+      <div class="story-layout layout-fjord">
+        <div class="story-photo-block block-hero">
+          <div class="photo-slot" data-key="fjord-queue" data-hint="峽灣渡船排隊（第3張）" onclick="triggerUpload(this)">
+            <div class="slot-inner">
+              <span class="slot-icon">📷</span>
+              <p class="slot-text">峽灣渡船碼頭<br><small>晴天，排隊出發</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="story-overlay-text">
+          <div class="chapter-badge fade-up">第二章</div>
+          <h2 class="story-title fade-up delay-1">峽灣啟航</h2>
+          <p class="story-body fade-up delay-2">
+            Nærøyfjord，聯合國教科文組織認定的世界遺產。<br>
+            碼頭聚滿了來自世界各地的旅人，<br>
+            大家都在等那艘駛入峽灣深處的船。
+          </p>
+          <div class="fjord-stats fade-up delay-3">
+            <div class="f-stat"><strong>17 km</strong><span>峽灣長度</span></div>
+            <div class="f-stat"><strong>250 m</strong><span>最窄寬度</span></div>
+            <div class="f-stat"><strong>1,800 m</strong><span>兩岸峭壁高度</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 4 · 弗拉姆鐵路 -->
+    <section class="slide story-slide" data-index="4" data-chapter="Chapter 3 · 弗拉姆山岳鐵路">
+      <div class="bg-gradient story-grad-green"></div>
+      <div class="story-layout layout-train">
+        <div class="story-text-block left-panel">
+          <div class="chapter-badge fade-up">第三章</div>
+          <h2 class="story-title fade-up delay-1">弗拉姆山岳鐵路</h2>
+          <p class="story-body fade-up delay-2">
+            翠綠色的 Flåmsbana 小火車，古典木質車廂散發著濃濃的復古氣息。
+            一家四口擠在紅色座椅上，窗外峽谷峭壁飛速掠過。
+          </p>
+          <p class="story-body fade-up delay-3">
+            這是世界上最陡峭的鐵路之一，
+            20 公里的路程下降 865 公尺，
+            卻是此行最難忘的一段風景。
+          </p>
+          <!-- Train exterior -->
+          <div class="photo-slot small-photo fade-up delay-4" data-key="train-exterior" data-hint="弗拉姆鐵路外觀（第8張）" onclick="triggerUpload(this)">
+            <div class="slot-inner">
+              <span class="slot-icon">📷</span>
+              <p class="slot-text">FLÅMSBANA 列車外觀</p>
+            </div>
+          </div>
+        </div>
+        <div class="right-panel">
+          <!-- Couple on train -->
+          <div class="photo-slot fade-up delay-1" data-key="train-couple" data-hint="Sandy 夫妻在車廂內（第4張）" onclick="triggerUpload(this)">
+            <div class="slot-inner">
+              <span class="slot-icon">📷</span>
+              <p class="slot-text">車廂裡的我們<br><small>Sandy & 先生</small></p>
+            </div>
+          </div>
+          <!-- Family on train -->
+          <div class="photo-slot fade-up delay-2" data-key="train-family" data-hint="爸爸和兩個兒子在車廂（第5張）" onclick="triggerUpload(this)">
+            <div class="slot-inner">
+              <span class="slot-icon">📷</span>
+              <p class="slot-text">一家人<br><small>爸爸 & 兩個兒子</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 5 · Kjosfossen 瀑布 -->
+    <section class="slide story-slide" data-index="5" data-chapter="Chapter 4 · Kjosfossen 的怒吼">
+      <div class="bg-gradient story-grad-dark"></div>
+      <div class="story-layout layout-waterfall">
+        <!-- Waterfall landscape - large left -->
+        <div class="story-photo-block block-large">
+          <div class="photo-slot" data-key="kjos-waterfall" data-hint="Kjosfossen 瀑布全景（第6張）" onclick="triggerUpload(this)">
+            <div class="slot-inner">
+              <span class="slot-icon">📷</span>
+              <p class="slot-text">Kjosfossen 瀑布<br><small>落差225公尺，震撼全場</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- Right: text + portrait -->
+        <div class="story-text-block">
+          <div class="chapter-badge fade-up">第四章</div>
+          <h2 class="story-title fade-up delay-1">Kjosfossen<br>的怒吼</h2>
+          <p class="story-body fade-up delay-2">
+            列車在瀑布前停靠，所有人衝出車廂。
+            225 公尺的水柱轟然墜落，水霧撲面，遮天蔽日。
+            站在它面前，只能沉默。
+          </p>
+          <!-- Sandy portrait -->
+          <div class="photo-slot portrait-photo fade-up delay-3" data-key="kjos-portrait" data-hint="Sandy 在瀑布前（第7張）" onclick="triggerUpload(this)">
+            <div class="slot-inner">
+              <span class="slot-icon">📷</span>
+              <p class="slot-text">Sandy 在瀑布前<br><small>水霧中的笑容</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 6 · 山間大地 -->
+    <section class="slide story-slide" data-index="6" data-chapter="Chapter 5 · 山間大地">
+      <div class="bg-gradient story-grad-mountain"></div>
+      <div class="story-layout layout-mountain">
+        <div class="mountain-header">
+          <div class="chapter-badge fade-up">第五章</div>
+          <h2 class="story-title fade-up delay-1">山間大地</h2>
+          <p class="story-body center-text fade-up delay-2">
+            Bergen Line 沿線，雪頂連綿、松林蒼翠。<br>我們在挪威的高原深處，留下足跡。
+          </p>
+        </div>
+        <div class="three-grid fade-up delay-3">
+          <div class="photo-slot" data-key="mountain-hotel" data-hint="Bergen Line 沿線飯店（第9張）" onclick="triggerUpload(this)">
+            <div class="slot-inner">
+              <span class="slot-icon">📷</span>
+              <p class="slot-text">Vatnahalsen Hotell<br><small>Bergen Line 沿線</small></p>
+            </div>
+          </div>
+          <div class="photo-slot" data-key="mountain-valley" data-hint="山谷全景（第11張）" onclick="triggerUpload(this)">
+            <div class="slot-inner">
+              <span class="slot-icon">📷</span>
+              <p class="slot-text">山谷全景<br><small>雪山與峽谷</small></p>
+            </div>
+          </div>
+          <div class="photo-slot" data-key="mountain-walk" data-hint="走往飛索入口（第10張）" onclick="triggerUpload(this)">
+            <div class="slot-inner">
+              <span class="slot-icon">📷</span>
+              <p class="slot-text">前往飛索<br><small>三個男生走在前方</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 7 · 飛索準備 -->
+    <section class="slide story-slide" data-index="7" data-chapter="Chapter 6 · 飛越山谷 — 準備">
+      <div class="bg-gradient story-grad-adventure"></div>
+      <div class="story-layout layout-zip-prep">
+        <div class="story-text-block left-panel">
+          <div class="chapter-badge fade-up">第六章</div>
+          <h2 class="story-title fade-up delay-1">飛越山谷<br><span class="title-sub">Flåm Zipline</span></h2>
+          <p class="story-body fade-up delay-2">
+            從海拔 700 公尺的山頂，以時速 80 公里飛越整個弗拉姆峽谷——
+            這是歐洲最長的高空飛索之一。
+          </p>
+          <p class="story-body fade-up delay-3">
+            媽媽站在玻璃觀景台上，腳下是萬丈深淵，
+            她說：「不管如何，我都要試試！」
+          </p>
+          <div class="photo-slot small-photo fade-up delay-4" data-key="zip-sign" data-hint="飛索入口招牌（第13張）" onclick="triggerUpload(this)">
+            <div class="slot-inner"><span class="slot-icon">📷</span><p class="slot-text">飛索入口</p></div>
+          </div>
+        </div>
+        <div class="right-panel-zip">
+          <div class="photo-slot tall-photo fade-up delay-1" data-key="zip-viewpoint" data-hint="Sandy 在玻璃觀景台（第14張）" onclick="triggerUpload(this)">
+            <div class="slot-inner"><span class="slot-icon">📷</span><p class="slot-text">Sandy 在觀景台<br><small>瀑布從身後傾瀉</small></p></div>
+          </div>
+          <div class="photo-slot fade-up delay-2" data-key="zip-utv" data-hint="山頂越野車（第12張）" onclick="triggerUpload(this)">
+            <div class="slot-inner"><span class="slot-icon">📷</span><p class="slot-text">山頂越野車</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 8 · 全家出動 -->
+    <section class="slide story-slide" data-index="8" data-chapter="Chapter 6 · 飛越山谷 — 起飛！">
+      <div class="bg-gradient story-grad-launch"></div>
+      <div class="story-layout layout-launch">
+        <div class="launch-header">
+          <div class="chapter-badge fade-up">第六章 · 高潮</div>
+          <h2 class="story-title large fade-up delay-1">一家四口<br>全員出動！</h2>
+          <p class="story-body center-text fade-up delay-2">
+            戴上安全帽、扣好飛索裝備，站在發射台邊緣<br>3、2、1⋯⋯ 飛！
+          </p>
+        </div>
+        <div class="launch-grid fade-up delay-3">
+          <div class="photo-slot launch-big" data-key="zip-family" data-hint="全家戴頭盔穿裝備合照（第17張）" onclick="triggerUpload(this)">
+            <div class="slot-inner"><span class="slot-icon">📷</span><p class="slot-text">全家備戰！<br><small>爸爸 · 兒子們 · Sandy</small></p></div>
+          </div>
+          <div class="photo-slot" data-key="zip-couple" data-hint="Sandy 夫妻穿飛索裝備（第18張）" onclick="triggerUpload(this)">
+            <div class="slot-inner"><span class="slot-icon">📷</span><p class="slot-text">夫妻檔<br><small>準備起飛</small></p></div>
+          </div>
+          <div class="photo-slot" data-key="zip-cabin1" data-hint="兩個男生在木屋（第15張）" onclick="triggerUpload(this)">
+            <div class="slot-inner"><span class="slot-icon">📷</span><p class="slot-text">兒子 & 爸爸<br><small>飛索木屋</small></p></div>
+          </div>
+          <div class="photo-slot" data-key="zip-cabin2" data-hint="兒子和 Sandy 在木屋（第16張）" onclick="triggerUpload(this)">
+            <div class="slot-inner"><span class="slot-icon">📷</span><p class="slot-text">兒子 & 媽媽<br><small>飛索木屋</small></p></div>
+          </div>
+          <div class="photo-slot launch-wide" data-key="zip-platform" data-hint="三男生在飛索發射台（第19張）" onclick="triggerUpload(this)">
+            <div class="slot-inner"><span class="slot-icon">📷</span><p class="slot-text">男生三人組 @ 發射台<br><small>雪山為背景</small></p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 9 · Tips -->
+    <section class="slide" data-index="9" data-chapter="旅行貼士">
+      <div class="bg-gradient tips-grad"></div>
+      <div class="slide-content">
+        <h2 class="section-title fade-up">旅行小貼士</h2>
+        <p class="section-sub fade-up delay-1">Travel Tips · 給下一位旅人的建議</p>
+        <div class="tips-grid fade-up delay-2">
+          <div class="tip-card"><div class="tip-icon">🎫</div><h3>提前訂票</h3><p>Norway in a Nutshell 套票可在 Fjord Tours 網站購買，旺季（6–8月）提早 2–3 週</p></div>
+          <div class="tip-card"><div class="tip-icon">📅</div><h3>最佳季節</h3><p>5–9月最佳，峽灣水量豐沛，日照超長，可以玩得非常盡興</p></div>
+          <div class="tip-card"><div class="tip-icon">🪑</div><h3>座位選擇</h3><p>Flåm Railway 左側座位可欣賞 Kjosfossen 瀑布，一定要搶！</p></div>
+          <div class="tip-card"><div class="tip-icon">🧗</div><h3>飛索體驗</h3><p>Flåm Zipline 需提前網路預約，全家同行超值！建議晴天前往，視野最好</p></div>
+          <div class="tip-card"><div class="tip-icon">📷</div><h3>拍照時機</h3><p>Kjosfossen 停靠約10分鐘，衝下去拍照再衝回來，時間剛好！</p></div>
+          <div class="tip-card"><div class="tip-icon">🧥</div><h3>穿著建議</h3><p>防水外套必備，峽灣船程風大，Kjosfossen 瀑布水霧會把衣服打濕</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 10 · End -->
+    <section class="slide" data-index="10" data-chapter="">
+      <div class="bg-gradient end-grad"></div>
+      <div class="slide-content center">
+        <p class="pre-title fade-up delay-1">Thank You for Watching</p>
+        <h2 class="main-title fade-up delay-2">再見，挪威</h2>
+        <p class="subtitle fade-up delay-3">Farvel, Norge · 我們還會回來的</p>
+        <div class="divider fade-up delay-4"></div>
+        <p class="story-intro fade-up delay-5">
+          每一座峽灣，都有它自己的沉默與壯闊<br>
+          每一段旅途，都讓這個家更緊密一些
+        </p>
+        <div class="end-credits fade-up delay-6">
+          <p>📍 Flåm · Nærøyfjord · Flåmsbana · Kjosfossen · Flåm Zipline</p>
+          <p>👨‍👩‍👦‍👦 Sandy's Family · Norway 2024</p>
+        </div>
+        <button class="btn-primary fade-up delay-7" onclick="goToSlide(0)">重新播放 ↺</button>
+      </div>
+    </section>
+
+  </div><!-- /slides -->
+
+  <!-- ── Controls ── -->
+  <div id="controls">
+    <button onclick="prevSlide()" title="上一頁">‹</button>
+    <button id="btn-play" onclick="toggleAutoplay()" title="自動播放">▶</button>
+    <button onclick="nextSlide()" title="下一頁">›</button>
+  </div>
+
+  <!-- ── Counter ── -->
+  <div id="counter"><span id="cur">1</span> / <span id="tot">11</span></div>
+
+  <!-- ── Upload input (hidden) ── -->
+  <input type="file" id="file-input" accept="image/*" style="display:none" />
+
+  <script src="script.js"></script>
+</body>
+</html>
