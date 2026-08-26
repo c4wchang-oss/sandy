@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT Visualize — X/Threads 圖片（中文）16:9</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px;
+    height: 675px;
+    overflow: hidden;
+    font-family: 'PingFang TC', 'Noto Sans TC', 'Helvetica Neue', Arial, sans-serif;
+    background: #0D0D0D;
+    color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    width: 1200px;
+    height: 675px;
+    position: relative;
+    padding: 64px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+  }
+  .accent-bar {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 4px;
+    background: linear-gradient(90deg, #10A37F 0%, #3B82F6 50%, #8B5CF6 100%);
+  }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #10A37F;
+    background: rgba(16, 163, 127, 0.1);
+    border: 1px solid rgba(16, 163, 127, 0.25);
+    padding: 6px 14px;
+    border-radius: 4px;
+    width: fit-content;
+  }
+  .tag-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: #10A37F;
+  }
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding: 32px 0;
+  }
+  .headline {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #FFFFFF;
+    max-width: 820px;
+    letter-spacing: -0.01em;
+  }
+  .headline em {
+    font-style: normal;
+    color: #10A37F;
+  }
+  .subline {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #9CA3AF;
+    max-width: 700px;
+    font-weight: 400;
+  }
+  .formats {
+    display: flex;
+    gap: 14px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+  }
+  .format-chip {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .format-chip.timeline {
+    background: rgba(59, 130, 246, 0.12);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    color: #60A5FA;
+  }
+  .format-chip.calendar {
+    background: rgba(139, 92, 246, 0.12);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    color: #A78BFA;
+  }
+  .format-chip.dashboard {
+    background: rgba(16, 163, 127, 0.12);
+    border: 1px solid rgba(16, 163, 127, 0.3);
+    color: #34D399;
+  }
+  .format-chip.question {
+    background: rgba(245, 158, 11, 0.12);
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    color: #FCD34D;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .byline {
+    font-size: 14px;
+    color: #6B7280;
+  }
+  .byline strong {
+    color: #9CA3AF;
+    font-weight: 600;
+  }
+  .date-tag {
+    font-size: 13px;
+    color: #4B5563;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="accent-bar"></div>
+
+  <div class="tag">
+    <div class="tag-dot"></div>
+    AI UX · 2026年8月26日
+  </div>
+
+  <div class="main-content">
+    <div class="headline">
+      ChatGPT 在沒問過你的情況下<br>
+      <em>替你做了 IA 決策。</em>
+    </div>
+    <div class="subline">
+      Visualize 功能自動選擇 Timeline、Calendar 或 Dashboard。
+      那個格式選擇本身就是設計決策——AI 只是讓這件事停止被問了。
+    </div>
+    <div class="formats">
+      <div class="format-chip timeline">⟶ Timeline 時序</div>
+      <div class="format-chip calendar">⟶ Calendar 行動</div>
+      <div class="format-chip dashboard">⟶ Dashboard 狀態</div>
+      <div class="format-chip question">AI 選了。它選對了嗎？</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="byline">
+      <strong>Senior UX 視角</strong> · ChatGPT Visualize 功能
+    </div>
+    <div class="date-tag">2026年8月26日</div>
+  </div>
+</div>
+</body>
+</html>
