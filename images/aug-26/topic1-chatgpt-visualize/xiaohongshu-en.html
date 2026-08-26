@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT Visualize — 小紅書 Image (EN) 3:4</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1440px;
+    overflow: hidden;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #FAFAF9;
+    color: #1C1917;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    width: 1080px;
+    height: 1440px;
+    position: relative;
+    padding: 80px 80px 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background: #FAFAF9;
+  }
+  /* Top accent */
+  .top-accent {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 6px;
+    background: linear-gradient(90deg, #10A37F 0%, #3B82F6 60%, #8B5CF6 100%);
+  }
+  /* Left sidebar accent line */
+  .sidebar-line {
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px; height: 100%;
+    background: linear-gradient(180deg, #10A37F 0%, transparent 80%);
+    opacity: 0.3;
+  }
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 52px;
+  }
+  .platform-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #10A37F;
+    background: rgba(16, 163, 127, 0.08);
+    border: 1px solid rgba(16, 163, 127, 0.2);
+    padding: 7px 16px;
+    border-radius: 4px;
+    width: fit-content;
+  }
+  .headline {
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.15;
+    color: #0C0C0C;
+    letter-spacing: -0.02em;
+  }
+  .headline em {
+    font-style: normal;
+    color: #10A37F;
+  }
+  .divider {
+    width: 48px;
+    height: 3px;
+    background: #10A37F;
+    border-radius: 2px;
+    margin: 8px 0;
+  }
+  .section {
+    margin-bottom: 44px;
+  }
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #9CA3AF;
+    margin-bottom: 18px;
+  }
+  .ia-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 32px;
+  }
+  .ia-card {
+    padding: 20px 22px;
+    border-radius: 10px;
+    border: 1px solid;
+  }
+  .ia-card.t1 { background: rgba(59,130,246,0.06); border-color: rgba(59,130,246,0.2); }
+  .ia-card.t2 { background: rgba(139,92,246,0.06); border-color: rgba(139,92,246,0.2); }
+  .ia-card.t3 { background: rgba(16,163,127,0.06); border-color: rgba(16,163,127,0.2); }
+  .ia-card.t4 { background: rgba(245,158,11,0.06); border-color: rgba(245,158,11,0.2); }
+  .ia-label {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .ia-card.t1 .ia-label { color: #3B82F6; }
+  .ia-card.t2 .ia-label { color: #8B5CF6; }
+  .ia-card.t3 .ia-label { color: #10A37F; }
+  .ia-card.t4 .ia-label { color: #F59E0B; }
+  .ia-desc {
+    font-size: 13px;
+    color: #6B7280;
+    line-height: 1.5;
+  }
+  .checklist {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .check-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #374151;
+  }
+  .check-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .check-icon.green { background: rgba(16,163,127,0.15); color: #10A37F; }
+  .check-icon.red { background: rgba(239,68,68,0.12); color: #EF4444; }
+  .insight-box {
+    background: #0D0D0D;
+    color: #F5F5F5;
+    padding: 28px 30px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+  }
+  .insight-box .insight-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #10A37F;
+    margin-bottom: 12px;
+  }
+  .insight-box .insight-text {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.45;
+    color: #FFFFFF;
+  }
+  .insight-box .insight-text em {
+    font-style: normal;
+    color: #34D399;
+  }
+  .footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 28px;
+    border-top: 1px solid #E5E7EB;
+  }
+  .author {
+    font-size: 14px;
+    color: #9CA3AF;
+  }
+  .author strong {
+    color: #374151;
+    font-weight: 700;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+  .date {
+    font-size: 13px;
+    color: #D1D5DB;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="top-accent"></div>
+  <div class="sidebar-line"></div>
+
+  <div class="header-section">
+    <div class="platform-tag">AI UX · Aug 26, 2026</div>
+    <div class="headline">
+      ChatGPT just started<br>doing <em>IA work</em><br>without asking.
+    </div>
+    <div class="divider"></div>
+  </div>
+
+  <!-- IA format grid -->
+  <div class="section">
+    <div class="section-label">The format choice = the design decision</div>
+    <div class="ia-grid">
+      <div class="ia-card t1">
+        <div class="ia-label">Timeline</div>
+        <div class="ia-desc">What happened and when?</div>
+      </div>
+      <div class="ia-card t2">
+        <div class="ia-label">Calendar</div>
+        <div class="ia-desc">What do I need to act on?</div>
+      </div>
+      <div class="ia-card t3">
+        <div class="ia-label">Dashboard</div>
+        <div class="ia-desc">What's the state right now?</div>
+      </div>
+      <div class="ia-card t4">
+        <div class="ia-label">AI picks one.</div>
+        <div class="ia-desc">Doesn't ask which fits.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pros/Cons -->
+  <div class="section">
+    <div class="section-label">Useful / Watch out</div>
+    <div class="checklist">
+      <div class="check-item">
+        <div class="check-icon green">✓</div>
+        <span>Publish to shareable URL — zero dev work</span>
+      </div>
+      <div class="check-item">
+        <div class="check-icon green">✓</div>
+        <span>Tabs, calendar views generated automatically</span>
+      </div>
+      <div class="check-item">
+        <div class="check-icon red">!</div>
+        <span>Buttons = follow-up prompts, NOT live data</span>
+      </div>
+      <div class="check-item">
+        <div class="check-icon red">!</div>
+        <span>Wrong format choice = invisible decision error</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Insight -->
+  <div class="insight-box">
+    <div class="insight-label">Senior UX Reframe</div>
+    <div class="insight-text">
+      Visualize didn't simplify IA.<br>
+      It made IA <em>invisible</em>.<br>
+      Someone still has to check the work.
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="author">
+      <strong>Senior UX Perspective</strong>
+      ChatGPT Visualize Skill
+    </div>
+    <div class="date">Aug 26, 2026</div>
+  </div>
+</div>
+</body>
+</html>

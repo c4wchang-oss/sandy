@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gemini Redesign — 小紅書 Image (EN) 3:4</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1440px;
+    overflow: hidden;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #F8FAFF;
+    color: #1C1917;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    width: 1080px;
+    height: 1440px;
+    position: relative;
+    padding: 80px 80px 72px;
+    display: flex;
+    flex-direction: column;
+    background: #F8FAFF;
+  }
+  .top-accent {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 6px;
+    background: linear-gradient(90deg, #4285F4 0%, #EA4335 33%, #FBBC05 66%, #34A853 100%);
+  }
+  .sidebar-line {
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px; height: 100%;
+    background: linear-gradient(180deg, #4285F4 0%, transparent 80%);
+    opacity: 0.3;
+  }
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 48px;
+  }
+  .platform-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #4285F4;
+    background: rgba(66, 133, 244, 0.08);
+    border: 1px solid rgba(66, 133, 244, 0.2);
+    padding: 7px 16px;
+    border-radius: 4px;
+    width: fit-content;
+  }
+  .headline {
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.15;
+    color: #0C0C0C;
+    letter-spacing: -0.02em;
+  }
+  .headline em {
+    font-style: normal;
+    color: #4285F4;
+  }
+  .divider {
+    width: 48px;
+    height: 3px;
+    background: #4285F4;
+    border-radius: 2px;
+    margin: 8px 0;
+  }
+  .section {
+    margin-bottom: 40px;
+  }
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #9CA3AF;
+    margin-bottom: 18px;
+  }
+  /* UX changes list */
+  .changes {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .change-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 18px 20px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .change-num {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .change-num.c1 { background: rgba(66,133,244,0.1); color: #4285F4; }
+  .change-num.c2 { background: rgba(52,168,83,0.1); color: #34A853; }
+  .change-num.c3 { background: rgba(251,188,5,0.1); color: #946B00; }
+  .change-num.c4 { background: rgba(234,67,53,0.1); color: #EA4335; }
+  .change-content { flex: 1; }
+  .change-title { font-size: 17px; font-weight: 700; color: #111827; margin-bottom: 4px; }
+  .change-desc { font-size: 14px; color: #6B7280; line-height: 1.5; }
+  /* Signal section */
+  .signal-box {
+    background: #0A0F1E;
+    color: #F5F5F5;
+    padding: 28px 30px;
+    border-radius: 12px;
+    margin-bottom: 36px;
+  }
+  .signal-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #4285F4;
+    margin-bottom: 12px;
+  }
+  .signal-text {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #FFFFFF;
+  }
+  .signal-text em {
+    font-style: normal;
+    color: #60A5FA;
+  }
+  .footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 28px;
+    border-top: 1px solid #E5E7EB;
+  }
+  .author { font-size: 14px; color: #9CA3AF; }
+  .author strong { color: #374151; font-weight: 700; display: block; font-size: 15px; margin-bottom: 3px; }
+  .date { font-size: 13px; color: #D1D5DB; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="top-accent"></div>
+  <div class="sidebar-line"></div>
+
+  <div class="header-section">
+    <div class="platform-tag">AI UX · Aug 26, 2026</div>
+    <div class="headline">
+      Google redesigned<br>Gemini for <em>UX.</em><br>Not model power.
+    </div>
+    <div class="divider"></div>
+  </div>
+
+  <!-- Changes list -->
+  <div class="section">
+    <div class="section-label">What changed (no new model)</div>
+    <div class="changes">
+      <div class="change-row">
+        <div class="change-num c1">1</div>
+        <div class="change-content">
+          <div class="change-title">Cleaner layout</div>
+          <div class="change-desc">Less color blocks, more content space, calmer visual hierarchy</div>
+        </div>
+      </div>
+      <div class="change-row">
+        <div class="change-num c2">2</div>
+        <div class="change-content">
+          <div class="change-title">Conversation filters</div>
+          <div class="change-desc">Sort by type: recent / starred / image gen / coding threads</div>
+        </div>
+      </div>
+      <div class="change-row">
+        <div class="change-num c3">3</div>
+        <div class="change-content">
+          <div class="change-title">Adaptive notifications</div>
+          <div class="change-desc">Learns your engagement patterns, surfaces what you actually open</div>
+        </div>
+      </div>
+      <div class="change-row">
+        <div class="change-num c4">4</div>
+        <div class="change-content">
+          <div class="change-title">Multimodal thread display</div>
+          <div class="change-desc">Text + images + PDFs finally organized in mixed threads</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Signal box -->
+  <div class="signal-box">
+    <div class="signal-label">The industry signal</div>
+    <div class="signal-text">
+      Gemini didn't get <em>smarter.</em><br>
+      It got more <em>livable.</em><br>
+      For most users, that's the harder problem.
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="author">
+      <strong>Senior UX Perspective</strong>
+      Google Gemini Visual Redesign
+    </div>
+    <div class="date">Aug 26, 2026</div>
+  </div>
+</div>
+</body>
+</html>
