@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A0A14"/>
+      <stop offset="100%" style="stop-color:#0D0D1E"/>
+    </linearGradient>
+    <linearGradient id="accent-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4D8FFF"/>
+      <stop offset="100%" style="stop-color:#7B5EFF"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#181830;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#141428;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1440" fill="url(#bg)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1080" height="8" fill="url(#accent-h)"/>
+
+  <!-- Platform label -->
+  <rect x="60" y="60" width="200" height="44" rx="22" fill="#4D8FFF" fill-opacity="0.15" stroke="#4D8FFF" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="160" y="88" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#4D8FFF" text-anchor="middle" letter-spacing="1">AI UX WATCH</text>
+
+  <!-- Date label -->
+  <text x="1020" y="88" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#3A4060" text-anchor="end">Sep 6, 2026</text>
+
+  <!-- Main title -->
+  <text x="60" y="200" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="62" fill="#FFFFFF" letter-spacing="-1">Bolt finally</text>
+  <text x="60" y="278" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="62" fill="#FFFFFF" letter-spacing="-1">added click-to-edit.</text>
+
+  <!-- Blue accent line -->
+  <rect x="60" y="305" width="500" height="4" rx="2" fill="url(#accent-h)"/>
+
+  <!-- Subtitle -->
+  <text x="60" y="360" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="30" fill="#7B8AA8">As a UX designer: here's why it matters.</text>
+
+  <!-- Central visual  clicking animation representation -->
+  <g transform="translate(540, 570)">
+    <!-- Background circle -->
+    <circle cx="0" cy="0" r="200" fill="#1A1A30" stroke="#4D8FFF" stroke-width="1" stroke-opacity="0.2"/>
+    <circle cx="0" cy="0" r="150" fill="none" stroke="#4D8FFF" stroke-width="1" stroke-opacity="0.1"/>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#7B5EFF" stroke-width="1" stroke-opacity="0.1"/>
+
+    <!-- App frame mockup -->
+    <rect x="-130" y="-90" width="260" height="180" rx="12" fill="#0F0F20" stroke="#2A2A4A" stroke-width="2"/>
+    <!-- Header -->
+    <rect x="-130" y="-90" width="260" height="36" rx="12" fill="#1E1E38"/>
+    <rect x="-130" y="-66" width="260" height="12" fill="#1E1E38"/>
+    <circle cx="-105" cy="-72" r="8" fill="#FF5F57"/>
+    <circle cx="-80" cy="-72" r="8" fill="#FEBC2E"/>
+    <circle cx="-55" cy="-72" r="8" fill="#28C840"/>
+
+    <!-- Selected element highlight -->
+    <rect x="-100" y="-34" width="200" height="28" rx="4" fill="#4D8FFF" fill-opacity="0.2" stroke="#4D8FFF" stroke-width="1.5"/>
+    <rect x="-90" y="-27" width="80" height="14" rx="3" fill="#7B8AA8" opacity="0.6"/>
+
+    <!-- Toolbar popup -->
+    <rect x="-120" y="30" width="240" height="44" rx="10" fill="#252540" stroke="#4D8FFF" stroke-width="1" stroke-opacity="0.6"/>
+    <rect x="-108" y="41" width="38" height="22" rx="5" fill="#4D8FFF"/>
+    <text x="-89" y="56" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">B</text>
+    <rect x="-58" y="41" width="38" height="22" rx="5" fill="#2A2A4A"/>
+    <text x="-39" y="56" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#7B8AA8" text-anchor="middle" font-style="italic">I</text>
+    <rect x="-8" y="41" width="38" height="22" rx="5" fill="#2A2A4A"/>
+    <rect x="42" y="41" width="38" height="22" rx="5" fill="#2A2A4A"/>
+    <rect x="92" y="41" width="38" height="22" rx="5" fill="#2A2A4A"/>
+
+    <!-- Cursor -->
+    <g transform="translate(80, -60)">
+      <path d="M0 0 L0 35 L10 25 L16 40 L21 38 L15 23 L30 23 Z" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+  </g>
+
+  <!-- Insight cards -->
+  <rect x="60" y="830" width="960" height="140" rx="14" fill="url(#card)" stroke="#4D8FFF" stroke-width="1" stroke-opacity="0.25"/>
+  <text x="96" y="882" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#4D8FFF" letter-spacing="2">WHAT IT SOLVED</text>
+  <text x="96" y="926" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#FFFFFF">The revision loop  not precision.</text>
+  <text x="96" y="958" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#7B8AA8">Click ’ change ’ stack ’ batch send. Client watches live.</text>
+
+  <!-- Three points -->
+  <g transform="translate(60, 1000)">
+    <!-- Point 1 -->
+    <rect x="0" y="0" width="300" height="200" rx="14" fill="url(#card)" stroke="#4D8FFF" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="20" y="44" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="36" fill="#4D8FFF"></text>
+    <text x="20" y="86" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">Works</text>
+    <text x="20" y="118" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#A0A8C0">Text + styling</text>
+    <text x="20" y="146" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#A0A8C0">Batch editing</text>
+    <text x="20" y="174" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#A0A8C0">Free + paid plans</text>
+
+    <!-- Point 2 -->
+    <rect x="330" y="0" width="300" height="200" rx="14" fill="url(#card)" stroke="#FF5555" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="350" y="44" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="36" fill="#FF5555">!</text>
+    <text x="350" y="86" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">Caveats</text>
+    <text x="350" y="118" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#A0A8C0">No drag/layout</text>
+    <text x="350" y="146" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#A0A8C0">No spatial edit</text>
+    <text x="350" y="174" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#A0A8C0">Narrow by design</text>
+
+    <!-- Point 3 -->
+    <rect x="660" y="0" width="300" height="200" rx="14" fill="url(#card)" stroke="#7B5EFF" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="680" y="44" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="36" fill="#7B5EFF">’</text>
+    <text x="680" y="86" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">Use it</text>
+    <text x="680" y="118" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#A0A8C0">Prompts: layout</text>
+    <text x="680" y="146" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#A0A8C0">Click: micro-edits</text>
+    <text x="680" y="174" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#A0A8C0">Live with clients</text>
+  </g>
+
+  <!-- Bottom quote -->
+  <line x1="60" y1="1272" x2="1020" y2="1272" stroke="#4D8FFF" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="60" y="1316" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#7B8AA8" font-style="italic">"AI finally caught up to a 44-year-old design principle."</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="1400" width="1080" height="40" fill="#4D8FFF" fill-opacity="0.05"/>
+  <text x="540" y="1425" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#3A4060" text-anchor="middle">Senior UX Designer  ·  Bolt.new Visual Edits  ·  Sep 2026</text>
+</svg>

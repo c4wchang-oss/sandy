@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#100A00"/>
+      <stop offset="100%" style="stop-color:#1A0F00"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF9C3A"/>
+      <stop offset="100%" style="stop-color:#FF6B1A"/>
+    </linearGradient>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E1600;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#180F00;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <!-- Subtle texture lines -->
+  <line x1="0" y1="540" x2="1920" y2="540" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1"/>
+  <line x1="960" y1="0" x2="960" y2="1080" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="180" width="6" height="720" fill="url(#accent)" rx="3"/>
+
+  <!-- Warning badge -->
+  <rect x="136" y="192" width="280" height="52" rx="26" fill="#FF9C3A" fill-opacity="0.15" stroke="#FF9C3A" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="276" y="224" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#FF9C3A" text-anchor="middle" letter-spacing="2">DESIGN DEBT AUDIT</text>
+
+  <!-- Main headline -->
+  <text x="136" y="340" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="72" fill="#FFFFFF" letter-spacing="-2">Webflow reads your site</text>
+  <text x="136" y="430" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="72" fill="#FFFFFF" letter-spacing="-2">and writes your brand guide.</text>
+
+  <!-- Divider -->
+  <line x1="136" y1="480" x2="1100" y2="480" stroke="#FF9C3A" stroke-width="2" stroke-opacity="0.5"/>
+
+  <!-- The catch -->
+  <text x="136" y="544" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="38" fill="#C08060">It reads what's</text>
+  <text x="470" y="544" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="38" fill="#FF9C3A">actually there.</text>
+  <text x="136" y="598" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="38" fill="#C08060">Not what you intended.</text>
+
+  <!-- Three items encoded -->
+  <text x="136" y="670" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="30" fill="#806040">Every override  ·  Every exception  ·  Every unfixed inconsistency</text>
+
+  <!-- Key card -->
+  <rect x="136" y="710" width="1050" height="160" rx="16" fill="url(#card-bg)" stroke="#FF9C3A" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="176" y="766" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#FF9C3A" letter-spacing="2">NOW ENCODED AS "BRAND STANDARDS"</text>
+  <text x="176" y="820" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="30" fill="#FFFFFF">Run it as an audit, not a shortcut.</text>
+  <text x="176" y="856" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#806040">Generate ’ Audit ’ Fix ’ THEN trust agents to follow it.</text>
+
+  <!-- Right visual  mirror metaphor -->
+  <g transform="translate(1350, 300)">
+    <!-- Left panel (intended) -->
+    <rect x="-80" y="80" width="180" height="280" rx="12" fill="#1E1600" stroke="#FF9C3A" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="-80" y="70" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#806040">Intended</text>
+    <rect x="-64" y="104" width="148" height="20" rx="4" fill="#FF9C3A" opacity="0.6"/>
+    <rect x="-64" y="134" width="148" height="20" rx="4" fill="#FF9C3A" opacity="0.6"/>
+    <rect x="-64" y="164" width="148" height="20" rx="4" fill="#FF9C3A" opacity="0.6"/>
+    <rect x="-64" y="214" width="148" height="60" rx="8" fill="#FF9C3A" opacity="0.2" stroke="#FF9C3A" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="10" y="250" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#806040" text-anchor="middle">1 blue</text>
+
+    <!-- Mirror symbol -->
+    <line x1="120" y1="80" x2="120" y2="380" stroke="#FF9C3A" stroke-width="2" stroke-opacity="0.4" stroke-dasharray="8,4"/>
+    <text x="120" y="50" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" fill="#FF9C3A" text-anchor="middle">ú</text>
+
+    <!-- Right panel (actual) -->
+    <rect x="140" y="80" width="180" height="280" rx="12" fill="#1E1600" stroke="#FF5555" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="140" y="70" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#806040">Actual (shipped)</text>
+    <rect x="156" y="104" width="148" height="20" rx="4" fill="#FF9C3A" opacity="0.6"/>
+    <rect x="156" y="134" width="148" height="20" rx="4" fill="#4D6FFF" opacity="0.5"/>
+    <rect x="156" y="164" width="148" height="20" rx="4" fill="#FF9C3A" opacity="0.3"/>
+    <rect x="156" y="194" width="148" height="20" rx="4" fill="#FF7722" opacity="0.5"/>
+    <rect x="156" y="224" width="148" height="20" rx="4" fill="#FF9C3A" opacity="0.7"/>
+    <rect x="156" y="254" width="148" height="20" rx="4" fill="#FFCC55" opacity="0.4"/>
+    <rect x="156" y="284" width="148" height="20" rx="4" fill="#FF8844" opacity="0.5"/>
+    <text x="230" y="330" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#FF5555" text-anchor="middle">7 blues</text>
+    <text x="230" y="350" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#806040" text-anchor="middle">(your AI will copy all 7)</text>
+  </g>
+
+  <!-- Bottom metadata -->
+  <text x="136" y="980" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#3A2800">Webflow Agent Instructions Generation  ·  Sep 2, 2026  ·  Senior UX Designer POV</text>
+
+  <!-- Tag -->
+  <rect x="1660" y="940" width="200" height="40" rx="20" fill="#FF9C3A" fill-opacity="0.1" stroke="#FF9C3A" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="1760" y="965" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#FF9C3A" text-anchor="middle">#DesignOps</text>
+</svg>

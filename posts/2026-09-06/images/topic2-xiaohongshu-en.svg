@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0E0800"/>
+      <stop offset="100%" style="stop-color:#150C00"/>
+    </linearGradient>
+    <linearGradient id="accent-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF9C3A"/>
+      <stop offset="100%" style="stop-color:#FF6B1A"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E1600;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#170E00;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1440" fill="url(#bg)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1080" height="8" fill="url(#accent-h)"/>
+
+  <!-- Platform label -->
+  <rect x="60" y="60" width="220" height="44" rx="22" fill="#FF9C3A" fill-opacity="0.12" stroke="#FF9C3A" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="170" y="88" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#FF9C3A" text-anchor="middle" letter-spacing="1">AI UX WATCH</text>
+
+  <!-- Date -->
+  <text x="1020" y="88" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#3A2800" text-anchor="end">Sep 6, 2026</text>
+
+  <!-- Warning icon area -->
+  <circle cx="540" cy="210" r="70" fill="#FF9C3A" fill-opacity="0.08" stroke="#FF9C3A" stroke-width="1.5" stroke-opacity="0.3"/>
+  <text x="540" y="230" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="56" fill="#FF9C3A" text-anchor="middle"> </text>
+
+  <!-- Main title -->
+  <text x="60" y="360" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="54" fill="#FFFFFF" letter-spacing="-1">Webflow auto-generates</text>
+  <text x="60" y="426" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="54" fill="#FFFFFF" letter-spacing="-1">your brand guidelines.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="453" width="480" height="4" rx="2" fill="url(#accent-h)"/>
+
+  <!-- Subtitle -->
+  <text x="60" y="506" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#C08060">Here's what it actually reads.</text>
+
+  <!-- Mirror comparison visual -->
+  <g transform="translate(540, 680)">
+    <!-- Intended side -->
+    <rect x="-420" y="-120" width="360" height="240" rx="14" fill="#1E1600" stroke="#FF9C3A" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="-240" y="-90" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" fill="#FF9C3A" text-anchor="middle" font-weight="600">INTENDED</text>
+    <rect x="-400" y="-60" width="320" height="18" rx="4" fill="#FF9C3A" opacity="0.5"/>
+    <rect x="-400" y="-32" width="320" height="18" rx="4" fill="#FF9C3A" opacity="0.5"/>
+    <rect x="-400" y="-4" width="320" height="18" rx="4" fill="#FF9C3A" opacity="0.5"/>
+    <text x="-240" y="80" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#806040" text-anchor="middle">1 brand color</text>
+    <text x="-240" y="104" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#806040" text-anchor="middle">consistent rules</text>
+
+    <!-- Arrow -->
+    <text x="0" y="8" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" fill="#FF9C3A" text-anchor="middle">`</text>
+
+    <!-- Actual side -->
+    <rect x="60" y="-120" width="360" height="240" rx="14" fill="#1E1600" stroke="#FF5555" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="240" y="-90" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" fill="#FF5555" text-anchor="middle" font-weight="600">ACTUAL (SHIPPED)</text>
+    <rect x="80" y="-60" width="320" height="16" rx="4" fill="#FF9C3A" opacity="0.6"/>
+    <rect x="80" y="-36" width="320" height="16" rx="4" fill="#4D6FFF" opacity="0.5"/>
+    <rect x="80" y="-12" width="320" height="16" rx="4" fill="#FF7722" opacity="0.5"/>
+    <rect x="80" y="12" width="320" height="16" rx="4" fill="#FFAA44" opacity="0.6"/>
+    <rect x="80" y="36" width="320" height="16" rx="4" fill="#FF9C3A" opacity="0.3"/>
+    <rect x="80" y="60" width="320" height="16" rx="4" fill="#FF8833" opacity="0.7"/>
+    <text x="240" y="100" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#FF5555" text-anchor="middle">6+ color variants</text>
+    <text x="240" y="120" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#806040" text-anchor="middle">(AI will encode all of them)</text>
+  </g>
+
+  <!-- Process steps -->
+  <text x="60" y="910" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#FF9C3A" letter-spacing="2">HOW TO ACTUALLY USE THIS</text>
+
+  <!-- Steps -->
+  <g transform="translate(60, 940)">
+    <rect x="0" y="0" width="940" height="62" rx="10" fill="url(#card)" stroke="#FF9C3A" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="26" y="38" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#FF9C3A">1</text>
+    <text x="66" y="38" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#FFFFFF">Generate the instructions</text>
+
+    <rect x="0" y="72" width="940" height="62" rx="10" fill="url(#card)" stroke="#FF9C3A" stroke-width="1" stroke-opacity="0.15"/>
+    <text x="26" y="110" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#FF9C3A">2</text>
+    <text x="66" y="110" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#FFFFFF">Read it like audit findings  what's wrong?</text>
+
+    <rect x="0" y="144" width="940" height="62" rx="10" fill="url(#card)" stroke="#FF9C3A" stroke-width="1" stroke-opacity="0.15"/>
+    <text x="26" y="182" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#FF9C3A">3</text>
+    <text x="66" y="182" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#FFFFFF">Fix the worst site inconsistencies first</text>
+
+    <rect x="0" y="216" width="940" height="62" rx="10" fill="url(#card)" stroke="#FF9C3A" stroke-width="1" stroke-opacity="0.15"/>
+    <text x="26" y="254" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#FF9C3A">4</text>
+    <text x="66" y="254" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#FFFFFF">Edit the instructions with actual intent</text>
+
+    <rect x="0" y="288" width="940" height="62" rx="10" fill="url(#card)" stroke="#28C840" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="26" y="326" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#28C840">5</text>
+    <text x="66" y="326" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#FFFFFF">Then let agents follow them</text>
+  </g>
+
+  <!-- Bottom quote -->
+  <line x1="60" y1="1350" x2="1020" y2="1350" stroke="#FF9C3A" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="60" y="1390" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#806040" font-style="italic">"The gap between shipped and intended  close it before AI inherits it."</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="1400" width="1080" height="40" fill="#FF9C3A" fill-opacity="0.04"/>
+  <text x="540" y="1425" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#3A2800" text-anchor="middle">Senior UX Designer  ·  Webflow Agent Instructions  ·  Sep 2026</text>
+</svg>
