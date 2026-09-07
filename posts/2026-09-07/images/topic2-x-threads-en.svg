@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A0514"/>
+      <stop offset="100%" style="stop-color:#130A20"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#EC4899"/>
+    </linearGradient>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A0F2E;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#130A22;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="160" width="6" height="760" fill="url(#accent)" rx="3"/>
+
+  <!-- Main headline -->
+  <text x="136" y="268" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="74" fill="#FFFFFF" letter-spacing="-2">The reporting bottleneck</text>
+  <text x="136" y="358" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="74" fill="#FFFFFF" letter-spacing="-2">isn't making slides.</text>
+  <text x="136" y="458" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="62" fill="#8B5CF6" letter-spacing="-1">It's the rebuild.</text>
+
+  <!-- Divider -->
+  <line x1="136" y1="510" x2="880" y2="510" stroke="#8B5CF6" stroke-width="2" stroke-opacity="0.5"/>
+
+  <!-- Subtext -->
+  <text x="136" y="578" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="36" fill="#7A6A98">Analysis done in one tool. Deliverable built in another.</text>
+  <text x="136" y="630" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="36" fill="#7A6A98">flowres.io SlideBuilder closes that gap  as infrastructure, not a generator.</text>
+
+  <!-- Two-column comparison card -->
+  <rect x="136" y="695" width="840" height="220" rx="16" fill="url(#card-bg)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Left column label -->
+  <text x="176" y="745" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#6A5A88" letter-spacing="3">PROMPT TO PPT</text>
+  <text x="176" y="785" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#7A6A98">Gamma, Beautiful.ai</text>
+  <text x="176" y="821" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#4A3A68">Generates from description</text>
+  <text x="176" y="855" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#4A3A68">No research evidence trail</text>
+  <text x="176" y="889" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="22" fill="#6A5A88">Different tool. Different use case.</text>
+
+  <!-- Divider within card -->
+  <line x1="556" y1="712" x2="556" y2="898" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.25" stroke-dasharray="6,4"/>
+
+  <!-- Right column label -->
+  <text x="596" y="745" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#8B5CF6" letter-spacing="3">DATA TO EDITABLE PPT</text>
+  <text x="596" y="785" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#B89EFF">SlideBuilder</text>
+  <text x="596" y="821" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#9A88C0">Scaffolds from your curated evidence</text>
+  <text x="596" y="855" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#9A88C0">Evidence trail follows the slide</text>
+  <text x="596" y="889" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="22" fill="#8B5CF6">Infrastructure, not a generator.</text>
+
+  <!-- Right side  workflow diagram -->
+  <g transform="translate(1200, 160)">
+    <!-- Title -->
+    <text x="360" y="60" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="22" fill="#6A5A88" text-anchor="middle" letter-spacing="2">SLIDEBUILDER WORKFLOW</text>
+
+    <!-- Step boxes -->
+    <!-- Step 1 -->
+    <rect x="160" y="90" width="400" height="70" rx="12" fill="#1A0F2E" stroke="#8B5CF6" stroke-width="2"/>
+    <text x="360" y="122" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#8B5CF6" text-anchor="middle">Analyze in flowres.io</text>
+    <text x="360" y="148" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#5A4A88" text-anchor="middle">Bookmark themes, quotes, summaries</text>
+
+    <line x1="360" y1="160" x2="360" y2="192" stroke="#4A3A68" stroke-width="2"/>
+    <polygon points="352,188 360,204 368,188" fill="#4A3A68"/>
+
+    <!-- Step 2 -->
+    <rect x="160" y="204" width="400" height="70" rx="12" fill="#1A0F2E" stroke="#8B5CF6" stroke-width="1.5"/>
+    <text x="360" y="236" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#A088E0" text-anchor="middle">Open PowerPoint ’ Add-in</text>
+    <text x="360" y="262" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#5A4A88" text-anchor="middle">Browse evidence inside PPT</text>
+
+    <line x1="360" y1="274" x2="360" y2="306" stroke="#4A3A68" stroke-width="2"/>
+    <polygon points="352,302 360,318 368,302" fill="#4A3A68"/>
+
+    <!-- Step 3 -->
+    <rect x="160" y="318" width="400" height="70" rx="12" fill="#1A0F2E" stroke="#8B5CF6" stroke-width="1.5"/>
+    <text x="360" y="350" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#A088E0" text-anchor="middle">Select evidence ’ Generate</text>
+    <text x="360" y="376" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#5A4A88" text-anchor="middle">Into your existing template</text>
+
+    <line x1="360" y1="388" x2="360" y2="420" stroke="#4A3A68" stroke-width="2"/>
+    <polygon points="352,416 360,432 368,416" fill="#4A3A68"/>
+
+    <!-- Step 4 -->
+    <rect x="160" y="432" width="400" height="70" rx="12" fill="#1A2040" stroke="#EC4899" stroke-width="2"/>
+    <text x="360" y="464" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#EC4899" text-anchor="middle">Native editable PPT slides</text>
+    <text x="360" y="490" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#8A5080" text-anchor="middle">Researcher still shapes the narrative</text>
+
+    <!-- Researcher judgment note -->
+    <rect x="100" y="540" width="520" height="100" rx="14" fill="#0F0818" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="360" y="582" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#8B5CF6" text-anchor="middle">Quality ceiling = your bookmark curation</text>
+    <text x="360" y="610" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#5A4A78" text-anchor="middle">Researcher judgment is still the input.</text>
+    <text x="360" y="630" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#5A4A78" text-anchor="middle">That's the right design.</text>
+
+    <!-- Role shift box -->
+    <rect x="100" y="680" width="520" height="100" rx="14" fill="#1A0F2E" stroke="#EC4899" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="360" y="720" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#EC4899" text-anchor="middle">Researcher role: narrative architect</text>
+    <text x="360" y="750" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#8A5080" text-anchor="middle">not report rebuilder</text>
+  </g>
+
+  <!-- Bottom metadata -->
+  <text x="136" y="980" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#2A1A40">flowres.io SlideBuilder  ·  Sep 2026  ·  Senior UX / Research Designer POV</text>
+
+  <rect x="1660" y="940" width="200" height="40" rx="20" fill="#8B5CF6" fill-opacity="0.12" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="1760" y="965" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#8B5CF6" text-anchor="middle">#UXresearch</text>
+</svg>
