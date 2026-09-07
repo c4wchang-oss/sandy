@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A0514"/>
+      <stop offset="100%" style="stop-color:#100820"/>
+    </linearGradient>
+    <linearGradient id="accent-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#EC4899"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#180D2E;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#120A22;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1440" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="url(#accent-h)"/>
+
+  <!-- Platform label -->
+  <rect x="60" y="60" width="240" height="46" rx="23" fill="#8B5CF6" fill-opacity="0.12" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="180" y="89" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#8B5CF6" text-anchor="middle">RESEARCH TOOL</text>
+
+  <text x="1020" y="89" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#2A1A40" text-anchor="end">2026.09.07</text>
+
+  <!-- Main title -->
+  <text x="60" y="198" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="54" fill="#FFFFFF" letter-spacing="-1">AI qual research tools</text>
+  <text x="60" y="264" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="54" fill="#FFFFFF" letter-spacing="-1">kept skipping a step.</text>
+  <text x="60" y="330" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="54" fill="#8B5CF6" letter-spacing="-1">SlideBuilder fixes it.</text>
+
+  <rect x="60" y="358" width="500" height="4" rx="2" fill="url(#accent-h)"/>
+  <text x="60" y="416" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#7A6A98">Not a generator. Infrastructure.</text>
+
+  <!-- Central visual  two-world gap diagram -->
+  <g transform="translate(540, 680)">
+    <!-- Left circle  analysis tool -->
+    <circle cx="-180" cy="0" r="160" fill="#1A0F2E" stroke="#8B5CF6" stroke-width="2"/>
+    <text x="-180" y="-40" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#8B5CF6" text-anchor="middle">ANALYSIS</text>
+    <text x="-180" y="-10" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="14" fill="#6A5A98" text-anchor="middle">flowres.io</text>
+    <text x="-180" y="20" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="14" fill="#6A5A98" text-anchor="middle">Themes · Quotes</text>
+    <text x="-180" y="48" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="14" fill="#6A5A98" text-anchor="middle">Summaries</text>
+    <text x="-180" y="82" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="13" fill="#8B5CF6" text-anchor="middle">Evidence lives here</text>
+
+    <!-- Bridge  SlideBuilder -->
+    <rect x="-90" y="-24" width="180" height="48" rx="10" fill="#2A1540" stroke="#EC4899" stroke-width="2"/>
+    <text x="0" y="-2" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="14" fill="#EC4899" text-anchor="middle">SlideBuilder</text>
+    <text x="0" y="18" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="12" fill="#8A5080" text-anchor="middle">bridges the gap</text>
+    <!-- Bridge arrows -->
+    <line x1="-160" y1="0" x2="-90" y2="0" stroke="#EC4899" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="-96,-5 -84,0 -96,5" fill="#EC4899"/>
+    <line x1="90" y1="0" x2="160" y2="0" stroke="#EC4899" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="154,-5 166,0 154,5" fill="#EC4899"/>
+
+    <!-- Right circle  deliverable tool -->
+    <circle cx="180" cy="0" r="160" fill="#1A0820" stroke="#B89EFF" stroke-width="2"/>
+    <text x="180" y="-40" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#B89EFF" text-anchor="middle">DELIVERABLE</text>
+    <text x="180" y="-10" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="14" fill="#7A6A9A" text-anchor="middle">PowerPoint</text>
+    <text x="180" y="20" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="14" fill="#7A6A9A" text-anchor="middle">Client template</text>
+    <text x="180" y="48" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="14" fill="#7A6A9A" text-anchor="middle">Native slides</text>
+    <text x="180" y="82" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="13" fill="#B89EFF" text-anchor="middle">Deliverable lands here</text>
+
+    <!-- Gap label (without bridge) -->
+    <text x="0" y="190" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#4A3A68" text-anchor="middle">Without SlideBuilder: manual rebuild every time</text>
+  </g>
+
+  <!-- Key points -->
+  <rect x="60" y="1030" width="960" height="120" rx="14" fill="url(#card)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="100" y="1075" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#8B5CF6">Prompt to PPT</text>
+  <text x="100" y="1110" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#5A4A78">Generates from description</text>
+  <text x="540" y="1075" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#EC4899">vs   Data to editable PPT</text>
+  <text x="540" y="1110" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#8A5080">Transfers analyzed evidence</text>
+
+  <!-- Insight cards -->
+  <g transform="translate(60, 1180)">
+    <rect x="0" y="0" width="460" height="160" rx="14" fill="url(#card)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.25"/>
+    <text x="24" y="52" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#8B5CF6">Quality ceiling:</text>
+    <text x="24" y="86" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="19" fill="#9A88C0">Your bookmark curation </text>
+    <text x="24" y="114" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="19" fill="#9A88C0">not slide generation speed</text>
+    <text x="24" y="148" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#6A5A88">Judgment stays human</text>
+
+    <rect x="500" y="0" width="460" height="160" rx="14" fill="url(#card)" stroke="#EC4899" stroke-width="1" stroke-opacity="0.25"/>
+    <text x="524" y="52" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#EC4899">Researcher role:</text>
+    <text x="524" y="86" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="19" fill="#C08898">Narrative architect </text>
+    <text x="524" y="114" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="19" fill="#C08898">not report rebuilder</text>
+    <text x="524" y="148" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#8A5080">Automation respects this</text>
+  </g>
+
+  <text x="540" y="1405" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="24" fill="#8B5CF6" text-anchor="middle">Infrastructure, not a generator.</text>
+  <text x="540" y="1432" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#2A1A40" text-anchor="middle">Senior UX Designer · 2026.09.07</text>
+</svg>

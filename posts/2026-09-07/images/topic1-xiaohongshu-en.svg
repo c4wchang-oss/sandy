@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#050E18"/>
+      <stop offset="100%" style="stop-color:#091520"/>
+    </linearGradient>
+    <linearGradient id="accent-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00C2A8"/>
+      <stop offset="100%" style="stop-color:#0070F3"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D2030;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#091828;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1440" fill="url(#bg)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1080" height="8" fill="url(#accent-h)"/>
+
+  <!-- Platform label -->
+  <rect x="60" y="60" width="240" height="46" rx="23" fill="#00C2A8" fill-opacity="0.12" stroke="#00C2A8" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="180" y="89" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#00C2A8" text-anchor="middle">AI UX INSIGHT</text>
+
+  <!-- Date -->
+  <text x="1020" y="89" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#2A4A60" text-anchor="end">2026.09.07</text>
+
+  <!-- Main title -->
+  <text x="60" y="200" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="56" fill="#FFFFFF" letter-spacing="-1">Amazon's new canvas</text>
+  <text x="60" y="270" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="56" fill="#00C2A8" letter-spacing="-1">forces the question</text>
+  <text x="60" y="340" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="56" fill="#FFFFFF" letter-spacing="-1">designers avoid.</text>
+
+  <!-- Accent line -->
+  <rect x="60" y="368" width="480" height="4" rx="2" fill="url(#accent-h)"/>
+
+  <!-- Subtitle -->
+  <text x="60" y="425" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#5A8AAE">Agentic CX Designer GA  Senior UX POV</text>
+
+  <!-- Central visual  conversation flow nodes -->
+  <g transform="translate(540, 670)">
+    <circle cx="0" cy="0" r="220" fill="#0D1F2D" stroke="#1A3A52" stroke-width="1" stroke-opacity="0.5"/>
+
+    <!-- Node stack -->
+    <!-- Deterministic box -->
+    <rect x="-170" y="-200" width="340" height="76" rx="14" fill="#0F2D44" stroke="#0070F3" stroke-width="2"/>
+    <text x="0" y="-166" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#0070F3" text-anchor="middle">DETERMINISTIC</text>
+    <text x="0" y="-140" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="14" fill="#4A7AAE" text-anchor="middle">You define the exact logic</text>
+
+    <!-- Dividing line (THE decision) -->
+    <line x1="-200" y1="-100" x2="200" y2="-100" stroke="#FF6B35" stroke-width="3" stroke-dasharray="10,6"/>
+    <rect x="-100" y="-118" width="200" height="36" rx="18" fill="#2A1500"/>
+    <text x="0" y="-95" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#FF6B35" text-anchor="middle">ê your design decision í</text>
+
+    <!-- Generative box -->
+    <rect x="-170" y="-76" width="340" height="76" rx="14" fill="#1A2A1A" stroke="#00C2A8" stroke-width="2"/>
+    <text x="0" y="-42" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#00C2A8" text-anchor="middle">GENERATIVE</text>
+    <text x="0" y="-16" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="14" fill="#4A8A6A" text-anchor="middle">LLM improvises the words</text>
+
+    <!-- Arrow connector -->
+    <line x1="0" y1="0" x2="0" y2="42" stroke="#3A6080" stroke-width="2"/>
+    <polygon points="-8,38 0,54 8,38" fill="#3A6080"/>
+
+    <!-- Guardrail box -->
+    <rect x="-170" y="56" width="340" height="76" rx="14" fill="#2A1A0F" stroke="#F0A830" stroke-width="2"/>
+    <text x="0" y="90" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#F0A830" text-anchor="middle">GUARDRAILS</text>
+    <text x="0" y="116" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="14" fill="#A87030" text-anchor="middle">Compliance + brand at output</text>
+
+    <!-- Arrow -->
+    <line x1="0" y1="132" x2="0" y2="174" stroke="#3A6080" stroke-width="2"/>
+    <polygon points="-8,170 0,186 8,170" fill="#3A6080"/>
+
+    <!-- Deploy -->
+    <rect x="-100" y="186" width="200" height="48" rx="24" fill="#1A3A1A" stroke="#28C840" stroke-width="2"/>
+    <text x="0" y="216" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#28C840" text-anchor="middle">DEPLOY</text>
+  </g>
+
+  <!-- Three key points -->
+  <g transform="translate(60, 1050)">
+    <!-- Point 1 -->
+    <rect x="0" y="0" width="300" height="180" rx="14" fill="url(#card)" stroke="#0070F3" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="20" y="50" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="40" fill="#0070F3">01</text>
+    <text x="20" y="92" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#FFFFFF">Deterministic</text>
+    <text x="20" y="116" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#4A7AAE">where compliance</text>
+    <text x="20" y="138" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#4A7AAE">demands precision</text>
+    <text x="20" y="165" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#0070F3">YOU define it</text>
+
+    <!-- Point 2 -->
+    <rect x="330" y="0" width="300" height="180" rx="14" fill="url(#card)" stroke="#00C2A8" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="20" y="50" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="40" fill="#00C2A8" transform="translate(330,0)">02</text>
+    <text x="20" y="92" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#FFFFFF" transform="translate(330,0)">Generative</text>
+    <text x="20" y="116" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#4A8A6A" transform="translate(330,0)">where conversation</text>
+    <text x="20" y="138" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#4A8A6A" transform="translate(330,0)">needs to breathe</text>
+    <text x="20" y="165" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#00C2A8" transform="translate(330,0)">LLM handles it</text>
+
+    <!-- Point 3 -->
+    <rect x="660" y="0" width="300" height="180" rx="14" fill="url(#card)" stroke="#F0A830" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="20" y="50" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="40" fill="#F0A830" transform="translate(660,0)">03</text>
+    <text x="20" y="92" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#FFFFFF" transform="translate(660,0)">Guardrails</text>
+    <text x="20" y="116" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#A87030" transform="translate(660,0)">your constraint</text>
+    <text x="20" y="138" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#A87030" transform="translate(660,0)">architecture</text>
+    <text x="20" y="165" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="14" fill="#F0A830" transform="translate(660,0)">baked in by design</text>
+  </g>
+
+  <!-- Bottom tagline -->
+  <text x="540" y="1390" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="24" fill="#00C2A8" text-anchor="middle">Guardrail architect &gt; script writer.</text>
+  <text x="540" y="1424" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#2A4A60" text-anchor="middle">Senior UX Designer ∑ 2026.09.07</text>
+</svg>
