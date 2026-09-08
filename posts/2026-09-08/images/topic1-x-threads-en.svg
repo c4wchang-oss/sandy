@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A0518"/>
+      <stop offset="100%" style="stop-color:#110D22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7B4FD4"/>
+      <stop offset="100%" style="stop-color:#C44FC9"/>
+    </linearGradient>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16092E;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0D0620;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#7B4FD4;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#7B4FD4;stop-opacity:0.8"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#9B6FE4;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#9B6FE4;stop-opacity:0.9"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#C44FC9;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#C44FC9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="540" x2="1920" y2="540" stroke="#ffffff" stroke-opacity="0.015" stroke-width="1"/>
+  <line x1="960" y1="0" x2="960" y2="1080" stroke="#ffffff" stroke-opacity="0.015" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="140" width="6" height="800" fill="url(#accent)" rx="3"/>
+
+  <!-- Main headline -->
+  <text x="136" y="248" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="80" fill="#FFFFFF" letter-spacing="-2">The design floor</text>
+  <text x="136" y="344" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="80" fill="#C44FC9" letter-spacing="-2">keeps moving.</text>
+  <text x="136" y="440" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="80" fill="#FFFFFF" letter-spacing="-2">What&#x2019;s above it</text>
+  <text x="136" y="530" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="80" fill="#7B4FD4" letter-spacing="-2">is the only question.</text>
+
+  <!-- Divider -->
+  <line x1="136" y1="575" x2="960" y2="575" stroke="#7B4FD4" stroke-width="2" stroke-opacity="0.5"/>
+
+  <!-- Subtext -->
+  <text x="136" y="630" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="34" fill="#8A6AAE" letter-spacing="0">Canva shipped its 100th Visual Suite feature in 2026.</text>
+  <text x="136" y="675" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="34" fill="#8A6AAE" letter-spacing="0">Not a design update. A category announcement.</text>
+
+  <!-- Floor shift card -->
+  <rect x="136" y="730" width="820" height="200" rx="16" fill="url(#card-bg)" stroke="#7B4FD4" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="178" y="786" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#C44FC9" letter-spacing="3">FLOOR SHIFTS  CANVA</text>
+  <text x="178" y="830" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#AAAAAA">2013  template floor &#x2192; 2023  AI generation floor</text>
+  <text x="178" y="876" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#C44FC9">2026  productivity suite floor</text>
+
+  <!-- Right side  rising bars visualization -->
+  <g transform="translate(1200, 150)">
+    <!-- Label -->
+    <text x="280" y="40" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="22" fill="#7B4FD4" text-anchor="middle" letter-spacing="2">DESIGN FLOOR SHIFT</text>
+
+    <!-- Bars for floor levels -->
+    <!-- 2013 bar -->
+    <rect x="60" y="620" width="120" height="120" rx="8" fill="url(#bar1)"/>
+    <text x="120" y="770" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#9B79D4" text-anchor="middle">2013</text>
+    <text x="120" y="800" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#7A5AAE" text-anchor="middle">Template</text>
+
+    <!-- 2023 bar -->
+    <rect x="240" y="440" width="120" height="300" rx="8" fill="url(#bar2)"/>
+    <text x="300" y="770" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#9B79D4" text-anchor="middle">2023</text>
+    <text x="300" y="800" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#7A5AAE" text-anchor="middle">AI Gen</text>
+
+    <!-- 2026 bar -->
+    <rect x="420" y="200" width="120" height="540" rx="8" fill="url(#bar3)"/>
+    <text x="480" y="770" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#E47FE4" text-anchor="middle">2026</text>
+    <text x="480" y="800" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#B46FAE" text-anchor="middle">Prod Suite</text>
+
+    <!-- Question mark -->
+    <text x="600" y="420" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="160" fill="#7B4FD4" fill-opacity="0.25" text-anchor="middle">?</text>
+
+    <!-- Dashed top line suggesting the unknown next floor -->
+    <line x1="20" y1="200" x2="620" y2="200" stroke="#C44FC9" stroke-width="2" stroke-dasharray="12,8" stroke-opacity="0.4"/>
+    <text x="640" y="206" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#C44FC9" fill-opacity="0.6">next?</text>
+  </g>
+
+  <!-- Date + Source label bottom right -->
+  <text x="1840" y="1040" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#3A2A5A" text-anchor="end">canva.com  Sep 3, 2026</text>
+</svg>
