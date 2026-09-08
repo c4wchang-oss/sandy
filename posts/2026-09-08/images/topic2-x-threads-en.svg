@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#031810"/>
+      <stop offset="100%" style="stop-color:#081E18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00C278"/>
+      <stop offset="100%" style="stop-color:#0070F3"/>
+    </linearGradient>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#061C14;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#031410;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <line x1="0" y1="540" x2="1920" y2="540" stroke="#ffffff" stroke-opacity="0.015" stroke-width="1"/>
+  <line x1="960" y1="0" x2="960" y2="1080" stroke="#ffffff" stroke-opacity="0.015" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="140" width="6" height="800" fill="url(#accent)" rx="3"/>
+
+  <!-- Main headline -->
+  <text x="136" y="248" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="78" fill="#FFFFFF" letter-spacing="-2">Accessible UI =</text>
+  <text x="136" y="344" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="78" fill="#00C278" letter-spacing="-2">Agent-legible UI.</text>
+  <text x="136" y="440" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="78" fill="#FFFFFF" letter-spacing="-2">Always was.</text>
+
+  <!-- Divider -->
+  <line x1="136" y1="490" x2="920" y2="490" stroke="#00C278" stroke-width="2" stroke-opacity="0.5"/>
+
+  <!-- Subtext -->
+  <text x="136" y="548" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="34" fill="#5A9A7A">Telerik / Kendo UI shipped WebMCP + Agentic UI Generator.</text>
+  <text x="136" y="594" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="34" fill="#5A9A7A">The API agents use is the accessibility tree. Same one.</text>
+
+  <!-- Key insight card -->
+  <rect x="136" y="650" width="860" height="230" rx="16" fill="url(#card-bg)" stroke="#00C278" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="178" y="710" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="22" fill="#00C278" letter-spacing="3">FORCING FUNCTIONS FOR A11Y</text>
+  <text x="178" y="758" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#AAAAAA">1. Ethics   2. Legal compliance</text>
+  <text x="178" y="806" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#00C278">3. AI workflow compatibility &#x2190; new</text>
+  <text x="178" y="848" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#3A7A5A">If agents can&#x2019;t navigate your UI, your agentic workflows break.</text>
+
+  <!-- Right side  WebMCP diagram -->
+  <g transform="translate(1200, 160)">
+    <rect x="0" y="0" width="620" height="760" rx="20" fill="#061C14" fill-opacity="0.7" stroke="#00C278" stroke-width="1" stroke-opacity="0.3"/>
+
+    <text x="310" y="55" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="22" fill="#00C278" text-anchor="middle" letter-spacing="2">HOW WEBMCP WORKS</text>
+
+    <!-- Before: screenshot method -->
+    <rect x="30" y="90" width="560" height="140" rx="12" fill="#0A2A1E" fill-opacity="0.8" stroke="#3A6A5A" stroke-width="1"/>
+    <text x="310" y="125" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#5A9A7A" text-anchor="middle">BEFORE (screen scraping)</text>
+    <text x="50" y="165" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#AAAAAA">Agent &#x2192; screenshot &#x2192; guess &#x2192; click</text>
+    <text x="50" y="200" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#5A7A6A">Fails on ambiguous affordances</text>
+
+    <!-- Arrow -->
+    <text x="310" y="275" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="36" fill="#00C278" text-anchor="middle">&#x2193;</text>
+
+    <!-- After: WebMCP -->
+    <rect x="30" y="300" width="560" height="200" rx="12" fill="#082416" fill-opacity="0.9" stroke="#00C278" stroke-width="2" stroke-opacity="0.5"/>
+    <text x="310" y="340" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#00C278" text-anchor="middle">WEBMCP (structured API)</text>
+    <text x="50" y="385" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#CCCCCC">Agent &#x2192; accessibility tree &#x2192; act</text>
+    <text x="50" y="425" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#5AC27A">Same API as screen readers</text>
+    <text x="50" y="465" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#00C278">Reliable. Semantic. No guessing.</text>
+
+    <!-- A11y baked in note -->
+    <rect x="30" y="530" width="560" height="140" rx="12" fill="#0A2A1E" fill-opacity="0.8" stroke="#0070F3" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="310" y="572" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#0070F3" text-anchor="middle">AGENTIC UI GENERATOR</text>
+    <text x="50" y="610" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="21" fill="#AAAAAA">Generate component &#x2192; ARIA baked in</text>
+    <text x="50" y="645" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="21" fill="#AAAAAA">A11y at step 1, not step 11</text>
+  </g>
+
+  <!-- Date label -->
+  <text x="1840" y="1040" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#1A4A30" text-anchor="end">progress.com/telerik  Sep 7, 2026</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#031810"/>
+      <stop offset="100%" style="stop-color:#081E18"/>
+    </linearGradient>
+    <linearGradient id="accent-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00C278"/>
+      <stop offset="100%" style="stop-color:#0070F3"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#061C14;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#031410;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1440" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="url(#accent-h)"/>
+
+  <!-- Platform label -->
+  <rect x="60" y="60" width="260" height="46" rx="23" fill="#00C278" fill-opacity="0.1" stroke="#00C278" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="190" y="89" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#00C278" text-anchor="middle">AI UX INSIGHT</text>
+  <text x="1020" y="89" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#1A4A30" text-anchor="end">2026.09.08</text>
+
+  <!-- Main title -->
+  <text x="60" y="208" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="56" fill="#FFFFFF" letter-spacing="-1">The enterprise component</text>
+  <text x="60" y="276" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="56" fill="#00C278" letter-spacing="-1">library committed to</text>
+  <text x="60" y="344" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="56" fill="#FFFFFF" letter-spacing="-1">agent-legible design.</text>
+
+  <rect x="60" y="372" width="520" height="4" rx="2" fill="url(#accent-h)"/>
+  <text x="60" y="428" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#5A9A7A">Telerik / Kendo UI  Senior UX POV</text>
+
+  <!-- WebMCP explanation -->
+  <text x="60" y="508" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#00C278" letter-spacing="2">WHAT WEBMCP MEANS</text>
+
+  <rect x="60" y="530" width="960" height="170" rx="14" fill="url(#card)" stroke="#00C278" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="100" y="578" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#5A9A7A">BEFORE: screenshot ’ guess ’ click</text>
+  <text x="100" y="618" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#888888">Agents fail where affordances are ambiguous</text>
+  <text x="100" y="660" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#00C278">NOW: structured API (same tree as screen readers)</text>
+
+  <!-- A11y at generation -->
+  <text x="60" y="754" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#00C278" letter-spacing="2">A11Y AT GENERATION, NOT AUDIT</text>
+
+  <rect x="60" y="776" width="960" height="90" rx="12" fill="#082416" fill-opacity="0.7" stroke="#3A6A5A" stroke-width="1"/>
+  <text x="100" y="826" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#CCCCCC">Generate UI &#x2192; ARIA baked in &#x2192; keyboard nav included</text>
+
+  <!-- 3 forcing functions -->
+  <text x="60" y="924" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#00C278" letter-spacing="2">3 FORCING FUNCTIONS FOR A11Y NOW</text>
+
+  <rect x="60" y="946" width="300" height="110" rx="12" fill="url(#card)" stroke="#3A6A5A" stroke-width="1"/>
+  <text x="210" y="994" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="28" fill="#5A9A7A" text-anchor="middle">1</text>
+  <text x="210" y="1030" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#888888" text-anchor="middle">Ethics</text>
+
+  <rect x="390" y="946" width="300" height="110" rx="12" fill="url(#card)" stroke="#3A6A5A" stroke-width="1"/>
+  <text x="540" y="994" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="28" fill="#5A9A7A" text-anchor="middle">2</text>
+  <text x="540" y="1030" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#888888" text-anchor="middle">Regulation</text>
+
+  <rect x="720" y="946" width="300" height="110" rx="12" fill="#082E1A" fill-opacity="0.9" stroke="#00C278" stroke-width="2" stroke-opacity="0.6"/>
+  <text x="870" y="994" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="28" fill="#00C278" text-anchor="middle">3</text>
+  <text x="870" y="1030" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#00C278" text-anchor="middle">AI compat</text>
+
+  <!-- Key insight -->
+  <rect x="60" y="1096" width="960" height="190" rx="16" fill="#031E12" fill-opacity="0.9" stroke="#00C278" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="100" y="1150" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#00C278" letter-spacing="2">SENIOR UX TAKE</text>
+  <text x="100" y="1196" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#CCCCCC">Legible UI = Accessible UI = Agent-legible UI.</text>
+  <text x="100" y="1242" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#00C278">Same design quality. Three names for one thing.</text>
+
+  <text x="540" y="1410" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#1A4A30" text-anchor="middle">progress.com/telerik  September 7, 2026</text>
+</svg>
