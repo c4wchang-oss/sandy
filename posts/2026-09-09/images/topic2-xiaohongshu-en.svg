@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#060410"/>
+      <stop offset="100%" style="stop-color:#0E0818"/>
+    </linearGradient>
+    <linearGradient id="accent-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E8220A"/>
+      <stop offset="100%" style="stop-color:#9B0AE8"/>
+    </linearGradient>
+    <linearGradient id="accent2-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0A4FE8"/>
+      <stop offset="100%" style="stop-color:#0AE8C4"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#120818;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0A0412;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1440" fill="url(#bg)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1080" height="8" fill="url(#accent-h)"/>
+
+  <!-- Platform label -->
+  <rect x="60" y="56" width="240" height="46" rx="23" fill="#E8220A" fill-opacity="0.10" stroke="#E8220A" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="180" y="85" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="19" fill="#E8220A" text-anchor="middle">AI UX INSIGHT</text>
+
+  <!-- Date -->
+  <text x="1020" y="85" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="19" fill="#2A1A2A" text-anchor="end">2026.09.09</text>
+
+  <!-- Main title -->
+  <text x="60" y="202" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="58" fill="#FFFFFF" letter-spacing="-1">Adobe IBC 2026:</text>
+  <text x="60" y="272" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="58" fill="#E8220A" letter-spacing="-1">AE expressions</text>
+  <text x="60" y="342" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="58" fill="#FFFFFF" letter-spacing="-1">are now plain</text>
+  <text x="60" y="412" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="58" fill="#0A8DE8" letter-spacing="-1">language.</text>
+
+  <!-- Accent line -->
+  <rect x="60" y="440" width="480" height="4" rx="2" fill="url(#accent-h)"/>
+
+  <!-- Subtitle -->
+  <text x="60" y="496" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="25" fill="#8A4040">Premiere + After Effects  Senior UX POV</text>
+
+  <!-- TWO PRODUCT sections -->
+  <text x="60" y="570" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#E8220A" letter-spacing="2">PREMIERE  GENERATIVE MEDIA TOOL</text>
+
+  <rect x="60" y="590" width="960" height="192" rx="14" fill="#120818" fill-opacity="0.8" stroke="#E8220A" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="100" y="638" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#CCCCCC">Draw range on timeline &#x2192; describe &#x2192; generate</text>
+  <text x="100" y="676" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#AAAAAA">5 models: Firefly · Veo · Kling · Runway · Luma</text>
+  <text x="100" y="714" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#AAAAAA">Credit cost shown before you commit</text>
+  <text x="100" y="762" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#E8220A" letter-spacing="1">Shipping &#x2022; Video + SFX GA &#x2022; Music beta</text>
+
+  <text x="60" y="832" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#0A8DE8" letter-spacing="2">AFTER EFFECTS  AI ASSISTANT</text>
+
+  <rect x="60" y="852" width="960" height="192" rx="14" fill="#120818" fill-opacity="0.8" stroke="#0A8DE8" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="100" y="900" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="26" fill="#CCCCCC">Writes expressions from plain language</text>
+  <text x="100" y="938" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#AAAAAA">Reorganizes inherited 500-layer projects</text>
+  <text x="100" y="976" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#AAAAAA">Works across entire project &#x2022; all undoable</text>
+  <text x="100" y="1024" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#0A8DE8" letter-spacing="1">Public beta &#x2022; shows tool calls &#x2022; transparent</text>
+
+  <!-- Key insight -->
+  <rect x="60" y="1082" width="960" height="270" rx="16" fill="#0C0618" fill-opacity="0.95" stroke="#E8220A" stroke-width="1.5" stroke-opacity="0.5"/>
+  <!-- Top stripe -->
+  <rect x="60" y="1082" width="960" height="6" rx="3" fill="url(#accent-h)"/>
+  <text x="100" y="1142" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#E8220A" letter-spacing="2">SENIOR UX TAKE</text>
+  <text x="100" y="1190" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">Expressions: last "must learn code" wall.</text>
+  <text x="100" y="1230" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#E8220A">There&#x2019;s a door in it now.</text>
+  <text x="100" y="1276" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#AAAAAA">AI navigates 30yrs of complexity.</text>
+  <text x="100" y="1314" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#AAAAAA">Creative judgment stays with you.</text>
+  <text x="100" y="1340" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#6A4040">Admin overhead was always what deserved automation.</text>
+
+  <!-- Source -->
+  <text x="540" y="1418" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="19" fill="#2A1A2A" text-anchor="middle">adobe.com  September 8, 2026  IBC</text>
+</svg>

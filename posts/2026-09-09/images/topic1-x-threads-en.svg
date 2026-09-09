@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D0A04"/>
+      <stop offset="100%" style="stop-color:#1A1106"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E8840A"/>
+      <stop offset="100%" style="stop-color:#F5C842"/>
+    </linearGradient>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E1408;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#140E04;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="540" x2="1920" y2="540" stroke="#ffffff" stroke-opacity="0.012" stroke-width="1"/>
+  <line x1="960" y1="0" x2="960" y2="1080" stroke="#ffffff" stroke-opacity="0.012" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="140" width="6" height="800" fill="url(#accent)" rx="3"/>
+
+  <!-- Main headline -->
+  <text x="136" y="240" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="80" fill="#FFFFFF" letter-spacing="-2">Text prompting was</text>
+  <text x="136" y="336" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="80" fill="#E8840A" letter-spacing="-2">a regression.</text>
+  <text x="136" y="432" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="80" fill="#FFFFFF" letter-spacing="-2">Designers think in space.</text>
+  <text x="136" y="522" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="72" fill="#F5C842" letter-spacing="-2">ChatGPT finally caught up.</text>
+
+  <!-- Divider -->
+  <line x1="136" y1="568" x2="920" y2="568" stroke="#E8840A" stroke-width="2" stroke-opacity="0.5"/>
+
+  <!-- Subtext -->
+  <text x="136" y="622" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="32" fill="#A07030" letter-spacing="0">ChatGPT Images 2.5 ships @Sketch + visual annotation.</text>
+  <text x="136" y="665" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="32" fill="#A07030" letter-spacing="0">Draw a reference. Point at what you mean.</text>
+
+  <!-- Feature cards -->
+  <rect x="136" y="720" width="360" height="220" rx="16" fill="url(#card-bg)" stroke="#E8840A" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="176" y="774" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#E8840A" letter-spacing="2">@SKETCH</text>
+  <text x="176" y="816" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#CCCCCC">Draw a reference</text>
+  <text x="176" y="854" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#CCCCCC">guide generation</text>
+  <text x="176" y="892" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#CCCCCC">from it</text>
+
+  <rect x="520" y="720" width="360" height="220" rx="16" fill="url(#card-bg)" stroke="#F5C842" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="560" y="774" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#F5C842" letter-spacing="2">ANNOTATE</text>
+  <text x="560" y="816" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#CCCCCC">Mark edits directly</text>
+  <text x="560" y="854" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#CCCCCC">on the image</text>
+  <text x="560" y="892" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#CCCCCC">not in words</text>
+
+  <!-- Right side  sketch-to-generation visual metaphor -->
+  <g transform="translate(1050, 100)">
+    <!-- Label -->
+    <text x="380" y="46" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#E8840A" text-anchor="middle" letter-spacing="2">BRIEF FORMAT SHIFT</text>
+
+    <!-- Text prompt block (faded, crossed) -->
+    <rect x="60" y="80" width="640" height="120" rx="12" fill="#1A1106" stroke="#4A3010" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="100" y="125" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#5A4020" font-style="italic">"a rounded card with orange top border, white</text>
+    <text x="100" y="160" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#5A4020" font-style="italic">background, shadow at the bottom, 16px padding..."</text>
+    <!-- Strike through -->
+    <line x1="60" y1="140" x2="700" y2="140" stroke="#E8840A" stroke-width="2.5" stroke-opacity="0.4"/>
+
+    <!-- Arrow down -->
+    <text x="380" y="265" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="300" font-size="50" fill="#E8840A" fill-opacity="0.5" text-anchor="middle">“</text>
+
+    <!-- Sketch box (highlighted) -->
+    <rect x="60" y="290" width="640" height="300" rx="16" fill="#1E1408" stroke="#E8840A" stroke-width="2" stroke-opacity="0.6"/>
+    <text x="380" y="334" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#E8840A" text-anchor="middle" letter-spacing="2">@SKETCH</text>
+    <!-- Rough sketch lines suggesting a card layout -->
+    <rect x="110" y="354" width="540" height="200" rx="8" fill="#241808" stroke="#5A3800" stroke-width="1" stroke-dasharray="4,4"/>
+    <rect x="130" y="374" width="100" height="14" rx="3" fill="#E8840A" fill-opacity="0.4"/>
+    <rect x="130" y="396" width="240" height="10" rx="3" fill="#7A5020" fill-opacity="0.5"/>
+    <rect x="130" y="414" width="180" height="10" rx="3" fill="#7A5020" fill-opacity="0.4"/>
+    <rect x="490" y="374" width="130" height="120" rx="8" fill="#5A3000" fill-opacity="0.3" stroke="#E8840A" stroke-width="1" stroke-opacity="0.3"/>
+    <!-- Pencil squiggle lines suggesting hand-drawn marks -->
+    <path d="M 130 460 Q 150 452 170 460 Q 190 468 210 460" stroke="#F5C842" stroke-width="2" fill="none" stroke-opacity="0.6"/>
+    <path d="M 130 480 Q 160 472 200 480" stroke="#F5C842" stroke-width="2" fill="none" stroke-opacity="0.4"/>
+    <text x="380" y="542" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8A6030" text-anchor="middle" font-style="italic">spatial intent, not verbal description</text>
+
+    <!-- Key insight -->
+    <rect x="60" y="620" width="640" height="110" rx="14" fill="#1E1408" stroke="#F5C842" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="100" y="668" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#F5C842" letter-spacing="2">SENIOR UX TAKE</text>
+    <text x="100" y="706" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#CCCCCC">Brief quality is still the ceiling.</text>
+    <text x="100" y="734" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#8A7040">Format shifted. Principle didn't.</text>
+
+    <!-- 50% faster stat -->
+    <text x="380" y="820" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="80" fill="#E8840A" fill-opacity="0.18" text-anchor="middle">50%</text>
+    <text x="380" y="862" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#8A6030" text-anchor="middle">faster generation</text>
+  </g>
+
+  <!-- Date + Source label bottom right -->
+  <text x="1840" y="1048" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#3A2A0A" text-anchor="end">openai.com  Sep 8, 2026</text>
+</svg>

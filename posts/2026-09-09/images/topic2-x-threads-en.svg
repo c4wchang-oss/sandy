@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060410"/>
+      <stop offset="100%" style="stop-color:#0E0818"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E8220A"/>
+      <stop offset="100%" style="stop-color:#9B0AE8"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0A4FE8"/>
+      <stop offset="100%" style="stop-color:#0AE8C4"/>
+    </linearGradient>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#120818;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0A0412;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="540" x2="1920" y2="540" stroke="#ffffff" stroke-opacity="0.012" stroke-width="1"/>
+  <line x1="960" y1="0" x2="960" y2="1080" stroke="#ffffff" stroke-opacity="0.012" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="140" width="6" height="800" fill="url(#accent)" rx="3"/>
+
+  <!-- Main headline -->
+  <text x="136" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#FFFFFF" letter-spacing="-2">Adobe shipped expressions</text>
+  <text x="136" y="328" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#E8220A" letter-spacing="-2">as natural language.</text>
+  <text x="136" y="418" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#FFFFFF" letter-spacing="-2">AE&#x2019;s last code wall</text>
+  <text x="136" y="508" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#0A8DE8" letter-spacing="-2">just got a door in it.</text>
+
+  <!-- Divider -->
+  <line x1="136" y1="550" x2="880" y2="550" stroke="#E8220A" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Subtext -->
+  <text x="136" y="604" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="31" fill="#8A4040" letter-spacing="0">Adobe IBC 2026: Premiere Generative Media Tool</text>
+  <text x="136" y="645" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="31" fill="#8A4040" letter-spacing="0">+ After Effects AI Assistant (public beta)</text>
+
+  <!-- Two product cards -->
+  <rect x="136" y="700" width="380" height="238" rx="16" fill="url(#card-bg)" stroke="#E8220A" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="176" y="752" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="17" fill="#E8220A" letter-spacing="2">PREMIERE</text>
+  <text x="176" y="794" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="24" fill="#CCCCCC">Draw timeline range</text>
+  <text x="176" y="826" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#AAAAAA">’ describe gap</text>
+  <text x="176" y="856" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#AAAAAA">’ pick model</text>
+  <text x="176" y="886" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#AAAAAA">’ generate in-place</text>
+  <text x="176" y="920" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#5A2A2A">Firefly · Veo · Kling · Runway · Luma</text>
+
+  <rect x="540" y="700" width="380" height="238" rx="16" fill="url(#card-bg)" stroke="#0A8DE8" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="580" y="752" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="17" fill="#0A8DE8" letter-spacing="2">AFTER EFFECTS</text>
+  <text x="580" y="794" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="24" fill="#CCCCCC">AI Assistant (beta)</text>
+  <text x="580" y="826" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#AAAAAA">’ writes expressions</text>
+  <text x="580" y="856" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#AAAAAA">’ reorganizes projects</text>
+  <text x="580" y="886" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#AAAAAA">’ whole project scope</text>
+  <text x="580" y="920" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#2A3A5A">every action undoable</text>
+
+  <!-- Right side  30yr complexity visualization -->
+  <g transform="translate(1060, 100)">
+    <text x="380" y="46" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#E8220A" text-anchor="middle" letter-spacing="2">AFTER EFFECTS COMPLEXITY</text>
+
+    <!-- Year labels and stacked bars representing accumulated capability -->
+    <!-- 1993 bar -->
+    <rect x="60" y="720" width="80" height="40" rx="4" fill="#E8220A" fill-opacity="0.15"/>
+    <text x="100" y="782" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#E8220A" fill-opacity="0.5" text-anchor="middle">&#x2019;93</text>
+
+    <!-- 2000 bar -->
+    <rect x="160" y="640" width="80" height="120" rx="4" fill="#E8220A" fill-opacity="0.2"/>
+    <text x="200" y="782" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#E8220A" fill-opacity="0.5" text-anchor="middle">&#x2019;00</text>
+
+    <!-- 2010 bar -->
+    <rect x="260" y="500" width="80" height="260" rx="4" fill="#E8220A" fill-opacity="0.3"/>
+    <text x="300" y="782" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#E8220A" fill-opacity="0.6" text-anchor="middle">&#x2019;10</text>
+
+    <!-- 2020 bar -->
+    <rect x="360" y="340" width="80" height="420" rx="4" fill="#E8220A" fill-opacity="0.45"/>
+    <text x="400" y="782" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#E8220A" fill-opacity="0.7" text-anchor="middle">&#x2019;20</text>
+
+    <!-- 2026 bar -->
+    <rect x="460" y="180" width="80" height="580" rx="4" fill="#E8220A" fill-opacity="0.6"/>
+    <text x="500" y="782" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#E8220A" text-anchor="middle">&#x2019;26</text>
+
+    <!-- AI layer on top -->
+    <rect x="60" y="130" width="480" height="50" rx="6" fill="#0A8DE8" fill-opacity="0.25" stroke="#0A8DE8" stroke-width="1.5" stroke-opacity="0.5" stroke-dasharray="8,5"/>
+    <text x="300" y="161" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#0A8DE8" text-anchor="middle" letter-spacing="1">AI NAVIGATION LAYER</text>
+
+    <!-- Arrow pointing to AI layer -->
+    <line x1="620" y1="155" x2="550" y2="155" stroke="#0A8DE8" stroke-width="1.5" stroke-opacity="0.6" marker-end="url(#arrow)"/>
+    <text x="636" y="162" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#0A8DE8" fill-opacity="0.7">new</text>
+
+    <!-- 30yr label -->
+    <text x="300" y="830" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="72" fill="#E8220A" fill-opacity="0.12" text-anchor="middle">~30 yrs</text>
+
+    <!-- Key insight box -->
+    <rect x="60" y="860" width="640" height="110" rx="14" fill="#120818" stroke="#0A8DE8" stroke-width="1.5" stroke-opacity="0.4"/>
+    <text x="100" y="908" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#0A8DE8" letter-spacing="2">SENIOR UX TAKE</text>
+    <text x="100" y="946" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#CCCCCC">AI isn&#x2019;t replacing judgment.</text>
+    <text x="100" y="972" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6A7090">It&#x2019;s navigating 30 years of complexity.</text>
+  </g>
+
+  <!-- Source label -->
+  <text x="1840" y="1048" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#2A1A2A" text-anchor="end">adobe.com  Sep 8, 2026  IBC</text>
+</svg>
