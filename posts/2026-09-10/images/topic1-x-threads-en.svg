@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#030810"/>
+      <stop offset="100%" style="stop-color:#080D1A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0ACEF5"/>
+      <stop offset="100%" style="stop-color:#0A7EF5"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0A60D4"/>
+      <stop offset="100%" style="stop-color:#4ABCF5"/>
+    </linearGradient>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A1020;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#060A16;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="540" x2="1920" y2="540" stroke="#ffffff" stroke-opacity="0.012" stroke-width="1"/>
+  <line x1="960" y1="0" x2="960" y2="1080" stroke="#ffffff" stroke-opacity="0.012" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="140" width="6" height="800" fill="url(#accent)" rx="3"/>
+
+  <!-- Main headline -->
+  <text x="136" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="78" fill="#FFFFFF" letter-spacing="-2">Your component library</text>
+  <text x="136" y="330" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="78" fill="#0ACEF5" letter-spacing="-2">is the model&#x2019;s prompt.</text>
+  <text x="136" y="418" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="72" fill="#FFFFFF" letter-spacing="-2">Not the other way around.</text>
+
+  <!-- Divider -->
+  <line x1="136" y1="460" x2="900" y2="460" stroke="#0ACEF5" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Subtext -->
+  <text x="136" y="512" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="30" fill="#2A5A80" letter-spacing="0">OUI-1 by Thesys &#x2014; World&#x2019;s First Generative UI Model</text>
+  <text x="136" y="552" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="30" fill="#2A5A80" letter-spacing="0">Sep 8, 2026 &#x2014; Open-weight, runs locally</text>
+
+  <!-- Stat cards -->
+  <rect x="136" y="606" width="300" height="200" rx="16" fill="url(#card-bg)" stroke="#0ACEF5" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="176" y="676" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="72" fill="#0ACEF5">71.7%</text>
+  <text x="176" y="714" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#4A8AAA">Benchmark score</text>
+  <text x="176" y="740" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#2A4A5A">base model: 13%</text>
+  <text x="176" y="786" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#2A4A5A">5.5&#xD7; from specialization</text>
+
+  <rect x="456" y="606" width="300" height="200" rx="16" fill="url(#card-bg)" stroke="#0A7EF5" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="496" y="672" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="60" fill="#0A7EF5">4B</text>
+  <text x="496" y="710" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#4A8AAA">active parameters</text>
+  <text x="496" y="736" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#2A4A5A">26B total (DiffusionGemma)</text>
+  <text x="496" y="786" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#2A4A5A">RTX 5090 local inference</text>
+
+  <rect x="776" y="606" width="300" height="200" rx="16" fill="url(#card-bg)" stroke="#4ABCF5" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="816" y="660" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="48" fill="#4ABCF5">67%</text>
+  <text x="816" y="698" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#4A8AAA">fewer tokens</text>
+  <text x="816" y="724" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#2A4A5A">OpenUI Lang vs JSON</text>
+  <text x="816" y="786" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#2A4A5A">targets sub-second output</text>
+
+  <!-- Key insight box -->
+  <rect x="136" y="838" width="900" height="160" rx="16" fill="#060A18" stroke="#0ACEF5" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="176" y="884" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#0ACEF5" letter-spacing="2">SENIOR UX TAKE</text>
+  <text x="176" y="926" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">Structural validity &#x2260; usable UI. That gap is still yours.</text>
+  <text x="176" y="966" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#4ABCF5">Design system debt now has a new demonstration format.</text>
+
+  <!-- Right side: component-to-UI diagram -->
+  <g transform="translate(1080, 80)">
+    <text x="380" y="46" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#0A7EF5" text-anchor="middle" letter-spacing="2">HOW OUI-1 WORKS</text>
+
+    <!-- TypeScript types block -->
+    <rect x="60" y="80" width="640" height="160" rx="12" fill="#080E1C" stroke="#0ACEF5" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="100" y="122" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#0ACEF5" letter-spacing="2">YOUR COMPONENT LIBRARY</text>
+    <text x="100" y="158" font-family="'Courier New', Courier, monospace" font-size="20" fill="#5A9AB0">Button: &#x7B; variant: &#x27;primary&#x27; | &#x27;ghost&#x27;,</text>
+    <text x="100" y="184" font-family="'Courier New', Courier, monospace" font-size="20" fill="#5A9AB0">  size: &#x27;sm&#x27; | &#x27;md&#x27; | &#x27;lg&#x27;,</text>
+    <text x="100" y="210" font-family="'Courier New', Courier, monospace" font-size="20" fill="#5A9AB0">  label: string &#x7D;</text>
+
+    <!-- Arrow down -->
+    <line x1="380" y1="252" x2="380" y2="316" stroke="#0A7EF5" stroke-width="2" stroke-opacity="0.7"/>
+    <polygon points="370,316 390,316 380,336" fill="#0A7EF5" fill-opacity="0.7"/>
+    <text x="410" y="294" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#2A5A80">system prompt</text>
+
+    <!-- OUI-1 model block -->
+    <rect x="160" y="348" width="440" height="90" rx="12" fill="#0A1828" stroke="#0A7EF5" stroke-width="2" stroke-opacity="0.6"/>
+    <text x="380" y="388" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="30" fill="#0A7EF5" text-anchor="middle">OUI-1</text>
+    <text x="380" y="420" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#4A8AB0" text-anchor="middle">DiffusionGemma fine-tune</text>
+
+    <!-- Arrow down -->
+    <line x1="380" y1="450" x2="380" y2="514" stroke="#0A7EF5" stroke-width="2" stroke-opacity="0.7"/>
+    <polygon points="370,514 390,514 380,534" fill="#0A7EF5" fill-opacity="0.7"/>
+    <text x="410" y="482" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#2A5A80">+ natural language brief</text>
+
+    <!-- Generated UI block -->
+    <rect x="60" y="546" width="640" height="170" rx="12" fill="#080E1C" stroke="#4ABCF5" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="100" y="588" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#4ABCF5" letter-spacing="2">GENERATED SCREEN</text>
+    <!-- Mock UI elements -->
+    <rect x="100" y="606" width="560" height="40" rx="8" fill="#0A1830" stroke="#4ABCF5" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="120" y="632" font-family="'Courier New', Courier, monospace" font-size="18" fill="#4A8AB0">&#x3C;Button variant=&#x22;primary&#x22; label=&#x22;Submit&#x22;/&#x3E;</text>
+    <rect x="100" y="656" width="380" height="40" rx="8" fill="#0A1830" stroke="#4ABCF5" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="120" y="682" font-family="'Courier New', Courier, monospace" font-size="18" fill="#4A8AB0">&#x3C;Card variant=&#x22;elevated&#x22; ...</text>
+    <text x="500" y="706" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#2A3A50">your components</text>
+
+    <!-- Warning box -->
+    <rect x="60" y="740" width="640" height="130" rx="12" fill="#0A0C18" stroke="#0ACEF5" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="100" y="782" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#0ACEF5" letter-spacing="1">HONEST CAVEAT</text>
+    <text x="100" y="820" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#AAAAAA">71.7% = structural validity</text>
+    <text x="100" y="852" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6A8A9A">not &#x201C;can users finish the task&#x201D;</text>
+  </g>
+
+  <!-- Source -->
+  <text x="1840" y="1048" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#1A2A3A" text-anchor="end">openui.com  September 8, 2026</text>
+</svg>

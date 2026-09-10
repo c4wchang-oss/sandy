@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#020806"/>
+      <stop offset="100%" style="stop-color:#060E08"/>
+    </linearGradient>
+    <linearGradient id="accent-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0AE878"/>
+      <stop offset="100%" style="stop-color:#45E8A0"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#081410;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#040C08;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1440" fill="url(#bg)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1080" height="8" fill="url(#accent-h)"/>
+
+  <!-- Platform label -->
+  <rect x="60" y="56" width="240" height="46" rx="23" fill="#0AE878" fill-opacity="0.10" stroke="#0AE878" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="180" y="85" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="19" fill="#0AE878" text-anchor="middle">AI UX INSIGHT</text>
+
+  <!-- Date -->
+  <text x="1020" y="85" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="19" fill="#0A2A14" text-anchor="end">2026.09.09</text>
+
+  <!-- Main title -->
+  <text x="60" y="196" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="60" fill="#FFFFFF" letter-spacing="-1">Design for smart</text>
+  <text x="60" y="268" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="60" fill="#0AE878" letter-spacing="-1">glasses without</text>
+  <text x="60" y="340" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="60" fill="#FFFFFF" letter-spacing="-1">smart glasses.</text>
+
+  <!-- Accent line -->
+  <rect x="60" y="366" width="480" height="4" rx="2" fill="url(#accent-h)"/>
+
+  <!-- Subtitle -->
+  <text x="60" y="418" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#1A4A2A">Rokid AIUI Studio  Senior UX POV</text>
+
+  <!-- The authoring shift -->
+  <text x="60" y="492" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#0AE878" letter-spacing="2">THE SHIFT</text>
+
+  <rect x="60" y="510" width="960" height="96" rx="12" fill="url(#card)" stroke="#0AE878" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="100" y="550" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="24" fill="#AAAAAA">Before: build spatial UX</text>
+  <text x="100" y="584" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#1A4A2A">needed: device + code + hardware knowledge</text>
+
+  <rect x="60" y="618" width="960" height="96" rx="12" fill="url(#card)" stroke="#E8C442" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="100" y="658" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="24" fill="#F5D860">After: AIUI Studio</text>
+  <text x="100" y="692" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#E8C442">browser + plain language + hardware simulation</text>
+
+  <!-- Spatial UX principles -->
+  <text x="60" y="762" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#0AE878" letter-spacing="2">SPATIAL UX PRINCIPLES (still hard)</text>
+
+  <rect x="60" y="782" width="456" height="106" rx="12" fill="url(#card)" stroke="#0AE878" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="100" y="822" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#0AE878">Glanceability</text>
+  <text x="100" y="858" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#2A5A3A">What can user parse in 0.5s?</text>
+  <text x="100" y="876" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#1A3A20">through semi-transparent glass</text>
+
+  <rect x="564" y="782" width="456" height="106" rx="12" fill="url(#card)" stroke="#E8C442" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="604" y="822" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#E8C442">Min. Interruption</text>
+  <text x="604" y="858" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#4A4A10">When does agent have</text>
+  <text x="604" y="876" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#3A3A0A">permission to interrupt?</text>
+
+  <rect x="60" y="900" width="456" height="106" rx="12" fill="url(#card)" stroke="#0AE878" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="100" y="940" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#0AE878">Prog. Disclosure</text>
+  <text x="100" y="976" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#2A5A3A">Layer info for users</text>
+  <text x="100" y="994" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#1A3A20">in physical motion</text>
+
+  <rect x="564" y="900" width="456" height="106" rx="12" fill="url(#card)" stroke="#E8C442" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="604" y="940" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#E8C442">Env-Aware</text>
+  <text x="604" y="976" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#4A4A10">Sunlight degrades contrast.</text>
+  <text x="604" y="994" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#3A3A0A">Indoor &#x2260; outdoor</text>
+
+  <!-- Key insight -->
+  <rect x="60" y="1048" width="960" height="180" rx="16" fill="#040C08" stroke="#0AE878" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="100" y="1096" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#0AE878" letter-spacing="2">SENIOR UX TAKE</text>
+  <text x="100" y="1138" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">Authoring barrier dropped.</text>
+  <text x="100" y="1174" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">Design judgment barrier didn&#x2019;t.</text>
+  <text x="100" y="1210" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="24" fill="#E8C442">The principles need to live in skill definitions.</text>
+
+  <!-- Source -->
+  <text x="540" y="1418" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="19" fill="#0A2A14" text-anchor="middle">rokid.com  September 9, 2026  IFA Berlin</text>
+</svg>
