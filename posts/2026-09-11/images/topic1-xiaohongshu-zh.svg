@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0C0A1A"/>
+      <stop offset="100%" style="stop-color:#100818"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#B57BFF"/>
+      <stop offset="100%" style="stop-color:#7B5FFF"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14102A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0E0A1E;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1440" fill="url(#bg)"/>
+
+  <!-- Top accent bar -->
+  <rect x="80" y="80" width="920" height="5" fill="url(#acc)" rx="2"/>
+
+  <!-- Platform label -->
+  <text x="540" y="148" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="22" fill="#4A3A6A" text-anchor="middle" letter-spacing="4">Çñ UX –Ò &#x2014; AI åwU</text>
+
+  <!-- Main headline -->
+  <text x="80" y="226" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="64" fill="#FFFFFF" letter-spacing="-1">AI Persona</text>
+  <text x="80" y="302" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="64" fill="#B57BFF" letter-spacing="-1">„áûOL</text>
+  <text x="80" y="378" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="64" fill="#FFFFFF" letter-spacing="-1">	TH†</text>
+
+  <!-- Tool name + date -->
+  <text x="80" y="432" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#4A3A6A">Stravito AI Persona Builder &#x2014; 2026 t 9  9 å</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="462" x2="1000" y2="462" stroke="#B57BFF" stroke-width="2" stroke-opacity="0.3"/>
+
+  <!-- Glass Box explanation -->
+  <text x="80" y="516" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#B57BFF" letter-spacing="2">GLASS BOX AI ŸG</text>
+  <text x="80" y="558" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">Ï trait g`„vU</text>
+  <text x="80" y="594" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">&#P0º†‡ö</text>
+  <text x="80" y="634" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">z}:]</text>
+  <text x="80" y="670" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#B57BFF">/|ú†„</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="706" x2="1000" y2="706" stroke="#7B5FFF" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Three key points -->
+  <rect x="80" y="730" width="920" height="112" rx="14" fill="url(#card)" stroke="#B57BFF" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="120" y="778" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#B57BFF" letter-spacing="1">01  )±</text>
+  <text x="120" y="814" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#CCCCCC">Áê = `„v«/!‹</text>
+
+  <rect x="80" y="860" width="920" height="112" rx="14" fill="url(#card)" stroke="#9B7BFF" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="120" y="908" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#9B7BFF" letter-spacing="1">02  IŠ</text>
+  <text x="120" y="944" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#CCCCCC">uú persona IVUv«</text>
+
+  <rect x="80" y="990" width="920" height="112" rx="14" fill="url(#card)" stroke="#7B5FFF" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="120" y="1038" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#7B5FFF" letter-spacing="1">03  =8</text>
+  <text x="120" y="1074" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#CCCCCC">ºÀ¼ persona #ªş(	¼ïåŞT</text>
+
+  <!-- Caveat box -->
+  <rect x="80" y="1126" width="920" height="90" rx="14" fill="#080612" stroke="#4A3A6A" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="120" y="1162" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#4A3A6A" letter-spacing="1"> æ caveat</text>
+  <text x="120" y="1196" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#3A2A5A">Q4 2026 GAïıdOî &#x2260; ˆdOî;b marketing Š</text>
+
+  <!-- Bottom reframe -->
+  <rect x="80" y="1244" width="920" height="130" rx="14" fill="#12103A" stroke="#B57BFF" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="540" y="1296" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#B57BFF" text-anchor="middle">`ı\ persona</text>
+  <text x="540" y="1334" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#CCCCCC" text-anchor="middle">`¶Ëú“ï` persona ºïı„v«</text>
+
+  <!-- Bottom bar -->
+  <rect x="80" y="1400" width="920" height="4" fill="url(#acc)" rx="2"/>
+</svg>
