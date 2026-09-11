@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0C0A1A"/>
+      <stop offset="100%" style="stop-color:#100818"/>
+    </linearGradient>
+    <linearGradient id="acc1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#B57BFF"/>
+      <stop offset="100%" style="stop-color:#7B5FFF"/>
+    </linearGradient>
+    <linearGradient id="acc2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7B5FFF"/>
+      <stop offset="100%" style="stop-color:#B57BFF"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14102A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0E0A1E;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg1)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="540" x2="1920" y2="540" stroke="#ffffff" stroke-opacity="0.01" stroke-width="1"/>
+  <line x1="960" y1="0" x2="960" y2="1080" stroke="#ffffff" stroke-opacity="0.01" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="140" width="6" height="800" fill="url(#acc1)" rx="3"/>
+
+  <!-- Main headline -->
+  <text x="136" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#FFFFFF" letter-spacing="-2">The AI persona problem was</text>
+  <text x="136" y="330" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#B57BFF" letter-spacing="-2">never capability.</text>
+  <text x="136" y="418" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#FFFFFF" letter-spacing="-2">It was always trust.</text>
+
+  <!-- Divider -->
+  <line x1="136" y1="458" x2="880" y2="458" stroke="#B57BFF" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Subtext -->
+  <text x="136" y="508" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#4A3A6A" letter-spacing="0">Stravito AI Persona Builder &#x2014; Sep 9, 2026</text>
+  <text x="136" y="546" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#4A3A6A" letter-spacing="0">Glass Box AI: every trait traced to source</text>
+
+  <!-- Three principle cards -->
+  <rect x="136" y="596" width="368" height="210" rx="16" fill="url(#card1)" stroke="#B57BFF" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="176" y="648" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#B57BFF" letter-spacing="2">PRINCIPLE 1</text>
+  <text x="176" y="690" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">Glass Box</text>
+  <text x="176" y="726" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#8870BB">Every trait scores against</text>
+  <text x="176" y="752" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#8870BB">research. Gaps flagged.</text>
+  <text x="176" y="784" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#4A3A6A">Not a black box.</text>
+
+  <rect x="524" y="596" width="368" height="210" rx="16" fill="url(#card1)" stroke="#9B7BFF" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="564" y="648" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#9B7BFF" letter-spacing="2">PRINCIPLE 2</text>
+  <text x="564" y="690" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">Contested</text>
+  <text x="564" y="726" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#8870BB">Research conflicts = traits</text>
+  <text x="564" y="752" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#8870BB">flagged, not averaged.</text>
+  <text x="564" y="784" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#4A3A6A">Honest by design.</text>
+
+  <rect x="912" y="596" width="368" height="210" rx="16" fill="url(#card1)" stroke="#7B5FFF" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="952" y="648" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#7B5FFF" letter-spacing="2">PRINCIPLE 3</text>
+  <text x="952" y="690" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">Ceiling</text>
+  <text x="952" y="726" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#8870BB">Quality = your research</text>
+  <text x="952" y="752" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#8870BB">corpus. Not the model.</text>
+  <text x="952" y="784" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#4A3A6A">Same as always.</text>
+
+  <!-- Key insight box -->
+  <rect x="136" y="838" width="1100" height="164" rx="16" fill="#0C0A20" stroke="#B57BFF" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="176" y="884" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#B57BFF" letter-spacing="2">SENIOR UX TAKE</text>
+  <text x="176" y="926" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">You stop making personas. You architect the research corpus</text>
+  <text x="176" y="966" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#B57BFF">that makes reliable personas possible.</text>
+
+  <!-- Right side diagram: persona build flow -->
+  <g transform="translate(1300, 80)">
+    <text x="280" y="46" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#7B5FFF" text-anchor="middle" letter-spacing="2">HOW IT WORKS</text>
+
+    <!-- Step boxes -->
+    <rect x="80" y="72" width="400" height="84" rx="12" fill="#100C22" stroke="#B57BFF" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="120" y="110" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#B57BFF" letter-spacing="1">01  ATTACH RESEARCH</text>
+    <text x="120" y="140" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8870BB">Studies / interviews / transcripts</text>
+
+    <line x1="280" y1="156" x2="280" y2="196" stroke="#7B5FFF" stroke-width="1.5" stroke-opacity="0.6"/>
+    <polygon points="272,188 280,204 288,188" fill="#7B5FFF" fill-opacity="0.6"/>
+
+    <rect x="80" y="204" width="400" height="84" rx="12" fill="#100C22" stroke="#9B7BFF" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="120" y="242" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#9B7BFF" letter-spacing="1">02  TWO AGENTS RUN</text>
+    <text x="120" y="272" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8870BB">Draft profile &#x2192; structure traits</text>
+
+    <line x1="280" y1="288" x2="280" y2="328" stroke="#7B5FFF" stroke-width="1.5" stroke-opacity="0.6"/>
+    <polygon points="272,320 280,336 288,320" fill="#7B5FFF" fill-opacity="0.6"/>
+
+    <rect x="80" y="336" width="400" height="84" rx="12" fill="#100C22" stroke="#7B5FFF" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="120" y="374" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#7B5FFF" letter-spacing="1">03  EVERY TRAIT SCORED</text>
+    <text x="120" y="404" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8870BB">Source linked. Contested flagged.</text>
+
+    <line x1="280" y1="420" x2="280" y2="460" stroke="#7B5FFF" stroke-width="1.5" stroke-opacity="0.6"/>
+    <polygon points="272,452 280,468 288,452" fill="#7B5FFF" fill-opacity="0.6"/>
+
+    <rect x="80" y="468" width="400" height="84" rx="12" fill="#100C22" stroke="#B57BFF" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="120" y="506" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#B57BFF" letter-spacing="1">04  INTERVIEW PERSONA</text>
+    <text x="120" y="536" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8870BB">Every answer cites source.</text>
+
+    <!-- Caveat -->
+    <rect x="80" y="590" width="400" height="100" rx="12" fill="#080612" stroke="#4A3A6A" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="120" y="626" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="16" fill="#4A3A6A" letter-spacing="1">CAVEAT</text>
+    <text x="120" y="656" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="19" fill="#3A2A5A">Q4 2026 GA. Early access now.</text>
+    <text x="120" y="680" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="19" fill="#3A2A5A">Research bias &#x2192; persona bias.</text>
+
+    <!-- Shift label -->
+    <rect x="80" y="730" width="400" height="80" rx="12" fill="#14103A" stroke="#B57BFF" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="280" y="768" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#B57BFF" text-anchor="middle">Research corpus = AI ceiling</text>
+    <text x="280" y="796" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#6A50AA" text-anchor="middle">Always has been. Now visible in the tool.</text>
+  </g>
+</svg>

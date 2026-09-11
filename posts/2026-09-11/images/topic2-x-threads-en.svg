@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#030D12"/>
+      <stop offset="100%" style="stop-color:#060F16"/>
+    </linearGradient>
+    <linearGradient id="acc2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00C9A7"/>
+      <stop offset="100%" style="stop-color:#0099CC"/>
+    </linearGradient>
+    <linearGradient id="acc2b" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0099CC"/>
+      <stop offset="100%" style="stop-color:#00C9A7"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#061420;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#040E18;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg2)"/>
+  <line x1="0" y1="540" x2="1920" y2="540" stroke="#ffffff" stroke-opacity="0.008" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="140" width="6" height="800" fill="url(#acc2)" rx="3"/>
+
+  <!-- Main headline -->
+  <text x="136" y="236" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#FFFFFF" letter-spacing="-2">Synthetic research made</text>
+  <text x="136" y="328" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#00C9A7" letter-spacing="-2">an auditable claim.</text>
+  <text x="136" y="416" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="64" fill="#FFFFFF" letter-spacing="-1">86% &#x2014; with a methodology behind it.</text>
+
+  <!-- Divider -->
+  <line x1="136" y1="456" x2="900" y2="456" stroke="#00C9A7" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Source -->
+  <text x="136" y="506" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#1A4A5A">Articos &#x2014; Sep 10, 2026 &#x2014; Live Calls GA</text>
+  <text x="136" y="544" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#1A4A5A">46 studies / 9 domains / NNG + Baymard benchmarks</text>
+
+  <!-- Stat cards -->
+  <rect x="136" y="596" width="280" height="200" rx="16" fill="url(#card2)" stroke="#00C9A7" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="176" y="664" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="72" fill="#00C9A7">86%</text>
+  <text x="176" y="700" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#3A8A9A">theme recall</text>
+  <text x="176" y="726" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#1A4A5A">vs. NNG + Baymard</text>
+  <text x="176" y="776" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#1A4A5A">published benchmark</text>
+
+  <rect x="436" y="596" width="280" height="200" rx="16" fill="url(#card2)" stroke="#0099CC" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="476" y="658" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="60" fill="#0099CC">7.5&#xD7;</text>
+  <text x="476" y="696" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#3A8A9A">more accurate</text>
+  <text x="476" y="722" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#1A4A5A">than ChatGPT direct</text>
+  <text x="476" y="776" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#1A4A5A">same test, same data</text>
+
+  <rect x="736" y="596" width="280" height="200" rx="16" fill="url(#card2)" stroke="#00C9A7" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="776" y="658" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="60" fill="#00C9A7">30</text>
+  <text x="776" y="696" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#3A8A9A">minutes to report</text>
+  <text x="776" y="722" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#1A4A5A">from brief to full findings</text>
+  <text x="776" y="776" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#1A4A5A">starts at $29 / 2 studies</text>
+
+  <!-- Key insight box -->
+  <rect x="136" y="838" width="1100" height="164" rx="16" fill="#040E1A" stroke="#00C9A7" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="176" y="884" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#00C9A7" letter-spacing="2">SENIOR UX TAKE</text>
+  <text x="176" y="926" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">The bottleneck moved from recruitment to research question design.</text>
+  <text x="176" y="966" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#00C9A7">Study design skill is now worth more than moderation skill.</text>
+
+  <!-- Right side: triage diagram -->
+  <g transform="translate(1290, 80)">
+    <text x="315" y="46" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#0099CC" text-anchor="middle" letter-spacing="2">TRIAGE PROTOCOL</text>
+
+    <!-- Use for -->
+    <rect x="60" y="72" width="510" height="290" rx="14" fill="url(#card2)" stroke="#00C9A7" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="100" y="114" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#00C9A7" letter-spacing="1">&#x2713; USE ARTICOS FOR</text>
+    <text x="100" y="152" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#3A8A9A">&#x2027; Concept validation (pre-recruit)</text>
+    <text x="100" y="186" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#3A8A9A">&#x2027; Message testing at scale</text>
+    <text x="100" y="220" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#3A8A9A">&#x2027; Directional signal: worth pursuing?</text>
+    <text x="100" y="254" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#3A8A9A">&#x2027; Sharpening research questions</text>
+    <text x="100" y="340" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#1A4A5A">Hypothesis-blind &#x2027; Adversarial panels &#x2027; Evidence chains</text>
+
+    <!-- Don't use for -->
+    <rect x="60" y="390" width="510" height="230" rx="14" fill="#040C16" stroke="#1A4A5A" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="100" y="430" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#1A4A5A" letter-spacing="1">&#x2717; NOT FOR</text>
+    <text x="100" y="468" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#1A3A4A">&#x2027; Discovery research</text>
+    <text x="100" y="502" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#1A3A4A">&#x2027; High-stakes UX decisions</text>
+    <text x="100" y="536" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#1A3A4A">&#x2027; Emotional nuance / edge cases</text>
+    <text x="100" y="596" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#0F2A3A">86% theme recall &#x2260; 86% on everything</text>
+
+    <!-- Live Calls note -->
+    <rect x="60" y="648" width="510" height="80" rx="14" fill="#061820" stroke="#0099CC" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="100" y="684" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="18" fill="#0099CC">LIVE CALLS (now GA)</text>
+    <text x="100" y="714" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#1A4A5A">Real-time voice with AI personas. For probing, not opening.</text>
+
+    <!-- Bottom shift label -->
+    <rect x="60" y="758" width="510" height="90" rx="14" fill="#041020" stroke="#00C9A7" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="315" y="798" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#00C9A7" text-anchor="middle">Recruitment was the bottleneck.</text>
+    <text x="315" y="830" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="18" fill="#1A5A6A" text-anchor="middle">Now it&#x2019;s the question you ask.</text>
+  </g>
+</svg>
