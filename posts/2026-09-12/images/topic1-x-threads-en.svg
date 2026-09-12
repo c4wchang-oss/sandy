@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#080C1A"/>
+      <stop offset="100%" style="stop-color:#0A0E20"/>
+    </linearGradient>
+    <linearGradient id="acc1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#38B6FF"/>
+      <stop offset="100%" style="stop-color:#0070F3"/>
+    </linearGradient>
+    <linearGradient id="acc2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0070F3"/>
+      <stop offset="100%" style="stop-color:#38B6FF"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1228;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#090E1E;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg1)"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="140" width="6" height="800" fill="url(#acc1)" rx="3"/>
+
+  <!-- Main headline -->
+  <text x="136" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#FFFFFF" letter-spacing="-2">The rules you wrote to tame</text>
+  <text x="136" y="330" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#38B6FF" letter-spacing="-2">older models</text>
+  <text x="136" y="422" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#FFFFFF" letter-spacing="-2">are constraining better ones.</text>
+
+  <!-- Divider -->
+  <line x1="136" y1="462" x2="920" y2="462" stroke="#38B6FF" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Subtext -->
+  <text x="136" y="512" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#3A4A6A" letter-spacing="0">OpenAI Developer Blog &#x2014; Sep 11, 2026</text>
+  <text x="136" y="550" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#3A4A6A" letter-spacing="0">Rethinking skills and prompts for GPT-6 Astra</text>
+
+  <!-- Three failure mode cards -->
+  <rect x="136" y="596" width="355" height="210" rx="16" fill="url(#card1)" stroke="#38B6FF" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="176" y="648" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#38B6FF" letter-spacing="2">FAILURE MODE 1</text>
+  <text x="176" y="690" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">Skill Bloat</text>
+  <text x="176" y="726" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6080AA">Too many skills truncate</text>
+  <text x="176" y="752" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6080AA">descriptions. Wrong skill</text>
+  <text x="176" y="778" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#3A4A6A">loads for wrong task.</text>
+
+  <rect x="511" y="596" width="355" height="210" rx="16" fill="url(#card1)" stroke="#1A90FF" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="551" y="648" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#1A90FF" letter-spacing="2">FAILURE MODE 2</text>
+  <text x="551" y="690" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">Blanket Rules</text>
+  <text x="551" y="726" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6080AA">AGENTS.md reads 3 docs</text>
+  <text x="551" y="752" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6080AA">before every edit. Burns</text>
+  <text x="551" y="778" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#3A4A6A">context. Slows work.</text>
+
+  <rect x="886" y="596" width="355" height="210" rx="16" fill="url(#card1)" stroke="#0070F3" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="926" y="648" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#0070F3" letter-spacing="2">FAILURE MODE 3</text>
+  <text x="926" y="690" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">Expired Guards</text>
+  <text x="926" y="726" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6080AA">Confirmation gates written</text>
+  <text x="926" y="752" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6080AA">for weaker models now</text>
+  <text x="926" y="778" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#3A4A6A">block Astra&#x2019;s judgment.</text>
+
+  <!-- Key insight box -->
+  <rect x="136" y="838" width="1100" height="164" rx="16" fill="#070B1A" stroke="#38B6FF" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="176" y="884" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#38B6FF" letter-spacing="2">SENIOR UX TAKE</text>
+  <text x="176" y="926" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">DESIGN.md + skill files = constraint architecture for AI.</text>
+  <text x="176" y="966" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#38B6FF">Instruction quality is the new quality ceiling.</text>
+
+  <!-- Right side calibration panel -->
+  <g transform="translate(1300, 80)">
+    <text x="280" y="46" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#38B6FF" text-anchor="middle" letter-spacing="2">NEW CALIBRATION</text>
+
+    <rect x="40" y="72" width="480" height="78" rx="12" fill="#0D1228" stroke="#38B6FF" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="80" y="105" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#38B6FF" letter-spacing="1">SKILLS</text>
+    <text x="80" y="133" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8899CC">Short + precise + progressive disclosure</text>
+
+    <line x1="280" y1="150" x2="280" y2="180" stroke="#38B6FF" stroke-width="1.5" stroke-opacity="0.5"/>
+
+    <rect x="40" y="180" width="480" height="78" rx="12" fill="#0D1228" stroke="#1A90FF" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="80" y="213" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#1A90FF" letter-spacing="1">AGENTS.MD</text>
+    <text x="80" y="241" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8899CC">Contextual references, not blanket reads</text>
+
+    <line x1="280" y1="258" x2="280" y2="288" stroke="#1A90FF" stroke-width="1.5" stroke-opacity="0.5"/>
+
+    <rect x="40" y="288" width="480" height="78" rx="12" fill="#0D1228" stroke="#0070F3" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="80" y="321" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#0070F3" letter-spacing="1">TRUST BOUNDARY</text>
+    <text x="80" y="349" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8899CC">Loosen expired guards &#x2014; Astra has judgment</text>
+
+    <line x1="280" y1="366" x2="280" y2="396" stroke="#0070F3" stroke-width="1.5" stroke-opacity="0.5"/>
+
+    <rect x="40" y="396" width="480" height="78" rx="12" fill="#0D1228" stroke="#38B6FF" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="80" y="429" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#38B6FF" letter-spacing="1">COMPLETION</text>
+    <text x="80" y="457" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8899CC">Define &#x201C;done&#x201D; before starting</text>
+
+    <!-- Bottom principle -->
+    <rect x="40" y="510" width="480" height="120" rx="14" fill="#0A1030" stroke="#38B6FF" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="280" y="558" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#38B6FF" text-anchor="middle">Stop protecting the model</text>
+    <text x="280" y="590" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#CCCCCC" text-anchor="middle">from itself. Write briefs that</text>
+    <text x="280" y="618" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF" text-anchor="middle">define what done looks like.</text>
+  </g>
+</svg>

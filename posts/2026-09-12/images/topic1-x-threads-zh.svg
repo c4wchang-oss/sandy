@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#080C1A"/>
+      <stop offset="100%" style="stop-color:#0A0E20"/>
+    </linearGradient>
+    <linearGradient id="acc1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#38B6FF"/>
+      <stop offset="100%" style="stop-color:#0070F3"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1228;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#090E1E;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg1)"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="140" width="6" height="800" fill="url(#acc1)" rx="3"/>
+
+  <!-- Main headline -->
+  <text x="136" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="72" fill="#FFFFFF" letter-spacing="-1">&#x4F60;&#x70BA;&#x4E86;&#x99B4;&#x670D;&#x820A;&#x6A21;&#x578B;&#x800C;&#x52A0;&#x7684;&#x6307;&#x4EE4;</text>
+  <text x="136" y="326" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="72" fill="#38B6FF" letter-spacing="-1">&#x6B63;&#x5728;&#x963B;&#x7919;</text>
+  <text x="136" y="414" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="72" fill="#FFFFFF" letter-spacing="-1">&#x66F4;&#x8070;&#x660E;&#x7684;&#x6A21;&#x578B;&#x3002;</text>
+
+  <!-- Divider -->
+  <line x1="136" y1="454" x2="920" y2="454" stroke="#38B6FF" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Subtext -->
+  <text x="136" y="504" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#3A4A6A">OpenAI &#x958B;&#x767C;&#x8005;&#x6307;&#x5357; &#x2014; 2026 &#x5E74; 9 &#x6708; 11 &#x65E5;</text>
+  <text x="136" y="542" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#3A4A6A">&#x91CD;&#x65B0;&#x601D;&#x8003; GPT-6 Astra &#x7684; skills &#x548C; prompts</text>
+
+  <!-- Three failure mode cards -->
+  <rect x="136" y="588" width="355" height="218" rx="16" fill="url(#card1)" stroke="#38B6FF" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="176" y="638" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#38B6FF" letter-spacing="2">&#x5931;&#x6557;&#x6A21;&#x5F0F; 1</text>
+  <text x="176" y="680" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">Skill &#x81C3;&#x8577;</text>
+  <text x="176" y="718" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6080AA">Skills &#x592A;&#x591A;&#x5C0E;&#x81F4;&#x63CF;&#x8FF0;&#x88AB;</text>
+  <text x="176" y="746" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6080AA">&#x622A;&#x65B7;&#xFF0C;&#x8F09;&#x5165;&#x932F;&#x8AA4;</text>
+  <text x="176" y="792" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#3A4A6A">&#x7684; skill&#x3002;</text>
+
+  <rect x="511" y="588" width="355" height="218" rx="16" fill="url(#card1)" stroke="#1A90FF" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="551" y="638" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#1A90FF" letter-spacing="2">&#x5931;&#x6557;&#x6A21;&#x5F0F; 2</text>
+  <text x="551" y="680" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">&#x6BFB;&#x5F0F;&#x898F;&#x5247;</text>
+  <text x="551" y="718" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6080AA">AGENTS.md &#x6BCF;&#x6B21;</text>
+  <text x="551" y="746" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6080AA">&#x7DE8;&#x8F2F;&#x524D;&#x8B80; 3 &#x500B;</text>
+  <text x="551" y="792" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#3A4A6A">&#x6587;&#x4EF6;&#x3002;&#x71D2;&#x63C0; context&#x3002;</text>
+
+  <rect x="886" y="588" width="355" height="218" rx="16" fill="url(#card1)" stroke="#0070F3" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="926" y="638" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#0070F3" letter-spacing="2">&#x5931;&#x6557;&#x6A21;&#x5F0F; 3</text>
+  <text x="926" y="680" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">&#x904E;&#x671F;&#x8B77;&#x6B04;</text>
+  <text x="926" y="718" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6080AA">&#x8001;&#x6A21;&#x578B;&#x7684;&#x78BA;&#x8A8D;&#x95DC;&#x5361;</text>
+  <text x="926" y="746" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#6080AA">&#x9634;&#x6B62; Astra</text>
+  <text x="926" y="792" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#3A4A6A">&#x5B8C;&#x6210;&#x4EFB;&#x52D9;&#x3002;</text>
+
+  <!-- Key insight box -->
+  <rect x="136" y="838" width="1100" height="164" rx="16" fill="#070B1A" stroke="#38B6FF" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="176" y="884" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#38B6FF" letter-spacing="2">&#x8CC7;&#x6DF1; UX &#x89C0;&#x9EDE;</text>
+  <text x="176" y="926" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">DESIGN.md + skill &#x6587;&#x4EF6; = AI &#x7684; constraint architecture&#x3002;</text>
+  <text x="176" y="966" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#38B6FF">&#x6307;&#x4EE4;&#x54C1;&#x8CEA;&#x662F;&#x65B0;&#x7684;&#x54C1;&#x8CEA;&#x5929;&#x82B1;&#x677F;&#x3002;</text>
+
+  <!-- Right side panel -->
+  <g transform="translate(1300, 80)">
+    <text x="280" y="46" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#38B6FF" text-anchor="middle" letter-spacing="2">&#x65B0;&#x7684;&#x6821;&#x6E96;&#x65B9;&#x5411;</text>
+
+    <rect x="40" y="72" width="480" height="90" rx="12" fill="#0D1228" stroke="#38B6FF" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="80" y="108" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#38B6FF">SKILLS</text>
+    <text x="80" y="146" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8899CC">&#x77ED;&#x3001;&#x6E05;&#x695A;&#x3001;&#x6F38;&#x9032;&#x63ED;&#x9732;</text>
+
+    <rect x="40" y="178" width="480" height="90" rx="12" fill="#0D1228" stroke="#1A90FF" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="80" y="214" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#1A90FF">AGENTS.MD</text>
+    <text x="80" y="252" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8899CC">&#x8A9E;&#x5883;&#x76F8;&#x95DC;&#x5F15;&#x7528;&#xFF0C;&#x4E0D;&#x662F;&#x6BFB;&#x5F0F;&#x95B1;&#x8B80;</text>
+
+    <rect x="40" y="284" width="480" height="90" rx="12" fill="#0D1228" stroke="#0070F3" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="80" y="320" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#0070F3">&#x4FE1;&#x4EFB;&#x908A;&#x754C;</text>
+    <text x="80" y="358" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8899CC">&#x9B06;&#x958B;&#x9632;&#x7A61;&#x6027;&#x8B77;&#x6B04; &#x2014; Astra &#x6709;&#x5224;&#x65B7;</text>
+
+    <rect x="40" y="390" width="480" height="90" rx="12" fill="#0D1228" stroke="#38B6FF" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="80" y="426" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#38B6FF">&#x5B8C;&#x6210;&#x689D;&#x4EF6;</text>
+    <text x="80" y="464" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#8899CC">&#x958B;&#x59CB;&#x524D;&#x5B9A;&#x7FA9;&#x300C;&#x5B8C;&#x6210;&#x300D;&#x7684;&#x6A23;&#x5B50;</text>
+
+    <rect x="40" y="514" width="480" height="120" rx="14" fill="#0A1030" stroke="#38B6FF" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="280" y="562" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#38B6FF" text-anchor="middle">&#x5224;&#x65B7;&#x662F;&#x6A21;&#x578B;&#x7684;&#x5DE5;&#x4F5C;&#x3002;</text>
+    <text x="280" y="598" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#CCCCCC" text-anchor="middle">&#x67B6;&#x69CB;&#x662F;&#x4F60;&#x7684;&#x5DE5;&#x4F5C;&#x3002;</text>
+  </g>
+</svg>

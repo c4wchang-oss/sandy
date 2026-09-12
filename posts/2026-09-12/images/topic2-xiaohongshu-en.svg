@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060F0A"/>
+      <stop offset="100%" style="stop-color:#081410"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D4B8"/>
+      <stop offset="100%" style="stop-color:#00A878"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091410;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#060E09;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1440" fill="url(#bg)"/>
+
+  <!-- Top accent bar -->
+  <rect x="80" y="80" width="920" height="5" fill="url(#acc)" rx="2"/>
+
+  <!-- Platform label -->
+  <text x="540" y="148" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="22" fill="#2A4A3A" text-anchor="middle" letter-spacing="4">SENIOR UX &#x2014; RESEARCH OPS</text>
+
+  <!-- Main headline -->
+  <text x="80" y="228" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="60" fill="#FFFFFF" letter-spacing="-1">Research archive</text>
+  <text x="80" y="302" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="60" fill="#00D4B8" letter-spacing="-1">as compounding</text>
+  <text x="80" y="376" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="60" fill="#FFFFFF" letter-spacing="-1">asset.</text>
+
+  <!-- Tool name + date -->
+  <text x="80" y="432" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="26" fill="#2A4A3A">Attest Autumn Wave &#x2014; Sep 10, 2026</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="462" x2="1000" y2="462" stroke="#00D4B8" stroke-width="2" stroke-opacity="0.3"/>
+
+  <!-- Three updates -->
+  <text x="80" y="516" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#00D4B8" letter-spacing="2">THREE KEY UPDATES</text>
+
+  <rect x="80" y="540" width="920" height="108" rx="14" fill="url(#card)" stroke="#00D4B8" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="120" y="585" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#00D4B8">01  RESULTS API</text>
+  <text x="120" y="627" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#CCCCCC">Every study &#x2192; auto-lands in your warehouse. No CSV.</text>
+
+  <rect x="80" y="666" width="920" height="108" rx="14" fill="url(#card)" stroke="#00B896" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="120" y="711" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#00B896">02  MCP SERVER</text>
+  <text x="120" y="753" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#CCCCCC">Query all your studies from any AI tool. Archive compounds.</text>
+
+  <rect x="80" y="792" width="920" height="108" rx="14" fill="url(#card)" stroke="#00A878" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="120" y="837" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#00A878">03  PUSH-TO-TALK INTERVIEWS</text>
+  <text x="120" y="879" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#CCCCCC">Thinking time built in. Less reactive. More considered.</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="920" x2="1000" y2="920" stroke="#00D4B8" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Design implication -->
+  <text x="80" y="972" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#00D4B8" letter-spacing="2">THE SHIFTED BOTTLENECK</text>
+  <text x="80" y="1018" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">Not &#x201C;can we afford the study?&#x201D;</text>
+  <text x="80" y="1058" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#FFFFFF">&#x201C;Was the question worth asking?&#x201D;</text>
+
+  <!-- Caveat box -->
+  <rect x="80" y="1090" width="920" height="86" rx="14" fill="#040C08" stroke="#2A4A3A" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="120" y="1126" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#2A4A3A">HONEST CAVEAT</text>
+  <text x="120" y="1162" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#2A4A3A">API + MCP early access. Archive only compounds if structured consistently.</text>
+
+  <!-- Bottom reframe -->
+  <rect x="80" y="1206" width="920" height="158" rx="14" fill="#040E08" stroke="#00D4B8" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="540" y="1262" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="26" fill="#00D4B8" text-anchor="middle">Not a research report.</text>
+  <text x="540" y="1302" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="24" fill="#CCCCCC" text-anchor="middle">A research library that compounds.</text>
+  <text x="540" y="1340" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="24" fill="#FFFFFF" text-anchor="middle">Senior researchers design the infrastructure.</text>
+
+  <!-- Bottom bar -->
+  <rect x="80" y="1400" width="920" height="4" fill="url(#acc)" rx="2"/>
+</svg>
