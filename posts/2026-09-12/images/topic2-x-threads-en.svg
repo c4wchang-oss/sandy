@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060F0A"/>
+      <stop offset="100%" style="stop-color:#081410"/>
+    </linearGradient>
+    <linearGradient id="acc1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D4B8"/>
+      <stop offset="100%" style="stop-color:#00A878"/>
+    </linearGradient>
+    <linearGradient id="acc2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00A878"/>
+      <stop offset="100%" style="stop-color:#00D4B8"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#091410;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#060E09;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg1)"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="140" width="6" height="800" fill="url(#acc1)" rx="3"/>
+
+  <!-- Main headline -->
+  <text x="136" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#FFFFFF" letter-spacing="-2">Your research isn&#x2019;t stuck because</text>
+  <text x="136" y="330" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#00D4B8" letter-spacing="-2">you ran bad studies.</text>
+  <text x="136" y="422" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="76" fill="#FFFFFF" letter-spacing="-2">It&#x2019;s stuck in a folder nothing can read.</text>
+
+  <!-- Divider -->
+  <line x1="136" y1="462" x2="920" y2="462" stroke="#00D4B8" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Subtext -->
+  <text x="136" y="512" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#2A4A3A" letter-spacing="0">Attest Autumn Wave &#x2014; Sep 10, 2026</text>
+  <text x="136" y="550" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#2A4A3A" letter-spacing="0">Results API + MCP server + Push-to-talk interviews</text>
+
+  <!-- Three update cards -->
+  <rect x="136" y="596" width="355" height="210" rx="16" fill="url(#card1)" stroke="#00D4B8" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="176" y="648" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#00D4B8" letter-spacing="2">RESULTS API</text>
+  <text x="176" y="690" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">Auto-flow</text>
+  <text x="176" y="726" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#4A7A5A">Every study lands in</text>
+  <text x="176" y="752" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#4A7A5A">warehouse. No CSV</text>
+  <text x="176" y="784" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#2A4A3A">exports. No manual upload.</text>
+
+  <rect x="511" y="596" width="355" height="210" rx="16" fill="url(#card1)" stroke="#00B896" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="551" y="648" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#00B896" letter-spacing="2">MCP SERVER</text>
+  <text x="551" y="690" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">Queryable</text>
+  <text x="551" y="726" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#4A7A5A">Archive from any AI tool.</text>
+  <text x="551" y="752" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#4A7A5A">Synthesis across waves,</text>
+  <text x="551" y="784" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#2A4A3A">markets, time periods.</text>
+
+  <rect x="886" y="596" width="355" height="210" rx="16" fill="url(#card1)" stroke="#00A878" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="926" y="648" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#00A878" letter-spacing="2">PUSH-TO-TALK</text>
+  <text x="926" y="690" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">Thinking time</text>
+  <text x="926" y="726" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#4A7A5A">AI reads question aloud.</text>
+  <text x="926" y="752" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="22" fill="#4A7A5A">Respondent presses to</text>
+  <text x="926" y="784" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#2A4A3A">record. Less reactive.</text>
+
+  <!-- Key insight box -->
+  <rect x="136" y="838" width="1100" height="164" rx="16" fill="#040C08" stroke="#00D4B8" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="176" y="884" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#00D4B8" letter-spacing="2">SENIOR RESEARCHER TAKE</text>
+  <text x="176" y="926" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="28" fill="#CCCCCC">Your research archive compounds every time you add to it.</text>
+  <text x="176" y="966" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="28" fill="#00D4B8">Quality ceiling = research question quality, not retrieval.</text>
+
+  <!-- Right side bottleneck evolution panel -->
+  <g transform="translate(1300, 80)">
+    <text x="280" y="46" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="600" font-size="19" fill="#00D4B8" text-anchor="middle" letter-spacing="2">BOTTLENECK EVOLUTION</text>
+
+    <rect x="40" y="72" width="480" height="78" rx="12" fill="#091410" stroke="#2A4A3A" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="80" y="104" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#2A4A3A" letter-spacing="1">2020</text>
+    <text x="80" y="134" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#4A7A5A">&#x201C;Can we afford to run this?&#x201D;</text>
+
+    <line x1="280" y1="150" x2="280" y2="190" stroke="#00A878" stroke-width="1.5" stroke-opacity="0.6"/>
+
+    <rect x="40" y="190" width="480" height="78" rx="12" fill="#091410" stroke="#2A4A3A" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="80" y="222" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#2A4A3A" letter-spacing="1">2023</text>
+    <text x="80" y="252" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#4A7A5A">&#x201C;Can we retrieve this data?&#x201D;</text>
+
+    <line x1="280" y1="268" x2="280" y2="308" stroke="#00C4A0" stroke-width="1.5" stroke-opacity="0.6"/>
+
+    <rect x="40" y="308" width="480" height="78" rx="12" fill="#091410" stroke="#00D4B8" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="80" y="340" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#00D4B8" letter-spacing="1">NOW</text>
+    <text x="80" y="370" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">&#x201C;Was it worth asking?&#x201D;</text>
+
+    <rect x="40" y="426" width="480" height="154" rx="14" fill="#040E08" stroke="#00D4B8" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="280" y="472" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" fill="#00D4B8" text-anchor="middle">Senior researcher role:</text>
+    <text x="280" y="510" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#CCCCCC" text-anchor="middle">Study architect.</text>
+    <text x="280" y="548" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF" text-anchor="middle">Not report writer.</text>
+    <text x="280" y="564" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#2A4A3A" text-anchor="middle">&#x2014;</text>
+  </g>
+</svg>
