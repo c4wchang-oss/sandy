@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A0A10;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14101A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EF4444;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1422;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#12101A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1440" fill="url(#bg1)" />
+
+  <!-- Top color bar -->
+  <rect x="0" y="0" width="1080" height="6" fill="url(#orange)"/>
+
+  <!-- Urgency banner -->
+  <rect x="0" y="6" width="1080" height="72" fill="#1A0A04"/>
+  <text x="540" y="52" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#F97316" text-anchor="middle" font-weight="800">  OCTOBER 15  3 DAYS UNTIL ACTIVATION</text>
+
+  <!-- Header -->
+  <text x="540" y="130" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#F97316" text-anchor="middle" letter-spacing="3" font-weight="600">SENIOR UX DESIGNER · AI TOOLS WATCH</text>
+
+  <!-- Main headline -->
+  <text x="540" y="240" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="80" font-weight="800" fill="#FFFFFF" text-anchor="middle">Claude</text>
+  <text x="540" y="330" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="80" font-weight="800" fill="#FFFFFF" text-anchor="middle">Design</text>
+  <text x="540" y="420" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="80" font-weight="800" fill="url(#orange)" text-anchor="middle">grew up.</text>
+
+  <!-- Subtitle -->
+  <text x="540" y="480" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#AA8866" text-anchor="middle">New editor · 14 tools · /design in Code</text>
+
+  <!-- Divider -->
+  <rect x="460" y="514" width="160" height="3" rx="1.5" fill="url(#orange)"/>
+
+  <!-- Feature cards -->
+  <!-- Card 1: Element editing -->
+  <rect x="60" y="540" width="960" height="124" rx="14" fill="url(#cardBg)" stroke="#2A1E14" stroke-width="1.5"/>
+  <rect x="60" y="540" width="6" height="124" rx="3" fill="#F97316"/>
+  <text x="100" y="585" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#F97316" font-weight="700" letter-spacing="2">01 · ELEMENT EDITING  NEW</text>
+  <text x="100" y="612" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#FFFFFF" font-weight="600">Drag · Resize · Align · Sliders</text>
+  <text x="100" y="638" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#AA8866">Select any element ’ refine it. Not just accept or reject.</text>
+
+  <!-- Card 2: /design command -->
+  <rect x="60" y="682" width="960" height="124" rx="14" fill="url(#cardBg)" stroke="#2A1E14" stroke-width="1.5"/>
+  <rect x="60" y="682" width="6" height="124" rx="3" fill="#FB923C"/>
+  <text x="100" y="727" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#FB923C" font-weight="700" letter-spacing="2">02 · /DESIGN IN CLAUDE CODE</text>
+  <text x="100" y="754" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#FFFFFF" font-weight="600">Design inside the dev workflow</text>
+  <text x="100" y="780" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#AA8866">Terminal ’ canvas ’ edit ’ implement. No context switch.</text>
+
+  <!-- Card 3: 14 tools -->
+  <rect x="60" y="824" width="960" height="124" rx="14" fill="url(#cardBg)" stroke="#2A1E14" stroke-width="1.5"/>
+  <rect x="60" y="824" width="6" height="124" rx="3" fill="#F59E0B"/>
+  <text x="100" y="869" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#F59E0B" font-weight="700" letter-spacing="2">03 · PLATFORM PLAY  14 TOOLS</text>
+  <text x="100" y="896" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#FFFFFF" font-weight="600">Your design system, everywhere</text>
+  <text x="100" y="922" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#AA8866">Adobe · Canva · v0 · Vercel · Lovable · Miro · Gamma + 7</text>
+
+  <!-- Card 4: Dec 14 deadline -->
+  <rect x="60" y="966" width="960" height="124" rx="14" fill="#1A0A04" stroke="#EF4444" stroke-width="1.5"/>
+  <rect x="60" y="966" width="6" height="124" rx="3" fill="#EF4444"/>
+  <text x="100" y="1011" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#EF4444" font-weight="700" letter-spacing="2">04 · ACTION REQUIRED  9 WEEKS</text>
+  <text x="100" y="1038" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#FFFFFF" font-weight="600">Migrate before December 14</text>
+  <text x="100" y="1064" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#AA6655">claude.ai/design closes. Migrate your design systems now.</text>
+
+  <!-- Governance checklist -->
+  <rect x="60" y="1116" width="960" height="196" rx="14" fill="#16161F" stroke="#333340" stroke-width="1.5"/>
+  <text x="100" y="1156" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#F97316" font-weight="700" letter-spacing="2">BEFORE OCT 15 CHECKLIST</text>
+  <text x="100" y="1188" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#C8C8E0">  Design system migrated to Claude</text>
+  <text x="100" y="1216" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#C8C8E0">  Organization guidelines uploaded</text>
+  <text x="100" y="1244" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#C8C8E0">  Owner of AI design review defined</text>
+  <text x="100" y="1272" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#8888A8">  Team briefed on intentional usage</text>
+
+  <!-- Key insight -->
+  <rect x="60" y="1330" width="960" height="70" rx="14" fill="#0D0D1A" stroke="#F97316" stroke-width="1.5"/>
+  <text x="540" y="1372" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#F97316" text-anchor="middle" font-weight="600">AI output quality = design system documentation quality</text>
+
+  <!-- Footer -->
+  <text x="540" y="1425" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#4A4A6A" text-anchor="middle">Claude Design · Oct 12, 2026</text>
+</svg>

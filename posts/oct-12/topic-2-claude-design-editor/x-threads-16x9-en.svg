@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A0A10;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#101018;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EF4444;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F97316;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#EF4444;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg1)" />
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="300" x2="1600" y2="300" stroke="#1C1C24" stroke-width="1"/>
+  <line x1="0" y1="600" x2="1600" y2="600" stroke="#1C1C24" stroke-width="1"/>
+  <line x1="533" y1="0" x2="533" y2="900" stroke="#1C1C24" stroke-width="1"/>
+  <line x1="1066" y1="0" x2="1066" y2="900" stroke="#1C1C24" stroke-width="1"/>
+
+  <!-- Right panel  simulated export ecosystem diagram -->
+  <!-- Central node -->
+  <circle cx="1260" cy="450" r="70" fill="#1A1A24" stroke="#F97316" stroke-width="2"/>
+  <text x="1260" y="440" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#F97316" text-anchor="middle" font-weight="700">Claude</text>
+  <text x="1260" y="458" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#F97316" text-anchor="middle" font-weight="700">Design</text>
+
+  <!-- Spokes and connected tool nodes -->
+  <!-- Adobe (top-left) -->
+  <line x1="1197" y1="397" x2="1110" y2="300" stroke="#F97316" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+  <circle cx="1090" cy="280" r="38" fill="#1A1A24" stroke="#333340" stroke-width="1.5"/>
+  <text x="1090" y="284" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#AAAACC" text-anchor="middle">Adobe</text>
+
+  <!-- Canva (top) -->
+  <line x1="1260" y1="380" x2="1260" y2="280" stroke="#F97316" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+  <circle cx="1260" cy="252" r="38" fill="#1A1A24" stroke="#333340" stroke-width="1.5"/>
+  <text x="1260" y="256" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#AAAACC" text-anchor="middle">Canva</text>
+
+  <!-- v0 (top-right) -->
+  <line x1="1323" y1="397" x2="1400" y2="300" stroke="#F97316" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+  <circle cx="1420" cy="280" r="38" fill="#1A1A24" stroke="#333340" stroke-width="1.5"/>
+  <text x="1420" y="284" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#AAAACC" text-anchor="middle">v0</text>
+
+  <!-- Vercel (right) -->
+  <line x1="1330" y1="450" x2="1430" y2="450" stroke="#F97316" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+  <circle cx="1468" cy="450" r="38" fill="#1A1A24" stroke="#333340" stroke-width="1.5"/>
+  <text x="1468" y="454" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#AAAACC" text-anchor="middle">Vercel</text>
+
+  <!-- Lovable (bottom-right) -->
+  <line x1="1323" y1="503" x2="1400" y2="600" stroke="#F97316" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+  <circle cx="1420" cy="620" r="38" fill="#1A1A24" stroke="#333340" stroke-width="1.5"/>
+  <text x="1420" y="624" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#AAAACC" text-anchor="middle">Lovable</text>
+
+  <!-- Miro (bottom) -->
+  <line x1="1260" y1="520" x2="1260" y2="620" stroke="#F97316" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+  <circle cx="1260" cy="648" r="38" fill="#1A1A24" stroke="#333340" stroke-width="1.5"/>
+  <text x="1260" y="652" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#AAAACC" text-anchor="middle">Miro</text>
+
+  <!-- Gamma (bottom-left) -->
+  <line x1="1197" y1="503" x2="1110" y2="600" stroke="#F97316" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+  <circle cx="1090" cy="620" r="38" fill="#1A1A24" stroke="#333340" stroke-width="1.5"/>
+  <text x="1090" y="624" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#AAAACC" text-anchor="middle">Gamma</text>
+
+  <!-- Left (Claude Code) -->
+  <line x1="1190" y1="450" x2="1100" y2="450" stroke="#F97316" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="1066" cy="450" r="38" fill="#1A1A24" stroke="#F97316" stroke-width="1.5"/>
+  <text x="1066" y="445" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#F97316" text-anchor="middle">/design</text>
+  <text x="1066" y="462" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#F97316" text-anchor="middle">Code</text>
+
+  <!-- +7 more label -->
+  <text x="1260" y="780" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#555570" text-anchor="middle">+ 7 more connected tools</text>
+
+  <!-- Main content -->
+  <!-- Date chip -->
+  <rect x="80" y="90" width="190" height="34" rx="17" fill="#1E1E26" stroke="#333340" stroke-width="1"/>
+  <text x="175" y="112" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8888AA" text-anchor="middle" letter-spacing="2">OCT 12, 2026</text>
+
+  <!-- Countdown badge -->
+  <rect x="286" y="90" width="200" height="34" rx="17" fill="#2A1010" stroke="#F97316" stroke-width="1.5"/>
+  <text x="386" y="112" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#F97316" text-anchor="middle" letter-spacing="1" font-weight="700">  OCT 15  3 DAYS</text>
+
+  <!-- Main headline -->
+  <text x="80" y="210" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="78" font-weight="800" fill="#FFFFFF">Claude Design</text>
+  <text x="80" y="295" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="78" font-weight="800" fill="#FFFFFF">grew up.</text>
+  <text x="80" y="375" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="500" fill="url(#orange)">And your org is getting it in 3 days.</text>
+
+  <!-- Divider -->
+  <rect x="80" y="410" width="64" height="3" rx="1.5" fill="url(#orange)"/>
+
+  <!-- Feature highlights -->
+  <circle cx="94" cy="454" r="5" fill="#F97316"/>
+  <text x="112" y="460" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#C8C8E0">Element editing: drag · resize · align · inline text · sliders</text>
+
+  <circle cx="94" cy="496" r="5" fill="#F97316"/>
+  <text x="112" y="502" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#C8C8E0">/design in Claude Code terminal  design inside dev workflow</text>
+
+  <circle cx="94" cy="538" r="5" fill="#F97316"/>
+  <text x="112" y="544" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#C8C8E0">Design system travels with design to 14 connected tools</text>
+
+  <circle cx="94" cy="580" r="5" fill="#EF4444"/>
+  <text x="112" y="586" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#C8C8E0">claude.ai/design closes December 14  migrate your DS now</text>
+
+  <!-- Governance box -->
+  <rect x="80" y="630" width="880" height="120" rx="14" fill="#180A04" stroke="#F97316" stroke-width="1.5"/>
+  <text x="120" y="675" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#F97316" font-weight="700">Before Oct 15: Is your design system ready? Who reviews AI output?</text>
+  <text x="120" y="706" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#AA8866">AI output quality  design system documentation quality.</text>
+  <text x="120" y="732" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#776655">This is DesignOps  not IT. The governance gap opens on activation day.</text>
+
+  <!-- Author -->
+  <text x="80" y="840" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#4A4A6A">Senior UX Designer · AI Tools Watch</text>
+</svg>
