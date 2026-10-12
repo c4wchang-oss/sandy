@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F0F14;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1A24;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg1)" />
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="300" x2="1600" y2="300" stroke="#1E1E2E" stroke-width="1"/>
+  <line x1="0" y1="600" x2="1600" y2="600" stroke="#1E1E2E" stroke-width="1"/>
+  <line x1="533" y1="0" x2="533" y2="900" stroke="#1E1E2E" stroke-width="1"/>
+  <line x1="1066" y1="0" x2="1066" y2="900" stroke="#1E1E2E" stroke-width="1"/>
+
+  <!-- Left decorative panel  simulated UI screens stacked -->
+  <rect x="80" y="120" width="340" height="220" rx="12" fill="#16161F" stroke="#2A2A3E" stroke-width="1.5"/>
+  <rect x="80" y="120" width="340" height="44" rx="12" fill="#1E1E30"/>
+  <rect x="80" y="152" width="340" height="12" fill="#1E1E30"/>
+  <circle cx="108" cy="142" r="8" fill="#6366F1" opacity="0.7"/>
+  <rect x="128" y="136" width="80" height="10" rx="3" fill="#3A3A52" opacity="0.8"/>
+  <rect x="100" y="184" width="200" height="8" rx="3" fill="#3A3A52" opacity="0.5"/>
+  <rect x="100" y="200" width="160" height="8" rx="3" fill="#3A3A52" opacity="0.35"/>
+  <rect x="100" y="240" width="260" height="60" rx="8" fill="#1B1B28" stroke="#2A2A3E" stroke-width="1"/>
+  <rect x="112" y="252" width="80" height="8" rx="3" fill="#6366F1" opacity="0.5"/>
+  <rect x="112" y="268" width="120" height="6" rx="3" fill="#3A3A52" opacity="0.4"/>
+  <rect x="112" y="280" width="100" height="6" rx="3" fill="#3A3A52" opacity="0.3"/>
+  <rect x="100" y="316" width="160" height="8" rx="3" fill="#3A3A52" opacity="0.3"/>
+
+  <rect x="120" y="360" width="300" height="180" rx="12" fill="#16161F" stroke="#2A2A3E" stroke-width="1.5"/>
+  <rect x="120" y="360" width="300" height="36" rx="12" fill="#1B1B2A"/>
+  <rect x="140" y="376" width="60" height="6" rx="3" fill="#8B5CF6" opacity="0.7"/>
+  <rect x="140" y="412" width="220" height="6" rx="3" fill="#3A3A52" opacity="0.4"/>
+  <rect x="140" y="426" width="180" height="6" rx="3" fill="#3A3A52" opacity="0.3"/>
+  <rect x="140" y="456" width="240" height="44" rx="6" fill="#1B1B28" stroke="#2A2A3E" stroke-width="1"/>
+  <rect x="152" y="468" width="120" height="6" rx="3" fill="#3A3A52" opacity="0.5"/>
+  <rect x="152" y="480" width="90" height="6" rx="3" fill="#3A3A52" opacity="0.3"/>
+  <rect x="140" y="516" width="200" height="8" rx="3" fill="#3A3A52" opacity="0.3"/>
+
+  <rect x="60" y="556" width="360" height="160" rx="12" fill="#16161F" stroke="#2A2A3E" stroke-width="1.5"/>
+  <rect x="80" y="576" width="100" height="8" rx="3" fill="#6366F1" opacity="0.6"/>
+  <rect x="80" y="596" width="280" height="6" rx="3" fill="#3A3A52" opacity="0.4"/>
+  <rect x="80" y="610" width="240" height="6" rx="3" fill="#3A3A52" opacity="0.3"/>
+  <rect x="80" y="636" width="60" height="28" rx="6" fill="#6366F1" opacity="0.8"/>
+  <rect x="152" y="636" width="60" height="28" rx="6" fill="#1E1E30" stroke="#3A3A52" stroke-width="1"/>
+  <rect x="80" y="680" width="200" height="6" rx="3" fill="#3A3A52" opacity="0.2"/>
+
+  <!-- Center content -->
+  <!-- Tag chip -->
+  <rect x="560" y="100" width="180" height="34" rx="17" fill="#1E1E30" stroke="#3A3A52" stroke-width="1"/>
+  <text x="650" y="122" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8B8BAA" text-anchor="middle" letter-spacing="2">OCT 11, 2026</text>
+
+  <!-- Main headline -->
+  <text x="560" y="200" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF" text-anchor="start">Design</text>
+  <text x="560" y="280" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF" text-anchor="start">research</text>
+  <text x="560" y="360" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="url(#accent1)" text-anchor="start">in one tab.</text>
+
+  <!-- Sub-headline -->
+  <text x="560" y="420" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#8888A8" text-anchor="start">50k screens ’ moodboard ’ brand audit ’ Figma</text>
+
+  <!-- Divider -->
+  <rect x="560" y="456" width="64" height="3" rx="1.5" fill="url(#accent1)"/>
+
+  <!-- Feature list -->
+  <circle cx="574" cy="502" r="5" fill="#6366F1"/>
+  <text x="592" y="508" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#C8C8E0">Natural language search by design intent</text>
+
+  <circle cx="574" cy="544" r="5" fill="#6366F1"/>
+  <text x="592" y="550" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#C8C8E0">Search ’ moodboard with zero friction</text>
+
+  <circle cx="574" cy="586" r="5" fill="#8B5CF6"/>
+  <text x="592" y="592" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#C8C8E0">Brand audit: upload guidelines ’ annotated score</text>
+
+  <circle cx="574" cy="628" r="5" fill="#8B5CF6"/>
+  <text x="592" y="634" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#C8C8E0">Capture to Figma + AI UI gen in same workspace</text>
+
+  <!-- Bottom insight -->
+  <rect x="560" y="690" width="880" height="80" rx="12" fill="#16161F" stroke="#2A2A3E" stroke-width="1.5"/>
+  <text x="590" y="726" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#6366F1" font-weight="600">The real insight:</text>
+  <text x="590" y="750" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8888A8">Better references ’ better briefs ’ better AI output. The bottleneck isn't the model.</text>
+
+  <!-- Tool name tag -->
+  <text x="1480" y="820" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#4A4A6A" text-anchor="end" letter-spacing="1">inspoai.io</text>
+
+  <!-- Author tag -->
+  <text x="120" y="840" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#4A4A6A">Senior UX Designer · AI Tools Watch</text>
+</svg>
