@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#080D12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D1A28;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0EA5E9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#111C28;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0C1420;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1440" fill="url(#bg1)" />
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1080" height="6" fill="url(#accent1)"/>
+
+  <!-- Header -->
+  <text x="540" y="72" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#06B6D4" text-anchor="middle" letter-spacing="3" font-weight="600">SENIOR UX DESIGNER · AI TOOLS WATCH</text>
+
+  <!-- Main headline -->
+  <text x="540" y="168" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="74" font-weight="800" fill="#FFFFFF" text-anchor="middle">Design tools</text>
+  <text x="540" y="258" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="74" font-weight="800" fill="#FFFFFF" text-anchor="middle">save output.</text>
+  <text x="540" y="348" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="74" font-weight="800" fill="url(#accent1)" text-anchor="middle">MagicOS saves</text>
+  <text x="540" y="438" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="74" font-weight="800" fill="url(#accent1)" text-anchor="middle">the process.</text>
+
+  <!-- Sub-headline -->
+  <text x="540" y="496" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#4A8AA8" text-anchor="middle">Oct 13, 2026 · magicpatterns.com</text>
+
+  <!-- Divider -->
+  <rect x="440" y="518" width="200" height="3" rx="1.5" fill="url(#accent1)"/>
+
+  <!-- Canvas visualization strip -->
+  <rect x="60" y="540" width="960" height="160" rx="14" fill="#0D1E2C" stroke="#1A3048" stroke-width="1.5"/>
+  <!-- Three canvas cards inside -->
+  <rect x="84" y="560" width="200" height="120" rx="8" fill="#0A1822" stroke="#06B6D4" stroke-width="1.5"/>
+  <circle cx="106" cy="582" r="8" fill="#06B6D4" opacity="0.7"/>
+  <rect x="124" y="576" width="80" height="8" rx="3" fill="#1A3A50"/>
+  <rect x="100" y="600" width="160" height="5" rx="3" fill="#1A3A50" opacity="0.5"/>
+  <rect x="100" y="612" width="130" height="5" rx="3" fill="#1A3A50" opacity="0.35"/>
+  <rect x="100" y="632" width="80" height="5" rx="3" fill="#06B6D4" opacity="0.3"/>
+  <text x="100" y="665" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#06B6D4">PRD</text>
+
+  <rect x="308" y="560" width="200" height="120" rx="8" fill="#0A1822" stroke="#0EA5E9" stroke-width="1.5"/>
+  <circle cx="330" cy="582" r="8" fill="#0EA5E9" opacity="0.7"/>
+  <rect x="348" y="576" width="80" height="8" rx="3" fill="#1A3A50"/>
+  <rect x="322" y="600" width="120" height="30" rx="4" fill="#1A3048" opacity="0.5"/>
+  <rect x="322" y="638" width="80" height="5" rx="3" fill="#1A3A50" opacity="0.4"/>
+  <text x="322" y="665" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#0EA5E9">Inspiration</text>
+
+  <rect x="532" y="560" width="200" height="120" rx="8" fill="#0A1822" stroke="#1A3048" stroke-width="1.5"/>
+  <circle cx="554" cy="582" r="8" fill="#3A6080" opacity="0.5"/>
+  <rect x="572" y="576" width="80" height="8" rx="3" fill="#1A3048" opacity="0.5"/>
+  <rect x="548" y="600" width="120" height="5" rx="3" fill="#1A3048" opacity="0.35"/>
+  <rect x="548" y="612" width="100" height="5" rx="3" fill="#1A3048" opacity="0.25"/>
+  <text x="548" y="665" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#3A6080">Rejected dir</text>
+
+  <rect x="756" y="560" width="240" height="120" rx="8" fill="#0D2030" stroke="#06B6D4" stroke-width="2"/>
+  <rect x="778" y="576" width="120" height="8" rx="3" fill="#1A3A50"/>
+  <rect x="778" y="596" width="180" height="30" rx="4" fill="#0A1C2A" stroke="#1A3A50" stroke-width="1"/>
+  <rect x="778" y="638" width="80" height="18" rx="4" fill="#06B6D4" opacity="0.9"/>
+  <text x="778" y="665" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#06B6D4">Active design</text>
+
+  <!-- Coordinator + threads row -->
+  <rect x="60" y="722" width="960" height="54" rx="10" fill="#0D1E2C" stroke="#1A3048" stroke-width="1.5"/>
+  <circle cx="100" cy="749" r="16" fill="#06B6D4" opacity="0.15"/>
+  <circle cx="100" cy="749" r="10" fill="#06B6D4" opacity="0.5"/>
+  <text x="128" y="745" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#06B6D4" font-weight="600">Coordinator</text>
+  <text x="128" y="762" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7A90">"Explore 3 directions for the checkout flow. Run in parallel."</text>
+
+  <rect x="60" y="790" width="200" height="32" rx="16" fill="#0D2030" stroke="#06B6D4" stroke-width="1"/>
+  <text x="160" y="810" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#06B6D4" text-anchor="middle">Thread 1 · Running</text>
+  <rect x="272" y="790" width="200" height="32" rx="16" fill="#0D2030" stroke="#0EA5E9" stroke-width="1"/>
+  <text x="372" y="810" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#0EA5E9" text-anchor="middle">Thread 2 · Running</text>
+  <rect x="484" y="790" width="200" height="32" rx="16" fill="#0D1828" stroke="#1A3048" stroke-width="1"/>
+  <text x="584" y="810" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#3A6080" text-anchor="middle">Thread 3 · Waiting</text>
+
+  <!-- Feature list -->
+  <rect x="60" y="848" width="960" height="360" rx="14" fill="#0D1E2C" stroke="#1A3048" stroke-width="1.5"/>
+
+  <text x="100" y="896" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#06B6D4" font-weight="600">What MagicOS does differently</text>
+  <rect x="100" y="906" width="880" height="1" fill="#1A3048"/>
+
+  <circle cx="114" cy="940" r="5" fill="#06B6D4"/>
+  <text x="132" y="946" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#C0D8E8" font-weight="500">Persistent canvas</text>
+  <text x="132" y="966" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#4A7A90">PRD, refs, rejected directions  all stay, all connected</text>
+
+  <circle cx="114" cy="1004" r="5" fill="#06B6D4"/>
+  <text x="132" y="1010" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#C0D8E8" font-weight="500">Coordinator + Threads</text>
+  <text x="132" y="1030" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#4A7A90">Multi-agent parallel work, built into product architecture</text>
+
+  <circle cx="114" cy="1068" r="5" fill="#0EA5E9"/>
+  <text x="132" y="1074" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#C0D8E8" font-weight="500">Voice collaboration</text>
+  <text x="132" y="1094" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#4A7A90">Brainstorm out loud  canvas navigates and responds</text>
+
+  <circle cx="114" cy="1132" r="5" fill="#0EA5E9"/>
+  <text x="132" y="1138" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#C0D8E8" font-weight="500">Import chain + MCP</text>
+  <text x="132" y="1158" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#4A7A90">Figma, Claude Design, GitHub repos  coding agents built in</text>
+
+  <rect x="100" y="1178" width="880" height="1" fill="#1A3048"/>
+  <text x="114" y="1202" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#3A6080" font-weight="600">Honest caveat:</text>
+  <text x="114" y="1222" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#2A5070">Parallel threads are great for divergence. Convergence is still</text>
+  <text x="114" y="1242" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#2A5070">your judgment call. The coordinator doesn't solve that.</text>
+
+  <!-- Bottom insight -->
+  <rect x="60" y="1234" width="960" height="100" rx="14" fill="#060E16" stroke="#06B6D4" stroke-width="1.5" opacity="0.9"/>
+  <text x="540" y="1274" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#06B6D4" text-anchor="middle" font-weight="600">Canvas-as-context pattern (4 tools, 6 weeks):</text>
+  <text x="540" y="1298" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#4A8AA8" text-anchor="middle">Doop ’ MagicPath ’ Shopify Canvas ’ MagicOS</text>
+  <text x="540" y="1318" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#2A5A70" text-anchor="middle">The canvas is the shared context layer, not the delivery surface.</text>
+
+  <!-- Footer -->
+  <text x="540" y="1400" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#2A4A5A" text-anchor="middle">Senior UX Designer · AI Tools Watch · magicpatterns.com</text>
+</svg>
