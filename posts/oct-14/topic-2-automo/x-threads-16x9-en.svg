@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#100A04;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1C1208;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EF4444;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg1)" />
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="300" x2="1600" y2="300" stroke="#1E1208" stroke-width="1"/>
+  <line x1="0" y1="600" x2="1600" y2="600" stroke="#1E1208" stroke-width="1"/>
+  <line x1="460" y1="0" x2="460" y2="900" stroke="#1E1208" stroke-width="1"/>
+
+  <!-- Left panel: self-review loop visualization -->
+  <!-- AI generates design (top card) -->
+  <rect x="60" y="100" width="340" height="180" rx="12" fill="#1A1208" stroke="#3A2808" stroke-width="1.5"/>
+  <rect x="60" y="100" width="340" height="40" rx="12" fill="#221A0A"/>
+  <rect x="60" y="128" width="340" height="12" fill="#221A0A"/>
+  <circle cx="86" cy="120" r="8" fill="#F59E0B" opacity="0.7"/>
+  <rect x="104" y="114" width="100" height="8" rx="3" fill="#3A2808"/>
+  <rect x="80" y="160" width="280" height="60" rx="8" fill="#180E04" stroke="#3A2808" stroke-width="1"/>
+  <rect x="92" y="172" width="180" height="8" rx="3" fill="#3A2808" opacity="0.6"/>
+  <rect x="92" y="188" width="140" height="8" rx="3" fill="#3A2808" opacity="0.4"/>
+  <rect x="92" y="204" width="160" height="8" rx="3" fill="#3A2808" opacity="0.3"/>
+  <text x="78" y="266" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#F59E0B" opacity="0.8">AI generates design</text>
+
+  <!-- Arrow down -->
+  <line x1="230" y1="286" x2="230" y2="316" stroke="#F59E0B" stroke-width="2" opacity="0.5"/>
+  <polygon points="222,316 238,316 230,330" fill="#F59E0B" opacity="0.5"/>
+
+  <!-- Self-review step (middle - highlighted amber) -->
+  <rect x="60" y="334" width="340" height="100" rx="12" fill="#1E1408" stroke="#F59E0B" stroke-width="2"/>
+  <circle cx="92" cy="370" r="16" fill="#F59E0B" opacity="0.15"/>
+  <circle cx="92" cy="370" r="10" fill="#F59E0B" opacity="0.5"/>
+  <text x="118" y="362" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#F59E0B" font-weight="600">Auto quality check</text>
+  <text x="118" y="380" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#8A6A30">Overflow ∑ Dead space ∑ Placeholder text</text>
+  <!-- Check marks -->
+  <text x="118" y="402" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#10B981" opacity="0.8"> Button text overflow fixed ∑  Dead space resolved</text>
+  <text x="118" y="418" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#10B981" opacity="0.6"> Placeholder copy removed</text>
+
+  <!-- Arrow down -->
+  <line x1="230" y1="438" x2="230" y2="468" stroke="#10B981" stroke-width="2" opacity="0.6"/>
+  <polygon points="222,468 238,468 230,482" fill="#10B981" opacity="0.6"/>
+
+  <!-- Delivered design (bottom) -->
+  <rect x="60" y="486" width="340" height="160" rx="12" fill="#1A1208" stroke="#10B981" stroke-width="2"/>
+  <rect x="60" y="486" width="340" height="40" rx="12" fill="#122010"/>
+  <rect x="60" y="514" width="340" height="12" fill="#122010"/>
+  <circle cx="86" cy="506" r="8" fill="#10B981" opacity="0.8"/>
+  <rect x="104" y="500" width="100" height="8" rx="3" fill="#1A3020"/>
+  <rect x="80" y="546" width="280" height="60" rx="8" fill="#101A10" stroke="#1A3020" stroke-width="1"/>
+  <rect x="92" y="558" width="180" height="8" rx="3" fill="#10B981" opacity="0.35"/>
+  <rect x="92" y="574" width="140" height="8" rx="3" fill="#1A3020" opacity="0.5"/>
+  <rect x="92" y="590" width="160" height="8" rx="3" fill="#1A3020" opacity="0.35"/>
+  <rect x="80" y="622" width="100" height="24" rx="6" fill="#10B981" opacity="0.9"/>
+  <rect x="192" y="622" width="100" height="24" rx="6" fill="#122010" stroke="#1A3020" stroke-width="1"/>
+  <text x="78" y="638" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#10B981">Reviewed   ready for your eye</text>
+
+  <!-- Three instance timeline on left -->
+  <rect x="60" y="680" width="340" height="120" rx="12" fill="#1A1208" stroke="#3A2808" stroke-width="1.5"/>
+  <text x="80" y="704" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#F59E0B" font-weight="600">3 tools ∑ 12 days ∑ Same decision</text>
+  <rect x="80" y="712" width="300" height="1" fill="#3A2808"/>
+  <circle cx="94" cy="730" r="4" fill="#F59E0B"/>
+  <text x="110" y="735" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#8A6A30">Oct 2  Shopify Canvas Sidekick</text>
+  <circle cx="94" cy="754" r="4" fill="#F59E0B" opacity="0.7"/>
+  <text x="110" y="759" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#8A6A30">Oct 9  Gamma 5</text>
+  <circle cx="94" cy="778" r="4" fill="#EF4444"/>
+  <text x="110" y="783" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#C05030">Oct 13  Automo ê today</text>
+
+  <!-- Right panel content -->
+  <!-- Date chip -->
+  <rect x="500" y="80" width="190" height="34" rx="17" fill="#1E1208" stroke="#3A2808" stroke-width="1"/>
+  <text x="595" y="102" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#7A5A30" text-anchor="middle" letter-spacing="2">OCT 13, 2026</text>
+
+  <!-- Main headline -->
+  <text x="500" y="178" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#FFFFFF" text-anchor="start">3 tools. 12 days.</text>
+  <text x="500" y="254" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="url(#accent1)" text-anchor="start">Agent self-review</text>
+  <text x="500" y="330" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="url(#accent1)" text-anchor="start">is now a pattern.</text>
+
+  <!-- Sub-headline -->
+  <text x="500" y="376" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#7A5A30" text-anchor="start">Automo ∑ Art director critique ∑ Brand kit travels to Claude</text>
+
+  <!-- Divider -->
+  <rect x="500" y="400" width="64" height="3" rx="1.5" fill="url(#accent1)"/>
+
+  <!-- What changed bullets -->
+  <circle cx="516" cy="446" r="5" fill="#F59E0B"/>
+  <text x="534" y="452" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#E0C8A0">Auto-check: overflow, dead space, placeholder copy fixed</text>
+
+  <circle cx="516" cy="490" r="5" fill="#F59E0B"/>
+  <text x="534" y="496" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#E0C8A0">Claude + Automo shares same brand engine as Mo</text>
+
+  <circle cx="516" cy="534" r="5" fill="#EF4444"/>
+  <text x="534" y="540" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#E0C8A0">Dashboard: 2 directions side-by-side  compare, then commit</text>
+
+  <circle cx="516" cy="578" r="5" fill="#EF4444"/>
+  <text x="534" y="584" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#E0C8A0">Designs start from a concept, not a default template layout</text>
+
+  <!-- Two-tier model box -->
+  <rect x="500" y="620" width="480" height="130" rx="12" fill="#1E1208" stroke="#3A2808" stroke-width="1.5"/>
+  <text x="530" y="652" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#F59E0B" font-weight="600">The two-tier review model:</text>
+  <circle cx="524" cy="678" r="4" fill="#10B981"/>
+  <text x="540" y="684" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8A9A8A">Layer 1 (agent): overflow ∑ dead space ∑ placeholder ∑ layout failures</text>
+  <circle cx="524" cy="710" r="4" fill="#F59E0B"/>
+  <text x="540" y="716" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E0C8A0">Layer 2 (you): wrong IA ∑ wrong hierarchy ∑ wrong emotional register</text>
+  <text x="524" y="740" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#5A4A30" font-style="italic">Automated floor. Judgment ceiling. Don't confuse slop-free for taste.</text>
+
+  <!-- Bottom insight -->
+  <rect x="500" y="770" width="1020" height="72" rx="12" fill="#180E04" stroke="#3A2808" stroke-width="1.5"/>
+  <text x="530" y="804" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#F59E0B" font-weight="600">The agent self-review loop becoming standard means:</text>
+  <text x="530" y="828" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#7A5A30">Your review meeting now starts at a different quality floor. Less time on structural slop.</text>
+
+  <!-- Tool name + author -->
+  <text x="1500" y="858" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#4A3A20" text-anchor="end">automo.ai</text>
+  <text x="508" y="876" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#4A3A20">Senior UX Designer ∑ AI Tools Watch</text>
+</svg>

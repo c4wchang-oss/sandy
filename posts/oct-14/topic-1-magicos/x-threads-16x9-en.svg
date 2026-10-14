@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#080D12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D1520;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0EA5E9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#111C28;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0C1420;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg1)" />
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="300" x2="1600" y2="300" stroke="#0F1E2E" stroke-width="1"/>
+  <line x1="0" y1="600" x2="1600" y2="600" stroke="#0F1E2E" stroke-width="1"/>
+  <line x1="460" y1="0" x2="460" y2="900" stroke="#0F1E2E" stroke-width="1"/>
+
+  <!-- Left panel: infinite canvas visualization -->
+  <!-- Canvas grid dots -->
+  <circle cx="80" cy="80" r="1.5" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="140" cy="80" r="1.5" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="200" cy="80" r="1.5" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="260" cy="80" r="1.5" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="320" cy="80" r="1.5" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="380" cy="80" r="1.5" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="80" cy="140" r="1.5" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="140" cy="140" r="1.5" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="200" cy="140" r="1.5" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="260" cy="140" r="1.5" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="320" cy="140" r="1.5" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="380" cy="140" r="1.5" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="80" cy="200" r="1.5" fill="#06B6D4" opacity="0.15"/>
+  <circle cx="140" cy="200" r="1.5" fill="#06B6D4" opacity="0.15"/>
+  <circle cx="200" cy="200" r="1.5" fill="#06B6D4" opacity="0.15"/>
+  <circle cx="260" cy="200" r="1.5" fill="#06B6D4" opacity="0.15"/>
+  <circle cx="320" cy="200" r="1.5" fill="#06B6D4" opacity="0.15"/>
+  <circle cx="380" cy="200" r="1.5" fill="#06B6D4" opacity="0.15"/>
+
+  <!-- PRD card -->
+  <rect x="60" y="110" width="200" height="130" rx="10" fill="url(#cardGrad)" stroke="#1A3048" stroke-width="1.5"/>
+  <rect x="60" y="110" width="200" height="32" rx="10" fill="#0D1E2E"/>
+  <rect x="60" y="130" width="200" height="12" fill="#0D1E2E"/>
+  <circle cx="84" cy="126" r="6" fill="#06B6D4" opacity="0.8"/>
+  <rect x="100" y="120" width="60" height="8" rx="3" fill="#1A3048"/>
+  <rect x="80" y="160" width="140" height="6" rx="3" fill="#1A3048" opacity="0.7"/>
+  <rect x="80" y="174" width="110" height="6" rx="3" fill="#1A3048" opacity="0.5"/>
+  <rect x="80" y="188" width="130" height="6" rx="3" fill="#1A3048" opacity="0.4"/>
+  <rect x="80" y="202" width="90" height="6" rx="3" fill="#1A3048" opacity="0.3"/>
+  <text x="78" y="232" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#06B6D4" opacity="0.8">PRD</text>
+
+  <!-- Inspiration card -->
+  <rect x="180" y="260" width="220" height="150" rx="10" fill="url(#cardGrad)" stroke="#1A3048" stroke-width="1.5"/>
+  <rect x="180" y="260" width="220" height="80" rx="10" fill="#0E1E2C"/>
+  <rect x="180" y="318" width="220" height="22" fill="#0E1E2C"/>
+  <rect x="198" y="276" width="60" height="48" rx="6" fill="#1A3048" opacity="0.7"/>
+  <rect x="268" y="276" width="60" height="48" rx="6" fill="#1A3048" opacity="0.5"/>
+  <rect x="338" y="276" width="48" height="48" rx="6" fill="#1A3048" opacity="0.35"/>
+  <rect x="198" y="354" width="80" height="6" rx="3" fill="#1A3048" opacity="0.6"/>
+  <rect x="198" y="368" width="60" height="6" rx="3" fill="#1A3048" opacity="0.4"/>
+  <text x="196" y="398" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#0EA5E9" opacity="0.8">Inspiration</text>
+
+  <!-- Design card (highlighted, active) -->
+  <rect x="60" y="420" width="240" height="160" rx="10" fill="url(#cardGrad)" stroke="#06B6D4" stroke-width="2"/>
+  <rect x="60" y="420" width="240" height="40" rx="10" fill="#0D2030"/>
+  <rect x="60" y="448" width="240" height="12" fill="#0D2030"/>
+  <circle cx="84" cy="440" r="6" fill="#06B6D4"/>
+  <rect x="100" y="434" width="80" height="8" rx="3" fill="#1A3A50"/>
+  <rect x="80" y="478" width="180" height="60" rx="6" fill="#0A1C2A" stroke="#1A3A50" stroke-width="1"/>
+  <rect x="92" y="490" width="80" height="6" rx="3" fill="#06B6D4" opacity="0.5"/>
+  <rect x="92" y="504" width="120" height="6" rx="3" fill="#1A3A50" opacity="0.5"/>
+  <rect x="92" y="518" width="100" height="6" rx="3" fill="#1A3A50" opacity="0.35"/>
+  <rect x="80" y="552" width="60" height="20" rx="4" fill="#06B6D4" opacity="0.9"/>
+  <rect x="152" y="552" width="60" height="20" rx="4" fill="#0D2030" stroke="#1A3A50" stroke-width="1"/>
+  <text x="78" y="570" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#06B6D4">Active Design</text>
+
+  <!-- Thread indicator lines -->
+  <line x1="160" y1="420" x2="200" y2="380" stroke="#06B6D4" stroke-width="1" opacity="0.4" stroke-dasharray="4,4"/>
+  <line x1="240" y1="260" x2="180" y2="240" stroke="#0EA5E9" stroke-width="1" opacity="0.3" stroke-dasharray="4,4"/>
+
+  <!-- Rejected direction (faded) -->
+  <rect x="280" y="440" width="160" height="100" rx="10" fill="#0A1018" stroke="#1A2A38" stroke-width="1" opacity="0.6"/>
+  <rect x="292" y="456" width="100" height="6" rx="3" fill="#1A2A38" opacity="0.4"/>
+  <rect x="292" y="470" width="80" height="6" rx="3" fill="#1A2A38" opacity="0.3"/>
+  <text x="290" y="528" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#3A5060" opacity="0.6">Rejected</text>
+
+  <!-- Coordinator chat bubble -->
+  <rect x="60" y="620" width="340" height="60" rx="10" fill="#0D1E2C" stroke="#1A3048" stroke-width="1.5"/>
+  <circle cx="86" cy="650" r="12" fill="#06B6D4" opacity="0.2"/>
+  <circle cx="86" cy="650" r="7" fill="#06B6D4" opacity="0.6"/>
+  <rect x="108" y="636" width="180" height="8" rx="3" fill="#1A3A50" opacity="0.7"/>
+  <rect x="108" y="652" width="240" height="6" rx="3" fill="#1A3A50" opacity="0.4"/>
+  <rect x="108" y="664" width="140" height="6" rx="3" fill="#1A3A50" opacity="0.3"/>
+  <text x="78" y="700" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#06B6D4" opacity="0.7">Coordinator</text>
+
+  <!-- Thread badges -->
+  <rect x="60" y="740" width="70" height="24" rx="12" fill="#0D2030" stroke="#06B6D4" stroke-width="1"/>
+  <text x="95" y="756" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="9" fill="#06B6D4" text-anchor="middle">Thread 1</text>
+  <rect x="142" y="740" width="70" height="24" rx="12" fill="#0D2030" stroke="#0EA5E9" stroke-width="1"/>
+  <text x="177" y="756" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="9" fill="#0EA5E9" text-anchor="middle">Thread 2</text>
+  <rect x="224" y="740" width="70" height="24" rx="12" fill="#0D1828" stroke="#1A3048" stroke-width="1"/>
+  <text x="259" y="756" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="9" fill="#3A6080" text-anchor="middle">Thread 3</text>
+
+  <!-- Right panel: main content -->
+  <!-- Date chip -->
+  <rect x="500" y="80" width="190" height="34" rx="17" fill="#0D1E2C" stroke="#1A3048" stroke-width="1"/>
+  <text x="595" y="102" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7A90" text-anchor="middle" letter-spacing="2">OCT 13, 2026</text>
+
+  <!-- Main headline -->
+  <text x="500" y="180" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#FFFFFF" text-anchor="start">Design tools</text>
+  <text x="500" y="256" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#FFFFFF" text-anchor="start">save your output.</text>
+  <text x="500" y="332" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="url(#accent1)" text-anchor="start">MagicOS saves</text>
+  <text x="500" y="408" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="url(#accent1)" text-anchor="start">the process.</text>
+
+  <!-- Sub-headline -->
+  <text x="500" y="458" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#4A8AA8" text-anchor="start">Persistent canvas · Coordinator · Parallel threads · Voice · MCP</text>
+
+  <!-- Divider -->
+  <rect x="500" y="484" width="64" height="3" rx="1.5" fill="url(#accent1)"/>
+
+  <!-- Feature bullets -->
+  <circle cx="516" cy="530" r="5" fill="#06B6D4"/>
+  <text x="534" y="536" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#C0D8E8">PRD, refs, rejected dirs  all live on one spatial canvas</text>
+
+  <circle cx="516" cy="572" r="5" fill="#06B6D4"/>
+  <text x="534" y="578" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#C0D8E8">Coordinator routes real work into parallel agent threads</text>
+
+  <circle cx="516" cy="614" r="5" fill="#0EA5E9"/>
+  <text x="534" y="620" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#C0D8E8">Import from Figma, Claude Design, GitHub  MCP built in</text>
+
+  <circle cx="516" cy="656" r="5" fill="#0EA5E9"/>
+  <text x="534" y="662" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#C0D8E8">Voice collaboration: brainstorm out loud, canvas responds</text>
+
+  <!-- Bottom insight box -->
+  <rect x="500" y="706" width="1020" height="90" rx="12" fill="#0D1E2C" stroke="#1A3048" stroke-width="1.5"/>
+  <text x="530" y="742" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#06B6D4" font-weight="600">Canvas-as-context confirmed (4th instance in 6 weeks):</text>
+  <text x="530" y="766" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#4A8AA8">Doop (Sep 4) ’ MagicPath (Oct 1) ’ Shopify Canvas (Oct 1) ’ MagicOS (Oct 13)</text>
+  <text x="530" y="786" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#2A5A70">The canvas is the shared context layer, not just the delivery surface.</text>
+
+  <!-- Tool name + author -->
+  <text x="1500" y="840" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#2A4A5A" text-anchor="end" letter-spacing="1">magicpatterns.com</text>
+  <text x="508" y="858" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#2A4A5A">Senior UX Designer · AI Tools Watch</text>
+</svg>
