@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050C08;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0A1810;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34D399;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F1F14;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#081208;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg)" />
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="300" x2="1600" y2="300" stroke="#0F2016" stroke-width="1"/>
+  <line x1="0" y1="600" x2="1600" y2="600" stroke="#0F2016" stroke-width="1"/>
+  <line x1="520" y1="0" x2="520" y2="900" stroke="#0F2016" stroke-width="1"/>
+
+  <!-- Left panel: HTML/CSS canvas visualization -->
+  <rect x="40" y="60" width="440" height="780" rx="16" fill="#0A1810" stroke="#143020" stroke-width="1.5"/>
+
+  <!-- Canvas header -->
+  <rect x="40" y="60" width="440" height="48" rx="16" fill="#0E2018"/>
+  <rect x="40" y="92" width="440" height="16" fill="#0E2018"/>
+  <circle cx="68" cy="84" r="6" fill="#FF5F57"/>
+  <circle cx="90" cy="84" r="6" fill="#FEBC2E"/>
+  <circle cx="112" cy="84" r="6" fill="#28C840"/>
+  <text x="240" y="89" font-family="'SF Mono', 'Fira Code', monospace" font-size="12" fill="#10B981" opacity="0.8" text-anchor="middle">canvas.html</text>
+
+  <!-- HTML code in left side of canvas panel -->
+  <rect x="56" y="124" width="200" height="290" rx="8" fill="#060E08"/>
+  <text x="70" y="148" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#10B981" opacity="0.9">&lt;div class="hero"&gt;</text>
+  <text x="78" y="166" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#6EE7B7" opacity="0.7">  display: flex;</text>
+  <text x="78" y="184" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#6EE7B7" opacity="0.7">  gap: var(--sp-6);</text>
+  <text x="78" y="202" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#6EE7B7" opacity="0.7">  padding: 64px;</text>
+  <text x="70" y="220" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#10B981" opacity="0.9">&lt;/div&gt;</text>
+  <text x="70" y="244" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#10B981" opacity="0.9">&lt;nav class="nav"&gt;</text>
+  <text x="78" y="262" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#6EE7B7" opacity="0.7">  position: fixed;</text>
+  <text x="78" y="280" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#6EE7B7" opacity="0.7">  top: 0;</text>
+  <text x="78" y="298" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#6EE7B7" opacity="0.7">  z-index: 100;</text>
+  <text x="70" y="316" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#10B981" opacity="0.9">&lt;/nav&gt;</text>
+  <text x="70" y="340" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#10B981" opacity="0.9">&lt;section&gt;</text>
+  <text x="78" y="358" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#6EE7B7" opacity="0.7">  grid-template:</text>
+  <text x="78" y="376" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#6EE7B7" opacity="0.7">  "a b c" / 1fr;</text>
+  <text x="70" y="394" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#10B981" opacity="0.9">&lt;/section&gt;</text>
+
+  <!-- Visual canvas right side -->
+  <rect x="268" y="124" width="196" height="290" rx="8" fill="#081410" stroke="#143020" stroke-width="1"/>
+  <rect x="278" y="134" width="176" height="24" rx="4" fill="#0E2018"/>
+  <rect x="286" y="141" width="40" height="8" rx="3" fill="#10B981" opacity="0.6"/>
+  <rect x="390" y="141" width="20" height="8" rx="3" fill="#1A3020" opacity="0.7"/>
+  <rect x="414" y="141" width="20" height="8" rx="3" fill="#1A3020" opacity="0.7"/>
+  <rect x="278" y="164" width="176" height="80" rx="4" fill="#0A1810" stroke="#143020" stroke-width="1"/>
+  <rect x="286" y="176" width="100" height="12" rx="3" fill="#10B981" opacity="0.5"/>
+  <rect x="286" y="194" width="140" height="6" rx="3" fill="#1A3020" opacity="0.5"/>
+  <rect x="286" y="206" width="120" height="6" rx="3" fill="#1A3020" opacity="0.4"/>
+  <rect x="286" y="222" width="64" height="20" rx="4" fill="#10B981" opacity="0.8"/>
+  <rect x="278" y="252" width="52" height="56" rx="4" fill="#0E2018" stroke="#143020" stroke-width="1"/>
+  <rect x="286" y="260" width="36" height="20" rx="3" fill="#143020"/>
+  <rect x="286" y="286" width="30" height="6" rx="3" fill="#1A3020" opacity="0.6"/>
+  <rect x="286" y="296" width="24" height="4" rx="2" fill="#1A3020" opacity="0.4"/>
+  <rect x="338" y="252" width="52" height="56" rx="4" fill="#0E2018" stroke="#143020" stroke-width="1"/>
+  <rect x="346" y="260" width="36" height="20" rx="3" fill="#143020"/>
+  <rect x="346" y="286" width="30" height="6" rx="3" fill="#1A3020" opacity="0.6"/>
+  <rect x="346" y="296" width="24" height="4" rx="2" fill="#1A3020" opacity="0.4"/>
+  <rect x="398" y="252" width="52" height="56" rx="4" fill="#0E2018" stroke="#10B981" stroke-width="1.5"/>
+  <rect x="406" y="260" width="36" height="20" rx="3" fill="#10B981" opacity="0.3"/>
+  <rect x="406" y="286" width="30" height="6" rx="3" fill="#10B981" opacity="0.4"/>
+  <rect x="406" y="296" width="24" height="4" rx="2" fill="#10B981" opacity="0.25"/>
+
+  <!-- Agent chat panel -->
+  <rect x="56" y="428" width="408" height="200" rx="8" fill="#060E08" stroke="#143020" stroke-width="1"/>
+  <text x="72" y="450" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="11" fill="#10B981" opacity="0.7">AgentClaude Code	</text>
+  <rect x="72" y="460" width="280" height="28" rx="6" fill="#0E2018"/>
+  <text x="86" y="478" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="11" fill="#6EE7B7" opacity="0.8">ô° hero Hb-&</text>
+  <rect x="72" y="496" width="200" height="24" rx="6" fill="#0A1810" stroke="#143020" stroke-width="1"/>
+  <text x="86" y="512" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="10" fill="#10B981" opacity="0.5">3  layer òî9 · ¨B undo</text>
+  <rect x="72" y="528" width="360" height="28" rx="6" fill="#0E2018"/>
+  <text x="86" y="546" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="11" fill="#6EE7B7" opacity="0.8">W( token var(--sp-6) 0 gap&</text>
+  <rect x="72" y="564" width="240" height="24" rx="6" fill="#0A1810" stroke="#143020" stroke-width="1"/>
+  <text x="86" y="580" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="10" fill="#10B981" opacity="0.5">€Ök- · sBô°</text>
+  <rect x="72" y="596" width="300" height="20" rx="4" fill="#143020" opacity="0.5"/>
+  <text x="86" y="610" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="10" fill="#6EE7B7" opacity="0.6">!Õè/”H · ûqäò–</text>
+
+  <!-- Tokens panel -->
+  <rect x="56" y="644" width="408" height="160" rx="8" fill="#060E08" stroke="#143020" stroke-width="1"/>
+  <text x="72" y="666" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="11" fill="#10B981" opacity="0.7">Design token</text>
+  <rect x="72" y="676" width="116" height="40" rx="6" fill="#0E2018"/>
+  <text x="86" y="692" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" fill="#6EE7B7" opacity="0.6">--color-primary</text>
+  <text x="86" y="706" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" fill="#10B981" opacity="0.8">#10B981</text>
+  <rect x="196" y="676" width="116" height="40" rx="6" fill="#0E2018"/>
+  <text x="210" y="692" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" fill="#6EE7B7" opacity="0.6">--sp-6</text>
+  <text x="210" y="706" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" fill="#10B981" opacity="0.8">24px</text>
+  <rect x="320" y="676" width="116" height="40" rx="6" fill="#0E2018"/>
+  <text x="334" y="692" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" fill="#6EE7B7" opacity="0.6">--radius-md</text>
+  <text x="334" y="706" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" fill="#10B981" opacity="0.8">8px</text>
+  <text x="72" y="748" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="10" fill="#10B981" opacity="0.4">ž® · CSS Šx · Agent ï€</text>
+  <rect x="72" y="758" width="130" height="28" rx="6" fill="#10B981" opacity="0.15" stroke="#10B981" stroke-width="1"/>
+  <text x="137" y="776" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="10" fill="#10B981" opacity="0.8" text-anchor="middle">/e Figma ”H</text>
+  <rect x="210" y="758" width="130" height="28" rx="6" fill="#0E2018" stroke="#143020" stroke-width="1"/>
+  <text x="275" y="776" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="10" fill="#6EE7B7" opacity="0.6" text-anchor="middle">« frame #P</text>
+
+  <!-- Right panel: main content -->
+  <rect x="560" y="72" width="140" height="28" rx="14" fill="#10B981" opacity="0.15" stroke="#10B981" stroke-width="1"/>
+  <text x="630" y="91" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="12" fill="#10B981" font-weight="600" text-anchor="middle">h°åw</text>
+
+  <!-- Main headline -->
+  <text x="560" y="170" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="72" fill="#F0FAF4" font-weight="700" letter-spacing="-1">k1/</text>
+  <text x="560" y="254" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="72" fill="#F0FAF4" font-weight="700" letter-spacing="-1">HTML</text>
+
+  <!-- Accent line -->
+  <rect x="560" y="278" width="480" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- Sub headline -->
+  <text x="560" y="336" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="28" fill="#6EE7B7" font-weight="400">’	 export Íú</text>
+  <text x="560" y="374" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="28" fill="#6EE7B7" font-weight="400">’	ûod</text>
+
+  <!-- Key points -->
+  <rect x="560" y="420" width="480" height="1" fill="#143020"/>
+
+  <!-- Point 1 -->
+  <circle cx="580" cy="472" r="20" fill="#10B981" opacity="0.15"/>
+  <text x="580" y="477" font-family="'SF Mono', 'Fira Code', monospace" font-size="14" fill="#10B981" text-anchor="middle" font-weight="700">01</text>
+  <text x="616" y="465" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="18" fill="#F0FAF4" font-weight="600">`k„1/ýú¨„</text>
+  <text x="616" y="487" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#6EE7B7" opacity="0.7">kè/ ’ "1Ò„ HTML/CSSsB</text>
+
+  <!-- Point 2 -->
+  <circle cx="580" cy="548" r="20" fill="#10B981" opacity="0.15"/>
+  <text x="580" y="553" font-family="'SF Mono', 'Fira Code', monospace" font-size="14" fill="#10B981" text-anchor="middle" font-weight="700">02</text>
+  <text x="616" y="541" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="18" fill="#F0FAF4" font-weight="600">Agent €Öæ-</text>
+  <text x="616" y="563" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#6EE7B7" opacity="0.7">ClaudeCodexCursorGrok N MCP/*</text>
+
+  <!-- Point 3 -->
+  <circle cx="580" cy="624" r="20" fill="#10B981" opacity="0.15"/>
+  <text x="580" y="629" font-family="'SF Mono', 'Fira Code', monospace" font-size="14" fill="#10B981" text-anchor="middle" font-weight="700">03</text>
+  <text x="616" y="617" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="18" fill="#F0FAF4" font-weight="600">1-zš„_</text>
+  <text x="616" y="639" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#6EE7B7" opacity="0.7">Agent !Õ÷Lûqä_ = áû</text>
+
+  <!-- Divider -->
+  <rect x="560" y="670" width="480" height="1" fill="#143020"/>
+
+  <!-- Pattern note -->
+  <text x="560" y="708" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#10B981" opacity="0.6">!Elyx ’ Timeful ’ Plastic</text>
+  <text x="560" y="728" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" fill="#6EE7B7" opacity="0.5">	åwBžÒ¦0Œ26-”H„G-</text>
+
+  <!-- Source -->
+  <text x="560" y="790" font-family="'SF Mono', 'Fira Code', monospace" font-size="14" fill="#10B981" opacity="0.5">useplastic.app · ÅP€Ë½H</text>
+
+  <!-- Watermark -->
+  <text x="1560" y="870" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="11" fill="#10B981" opacity="0.3" text-anchor="end">Çñ UX · 2026 t 10 </text>
+</svg>
