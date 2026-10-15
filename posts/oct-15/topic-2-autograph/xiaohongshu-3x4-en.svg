@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#070510;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D0A1C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1440" fill="url(#bg)" />
+
+  <!-- Top visual: motion + governance split -->
+  <rect x="60" y="60" width="960" height="480" rx="20" fill="#0A0818" stroke="#1A1535" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <rect x="60" y="60" width="960" height="52" rx="20" fill="#0F0C20"/>
+  <rect x="60" y="96" width="960" height="16" fill="#0F0C20"/>
+  <circle cx="96" cy="86" r="8" fill="#FF5F57"/>
+  <circle cx="122" cy="86" r="8" fill="#FEBC2E"/>
+  <circle cx="148" cy="86" r="8" fill="#28C840"/>
+  <text x="540" y="91" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#8B5CF6" opacity="0.8" text-anchor="middle">Autograph 2027.0  Motion + MCP</text>
+
+  <!-- Left: motion canvas preview -->
+  <rect x="80" y="132" width="420" height="380" rx="10" fill="#08061A" stroke="#1A1535" stroke-width="1"/>
+  <!-- Composition in progress -->
+  <text x="100" y="158" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#8B5CF6" opacity="0.6">composition ∑ agent building</text>
+  <!-- Logo animation frame -->
+  <rect x="100" y="168" width="380" height="180" rx="8" fill="#0F0C20"/>
+  <circle cx="290" cy="238" r="50" fill="none" stroke="#8B5CF6" stroke-width="2" opacity="0.3"/>
+  <circle cx="290" cy="238" r="35" fill="#8B5CF6" opacity="0.08"/>
+  <circle cx="290" cy="238" r="20" fill="#8B5CF6" opacity="0.15"/>
+  <text x="290" y="246" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#A78BFA" text-anchor="middle" font-weight="700">A</text>
+  <!-- Motion arcs -->
+  <path d="M 140 268 Q 200 198 250 248" stroke="#8B5CF6" stroke-width="2" fill="none" opacity="0.5" stroke-dasharray="6,4"/>
+  <path d="M 330 248 Q 380 198 440 268" stroke="#A78BFA" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="6,4"/>
+  <!-- Text below -->
+  <rect x="140" y="316" width="300" height="10" rx="4" fill="#1A1535" opacity="0.6"/>
+  <rect x="180" y="332" width="220" height="8" rx="3" fill="#1A1535" opacity="0.4"/>
+  <!-- Timeline -->
+  <rect x="100" y="360" width="380" height="10" rx="2" fill="#14103A"/>
+  <rect x="100" y="360" width="150" height="10" rx="2" fill="#8B5CF6" opacity="0.6"/>
+  <rect x="100" y="376" width="380" height="8" rx="2" fill="#A78BFA" opacity="0.1"/>
+  <rect x="100" y="376" width="80" height="8" rx="2" fill="#A78BFA" opacity="0.4"/>
+  <!-- Curve labels -->
+  <text x="100" y="400" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#8B5CF6" opacity="0.7">Bounce</text>
+  <text x="240" y="400" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#A78BFA" opacity="0.6">Elastic ∑ spring(0.5)</text>
+  <!-- Easing preview -->
+  <polyline points="100,490 130,460 160,490 190,458 220,472 250,456 280,452" stroke="#8B5CF6" stroke-width="2.5" fill="none" opacity="0.8"/>
+  <polyline points="300,490 330,450 360,490 390,452 420,462 450,446 480,442" stroke="#A78BFA" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- Right: governance status -->
+  <rect x="520" y="132" width="480" height="380" rx="10" fill="#08061A" stroke="#1A1535" stroke-width="1"/>
+  <text x="540" y="160" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8B5CF6" opacity="0.7" font-weight="600">Design system governance</text>
+  <!-- Status rows -->
+  <rect x="540" y="174" width="440" height="52" rx="8" fill="#0F0C20"/>
+  <circle cx="564" cy="200" r="10" fill="#10B981"/>
+  <text x="582" y="196" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#C4B5FD" font-weight="600">Color</text>
+  <text x="582" y="216" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#C4B5FD" opacity="0.5">brand team owns it</text>
+
+  <rect x="540" y="236" width="440" height="52" rx="8" fill="#0F0C20"/>
+  <circle cx="564" cy="262" r="10" fill="#10B981"/>
+  <text x="582" y="258" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#C4B5FD" font-weight="600">Typography</text>
+  <text x="582" y="278" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#C4B5FD" opacity="0.5">design systems owns it</text>
+
+  <rect x="540" y="298" width="440" height="52" rx="8" fill="#2D1050" stroke="#8B5CF6" stroke-width="1.5"/>
+  <circle cx="564" cy="324" r="10" fill="#F59E0B"/>
+  <text x="582" y="320" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#FCD34D" font-weight="700">Motion</text>
+  <text x="582" y="340" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#FCD34D" opacity="0.7">nobody owns it ê this is the problem</text>
+
+  <text x="540" y="390" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8B5CF6" opacity="0.6">Agents will execute without constraints.</text>
+  <text x="540" y="410" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8B5CF6" opacity="0.5">That's now a DesignOps problem.</text>
+
+  <rect x="540" y="430" width="440" height="60" rx="8" fill="#12093A" stroke="#8B5CF6" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="560" y="455" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#A78BFA" opacity="0.8" font-weight="600">Skills convergence arc: COMPLETE</text>
+  <text x="560" y="475" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#8B5CF6" opacity="0.5">codeífigmaíCMSícomfyívoyageríautograph</text>
+
+  <!-- Accent bar -->
+  <rect x="60" y="572" width="960" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- Tag -->
+  <rect x="60" y="596" width="200" height="32" rx="16" fill="#8B5CF6" opacity="0.12" stroke="#8B5CF6" stroke-width="1"/>
+  <text x="160" y="618" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#8B5CF6" font-weight="600" text-anchor="middle">AUTOGRAPH 2027</text>
+
+  <!-- Main headline -->
+  <text x="60" y="712" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="82" fill="#FAF5FF" font-weight="800" letter-spacing="-3">Motion has</text>
+  <text x="60" y="810" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="82" fill="#A78BFA" font-weight="800" letter-spacing="-3">agent access.</text>
+
+  <text x="60" y="866" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#C4B5FD" opacity="0.8">Now who owns the motion constraints?</text>
+
+  <!-- Points -->
+  <rect x="60" y="900" width="960" height="1" fill="#1A1535"/>
+
+  <rect x="60" y="920" width="44" height="44" rx="8" fill="#8B5CF6" opacity="0.12"/>
+  <text x="82" y="948" font-family="'SF Mono', 'Fira Code', monospace" font-size="16" fill="#8B5CF6" text-anchor="middle" font-weight="700">01</text>
+  <text x="118" y="938" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#FAF5FF" font-weight="600">Claude + ChatGPT build inside the app.</text>
+  <text x="118" y="962" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#C4B5FD" opacity="0.65">MCP-native. Bounce + Elastic. Responsive layouts.</text>
+
+  <rect x="60" y="988" width="44" height="44" rx="8" fill="#8B5CF6" opacity="0.12"/>
+  <text x="82" y="1016" font-family="'SF Mono', 'Fira Code', monospace" font-size="16" fill="#8B5CF6" text-anchor="middle" font-weight="700">02</text>
+  <text x="118" y="1006" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#FAF5FF" font-weight="600">Skills arc is complete.</text>
+  <text x="118" y="1030" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#C4B5FD" opacity="0.65">Every creative tool layer now has agent access.</text>
+
+  <rect x="60" y="1056" width="44" height="44" rx="8" fill="#8B5CF6" opacity="0.12"/>
+  <text x="82" y="1084" font-family="'SF Mono', 'Fira Code', monospace" font-size="16" fill="#8B5CF6" text-anchor="middle" font-weight="700">03</text>
+  <text x="118" y="1074" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#FAF5FF" font-weight="600">Brief quality = the only bottleneck.</text>
+  <text x="118" y="1098" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#C4B5FD" opacity="0.65">Write like a motion director. Not a prompt engineer.</text>
+
+  <rect x="60" y="1124" width="44" height="44" rx="8" fill="#8B5CF6" opacity="0.12"/>
+  <text x="82" y="1152" font-family="'SF Mono', 'Fira Code', monospace" font-size="16" fill="#8B5CF6" text-anchor="middle" font-weight="700">04</text>
+  <text x="118" y="1142" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#FAF5FF" font-weight="600">Motion DesignOps is now unavoidable.</text>
+  <text x="118" y="1166" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#C4B5FD" opacity="0.65">Nobody owns the motion style library. That changes now.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="1198" width="960" height="1" fill="#1A1535"/>
+
+  <!-- Honest caveat box -->
+  <rect x="60" y="1214" width="960" height="80" rx="12" fill="#08061A" stroke="#1A1535" stroke-width="1"/>
+  <text x="84" y="1240" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8B5CF6" opacity="0.7" font-weight="600">Honest caveat</text>
+  <text x="84" y="1262" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#C4B5FD" opacity="0.55">Free motion-graphics tool, not After Effects at production scale. Agent building a</text>
+  <text x="84" y="1280" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#C4B5FD" opacity="0.55">composition ` understanding motion intent. Taste is still yours.</text>
+
+  <!-- Source + watermark -->
+  <text x="60" y="1410" font-family="'SF Mono', 'Fira Code', monospace" font-size="15" fill="#8B5CF6" opacity="0.45">Autograph 2027.0 ∑ free ∑ maxon.net</text>
+  <text x="1020" y="1410" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#8B5CF6" opacity="0.3" text-anchor="end">Senior UX ∑ Oct 2026</text>
+</svg>
