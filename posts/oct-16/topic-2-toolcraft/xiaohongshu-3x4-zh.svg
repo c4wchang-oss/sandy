@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050C08;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#081508;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34D399;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1440" fill="url(#bg)" />
+
+  <!-- Top visual: Toolcraft agent building a design tool -->
+  <rect x="60" y="60" width="960" height="520" rx="20" fill="#09150C" stroke="#132214" stroke-width="1.5"/>
+
+  <!-- Window chrome -->
+  <rect x="60" y="60" width="960" height="52" rx="20" fill="#0D1F12"/>
+  <rect x="60" y="96" width="960" height="16" fill="#0D1F12"/>
+  <circle cx="96" cy="86" r="8" fill="#FF5F57"/>
+  <circle cx="122" cy="86" r="8" fill="#FEBC2E"/>
+  <circle cx="148" cy="86" r="8" fill="#28C840"/>
+  <text x="540" y="91" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#10B981" opacity="0.7" text-anchor="middle">toolcraft.sh · agent c(ú -åw</text>
+
+  <!-- Toolbar being constructed -->
+  <rect x="80" y="132" width="900" height="40" rx="6" fill="#0A1810"/>
+  <rect x="96" y="142" width="32" height="24" rx="4" fill="#10B981" opacity="0.18" stroke="#10B981" stroke-width="1"/>
+  <text x="112" y="158" font-family="'SF Mono', 'Fira Code', monospace" font-size="14" fill="#10B981" text-anchor="middle">­</text>
+  <rect x="134" y="142" width="32" height="24" rx="4" fill="#0D1F14" stroke="#1A3020" stroke-width="1"/>
+  <text x="150" y="158" font-family="'SF Mono', 'Fira Code', monospace" font-size="14" fill="#3D5A47" text-anchor="middle">ï</text>
+  <rect x="172" y="142" width="32" height="24" rx="4" fill="#0D1F14" stroke="#1A3020" stroke-width="1"/>
+  <text x="188" y="158" font-family="'SF Mono', 'Fira Code', monospace" font-size="14" fill="#3D5A47" text-anchor="middle"></text>
+  <line x1="220" y1="144" x2="220" y2="164" stroke="#0F2016" stroke-width="1"/>
+  <circle cx="238" cy="154" r="9" fill="#10B981"/>
+  <circle cx="262" cy="154" r="9" fill="#3B82F6"/>
+  <circle cx="286" cy="154" r="9" fill="#8B5CF6"/>
+  <circle cx="310" cy="154" r="9" fill="#EF4444"/>
+
+  <rect x="760" y="142" width="210" height="24" rx="5" fill="#10B981" opacity="0.1" stroke="#10B981" stroke-width="1"/>
+  <circle cx="776" cy="154" r="5" fill="#10B981" opacity="0.8"/>
+  <text x="796" y="158" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#10B981" opacity="0.8">agent ú -</text>
+
+  <!-- Canvas area -->
+  <rect x="80" y="178" width="700" height="388" rx="4" fill="#040C06"/>
+  <line x1="290" y1="178" x2="290" y2="566" stroke="#0A1810" stroke-width="1"/>
+  <line x1="500" y1="178" x2="500" y2="566" stroke="#0A1810" stroke-width="1"/>
+  <line x1="80" y1="372" x2="780" y2="372" stroke="#0A1810" stroke-width="1"/>
+
+  <rect x="100" y="198" width="260" height="150" rx="8" fill="#0D2016" stroke="#10B981" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <rect x="118" y="216" width="100" height="12" rx="3" fill="#10B981" opacity="0.4"/>
+  <rect x="118" y="236" width="200" height="7" rx="3" fill="#1A3020" opacity="0.5"/>
+  <rect x="118" y="252" width="170" height="7" rx="3" fill="#1A3020" opacity="0.35"/>
+  <rect x="118" y="276" width="72" height="28" rx="5" fill="#10B981" opacity="0.75"/>
+  <text x="154" y="294" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#050C08" text-anchor="middle" font-weight="600">Í\</text>
+
+  <rect x="400" y="198" width="220" height="90" rx="8" fill="#0A1810" stroke="#1A3020" stroke-width="1"/>
+  <rect x="416" y="216" width="120" height="12" rx="3" fill="#3D5A47" opacity="0.6"/>
+  <rect x="416" y="236" width="180" height="7" rx="3" fill="#1A3020" opacity="0.4"/>
+
+  <polygon points="340,320 348,342 342,340 340,348 338,340 332,342" fill="#10B981" opacity="0.9"/>
+  <rect x="306" y="354" width="170" height="20" rx="4" fill="#10B981" opacity="0.1" stroke="#10B981" stroke-width="1"/>
+  <text x="391" y="368" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#10B981" opacity="0.7" text-anchor="middle">¢å–ºG-...</text>
+
+  <!-- Layer panel -->
+  <rect x="784" y="178" width="196" height="388" rx="4" fill="#060E0A"/>
+  <rect x="784" y="178" width="196" height="32" fill="#0A1810"/>
+  <text x="800" y="199" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#3D5A47">d</text>
+  <rect x="796" y="220" width="168" height="26" rx="4" fill="#10B981" opacity="0.1" stroke="#10B981" stroke-width="1"/>
+  <text x="810" y="237" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#10B981" opacity="0.8">­ aG</text>
+  <rect x="796" y="252" width="168" height="26" rx="4" fill="#0A1810"/>
+  <text x="818" y="269" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#3D5A47">­ L</text>
+  <rect x="796" y="284" width="168" height="26" rx="4" fill="#0A1810"/>
+  <text x="818" y="301" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#3D5A47">ï :</text>
+  <rect x="796" y="316" width="168" height="26" rx="4" fill="#0A1810"/>
+  <text x="818" y="333" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#3D5A47"> d</text>
+
+  <!-- Timeline -->
+  <rect x="80" y="528" width="900" height="44" rx="4" fill="#060E08"/>
+  <rect x="80" y="528" width="900" height="20" fill="#0A1810"/>
+  <text x="96" y="542" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#3D5A47">B“ø</text>
+  <rect x="160" y="558" width="700" height="10" rx="3" fill="#0D1F14" stroke="#132214" stroke-width="1"/>
+  <rect x="160" y="558" width="300" height="10" rx="3" fill="#10B981" opacity="0.25"/>
+  <circle cx="160" cy="563" r="5" fill="#10B981" opacity="0.8"/>
+  <circle cx="260" cy="563" r="5" fill="#10B981" opacity="0.8"/>
+  <circle cx="360" cy="563" r="5" fill="#10B981" opacity="0.6"/>
+  <circle cx="460" cy="563" r="5" fill="#3D5A47" opacity="0.4"/>
+
+  <!-- Visual testing bar -->
+  <rect x="60" y="592" width="960" height="36" rx="0" fill="#081410"/>
+  <circle cx="84" cy="610" r="7" fill="#10B981" opacity="0.8"/>
+  <text x="98" y="614" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#10B981" opacity="0.8">–º,fG · hèN</text>
+  <text x="520" y="614" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#4A7060" opacity="0.7">Ô  · “İ  · J </text>
+
+  <!-- ===== MAIN HEADING ===== -->
+  <text x="60" y="692" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="46" fill="#D1FAE5" font-weight="700" letter-spacing="-2">/ AI (åw</text>
+  <text x="60" y="754" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="46" fill="#D1FAE5" font-weight="700" letter-spacing="-2">/ AI ú åw</text>
+  <rect x="60" y="772" width="680" height="4" rx="2" fill="url(#accent)" opacity="0.7"/>
+
+  <text x="60" y="810" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#6EE7B7" opacity="0.8">Toolcraft · ‹ · Apache-2.0 · 2026 t 10  16 å</text>
+
+  <!-- Key points -->
+  <rect x="60" y="844" width="4" height="68" rx="2" fill="#10B981" opacity="0.8"/>
+  <text x="84" y="866" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#A7F3D0" font-weight="600">01 ŒtÉ(¶Ë\ºsK¶</text>
+  <text x="84" y="888" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">Canvas + toolbar + layer ûq + timeline</text>
+  <text x="84" y="906" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">› ClaudeCursorCodex ú -åw(</text>
+
+  <rect x="60" y="928" width="4" height="68" rx="2" fill="#10B981" opacity="0.8"/>
+  <text x="84" y="950" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#A7F3D0" font-weight="600">02 –º,fG  °„Üu</text>
+  <text x="84" y="972" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">Agent 8ú(`0KM1«¢å–º ô'</text>
+  <text x="84" y="990" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">åwu\d„ÁêÜa/ prompt d</text>
+
+  <rect x="60" y="1012" width="4" height="68" rx="2" fill="#10B981" opacity="0.8"/>
+  <text x="84" y="1034" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#A7F3D0" font-weight="600">03 Skills 6‚'ÚŒt†</text>
+  <text x="84" y="1056" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">¼è/h ’ -åw ’ ² CMS ’</text>
+  <text x="84" y="1074" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">uLbÉ( ’ åwu\,«</text>
+
+  <rect x="60" y="1096" width="4" height="68" rx="2" fill="#10B981" opacity="0.5"/>
+  <text x="84" y="1118" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#A7F3D0" font-weight="600">04 ‹>OL°†ZÁséå</text>
+  <text x="84" y="1140" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">¶Ë -<ï‹'ï|ş'</text>
+  <text x="84" y="1158" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">= ’	ûU framework ı è¼„"Á-zV</text>
+
+  <!-- Best use case box -->
+  <rect x="60" y="1186" width="960" height="60" rx="10" fill="#0A1810" stroke="#132214" stroke-width="1"/>
+  <text x="84" y="1210" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#10B981" font-weight="600"> }„(4o</text>
+  <text x="84" y="1232" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#4A7060">ß¶ + coding agent + Toolcraft = º ¾ºå\Aú „€åwQA ògú</text>
+
+  <text x="60" y="1296" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#1E3A28">2026 t 10  16 å · toolcraft.sh · Apache-2.0 · ö1 = é
+_</text>
+
+  <text x="60" y="1360" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#1E3A28" opacity="0.9">#AI- #‹ #UX- #-åw #AgentŸ #"Á-</text>
+  <text x="60" y="1382" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#1E3A28" opacity="0.9">#_¶Ë #uåw #Toolcraft</text>
+
+  <text x="60" y="1420" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#1E3A28">Senior UX · AI Design Weekly</text>
+</svg>

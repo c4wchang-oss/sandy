@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" width="1080" height="1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050C08;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#081508;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34D399;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1440" fill="url(#bg)" />
+
+  <!-- Top visual section: Figma Specs + Code Layers diagram -->
+  <rect x="60" y="60" width="960" height="520" rx="20" fill="#09150C" stroke="#132214" stroke-width="1.5"/>
+
+  <!-- Window chrome -->
+  <rect x="60" y="60" width="960" height="52" rx="20" fill="#0D1F12"/>
+  <rect x="60" y="96" width="960" height="16" fill="#0D1F12"/>
+  <circle cx="96" cy="86" r="8" fill="#FF5F57"/>
+  <circle cx="122" cy="86" r="8" fill="#FEBC2E"/>
+  <circle cx="148" cy="86" r="8" fill="#28C840"/>
+  <text x="540" y="91" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#10B981" opacity="0.7" text-anchor="middle">Figma · Specs + Code Layers · Open Beta</text>
+
+  <!-- Specs panel (left) -->
+  <rect x="80" y="132" width="420" height="428" rx="10" fill="#060E08" stroke="#0F2016" stroke-width="1"/>
+  <!-- Specs header -->
+  <rect x="80" y="132" width="420" height="36" rx="10" fill="#0A1810"/>
+  <rect x="80" y="152" width="420" height="16" fill="#0A1810"/>
+  <text x="100" y="154" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#6EE7B7" opacity="0.7">decisions.spec</text>
+  <rect x="448" y="137" width="50" height="18" rx="4" fill="#10B981" opacity="0.12"/>
+  <text x="473" y="150" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" fill="#10B981" opacity="0.7" text-anchor="middle">Spec</text>
+
+  <!-- Spec content -->
+  <text x="100" y="190" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#D1FAE5" font-weight="600"># Auth Flow Decisions</text>
+  <text x="100" y="212" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#4A7060">Updated by agent · Oct 15</text>
+
+  <!-- Embedded frame -->
+  <rect x="100" y="228" width="200" height="110" rx="6" fill="#0E2018" stroke="#143020" stroke-width="1.5"/>
+  <text x="110" y="244" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="8" fill="#10B981" opacity="0.5">— Frame: Social Login</text>
+  <rect x="110" y="252" width="180" height="24" rx="4" fill="#10B981" opacity="0.15" stroke="#10B981" stroke-width="1"/>
+  <text x="200" y="268" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#10B981" text-anchor="middle">Continue with Google</text>
+  <rect x="110" y="282" width="180" height="24" rx="4" fill="#0D1F14" stroke="#1A3020" stroke-width="1"/>
+  <text x="200" y="298" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#3D5A47" text-anchor="middle">Continue with Apple</text>
+  <rect x="100" y="228" width="126" height="14" rx="4" fill="#10B981" opacity="0.1"/>
+  <text x="106" y="239" font-family="'SF Mono', 'Fira Code', monospace" font-size="7" fill="#10B981" opacity="0.7">embedded · live link</text>
+
+  <!-- Markdown text lines -->
+  <text x="100" y="360" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#A7F3D0" opacity="0.8">## Decision: Skip email verify</text>
+  <rect x="100" y="374" width="360" height="8" rx="2" fill="#1A3020" opacity="0.4"/>
+  <rect x="100" y="390" width="300" height="8" rx="2" fill="#1A3020" opacity="0.3"/>
+  <rect x="100" y="406" width="340" height="8" rx="2" fill="#1A3020" opacity="0.35"/>
+
+  <!-- Agent bar -->
+  <rect x="80" y="522" width="420" height="30" rx="0" fill="#081410"/>
+  <rect x="80" y="532" width="420" height="20" rx="0" fill="#081410"/>
+  <rect x="80" y="532" width="420" height="8" rx="0" fill="#081410"/>
+  <text x="100" y="548" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" fill="#10B981" opacity="0.4">copy link ’ agent receives all context</text>
+
+  <!-- Bidirectional arrows between panels -->
+  <line x1="540" y1="320" x2="580" y2="320" stroke="#10B981" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6"/>
+  <polygon points="576,314 588,320 576,326" fill="#10B981" opacity="0.7"/>
+  <polygon points="544,314 532,320 544,326" fill="#10B981" opacity="0.7"/>
+
+  <!-- Code Layers panel (right) -->
+  <rect x="600" y="132" width="400" height="428" rx="10" fill="#060E08" stroke="#0F2016" stroke-width="1"/>
+  <!-- Code layer header -->
+  <rect x="600" y="132" width="400" height="36" rx="10" fill="#0D2016"/>
+  <rect x="600" y="152" width="400" height="16" fill="#0D2016"/>
+  <text x="620" y="154" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#6EE7B7" opacity="0.8">auth-flow · running</text>
+  <circle cx="972" cy="150" r="5" fill="#10B981" opacity="0.8"/>
+
+  <!-- Code content -->
+  <text x="616" y="190" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#10B981" opacity="0.9">function AuthFlow() {</text>
+  <text x="624" y="208" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#6EE7B7" opacity="0.7">  const [step] =</text>
+  <text x="624" y="226" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#6EE7B7" opacity="0.7">    useState("social");</text>
+  <text x="616" y="248" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#10B981" opacity="0.9">  return &lt;SocialLogin /&gt;;</text>
+  <text x="616" y="266" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#10B981" opacity="0.9">}</text>
+
+  <!-- Extract designs button -->
+  <rect x="616" y="286" width="160" height="26" rx="5" fill="#10B981" opacity="0.12" stroke="#10B981" stroke-width="1" opacity="0.6"/>
+  <text x="696" y="303" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#10B981" opacity="0.8" text-anchor="middle">— Extract designs</text>
+
+  <!-- Mini preview of running output -->
+  <rect x="616" y="328" width="368" height="200" rx="6" fill="#081410" stroke="#143020" stroke-width="1"/>
+  <rect x="628" y="342" width="344" height="32" rx="4" fill="#10B981" opacity="0.15" stroke="#10B981" stroke-width="1"/>
+  <text x="800" y="362" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#10B981" text-anchor="middle">Continue with Google</text>
+  <rect x="628" y="382" width="344" height="32" rx="4" fill="#0D1F14" stroke="#1A3020" stroke-width="1"/>
+  <text x="800" y="402" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#3D5A47" text-anchor="middle">Continue with Apple</text>
+  <!-- Live badge -->
+  <rect x="910" y="334" width="60" height="18" rx="4" fill="#10B981" opacity="0.15"/>
+  <circle cx="922" cy="343" r="3" fill="#10B981" opacity="0.9"/>
+  <text x="929" y="347" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="9" fill="#10B981" opacity="0.9">live</text>
+
+  <!-- ===== MAIN HEADING ===== -->
+  <text x="60" y="648" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="52" fill="#D1FAE5" font-weight="700" letter-spacing="-2">The brief is</text>
+  <text x="60" y="710" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="52" fill="#D1FAE5" font-weight="700" letter-spacing="-2">inside the file.</text>
+  <rect x="60" y="728" width="680" height="4" rx="2" fill="url(#accent)" opacity="0.7"/>
+
+  <text x="60" y="766" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#6EE7B7" opacity="0.8">Figma Specs + Code Layers · Open Beta</text>
+
+  <!-- Key points list -->
+  <!-- Point 1 -->
+  <rect x="60" y="800" width="4" height="68" rx="2" fill="#10B981" opacity="0.8"/>
+  <text x="84" y="822" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#A7F3D0" font-weight="600">01 Specs = the agent's brief</text>
+  <text x="84" y="844" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">Copy link ’ agent gets Markdown, frames, diagrams,</text>
+  <text x="84" y="862" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">Code Connect snippets. Not a description. The structure.</text>
+
+  <!-- Point 2 -->
+  <rect x="60" y="884" width="4" height="68" rx="2" fill="#10B981" opacity="0.8"/>
+  <text x="84" y="906" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#A7F3D0" font-weight="600">02 Code Layers ’ bidirectional</text>
+  <text x="84" y="928" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">Code on the canvas. "Extract designs" converts back</text>
+  <text x="84" y="946" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">to editable Figma layers. One shared artifact.</text>
+
+  <!-- Point 3 -->
+  <rect x="60" y="968" width="4" height="68" rx="2" fill="#10B981" opacity="0.8"/>
+  <text x="84" y="990" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#A7F3D0" font-weight="600">03 Brief quality = quality ceiling</text>
+  <text x="84" y="1012" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">Spec-writing is now a DesignOps discipline.</text>
+  <text x="84" y="1030" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">Not documentation. The AI brief format.</text>
+
+  <!-- Point 4 -->
+  <rect x="60" y="1052" width="4" height="68" rx="2" fill="#10B981" opacity="0.6"/>
+  <text x="84" y="1074" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#A7F3D0" font-weight="600">04 20 new MCP integrations</text>
+  <text x="84" y="1096" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">Dia, OpenCode, Junie by JetBrains, Meta Muse.</text>
+  <text x="84" y="1114" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4A7060">Figma MCP is infrastructure now.</text>
+
+  <!-- Credit note box -->
+  <rect x="60" y="1146" width="960" height="60" rx="10" fill="#0A1810" stroke="#132214" stroke-width="1"/>
+  <text x="84" y="1170" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#10B981" font-weight="600">Evaluation window</text>
+  <text x="84" y="1192" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#4A7060">Code Layers free on paid plans through Nov 4, 2026. Use it on a real project.</text>
+
+  <!-- Date -->
+  <text x="60" y="1256" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#1E3A28">Oct 15, 2026 · Config India 2026</text>
+
+  <!-- Hashtags -->
+  <text x="60" y="1340" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#1E3A28" opacity="0.9">#Figma #UXDesign #AIDesign #DesignSystems #CodeLayers #FigmaSpecs #DesignOps</text>
+  <text x="60" y="1362" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#1E3A28" opacity="0.9">#ProductDesign #AgentNative</text>
+
+  <!-- Bottom attribution -->
+  <text x="60" y="1410" font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#1E3A28">Senior UX · AI Design Weekly</text>
+</svg>
