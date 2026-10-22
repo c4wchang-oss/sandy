@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#050d1a"/>
+      <stop offset="100%" style="stop-color:#0d1e2d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg6)"/>
+
+  <!-- Top label bar -->
+  <rect x="0" y="0" width="900" height="6" fill="#42b4f5"/>
+
+  <!-- Category -->
+  <text x="60" y="70" font-family="'SF Mono', 'Courier New', monospace" font-size="12" fill="#42b4f5" letter-spacing="3">AI UX · OCT 22 · SENIOR UX LENS</text>
+
+  <!-- Tool name badge -->
+  <rect x="60" y="95" width="240" height="32" rx="16" fill="#0a1e30"/>
+  <text x="180" y="117" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#42b4f5" text-anchor="middle" letter-spacing="1">OVREN LIVE PREVIEW</text>
+
+  <!-- Main headline -->
+  <text x="60" y="210" font-family="'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="800" fill="#ffffff">See it</text>
+  <text x="60" y="280" font-family="'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="800" fill="#ffffff">before</text>
+  <text x="60" y="350" font-family="'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="800" fill="#42b4f5">it ships.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="385" width="60" height="3" fill="#42b4f5" opacity="0.5"/>
+
+  <!-- 3 insight points -->
+  <!-- Point 1 -->
+  <rect x="60" y="415" width="780" height="110" rx="8" fill="#0a1620" stroke="#1a3050" stroke-width="1"/>
+  <text x="84" y="450" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#42b4f5" letter-spacing="2" font-weight="600">` APPROVAL MODEL CHANGED</text>
+  <text x="84" y="476" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#dddddd">When agent executes, your approval</text>
+  <text x="84" y="498" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#dddddd">sentence is the brief. Precision matters.</text>
+
+  <!-- Point 2 -->
+  <rect x="60" y="543" width="780" height="110" rx="8" fill="#0a1620" stroke="#1a3050" stroke-width="1"/>
+  <text x="84" y="578" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#42b4f5" letter-spacing="2" font-weight="600">a HIGHER STANDARD THAN SCREENSHOTS</text>
+  <text x="84" y="604" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#dddddd">Click through the real interactive page.</text>
+  <text x="84" y="626" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#dddddd">Usability validation in the approval step.</text>
+
+  <!-- Point 3 -->
+  <rect x="60" y="671" width="780" height="110" rx="8" fill="#0a1620" stroke="#1a3050" stroke-width="1"/>
+  <text x="84" y="706" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#42b4f5" letter-spacing="2" font-weight="600">b DESIGN GOVERNANCE GAP</text>
+  <text x="84" y="732" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#dddddd">Who writes precise change descriptions</text>
+  <text x="84" y="754" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#dddddd">for AI-executed website updates?</text>
+
+  <!-- Connection to Inflight -->
+  <rect x="60" y="820" width="780" height="100" rx="8" fill="#0d1608" stroke="#1a3010" stroke-width="1"/>
+  <text x="84" y="855" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7ee88a" letter-spacing="2">CONNECTS TO: INFLIGHT (OCT 21)</text>
+  <text x="84" y="880" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#aaaaaa">Inflight structured review ’ Ovren</text>
+  <text x="84" y="902" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#aaaaaa">structures the approval gate. Loop closed.</text>
+
+  <!-- Honest limits -->
+  <rect x="60" y="960" width="780" height="110" rx="8" fill="#0f0f0f" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="84" y="995" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#777777" letter-spacing="2">HONEST LIMITS</text>
+  <text x="84" y="1020" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#666666">Visible-only preview · Backend = text report</text>
+  <text x="84" y="1044" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#666666">Quality ceiling = precision of your description</text>
+
+  <!-- Footer -->
+  <rect x="0" y="1165" width="900" height="1" fill="#1a2a3a"/>
+  <text x="60" y="1190" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#444444">Senior UX perspective</text>
+  <text x="840" y="1190" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#444444" text-anchor="end">@c4wchang</text>
+</svg>

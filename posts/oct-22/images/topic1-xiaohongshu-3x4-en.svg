@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f0f"/>
+      <stop offset="100%" style="stop-color:#1c1c1c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg2)"/>
+
+  <!-- Top label bar -->
+  <rect x="0" y="0" width="900" height="6" fill="#c8f542"/>
+
+  <!-- Category -->
+  <text x="60" y="70" font-family="'SF Mono', 'Courier New', monospace" font-size="12" fill="#c8f542" letter-spacing="3">AI UX · OCT 22 · SENIOR UX LENS</text>
+
+  <!-- Tool name badge -->
+  <rect x="60" y="95" width="200" height="32" rx="16" fill="#1e2a14"/>
+  <text x="160" y="117" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#c8f542" text-anchor="middle" letter-spacing="1">USEIT STUDIO</text>
+
+  <!-- Main headline -->
+  <text x="60" y="210" font-family="'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="800" fill="#ffffff">AI for</text>
+  <text x="60" y="280" font-family="'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="800" fill="#ffffff">things you</text>
+  <text x="60" y="350" font-family="'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="800" fill="#c8f542">can hold.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="385" width="60" height="3" fill="#c8f542" opacity="0.5"/>
+
+  <!-- 4 feature cards -->
+  <!-- Card 1 -->
+  <rect x="60" y="415" width="370" height="130" rx="8" fill="#161616" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="84" y="450" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#c8f542" letter-spacing="2" font-weight="600">MANUFACTURING</text>
+  <text x="84" y="475" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">Real dielines, bleed,</text>
+  <text x="84" y="497" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">cut lines natively.</text>
+  <text x="84" y="525" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#666666">Not just aesthetic choices.</text>
+
+  <!-- Card 2 -->
+  <rect x="470" y="415" width="370" height="130" rx="8" fill="#161616" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="494" y="450" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#c8f542" letter-spacing="2" font-weight="600">SELECTIVE EDIT</text>
+  <text x="494" y="475" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">Change one element.</text>
+  <text x="494" y="497" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">Rest stays intact.</text>
+  <text x="494" y="525" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#666666">No full canvas regeneration.</text>
+
+  <!-- Card 3 -->
+  <rect x="60" y="565" width="370" height="130" rx="8" fill="#161616" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="84" y="600" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#c8f542" letter-spacing="2" font-weight="600">3D PREVIEW</text>
+  <text x="84" y="625" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">See the folded box</text>
+  <text x="84" y="647" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">before you commit.</text>
+  <text x="84" y="675" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#666666">Live 3D preview with real materials.</text>
+
+  <!-- Card 4 -->
+  <rect x="470" y="565" width="370" height="130" rx="8" fill="#161616" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="494" y="600" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#c8f542" letter-spacing="2" font-weight="600">EDITABLE OUTPUT</text>
+  <text x="494" y="625" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">Opens in Illustrator.</text>
+  <text x="494" y="647" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">Conversation-driven.</text>
+  <text x="494" y="675" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#666666">Starting position, not dead export.</text>
+
+  <!-- Quote block -->
+  <rect x="60" y="730" width="780" height="120" rx="8" fill="#1e2a14"/>
+  <text x="84" y="768" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#c8f542" letter-spacing="1">FOUNDER'S NOTE</text>
+  <text x="84" y="795" font-family="'Georgia', 'Times New Roman', serif" font-size="19" fill="#e0e0e0" font-style="italic">"The agent works directly in design software</text>
+  <text x="84" y="820" font-family="'Georgia', 'Times New Roman', serif" font-size="19" fill="#e0e0e0" font-style="italic">instead of generating a picture."</text>
+
+  <!-- Convergence arc summary -->
+  <text x="60" y="900" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555555" letter-spacing="2">EDITABLE OUTPUT CONVERGENCE  NOW COMPLETE</text>
+  <text x="60" y="930" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#555555">Images ’ Animation ’ Video ’ Brand design ’ </text>
+  <text x="60" y="956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8f542" font-weight="600">Physical design </text>
+
+  <!-- Open question -->
+  <rect x="60" y="990" width="780" height="100" rx="8" fill="#0f0f0f" stroke="#333333" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="84" y="1025" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#888888">OPEN QUESTION</text>
+  <text x="84" y="1052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#cccccc">Who owns the prepress brief</text>
+  <text x="84" y="1074" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#cccccc">in an AI-assisted workflow?</text>
+
+  <!-- Footer -->
+  <rect x="0" y="1165" width="900" height="1" fill="#222222"/>
+  <text x="60" y="1190" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#444444">Senior UX perspective</text>
+  <text x="840" y="1190" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#444444" text-anchor="end">@c4wchang</text>
+</svg>
