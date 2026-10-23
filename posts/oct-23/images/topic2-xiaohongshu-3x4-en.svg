@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f0e"/>
+      <stop offset="100%" style="stop-color:#1c1c18"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg4)"/>
+
+  <!-- Top label bar -->
+  <rect x="0" y="0" width="900" height="6" fill="#f5a623"/>
+
+  <!-- Category -->
+  <text x="60" y="70" font-family="'SF Mono', 'Courier New', monospace" font-size="12" fill="#f5a623" letter-spacing="3">DESIGN SYSTEMS  OCT 23  SENIOR UX LENS</text>
+
+  <!-- Tool name badge -->
+  <rect x="60" y="95" width="280" height="32" rx="16" fill="#1a1200"/>
+  <text x="200" y="117" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#f5a623" text-anchor="middle" letter-spacing="1">CHROMATIC COMPONENTOWNERS</text>
+
+  <!-- Main headline -->
+  <text x="60" y="210" font-family="'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="800" fill="#ffffff">Component</text>
+  <text x="60" y="278" font-family="'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="800" fill="#ffffff">ownership</text>
+  <text x="60" y="346" font-family="'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="800" fill="#f5a623">as a file.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="378" width="60" height="3" fill="#f5a623" opacity="0.5"/>
+
+  <!-- Code example block -->
+  <rect x="60" y="408" width="780" height="175" rx="8" fill="#111111"/>
+  <text x="84" y="438" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#555555"># COMPONENTOWNERS  who reviews what</text>
+  <text x="84" y="462" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#888888">*</text>
+  <text x="124" y="462" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#9edaff">kyle@acme.com          </text>
+  <text x="540" y="462" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#555555">ê fallback, put FIRST</text>
+  <text x="84" y="486" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#c8a0ff">Forms/**</text>
+  <text x="224" y="486" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#9edaff">dom@acme.com</text>
+  <text x="84" y="510" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#c8a0ff">Forms/Input/*</text>
+  <text x="280" y="510" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#9edaff">varun@acme.com</text>
+  <rect x="84" y="528" width="648" height="1" fill="#2a2a2a"/>
+  <text x="84" y="556" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#f5a623">matches Storybook paths, not file paths  last rule wins</text>
+
+  <!-- 4 quick-facts -->
+  <!-- Fact 1 -->
+  <rect x="60" y="608" width="370" height="115" rx="8" fill="#141410" stroke="#2a2a1a" stroke-width="1"/>
+  <text x="84" y="641" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#f5a623" letter-spacing="2" font-weight="600">THE GOVERNANCE LAYER</text>
+  <text x="84" y="666" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#ffffff" font-weight="500">DS taxonomy, not</text>
+  <text x="84" y="686" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#ffffff" font-weight="500">directory tree.</text>
+  <text x="84" y="710" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555555">Right abstraction layer.</text>
+
+  <!-- Fact 2 -->
+  <rect x="470" y="608" width="370" height="115" rx="8" fill="#141410" stroke="#2a2a1a" stroke-width="1"/>
+  <text x="494" y="641" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#f5a623" letter-spacing="2" font-weight="600">SILENT FAILURE RISK</text>
+  <text x="494" y="666" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#ffffff" font-weight="500">No validation output.</text>
+  <text x="494" y="686" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#ffffff" font-weight="500">Test before trusting.</text>
+  <text x="494" y="710" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555555">Typo = silently ignored.</text>
+
+  <!-- Fact 3 -->
+  <rect x="60" y="743" width="370" height="115" rx="8" fill="#141410" stroke="#2a2a1a" stroke-width="1"/>
+  <text x="84" y="776" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#f5a623" letter-spacing="2" font-weight="600">PREREQUISITE</text>
+  <text x="84" y="801" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#ffffff" font-weight="500">Needs Storybook</text>
+  <text x="84" y="821" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#ffffff" font-weight="500">foundation first.</text>
+  <text x="84" y="845" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555555">CLI 18.8.0+ required.</text>
+
+  <!-- Fact 4 -->
+  <rect x="470" y="743" width="370" height="115" rx="8" fill="#141410" stroke="#2a2a1a" stroke-width="1"/>
+  <text x="494" y="776" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#f5a623" letter-spacing="2" font-weight="600">STEADYSNAP PAIRING</text>
+  <text x="494" y="801" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#ffffff" font-weight="500">Flaky tests stabilized</text>
+  <text x="494" y="821" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#ffffff" font-weight="500">before UI Review.</text>
+  <text x="494" y="845" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555555">Signal quality matters.</text>
+
+  <!-- Governance quote -->
+  <rect x="60" y="886" width="780" height="110" rx="8" fill="#1a1200"/>
+  <text x="84" y="921" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#f5a623" letter-spacing="1">THE SHIFT</text>
+  <text x="84" y="948" font-family="'Georgia', 'Times New Roman', serif" font-size="19" fill="#e0e0e0" font-style="italic">"Social process doesn't scale at agent pace.</text>
+  <text x="84" y="972" font-family="'Georgia', 'Times New Roman', serif" font-size="19" fill="#e0e0e0" font-style="italic">Structural assignment does."</text>
+
+  <!-- Open question -->
+  <rect x="60" y="1022" width="780" height="80" rx="8" fill="#0f0f0e" stroke="#2a2a1a" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="84" y="1054" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#888888">THE TEST</text>
+  <text x="84" y="1080" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#cccccc">Can you name the owner of Button/Primary in 30 seconds?</text>
+
+  <!-- Footer -->
+  <rect x="0" y="1165" width="900" height="1" fill="#222222"/>
+  <text x="60" y="1190" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#444444">Senior UX perspective</text>
+  <text x="840" y="1190" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#444444" text-anchor="end">@c4wchang</text>
+</svg>
