@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#090910"/>
+      <stop offset="100%" style="stop-color:#141420"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg2)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="900" height="6" fill="#6ee7f7"/>
+
+  <!-- Category -->
+  <text x="60" y="70" font-family="'SF Mono', 'Courier New', monospace" font-size="12" fill="#6ee7f7" letter-spacing="3">AI UX  OCT 23  SENIOR UX LENS</text>
+
+  <!-- Tool name badge -->
+  <rect x="60" y="95" width="260" height="32" rx="16" fill="#0e1e24"/>
+  <text x="190" y="117" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#6ee7f7" text-anchor="middle" letter-spacing="1">SPLINE FOR CHATGPT</text>
+
+  <!-- Main headline -->
+  <text x="60" y="215" font-family="'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="800" fill="#ffffff">Design tool</text>
+  <text x="60" y="283" font-family="'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="800" fill="#ffffff">inside</text>
+  <text x="60" y="351" font-family="'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="800" fill="#6ee7f7">the chat.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="382" width="60" height="3" fill="#6ee7f7" opacity="0.5"/>
+
+  <!-- 4 feature cards -->
+  <!-- Card 1 -->
+  <rect x="60" y="412" width="370" height="140" rx="8" fill="#0d0d18" stroke="#1e1e38" stroke-width="1"/>
+  <text x="84" y="448" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#6ee7f7" letter-spacing="2" font-weight="600">REAL EDITOR IN PANEL</text>
+  <text x="84" y="474" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">Not a screenshot.</text>
+  <text x="84" y="496" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">The actual editor.</text>
+  <text x="84" y="530" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#555555">Signed in as you, mid-conversation.</text>
+
+  <!-- Card 2 -->
+  <rect x="470" y="412" width="370" height="140" rx="8" fill="#0d0d18" stroke="#1e1e38" stroke-width="1"/>
+  <text x="494" y="448" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#6ee7f7" letter-spacing="2" font-weight="600">FILE-LEVEL SELF-REVIEW</text>
+  <text x="494" y="474" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">AI reads your edits</text>
+  <text x="494" y="496" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">before continuing.</text>
+  <text x="494" y="530" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#555555">No bulldozing manual work.</text>
+
+  <!-- Card 3 -->
+  <rect x="60" y="572" width="370" height="140" rx="8" fill="#0d0d18" stroke="#1e1e38" stroke-width="1"/>
+  <text x="84" y="608" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#6ee7f7" letter-spacing="2" font-weight="600">SCREENSHOT SELF-CHECK</text>
+  <text x="84" y="634" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">Agent screenshots own</text>
+  <text x="84" y="656" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">output before handing back.</text>
+  <text x="84" y="690" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#555555">4-step trust loop from v1.</text>
+
+  <!-- Card 4 -->
+  <rect x="470" y="572" width="370" height="140" rx="8" fill="#0d0d18" stroke="#1e1e38" stroke-width="1"/>
+  <text x="494" y="608" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#6ee7f7" letter-spacing="2" font-weight="600">2D UI WORKS TOO</text>
+  <text x="494" y="634" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">Hana canvas: landing</text>
+  <text x="494" y="656" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="500">pages, app screens, UI.</text>
+  <text x="494" y="690" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#555555">Not just 3D generation.</text>
+
+  <!-- Quote block -->
+  <rect x="60" y="745" width="780" height="120" rx="8" fill="#0e1e24"/>
+  <text x="84" y="782" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#6ee7f7" letter-spacing="1">THE QUESTION THIS RAISES</text>
+  <text x="84" y="810" font-family="'Georgia', 'Times New Roman', serif" font-size="19" fill="#e0e0e0" font-style="italic">"When your design tool lives inside</text>
+  <text x="84" y="836" font-family="'Georgia', 'Times New Roman', serif" font-size="19" fill="#e0e0e0" font-style="italic">a conversation, where does the file live?"</text>
+
+  <!-- Canvas arc summary -->
+  <text x="60" y="918" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#555555" letter-spacing="2">CANVAS-AS-CONTEXT  5 CONFIRMED INSTANCES</text>
+  <text x="60" y="948" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#555555">Doop  MagicPath  Shopify Canvas  MagicOS  </text>
+  <text x="60" y="972" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#6ee7f7" font-weight="600">Spline for ChatGPT</text>
+
+  <!-- Open question -->
+  <rect x="60" y="1008" width="780" height="92" rx="8" fill="#090910" stroke="#1e1e38" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="84" y="1044" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#888888">SPLINE'S ANSWER (THE RIGHT ONE)</text>
+  <text x="84" y="1072" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#cccccc">The file is the file. Lock-in lives in formats.</text>
+
+  <!-- Footer -->
+  <rect x="0" y="1165" width="900" height="1" fill="#1a1a2e"/>
+  <text x="60" y="1190" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#444444">Senior UX perspective</text>
+  <text x="840" y="1190" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#444444" text-anchor="end">@c4wchang</text>
+</svg>

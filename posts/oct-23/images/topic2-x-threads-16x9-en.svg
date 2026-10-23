@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d0d"/>
+      <stop offset="100%" style="stop-color:#1a1a1a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg3)"/>
+
+  <!-- Left accent bar -->
+  <rect x="64" y="64" width="3" height="547" fill="#f5a623" opacity="0.9"/>
+
+  <!-- Category label -->
+  <text x="88" y="108" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#f5a623" letter-spacing="3" opacity="0.8">DESIGN SYSTEMS  OCT 23, 2026</text>
+
+  <!-- Main headline -->
+  <text x="88" y="200" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">Component ownership</text>
+  <text x="88" y="260" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="52" font-weight="700" fill="#f5a623" letter-spacing="-1">as a text file.</text>
+
+  <!-- Divider -->
+  <rect x="88" y="288" width="80" height="2" fill="#f5a623" opacity="0.6"/>
+
+  <!-- Sub-headline -->
+  <text x="88" y="338" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="22" font-weight="400" fill="#aaaaaa">Chromatic COMPONENTOWNERS: auto-assign</text>
+  <text x="88" y="366" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="22" font-weight="400" fill="#aaaaaa">the right reviewer when AI touches your DS.</text>
+
+  <!-- Code block example -->
+  <rect x="88" y="400" width="520" height="160" rx="6" fill="#111111"/>
+  <text x="108" y="428" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#555555"># COMPONENTOWNERS</text>
+  <text x="108" y="452" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#777777">*</text>
+  <text x="140" y="452" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#9edaff">kyle@acme.com</text>
+  <text x="108" y="474" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#c8a0ff">Forms/**</text>
+  <text x="200" y="474" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#9edaff">dom@acme.com</text>
+  <text x="108" y="496" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#c8a0ff">Forms/Input/*</text>
+  <text x="252" y="496" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#9edaff">varun@acme.com</text>
+  <text x="108" y="524" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#f5a623">^ last match wins  put * at TOP</text>
+  <text x="108" y="548" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#555555">matches Storybook paths, not file paths</text>
+
+  <!-- Right side governance insight -->
+  <text x="680" y="210" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" font-weight="600" fill="#f5a623" letter-spacing="2" opacity="0.8">WHY NOW</text>
+  <text x="680" y="238" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#777777">AI agents are modifying</text>
+  <text x="680" y="260" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#777777">your design system.</text>
+  <text x="680" y="290" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#777777">Social process doesn't</text>
+  <text x="680" y="312" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#777777">scale at agent pace.</text>
+  <text x="680" y="348" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" font-weight="700" fill="#f5a623">Structural file does.</text>
+
+  <!-- SteadySnap note -->
+  <rect x="680" y="390" width="456" height="80" rx="6" fill="#1a1200" opacity="0.8"/>
+  <text x="700" y="418" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#f5a623" letter-spacing="1">ALSO: STEADYSNAP</text>
+  <text x="700" y="442" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#aaaaaa">Stabilizes flaky tests before UI Review.</text>
+  <text x="700" y="462" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#aaaaaa">Better signal = reviewers actually read.</text>
+
+  <!-- Bottom tag line -->
+  <text x="88" y="612" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="16" fill="#555555">Senior UX perspective  chromatic.com</text>
+
+  <!-- Handle -->
+  <text x="1136" y="612" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#444444" text-anchor="end">@c4wchang</text>
+</svg>
