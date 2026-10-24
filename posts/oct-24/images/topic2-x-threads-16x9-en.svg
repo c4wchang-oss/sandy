@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#0e0a18"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg1)"/>
+
+  <!-- Left accent bar  purple/violet for design model theme -->
+  <rect x="64" y="64" width="3" height="547" fill="#a78bfa" opacity="0.9"/>
+
+  <!-- Category label -->
+  <text x="88" y="108" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#a78bfa" letter-spacing="3" opacity="0.8">AI UX  OCT 24, 2026</text>
+
+  <!-- Main headline -->
+  <text x="88" y="200" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">Trained on templates,</text>
+  <text x="88" y="262" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="52" font-weight="700" fill="#a78bfa" letter-spacing="-1">not photographs.</text>
+
+  <!-- Divider -->
+  <rect x="88" y="292" width="80" height="2" fill="#a78bfa" opacity="0.6"/>
+
+  <!-- Sub-headline -->
+  <text x="88" y="344" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="22" font-weight="400" fill="#aaaaaa">Canva Craft: IA before rendering. Composition</text>
+  <text x="88" y="374" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="22" font-weight="400" fill="#aaaaaa">plan first, pixels second. Design literacy = model weights.</text>
+
+  <!-- Key insight block -->
+  <rect x="88" y="412" width="660" height="120" rx="6" fill="#110e1c" opacity="0.9"/>
+  <text x="112" y="449" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" font-weight="600" fill="#a78bfa" letter-spacing="1">THE QUESTION THAT MATTERS</text>
+  <text x="112" y="478" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" font-weight="400" fill="#e8e8e8">Not: "which model renders better textures?"</text>
+  <text x="112" y="505" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" font-weight="400" fill="#ffffff">"Which model knows where the hierarchy</text>
+  <text x="112" y="528" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" font-weight="400" fill="#ffffff">goes before rendering anything?"</text>
+
+  <!-- Design model category (right side) -->
+  <text x="820" y="190" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" font-weight="600" fill="#a78bfa" letter-spacing="2" opacity="0.8">DESIGN MODEL CATEGORY</text>
+  <text x="820" y="218" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#444444">Image models ’ pixels (end)</text>
+  <text x="820" y="242" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#444444">Design models ’ starting position</text>
+  <rect x="820" y="258" width="320" height="1" fill="#333333"/>
+  <text x="820" y="285" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#666666">Linearity Vector 1.0  Oct 17</text>
+  <text x="820" y="311" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#666666">Vyb / Coco Labs  Oct 21</text>
+  <text x="820" y="341" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="16" font-weight="700" fill="#a78bfa">Canva Craft  Oct 22  #3</text>
+
+  <!-- Two-stage architecture label -->
+  <text x="820" y="400" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#a78bfa" letter-spacing="2">TWO-STAGE ARCHITECTURE</text>
+  <text x="820" y="424" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#777777">Plan layout ’ Render pixels</text>
+  <text x="820" y="448" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#555555">Wrong plan = wrong image. Traceable.</text>
+
+  <!-- Bottom tag line -->
+  <text x="88" y="612" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="16" fill="#555555">Senior UX perspective  canva.com/newsroom/news/canva-craft</text>
+
+  <!-- Handle -->
+  <text x="1136" y="612" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#444444" text-anchor="end">@c4wchang</text>
+</svg>

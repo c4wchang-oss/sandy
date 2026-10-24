@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#14100a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg1)"/>
+
+  <!-- Top accent bar -->
+  <rect x="60" y="60" width="780" height="3" fill="#f5a623" opacity="0.7"/>
+
+  <!-- Category label -->
+  <text x="60" y="116" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#f5a623" letter-spacing="3" opacity="0.8">AI UX  OCT 24, 2026</text>
+
+  <!-- Tool name badge -->
+  <rect x="60" y="140" width="290" height="38" rx="4" fill="#1a1208"/>
+  <text x="80" y="164" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" font-weight="600" fill="#f5a623">Ideogram Vector 1.0</text>
+
+  <!-- Main headline -->
+  <text x="60" y="250" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-2">AI logos</text>
+  <text x="60" y="325" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="62" font-weight="700" fill="#f5a623" letter-spacing="-2">in SVG.</text>
+  <text x="60" y="400" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-2">Finally.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="430" width="100" height="2" fill="#f5a623" opacity="0.6"/>
+
+  <!-- Description -->
+  <text x="60" y="480" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="20" fill="#aaaaaa">Text-to-vector: describe ’ editable SVG</text>
+  <text x="60" y="508" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="20" fill="#aaaaaa">Image-to-vector: raster ’ real paths</text>
+  <text x="60" y="536" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="20" fill="#aaaaaa">$0.10$0.32 per generation</text>
+
+  <!-- Separator -->
+  <rect x="60" y="568" width="780" height="1" fill="#2a2a2a"/>
+
+  <!-- 5-step QA checklist -->
+  <text x="60" y="610" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" font-weight="600" fill="#f5a623" letter-spacing="2">5-STEP SVG PRE-FLIGHT CHECKLIST</text>
+
+  <text x="60" y="648" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="18" fill="#e8e8e8">` Anchor economy</text>
+  <text x="80" y="672" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#666666">1015 per curve = clean  /  60+ = noisy trace</text>
+
+  <text x="60" y="710" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="18" fill="#e8e8e8">a Live type vs outlines</text>
+  <text x="80" y="734" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#666666">Click a word  can you retype it?</text>
+
+  <text x="60" y="772" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="18" fill="#e8e8e8">b Gradient fidelity</text>
+  <text x="80" y="796" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#666666">Real gradient or banded strips?</text>
+
+  <text x="60" y="834" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="18" fill="#e8e8e8">c Element structure</text>
+  <text x="80" y="858" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#666666">Select icon without selecting the wordmark?</text>
+
+  <text x="60" y="896" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="18" fill="#e8e8e8">d Brand color edge sliver</text>
+  <text x="80" y="920" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#666666">Swap to brand color ’ check for old color edges</text>
+
+  <!-- Separator -->
+  <rect x="60" y="952" width="780" height="1" fill="#2a2a2a"/>
+
+  <!-- Key reframe -->
+  <text x="60" y="992" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" fill="#888888">The question shifted from</text>
+  <text x="60" y="1018" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="20" font-weight="600" fill="#f5a623">"How do I trace this AI output?"</text>
+  <text x="60" y="1048" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" fill="#888888">to</text>
+  <text x="60" y="1074" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="20" font-weight="600" fill="#ffffff">"Do I know how to QA an SVG?"</text>
+
+  <!-- Bottom -->
+  <rect x="60" y="1140" width="780" height="1" fill="#2a2a2a"/>
+  <text x="60" y="1172" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#444444">Senior UX perspective</text>
+  <text x="840" y="1172" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#444444" text-anchor="end">@c4wchang</text>
+</svg>
