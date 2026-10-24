@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#0e0a18"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg1)"/>
+
+  <!-- Top accent bar -->
+  <rect x="60" y="60" width="780" height="3" fill="#a78bfa" opacity="0.7"/>
+
+  <!-- Category label -->
+  <text x="60" y="116" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#a78bfa" letter-spacing="3" opacity="0.8">AI UX  OCT 24, 2026</text>
+
+  <!-- Tool name badge -->
+  <rect x="60" y="140" width="200" height="38" rx="4" fill="#110e1c"/>
+  <text x="80" y="164" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" font-weight="600" fill="#a78bfa">Canva Craft</text>
+
+  <!-- Main headline -->
+  <text x="60" y="258" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="56" font-weight="700" fill="#ffffff" letter-spacing="-2">Plan first.</text>
+  <text x="60" y="326" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="56" font-weight="700" fill="#a78bfa" letter-spacing="-2">Pixels second.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="355" width="100" height="2" fill="#a78bfa" opacity="0.6"/>
+
+  <!-- Sub -->
+  <text x="60" y="400" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="19" fill="#aaaaaa">First in-house model by Canva Research</text>
+  <text x="60" y="428" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="19" fill="#aaaaaa">(Leonardo.ai team). Trained on design</text>
+  <text x="60" y="456" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="19" fill="#aaaaaa">templates, not stock photography.</text>
+
+  <!-- Separator -->
+  <rect x="60" y="488" width="780" height="1" fill="#2a2a2a"/>
+
+  <!-- Architecture breakdown -->
+  <text x="60" y="528" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" font-weight="600" fill="#a78bfa" letter-spacing="2">TWO-STAGE GENERATION</text>
+
+  <rect x="60" y="548" width="370" height="84" rx="6" fill="#110e1c"/>
+  <text x="82" y="578" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" font-weight="600" fill="#a78bfa">Stage 1  Composition Plan</text>
+  <text x="82" y="600" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#888888">Elements · hierarchy · scale</text>
+  <text x="82" y="620" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#888888">spatial layout · text placement</text>
+
+  <rect x="470" y="548" width="370" height="84" rx="6" fill="#110e1c"/>
+  <text x="492" y="578" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" font-weight="600" fill="#a78bfa">Stage 2  Render</text>
+  <text x="492" y="600" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#888888">High-fidelity output · up to 2K</text>
+  <text x="492" y="620" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#888888">30+ aspect ratios · 55 languages</text>
+
+  <!-- Separator -->
+  <rect x="60" y="655" width="780" height="1" fill="#2a2a2a"/>
+
+  <!-- Design model category -->
+  <text x="60" y="695" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" font-weight="600" fill="#a78bfa" letter-spacing="2">DESIGN MODEL CATEGORY  3 CONFIRMED</text>
+
+  <text x="60" y="730" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" fill="#e8e8e8">Linearity Vector 1.0 <tspan fill="#666666">Oct 17</tspan></text>
+  <text x="80" y="753" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#555555">Editable brand design structure</text>
+
+  <text x="60" y="792" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" fill="#e8e8e8">Vyb / Coco Labs <tspan fill="#666666">Oct 21</tspan></text>
+  <text x="80" y="815" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#555555">Layouts from your actual brand assets</text>
+
+  <text x="60" y="854" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" fill="#a78bfa" font-weight="600">Canva Craft <tspan fill="#888888" font-weight="400">Oct 22</tspan></text>
+  <text x="80" y="877" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#555555">Layout-aware images trained on templates</text>
+
+  <!-- Separator -->
+  <rect x="60" y="910" width="780" height="1" fill="#2a2a2a"/>
+
+  <!-- Honest limits -->
+  <text x="60" y="948" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" font-weight="600" fill="#666666" letter-spacing="2">HONEST LIMITS</text>
+  <text x="60" y="978" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="16" fill="#555555">5060 sec generation · no brand kit input yet</text>
+  <text x="60" y="1004" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="16" fill="#555555">Wrong brief = polished wrong composition</text>
+  <text x="60" y="1030" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="16" fill="#555555">MCP coming soon (when it ships = pipeline-ready)</text>
+
+  <!-- Separator -->
+  <rect x="60" y="1060" width="780" height="1" fill="#2a2a2a"/>
+
+  <!-- Key reframe -->
+  <text x="60" y="1100" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="16" fill="#888888">Image models produce pixels.</text>
+  <text x="60" y="1126" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="18" font-weight="600" fill="#a78bfa">Design models produce starting positions.</text>
+
+  <!-- Bottom -->
+  <rect x="60" y="1157" width="780" height="1" fill="#2a2a2a"/>
+  <text x="60" y="1182" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#444444">Senior UX perspective</text>
+  <text x="840" y="1182" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#444444" text-anchor="end">@c4wchang</text>
+</svg>

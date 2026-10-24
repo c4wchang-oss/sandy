@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#14100a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg1)"/>
+
+  <!-- Left accent bar  warm amber for vector/SVG theme -->
+  <rect x="64" y="64" width="3" height="547" fill="#f5a623" opacity="0.9"/>
+
+  <!-- Category label -->
+  <text x="88" y="108" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#f5a623" letter-spacing="3" opacity="0.8">AI UX  OCT 24, 2026</text>
+
+  <!-- Main headline -->
+  <text x="88" y="200" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="-1">AI-generated logos.</text>
+  <text x="88" y="265" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="58" font-weight="700" fill="#f5a623" letter-spacing="-1">Now in SVG.</text>
+
+  <!-- Divider -->
+  <rect x="88" y="295" width="80" height="2" fill="#f5a623" opacity="0.6"/>
+
+  <!-- Sub-headline -->
+  <text x="88" y="348" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="24" font-weight="400" fill="#aaaaaa">Ideogram Vector 1.0: generate or trace to</text>
+  <text x="88" y="378" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="24" font-weight="400" fill="#aaaaaa">editable SVG. $0.10$0.32. No tracing step.</text>
+
+  <!-- Key insight block -->
+  <rect x="88" y="418" width="660" height="110" rx="6" fill="#1a1208" opacity="0.9"/>
+  <text x="112" y="455" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" font-weight="600" fill="#f5a623" letter-spacing="1">WORKFLOW SHIFT</text>
+  <text x="112" y="483" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="18" font-weight="400" fill="#e8e8e8">"How do I trace this?" ’</text>
+  <text x="112" y="507" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="18" font-weight="400" fill="#e8e8e8">"Do I know how to QA an SVG?"</text>
+
+  <!-- Editable output arc (right side) -->
+  <text x="820" y="190" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" font-weight="600" fill="#f5a623" letter-spacing="2" opacity="0.8">EDITABLE OUTPUT ARC</text>
+  <text x="820" y="222" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#555555">Raster  Ming-Image Layer</text>
+  <text x="820" y="248" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#555555">Animation  Jitter AI</text>
+  <text x="820" y="274" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#555555">Video  HyperFrames Studio</text>
+  <text x="820" y="300" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#555555">Brand structure  Linearity</text>
+  <text x="820" y="326" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#555555">Physical  UseIt Studio</text>
+  <text x="820" y="356" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="16" font-weight="700" fill="#f5a623">SVG vectors  Ideogram  </text>
+
+  <!-- 5-step QA label -->
+  <text x="820" y="420" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#f5a623" letter-spacing="2">5-STEP SVG PRE-FLIGHT</text>
+  <text x="820" y="446" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#777777">Anchors · Type · Gradient · Structure · Color</text>
+
+  <!-- Bottom tag line -->
+  <text x="88" y="612" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="16" fill="#555555">Senior UX perspective  ideogram.ai/models/vector</text>
+
+  <!-- Handle -->
+  <text x="1136" y="612" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#444444" text-anchor="end">@c4wchang</text>
+</svg>
