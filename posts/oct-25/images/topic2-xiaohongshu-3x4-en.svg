@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a06"/>
+      <stop offset="100%" style="stop-color:#150f00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg1)"/>
+
+  <!-- Top accent bar  warm gold -->
+  <rect x="60" y="60" width="780" height="3" fill="#f9ab00" opacity="0.8"/>
+
+  <!-- Category label -->
+  <text x="60" y="112" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#f9ab00" letter-spacing="3" opacity="0.8">AI UX · OCT 25, 2026</text>
+
+  <!-- Main headline -->
+  <text x="60" y="196" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="56" font-weight="700" fill="#ffffff" letter-spacing="-1">Nano Banana 2.1</text>
+  <text x="60" y="256" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="34" font-weight="700" fill="#f9ab00">The honest designer's guide.</text>
+  <text x="60" y="306" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="22" font-weight="400" fill="#888888">What changed. What the model card says.</text>
+  <text x="60" y="334" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="22" font-weight="400" fill="#888888">What the division of labor actually is.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="362" width="60" height="2" fill="#f9ab00" opacity="0.5"/>
+
+  <!-- What changed -->
+  <text x="60" y="408" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" font-weight="600" fill="#f9ab00" letter-spacing="2">WHAT CHANGED (OCT 6)</text>
+
+  <text x="60" y="442" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" fill="#e0e0e0">` Improved text  headlines, infographic labels</text>
+  <text x="60" y="470" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" fill="#e0e0e0">a Wide-format tiling fixed (1:4, 4:1 banners)</text>
+  <text x="60" y="498" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" fill="#e0e0e0">b Up to 14 reference images (4 chars + 10 obj)</text>
+  <text x="60" y="526" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" fill="#e0e0e0">c Thinking levels: minimal / medium / high</text>
+  <text x="60" y="554" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" fill="#e0e0e0">d Search grounding  real-world visual refs</text>
+
+  <!-- Benchmark -->
+  <rect x="60" y="578" width="780" height="62" rx="5" fill="#1a1200"/>
+  <text x="84" y="606" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#f9ab00" letter-spacing="1.5">INFOGRAPHIC DESIGN  DESIGNARENA #1</text>
+  <text x="84" y="628" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="18" fill="#cccccc">Score: <tspan font-weight="700" fill="#f9ab00">1048</tspan>  ·  strongest case for UX deliverable work</text>
+
+  <!-- Division of labor -->
+  <text x="60" y="688" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" font-weight="600" fill="#f9ab00" letter-spacing="2">DIVISION OF LABOR</text>
+
+  <!-- Image model -->
+  <rect x="60" y="706" width="370" height="200" rx="5" fill="#0e0e0a"/>
+  <text x="80" y="732" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#888888" letter-spacing="1">USE NANO BANANA 2.1</text>
+  <text x="80" y="758" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#cccccc">Hero visuals</text>
+  <text x="80" y="782" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#cccccc">Wide banners</text>
+  <text x="80" y="806" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#cccccc">Infographic drafts</text>
+  <text x="80" y="830" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#cccccc">Short multilingual labels</text>
+  <text x="80" y="854" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#cccccc">Search-grounded references</text>
+  <text x="80" y="878" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#555555">Output = pixels</text>
+
+  <!-- Design tool -->
+  <rect x="470" y="706" width="370" height="200" rx="5" fill="#0e0e0a"/>
+  <text x="490" y="732" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#888888" letter-spacing="1">KEEP IN DESIGN TOOL</text>
+  <text x="490" y="758" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#cccccc">UI components + states</text>
+  <text x="490" y="782" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#cccccc">Live editable type</text>
+  <text x="490" y="806" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#cccccc">Brand tokens</text>
+  <text x="490" y="830" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#cccccc">Interaction logic</text>
+  <text x="490" y="854" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#cccccc">Small labels, fine print</text>
+  <text x="490" y="878" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#555555">Output = working file</text>
+
+  <!-- Model card honest limits -->
+  <rect x="60" y="928" width="780" height="116" rx="5" fill="#1a0d00"/>
+  <text x="84" y="956" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#f9ab00" letter-spacing="2">MODEL CARD SAYS (HONEST)</text>
+  <text x="84" y="982" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#888888">Small text at 1K: still blurry</text>
+  <text x="84" y="1004" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#888888">Long paragraphs: still poor rendering</text>
+  <text x="84" y="1026" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#888888">Left/right reasoning: occasional confusion</text>
+
+  <!-- Key takeaway -->
+  <text x="60" y="1082" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="22" font-weight="400" fill="#ffffff">"An image of a screen</text>
+  <text x="60" y="1110" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="22" font-weight="400" fill="#ffffff"> is not a screen."</text>
+  <text x="60" y="1136" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" fill="#f9ab00">Know which type of output you need.</text>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="1162" width="780" height="3" fill="#f9ab00" opacity="0.3"/>
+  <text x="60" y="1185" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#444444">Senior UX perspective · Google Nano Banana 2.1 · gemini-nano-banana-2.1</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#080c12"/>
+      <stop offset="100%" style="stop-color:#0c1220"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00e5cc"/>
+      <stop offset="100%" style="stop-color:#0095ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg1)"/>
+
+  <!-- Left accent bar  cyan for agent observability theme -->
+  <rect x="64" y="64" width="3" height="547" fill="url(#accent1)" opacity="0.9"/>
+
+  <!-- Category label -->
+  <text x="88" y="108" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#00e5cc" letter-spacing="3" opacity="0.8">AI UX · OCT 25, 2026</text>
+
+  <!-- Main headline -->
+  <text x="88" y="195" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="-1">5 agents running.</text>
+  <text x="88" y="260" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="58" font-weight="700" fill="#00e5cc" letter-spacing="-1">Which one needs you?</text>
+
+  <!-- Divider -->
+  <rect x="88" y="290" width="80" height="2" fill="#00e5cc" opacity="0.5"/>
+
+  <!-- Sub-headline -->
+  <text x="88" y="343" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="23" font-weight="400" fill="#aaaaaa">AgentValley: every Claude Code session in your</text>
+  <text x="88" y="372" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="23" font-weight="400" fill="#aaaaaa">MacBook notch. Peripheral vision for AI agents.</text>
+
+  <!-- Agent cards visual (right side) -->
+  <!-- Card 1 - working -->
+  <rect x="760" y="110" width="360" height="56" rx="6" fill="#0d1f2d" stroke="#00e5cc" stroke-width="1" opacity="0.7"/>
+  <rect x="780" y="126" width="8" height="8" fill="#00e5cc" rx="2"/>
+  <text x="798" y="137" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#cccccc">agent-1 · Grep PaymentIntent</text>
+  <text x="1080" y="137" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="11" fill="#555555">2m</text>
+
+  <!-- Card 2 - working -->
+  <rect x="760" y="176" width="360" height="56" rx="6" fill="#0d1f2d" stroke="#1a3a4a" stroke-width="1" opacity="0.7"/>
+  <rect x="780" y="192" width="8" height="8" fill="#33aaff" rx="2"/>
+  <text x="798" y="203" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#cccccc">agent-2 · Edit cart.test.ts</text>
+  <text x="1080" y="203" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="11" fill="#555555">5m</text>
+
+  <!-- Card 3 - WAITING (highlighted) -->
+  <rect x="760" y="242" width="360" height="68" rx="6" fill="#1a0d08" stroke="#ff4444" stroke-width="1.5"/>
+  <circle cx="780" cy="272" r="6" fill="#ff4444"/>
+  <text x="796" y="267" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" font-weight="600" fill="#ff8888">agent-3 · WAITING FOR YOU</text>
+  <text x="796" y="285" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#888888">Allow: git push origin main?</text>
+
+  <!-- Card 4 - working -->
+  <rect x="760" y="320" width="360" height="56" rx="6" fill="#0d1f2d" stroke="#1a3a4a" stroke-width="1" opacity="0.7"/>
+  <rect x="780" y="336" width="8" height="8" fill="#33aaff" rx="2"/>
+  <text x="798" y="347" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#cccccc">agent-4 · Bash npm test</text>
+  <text x="1080" y="347" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="11" fill="#555555">8m</text>
+
+  <!-- Card 5 - working -->
+  <rect x="760" y="386" width="360" height="56" rx="6" fill="#0d1f2d" stroke="#1a3a4a" stroke-width="1" opacity="0.7"/>
+  <rect x="780" y="402" width="8" height="8" fill="#33aaff" rx="2"/>
+  <text x="798" y="413" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#cccccc">agent-5 · Write docs/api.md</text>
+  <text x="1080" y="413" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="11" fill="#555555">12m</text>
+
+  <!-- Key insight block -->
+  <rect x="88" y="408" width="620" height="120" rx="6" fill="#0d1f2d" opacity="0.9"/>
+  <text x="112" y="445" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" font-weight="600" fill="#00e5cc" letter-spacing="1.5">NOTIFICATION DESIGN PRINCIPLE</text>
+  <text x="112" y="472" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" font-weight="400" fill="#e8e8e8">The log file is the wrong answer.</text>
+  <text x="112" y="497" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="17" font-weight="400" fill="#e8e8e8">The notch is where your eye already goes.</text>
+
+  <!-- Bottom attribution -->
+  <text x="88" y="618" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#444444">Senior UX perspective · agentvalley.app · Free &amp; open-source</text>
+</svg>
