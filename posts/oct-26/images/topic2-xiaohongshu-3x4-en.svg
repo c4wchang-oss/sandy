@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c0800"/>
+      <stop offset="100%" style="stop-color:#1a1200"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg1)"/>
+
+  <!-- Top accent bar -->
+  <rect x="60" y="60" width="780" height="3" fill="url(#accent1)" opacity="0.8"/>
+
+  <!-- Category label -->
+  <text x="60" y="112" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#f59e0b" letter-spacing="3" opacity="0.85">AI UX RESEARCH · OCT 26, 2026</text>
+
+  <!-- Main headline -->
+  <text x="60" y="175" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="40" font-weight="700" fill="#ffffff" letter-spacing="-0.5">AI saves time.</text>
+  <text x="60" y="224" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="40" font-weight="700" fill="#f59e0b" letter-spacing="-0.5">Teams feel lukewarm.</text>
+  <text x="60" y="260" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="18" fill="#9ca3af">NNG survey + Stripe Zombie UI  what's really happening</text>
+
+  <!-- Divider -->
+  <rect x="60" y="282" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 1: The Gap -->
+  <text x="60" y="320" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#f59e0b" letter-spacing="1.5" font-weight="600">THE GENERATION VS VERIFICATION GAP</text>
+
+  <!-- Side-by-side boxes -->
+  <rect x="60" y="336" width="370" height="96" rx="4" fill="#0d1a0d" stroke="#166534" stroke-width="1"/>
+  <text x="245" y="368" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#4ade80" font-weight="600" text-anchor="middle">GENERATION</text>
+  <text x="245" y="400" font-family="'Helvetica Neue', sans-serif" font-size="32" font-weight="700" fill="#4ade80" text-anchor="middle">Fast</text>
+  <text x="245" y="424" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#374151" text-anchor="middle">minutes</text>
+
+  <rect x="470" y="336" width="370" height="96" rx="4" fill="#1a0d0d" stroke="#7f1d1d" stroke-width="1"/>
+  <text x="655" y="368" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#f87171" font-weight="600" text-anchor="middle">VERIFICATION</text>
+  <text x="655" y="400" font-family="'Helvetica Neue', sans-serif" font-size="32" font-weight="700" fill="#f87171" text-anchor="middle">Slow</text>
+  <text x="655" y="424" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#374151" text-anchor="middle">hours</text>
+
+  <text x="450" y="390" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#374151" text-anchor="middle">vs</text>
+
+  <text x="60" y="456" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#6b7280">One team's hackathon: "looked nearly finished" early on.</text>
+  <text x="60" y="478" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#6b7280">Extensive checking before anything actually worked.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="500" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 2: Zombie UI -->
+  <text x="60" y="536" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#f59e0b" letter-spacing="1.5" font-weight="600">ZOMBIE UI (STRIPE, KATIE DILL)</text>
+
+  <rect x="60" y="550" width="780" height="110" rx="4" fill="#1a1000" stroke="#f59e0b" stroke-width="1"/>
+  <text x="84" y="580" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#fbbf24" font-weight="600">Prematurely polished. Generic. Functional.</text>
+  <text x="84" y="606" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#9ca3af">Brand soul: zero. Looks fine. Ships anyway.</text>
+  <text x="84" y="632" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#374151">The design decisions belong to whoever trained the model.</text>
+  <text x="84" y="652" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#374151">Not your team.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="676" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 3: What Actually Fixes It -->
+  <text x="60" y="712" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#60a5fa" letter-spacing="1.5" font-weight="600">WHAT ACTUALLY FIXES IT</text>
+
+  <text x="60" y="742" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#9ca3af">&#9312;  Stripe: brand constraints baked into generated code</text>
+  <text x="84" y="764" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#4b5563">     before human review  runs at generation time</text>
+  <text x="60" y="794" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#9ca3af">&#9313;  Miro: skill that front-loads design system components</text>
+  <text x="84" y="816" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#4b5563">     + rules into agent context before building starts</text>
+  <text x="60" y="848" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#9ca3af">&#9314;  The principle: pre-generation constraint beats</text>
+  <text x="84" y="870" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#4b5563">     post-generation correction. Every time.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="894" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 4: Diagnostic question -->
+  <text x="60" y="930" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#f59e0b" letter-spacing="1.5" font-weight="600">THE DIAGNOSTIC QUESTION</text>
+
+  <rect x="60" y="944" width="780" height="90" rx="4" fill="#0d1a00" stroke="#365314" stroke-width="1"/>
+  <text x="84" y="972" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#e2e8f0" font-weight="600">Is AI saving time end-to-end?</text>
+  <text x="84" y="998" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">generation + verification + correction</text>
+  <text x="84" y="1020" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#6b7280">Document per task type. That changes leadership conversations.</text>
+
+  <!-- Bottom label -->
+  <text x="60" y="1088" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#6b7280">Lukewarm = calibration gap, not a tools problem.</text>
+  <text x="60" y="1160" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#374151">NNG survey · Stripe Design · Miro · Senior UX perspective</text>
+</svg>

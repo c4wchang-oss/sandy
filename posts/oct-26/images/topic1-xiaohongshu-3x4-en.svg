@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a18"/>
+      <stop offset="100%" style="stop-color:#0c1428"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6c63ff"/>
+      <stop offset="100%" style="stop-color:#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg1)"/>
+
+  <!-- Top accent bar -->
+  <rect x="60" y="60" width="780" height="3" fill="url(#accent1)" opacity="0.8"/>
+
+  <!-- Category label -->
+  <text x="60" y="112" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#a78bfa" letter-spacing="3" opacity="0.85">AI UX · OCT 26, 2026</text>
+
+  <!-- Main headline -->
+  <text x="60" y="182" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="46" font-weight="700" fill="#ffffff" letter-spacing="-0.5">Framer MCP is live.</text>
+  <text x="60" y="236" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="22" font-weight="400" fill="#a78bfa">What a Senior UX Designer needs to know.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="262" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 1: The 46-Day Arc -->
+  <text x="60" y="302" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#6c63ff" letter-spacing="1.5" font-weight="600">THE 46-DAY ARC</text>
+
+  <!-- Timeline rows -->
+  <rect x="60" y="318" width="780" height="52" rx="4" fill="#0d1625" stroke="#1e293b" stroke-width="1"/>
+  <rect x="60" y="318" width="3" height="52" fill="#38bdf8"/>
+  <text x="80" y="340" font-family="'SF Mono', monospace" font-size="11" fill="#60a5fa" font-weight="600" letter-spacing="1">SEP 6</text>
+  <text x="80" y="358" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Webflow  agent-native access</text>
+  <text x="730" y="349" font-family="'Helvetica Neue', sans-serif" font-size="11" fill="#374151">done</text>
+
+  <rect x="60" y="376" width="780" height="52" rx="4" fill="#0d1625" stroke="#1e293b" stroke-width="1"/>
+  <rect x="60" y="376" width="3" height="52" fill="#34d399"/>
+  <text x="80" y="398" font-family="'SF Mono', monospace" font-size="11" fill="#6ee7b7" font-weight="600" letter-spacing="1">SEP 23</text>
+  <text x="80" y="416" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Elementor (WordPress)</text>
+  <text x="730" y="407" font-family="'Helvetica Neue', sans-serif" font-size="11" fill="#374151">done</text>
+
+  <rect x="60" y="434" width="780" height="58" rx="4" fill="#1a1040" stroke="#6c63ff" stroke-width="1.5"/>
+  <rect x="60" y="434" width="3" height="58" fill="#a78bfa"/>
+  <text x="80" y="458" font-family="'SF Mono', monospace" font-size="11" fill="#c4b5fd" font-weight="600" letter-spacing="1">OCT 22</text>
+  <text x="80" y="479" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#f1f5f9" font-weight="600">Framer MCP  complete</text>
+  <text x="726" y="460" font-family="'Helvetica Neue', sans-serif" font-size="11" fill="#a78bfa" font-weight="600">NEW</text>
+
+  <!-- Divider -->
+  <rect x="60" y="510" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 2: What Agent Can Do -->
+  <text x="60" y="548" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#6c63ff" letter-spacing="1.5" font-weight="600">WHAT YOUR AGENT CAN DO</text>
+
+  <text x="60" y="580" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#9ca3af">&#9312;  Create + edit pages across all breakpoints</text>
+  <text x="60" y="608" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#9ca3af">&#9313;  Reuse your existing styles and components</text>
+  <text x="60" y="636" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#9ca3af">&#9314;  Create CMS collections + import content</text>
+  <text x="60" y="664" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#9ca3af">&#9315;  SEO audit: headings, alt text, metadata</text>
+  <text x="60" y="692" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#9ca3af">&#9316;  Work on review branch  live site safe</text>
+
+  <!-- Divider -->
+  <rect x="60" y="716" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 3: Trust Architecture -->
+  <text x="60" y="752" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#6c63ff" letter-spacing="1.5" font-weight="600">TRUST ARCHITECTURE (THEY GOT THIS RIGHT)</text>
+
+  <rect x="60" y="766" width="780" height="110" rx="4" fill="#0d1625" stroke="#1e293b" stroke-width="1"/>
+  <text x="84" y="794" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">’  Nothing publishes without your "publish" command</text>
+  <text x="84" y="820" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">’  Claude asks before every single action</text>
+  <text x="84" y="846" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">’  Set "Needs approval"  leave it there permanently</text>
+  <text x="84" y="866" font-family="'Helvetica Neue', sans-serif" font-size="12" fill="#475569">Cost: billed to your AI client plan, not Framer credits</text>
+
+  <!-- Divider -->
+  <rect x="60" y="892" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 4: Limits -->
+  <text x="60" y="930" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#f59e0b" letter-spacing="1.5" font-weight="600">WATCH FOR</text>
+
+  <text x="60" y="960" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">   No localization at launch  i18n teams: use local CLI</text>
+  <text x="60" y="986" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">   Explicit prompts only  name the page, section, component</text>
+  <text x="60" y="1012" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">   Review in Framer first  external agent = less context</text>
+
+  <!-- Quality ceiling callout -->
+  <rect x="60" y="1040" width="780" height="76" rx="4" fill="#120e2a" stroke="#6c63ff" stroke-width="1"/>
+  <text x="84" y="1068" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#a78bfa" font-weight="600" letter-spacing="1">QUALITY CEILING = SKILLS IN YOUR FRAMER PROJECT</text>
+  <text x="84" y="1092" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#94a3b8">Write them well before you open the MCP door.</text>
+
+  <!-- Bottom label -->
+  <text x="60" y="1160" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#374151">Senior UX perspective · Free during preview on every plan</text>
+</svg>
