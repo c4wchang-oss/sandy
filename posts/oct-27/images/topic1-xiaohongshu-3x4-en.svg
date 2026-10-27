@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0905"/>
+      <stop offset="100%" style="stop-color:#1a1008"/>
+    </linearGradient>
+    <linearGradient id="orange1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ea580c"/>
+      <stop offset="100%" style="stop-color:#f97316"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg1)"/>
+
+  <!-- Top accent bar -->
+  <rect x="60" y="60" width="780" height="3" fill="url(#orange1)" opacity="0.8"/>
+
+  <!-- Category label -->
+  <text x="60" y="112" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#f97316" letter-spacing="3" opacity="0.85">AI UX · OCT 27, 2026</text>
+
+  <!-- Main headline -->
+  <text x="60" y="178" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="42" font-weight="700" fill="#ffffff" letter-spacing="-0.5">Runway App Studio.</text>
+  <text x="60" y="230" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="20" font-weight="400" fill="#f97316">What a Senior Designer needs to know.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="256" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 1: The Real Story -->
+  <text x="60" y="294" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#ea580c" letter-spacing="1.5" font-weight="600">THE REAL STORY</text>
+
+  <rect x="60" y="308" width="780" height="86" rx="4" fill="#160c04" stroke="#292219" stroke-width="1"/>
+  <text x="84" y="338" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#e2e8f0">Every team has a "power user" who figured out</text>
+  <text x="84" y="360" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#e2e8f0">the right model chain + references + prompts.</text>
+  <text x="84" y="382" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#6b7280">App Studio encodes their workflow. Everyone runs the app.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="410" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 2: How It Works -->
+  <text x="60" y="448" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#ea580c" letter-spacing="1.5" font-weight="600">HOW IT WORKS</text>
+
+  <rect x="60" y="462" width="780" height="54" rx="4" fill="#160c04" stroke="#292219" stroke-width="1"/>
+  <rect x="60" y="462" width="3" height="54" fill="#f97316"/>
+  <text x="80" y="484" font-family="'SF Mono', monospace" font-size="10" fill="#fb923c" font-weight="600" letter-spacing="1">01</text>
+  <text x="80" y="503" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Describe the app in plain language</text>
+
+  <rect x="60" y="522" width="780" height="54" rx="4" fill="#160c04" stroke="#292219" stroke-width="1"/>
+  <rect x="60" y="522" width="3" height="54" fill="#fb923c"/>
+  <text x="80" y="544" font-family="'SF Mono', monospace" font-size="10" fill="#fb923c" font-weight="600" letter-spacing="1">02</text>
+  <text x="80" y="563" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">App Studio builds, tests, deploys it</text>
+
+  <rect x="60" y="582" width="780" height="54" rx="4" fill="#1a0e05" stroke="#ea580c" stroke-width="1.5"/>
+  <rect x="60" y="582" width="3" height="54" fill="#ea580c"/>
+  <text x="80" y="604" font-family="'SF Mono', monospace" font-size="10" fill="#fb923c" font-weight="600" letter-spacing="1">03</text>
+  <text x="80" y="623" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#f1f5f9" font-weight="600">Team runs it  no model toggles needed</text>
+
+  <!-- Divider -->
+  <rect x="60" y="652" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 3: Brand Kit constraint -->
+  <text x="60" y="690" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#ea580c" letter-spacing="1.5" font-weight="600">BRAND KIT AS STRUCTURAL CONSTRAINT</text>
+
+  <rect x="60" y="704" width="780" height="96" rx="4" fill="#160c04" stroke="#292219" stroke-width="1"/>
+  <text x="84" y="732" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Apps pull from your Brand Kits + Workflows.</text>
+  <text x="84" y="756" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Brand consistency is baked in architecturally.</text>
+  <text x="84" y="780" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#6b7280">Not a checklist. The app can't drift from brand.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="816" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 4: Honest limits -->
+  <text x="60" y="854" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#f59e0b" letter-spacing="1.5" font-weight="600">WATCH FOR</text>
+
+  <text x="60" y="882" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">&#9888;  Runway-native  apps live inside Runway's ecosystem</text>
+  <text x="60" y="906" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">&#9888;  Taste judgment doesn't encode  only workflow steps do</text>
+  <text x="60" y="930" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">&#9888;  Wrong workflow ’ app scales the wrong thing</text>
+  <text x="60" y="954" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">&#9888;  Uses existing Runway credits  no new subscription</text>
+
+  <!-- Senior Designer callout -->
+  <rect x="60" y="982" width="780" height="88" rx="4" fill="#1a0e05" stroke="#ea580c" stroke-width="1"/>
+  <text x="84" y="1012" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#fb923c" font-weight="600" letter-spacing="1">SENIOR DESIGNER QUESTION</text>
+  <text x="84" y="1036" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Whose workflow is worth encoding as a tool?</text>
+  <text x="84" y="1058" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#6b7280">What gets lost between their craft judgment and the app's parameters?</text>
+
+  <!-- Bottom label -->
+  <text x="60" y="1160" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#374151">Senior UX perspective · runway.com · Included in every paid Runway plan</text>
+</svg>

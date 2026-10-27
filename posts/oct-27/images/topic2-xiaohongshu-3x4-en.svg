@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a18"/>
+      <stop offset="100%" style="stop-color:#0c1428"/>
+    </linearGradient>
+    <linearGradient id="purple1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg1)"/>
+
+  <!-- Top accent bar -->
+  <rect x="60" y="60" width="780" height="3" fill="url(#purple1)" opacity="0.8"/>
+
+  <!-- Category label -->
+  <text x="60" y="112" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#8b5cf6" letter-spacing="3" opacity="0.85">AI UX · OCT 27, 2026</text>
+
+  <!-- Main headline -->
+  <text x="60" y="178" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="38" font-weight="700" fill="#ffffff" letter-spacing="-0.5">Figma Weave via MCP.</text>
+  <text x="60" y="226" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="19" font-weight="400" fill="#8b5cf6">What your coding agent can now do with your media.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="252" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 1: What It Is -->
+  <text x="60" y="290" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#7c3aed" letter-spacing="1.5" font-weight="600">WHAT SHIPPED OCT 26</text>
+
+  <rect x="60" y="304" width="780" height="86" rx="4" fill="#0d1625" stroke="#1e293b" stroke-width="1"/>
+  <text x="84" y="334" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">All Weave video + image models now accessible</text>
+  <text x="84" y="356" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">through the Figma MCP.</text>
+  <text x="84" y="378" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#6b7280">Claude Code or Cursor can call Kling, Seedance, Nano Banana  no Weave tab.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="406" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 2: How It Works -->
+  <text x="60" y="444" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#7c3aed" letter-spacing="1.5" font-weight="600">3 MCP TOOLS YOUR AGENT HANDLES</text>
+
+  <rect x="60" y="458" width="780" height="52" rx="4" fill="#0d1625" stroke="#1e293b" stroke-width="1"/>
+  <rect x="60" y="458" width="3" height="52" fill="#8b5cf6"/>
+  <text x="80" y="479" font-family="'SF Mono', monospace" font-size="10" fill="#a78bfa" font-weight="600">01</text>
+  <text x="80" y="498" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#e2e8f0">weave_find_model  find the model by name</text>
+
+  <rect x="60" y="516" width="780" height="52" rx="4" fill="#0d1625" stroke="#1e293b" stroke-width="1"/>
+  <rect x="60" y="516" width="3" height="52" fill="#6366f1"/>
+  <text x="80" y="537" font-family="'SF Mono', monospace" font-size="10" fill="#a78bfa" font-weight="600">02</text>
+  <text x="80" y="556" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#e2e8f0">weave_run_model  confirm cost, generate</text>
+
+  <rect x="60" y="574" width="780" height="52" rx="4" fill="#061220" stroke="#0ea5e9" stroke-width="1.5"/>
+  <rect x="60" y="574" width="3" height="52" fill="#0ea5e9"/>
+  <text x="80" y="595" font-family="'SF Mono', monospace" font-size="10" fill="#38bdf8" font-weight="600">03</text>
+  <text x="80" y="614" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#f1f5f9">weave_get_model_run_output  get result</text>
+
+  <!-- Divider -->
+  <rect x="60" y="642" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 3: Design Stack -->
+  <text x="60" y="680" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#7c3aed" letter-spacing="1.5" font-weight="600">THE DESIGN STACK NOW</text>
+
+  <rect x="60" y="694" width="780" height="52" rx="4" fill="#0d1625" stroke="#1e293b" stroke-width="1"/>
+  <text x="84" y="716" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">Figma MCP: design layer (specs, components)</text>
+  <text x="84" y="735" font-family="'Helvetica Neue', sans-serif" font-size="12" fill="#475569">agent-readable   existing</text>
+
+  <rect x="60" y="752" width="780" height="52" rx="4" fill="#061220" stroke="#0ea5e9" stroke-width="1.5"/>
+  <text x="84" y="774" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#e2e8f0">Weave via MCP: production media (video, images)</text>
+  <text x="84" y="793" font-family="'Helvetica Neue', sans-serif" font-size="12" fill="#0ea5e9">agent-callable   NEW Oct 26</text>
+
+  <!-- Divider -->
+  <rect x="60" y="820" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 4: Watch For -->
+  <text x="60" y="858" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#f59e0b" letter-spacing="1.5" font-weight="600">WATCH FOR</text>
+
+  <text x="60" y="886" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">&#9888;  Weave runs use WEAVE credits (not Figma AI credits)</text>
+  <text x="60" y="910" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">&#9888;  Two separate credit meters  who owns both?</text>
+  <text x="60" y="934" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">&#9888;  Needs Figma MCP + separate paid Weave account</text>
+  <text x="60" y="958" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">&#9888;  Can't create/edit Weave workflows via agent yet</text>
+
+  <!-- Senior Designer callout -->
+  <rect x="60" y="984" width="780" height="88" rx="4" fill="#0a0f1f" stroke="#8b5cf6" stroke-width="1"/>
+  <text x="84" y="1014" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#a78bfa" font-weight="600" letter-spacing="1">THE QUESTION</text>
+  <text x="84" y="1040" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Brief-to-asset is now one agent conversation.</text>
+  <text x="84" y="1062" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#6b7280">Is your brief good enough for both design and media?</text>
+
+  <!-- Bottom label -->
+  <text x="60" y="1160" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#374151">Senior UX perspective · figma.com/release-notes · Requires Figma + Weave accounts</text>
+</svg>

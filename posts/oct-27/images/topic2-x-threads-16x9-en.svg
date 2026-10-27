@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060a18"/>
+      <stop offset="100%" style="stop-color:#0a1428"/>
+    </linearGradient>
+    <linearGradient id="purple1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="teal1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0284c7"/>
+      <stop offset="100%" style="stop-color:#0ea5e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg1)"/>
+
+  <!-- Left accent bar  purple for Figma -->
+  <rect x="64" y="64" width="3" height="547" fill="url(#purple1)" opacity="0.9"/>
+
+  <!-- Category label -->
+  <text x="88" y="108" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#8b5cf6" letter-spacing="3" opacity="0.85">AI UX · OCT 27, 2026</text>
+
+  <!-- Main headline -->
+  <text x="88" y="185" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="42" font-weight="700" fill="#ffffff" letter-spacing="-1">Your coding agent can now</text>
+  <text x="88" y="238" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="42" font-weight="700" fill="#8b5cf6" letter-spacing="-1">generate your brand video.</text>
+
+  <!-- Divider -->
+  <rect x="88" y="262" width="72" height="2" fill="#7c3aed" opacity="0.5"/>
+
+  <!-- Sub-headline -->
+  <text x="88" y="308" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="19" font-weight="400" fill="#9ca3af">Figma Weave models now accessible via Figma MCP.</text>
+  <text x="88" y="336" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="19" font-weight="400" fill="#9ca3af">Seedance, Kling, Nano Banana  from Claude Code.</text>
+
+  <!-- Pipeline diagram (right side) -->
+  <!-- Claude Code -->
+  <rect x="720" y="90" width="400" height="52" rx="6" fill="#0d1625" stroke="#1e293b" stroke-width="1"/>
+  <rect x="720" y="90" width="4" height="52" fill="#8b5cf6" rx="2"/>
+  <text x="742" y="113" font-family="'SF Mono', monospace" font-size="11" fill="#a78bfa" font-weight="600">CLAUDE CODE / CURSOR</text>
+  <text x="742" y="132" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#e2e8f0">"Generate a product video using Kling"</text>
+
+  <text x="916" y="158" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#374151">“ Figma MCP</text>
+
+  <!-- Figma MCP -->
+  <rect x="720" y="166" width="400" height="52" rx="6" fill="#0d1625" stroke="#1e293b" stroke-width="1"/>
+  <rect x="720" y="166" width="4" height="52" fill="#6366f1" rx="2"/>
+  <text x="742" y="189" font-family="'SF Mono', monospace" font-size="11" fill="#818cf8" font-weight="600">FIGMA MCP</text>
+  <text x="742" y="208" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#e2e8f0">weave_find_model ’ weave_run_model</text>
+
+  <text x="916" y="234" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#374151">“ Weave credits</text>
+
+  <!-- Weave Models -->
+  <rect x="720" y="242" width="400" height="52" rx="6" fill="#0d1625" stroke="#1e293b" stroke-width="1"/>
+  <rect x="720" y="242" width="4" height="52" fill="#0ea5e9" rx="2"/>
+  <text x="742" y="265" font-family="'SF Mono', monospace" font-size="11" fill="#38bdf8" font-weight="600">WEAVE MODELS</text>
+  <text x="742" y="284" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#e2e8f0">Kling · Seedance · Nano Banana · Veo 3 · Luma</text>
+
+  <text x="916" y="310" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#374151">“ confirm cost first</text>
+
+  <!-- Output -->
+  <rect x="720" y="318" width="400" height="52" rx="6" fill="#061220" stroke="#0ea5e9" stroke-width="1.5"/>
+  <rect x="720" y="318" width="4" height="52" fill="#0ea5e9" rx="2"/>
+  <text x="742" y="341" font-family="'SF Mono', monospace" font-size="11" fill="#38bdf8" font-weight="600">OUTPUT</text>
+  <text x="742" y="360" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#f1f5f9" font-weight="600">Production asset · No Weave tab needed   NEW</text>
+
+  <!-- Key insight block (bottom left) -->
+  <rect x="88" y="392" width="568" height="106" rx="6" fill="#0d1625" stroke="#1e293b" stroke-width="1"/>
+  <text x="112" y="426" font-family="'Helvetica Neue', sans-serif" font-size="12" font-weight="600" fill="#8b5cf6" letter-spacing="1.5">DESIGN STACK NOW COMPLETE</text>
+  <text x="112" y="452" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#e2e8f0">Figma MCP: design layer   agent-readable</text>
+  <text x="112" y="476" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#0ea5e9">Weave via MCP: media layer   agent-callable</text>
+
+  <!-- Billing caveat -->
+  <rect x="720" y="390" width="400" height="80" rx="6" fill="#061220" stroke="#292219" stroke-width="1"/>
+  <text x="742" y="416" font-family="'Helvetica Neue', sans-serif" font-size="12" fill="#f59e0b" letter-spacing="1" font-weight="600">TWO SEPARATE CREDIT METERS</text>
+  <text x="742" y="438" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">Weave runs = WEAVE credits</text>
+  <text x="742" y="458" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#9ca3af">Figma AI features = FIGMA AI credits</text>
+
+  <!-- The question callout -->
+  <rect x="88" y="516" width="568" height="74" rx="6" fill="#0a0f1f" stroke="#8b5cf6" stroke-width="1"/>
+  <text x="112" y="544" font-family="'Helvetica Neue', sans-serif" font-size="12" fill="#a78bfa" font-weight="600" letter-spacing="1">THE QUESTION</text>
+  <text x="112" y="568" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Brief-to-asset is one agent conversation now.</text>
+  <text x="112" y="584" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#6b7280">Is your brief good enough for both design and media?</text>
+
+  <!-- Bottom attribution -->
+  <text x="88" y="624" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#374151">Senior UX perspective · figma.com/release-notes · Requires Figma + Weave accounts</text>
+</svg>
