@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#030d09"/>
+      <stop offset="100%" style="stop-color:#051410"/>
+    </linearGradient>
+    <linearGradient id="green1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg1)"/>
+
+  <!-- Top accent bar -->
+  <rect x="60" y="60" width="780" height="3" fill="url(#green1)" opacity="0.8"/>
+
+  <!-- Category label -->
+  <text x="60" y="112" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#10b981" letter-spacing="3" opacity="0.85">AI UX · OCT 28, 2026</text>
+
+  <!-- Main headline -->
+  <text x="60" y="178" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="42" font-weight="700" fill="#ffffff" letter-spacing="-0.5">GPT-6.1 Terra.</text>
+  <text x="60" y="230" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="19" font-weight="400" fill="#10b981">What cheap computer use means for design.</text>
+
+  <!-- Divider -->
+  <rect x="60" y="256" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Performance stats -->
+  <text x="60" y="294" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#059669" letter-spacing="1.5" font-weight="600">PERFORMANCE VS GPT-5.6 TERRA</text>
+
+  <rect x="60" y="308" width="370" height="80" rx="4" fill="#051a12" stroke="#0d3324" stroke-width="1"/>
+  <text x="245" y="352" font-family="'Helvetica Neue', sans-serif" font-size="40" font-weight="700" fill="#10b981" text-anchor="middle">3x</text>
+  <text x="245" y="376" font-family="'Helvetica Neue', sans-serif" font-size="12" fill="#64748b" text-anchor="middle">FASTER THAN ASTRA</text>
+
+  <rect x="470" y="308" width="370" height="80" rx="4" fill="#051a12" stroke="#0d3324" stroke-width="1"/>
+  <text x="655" y="352" font-family="'Helvetica Neue', sans-serif" font-size="40" font-weight="700" fill="#34d399" text-anchor="middle">50%</text>
+  <text x="655" y="376" font-family="'Helvetica Neue', sans-serif" font-size="12" fill="#64748b" text-anchor="middle">CHEAPER API PRICE</text>
+
+  <!-- Divider -->
+  <rect x="60" y="404" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Section 2: Design QA use cases -->
+  <text x="60" y="442" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#059669" letter-spacing="1.5" font-weight="600">DESIGN QA USE CASES</text>
+
+  <rect x="60" y="456" width="780" height="54" rx="4" fill="#051a12" stroke="#0d3324" stroke-width="1"/>
+  <rect x="60" y="456" width="3" height="54" fill="#10b981"/>
+  <text x="80" y="478" font-family="'SF Mono', monospace" font-size="10" fill="#34d399" font-weight="600" letter-spacing="1">01</text>
+  <text x="80" y="497" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Check campaign assets for crop + text placement</text>
+
+  <rect x="60" y="516" width="780" height="54" rx="4" fill="#051a12" stroke="#0d3324" stroke-width="1"/>
+  <rect x="60" y="516" width="3" height="54" fill="#34d399"/>
+  <text x="80" y="538" font-family="'SF Mono', monospace" font-size="10" fill="#34d399" font-weight="600" letter-spacing="1">02</text>
+  <text x="80" y="557" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Match product photos to catalog entries</text>
+
+  <rect x="60" y="576" width="780" height="54" rx="4" fill="#051a12" stroke="#0d3324" stroke-width="1"/>
+  <rect x="60" y="576" width="3" height="54" fill="#059669"/>
+  <text x="80" y="598" font-family="'SF Mono', monospace" font-size="10" fill="#34d399" font-weight="600" letter-spacing="1">03</text>
+  <text x="80" y="617" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Click through prototype to verify states</text>
+
+  <rect x="60" y="636" width="780" height="54" rx="4" fill="#081e15" stroke="#10b981" stroke-width="1.5"/>
+  <rect x="60" y="636" width="3" height="54" fill="#34d399"/>
+  <text x="80" y="658" font-family="'SF Mono', monospace" font-size="10" fill="#34d399" font-weight="600" letter-spacing="1">04</text>
+  <text x="80" y="677" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#f1f5f9" font-weight="600">Flag token vs rendered output mismatches</text>
+
+  <!-- Divider -->
+  <rect x="60" y="706" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Accessibility frame -->
+  <text x="60" y="744" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#10b981" letter-spacing="1.5" font-weight="600">ACCESSIBILITY = AGENT USABILITY</text>
+
+  <rect x="60" y="758" width="780" height="96" rx="4" fill="#051a12" stroke="#0d3324" stroke-width="1"/>
+  <text x="84" y="788" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">When agents use your UI routinely:</text>
+  <text x="84" y="812" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#94a3b8">Focus ring = navigation · Labels = context</text>
+  <text x="84" y="836" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#94a3b8">Missing either = agent errors at scale</text>
+
+  <!-- Divider -->
+  <rect x="60" y="870" width="780" height="1" fill="#1e293b"/>
+
+  <!-- Senior Designer callout -->
+  <text x="60" y="908" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#f59e0b" letter-spacing="1.5" font-weight="600">BRIEF QUALITY IS NOW THE COST FLOOR</text>
+
+  <rect x="60" y="922" width="780" height="96" rx="6" fill="#051a12" stroke="#059669" stroke-width="1.5"/>
+  <text x="84" y="952" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#10b981" font-weight="600">SENIOR DESIGNER TAKE</text>
+  <text x="84" y="976" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Not "can AI check this?"</text>
+  <text x="84" y="1000" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">But "is my brief precise enough to check correctly?"</text>
+
+  <!-- Bottom tag -->
+  <text x="60" y="1160" font-family="'SF Mono', monospace" font-size="11" fill="#1a2e25" letter-spacing="2">SENIOR UX DESIGNER PERSPECTIVE · OCT 28, 2026</text>
+</svg>
