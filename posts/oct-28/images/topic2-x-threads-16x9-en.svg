@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#030d09"/>
+      <stop offset="100%" style="stop-color:#051410"/>
+    </linearGradient>
+    <linearGradient id="green1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg1)"/>
+
+  <!-- Left accent bar -->
+  <rect x="64" y="64" width="3" height="547" fill="url(#green1)" opacity="0.9"/>
+
+  <!-- Category label -->
+  <text x="88" y="108" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#10b981" letter-spacing="3" opacity="0.85">AI UX · OCT 28, 2026</text>
+
+  <!-- Main headline -->
+  <text x="88" y="185" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="50" font-weight="700" fill="#ffffff" letter-spacing="-1">Computer use. Routine price.</text>
+  <text x="88" y="245" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="26" font-weight="400" fill="#10b981">GPT-6.1 Terra. 3x faster. 50% cheaper.</text>
+
+  <!-- Divider -->
+  <rect x="88" y="272" width="72" height="2" fill="#059669" opacity="0.5"/>
+
+  <!-- Core insight -->
+  <text x="88" y="322" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="20" font-weight="400" fill="#94a3b8">Design QA bottleneck shifts from cost</text>
+  <text x="88" y="350" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="20" font-weight="400" fill="#94a3b8">to brief quality.</text>
+
+  <!-- Benchmark examples (right side) -->
+  <text x="720" y="115" font-family="'SF Mono', monospace" font-size="11" fill="#10b981" font-weight="600" letter-spacing="1.5">FROM THE BENCHMARK</text>
+
+  <rect x="720" y="125" width="416" height="70" rx="6" fill="#051a12" stroke="#0d3324" stroke-width="1"/>
+  <rect x="720" y="125" width="4" height="70" fill="#10b981" rx="2"/>
+  <text x="742" y="152" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#e2e8f0">"Match product photos to catalog</text>
+  <text x="742" y="172" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#e2e8f0">entries and update listings."</text>
+
+  <rect x="720" y="205" width="416" height="70" rx="6" fill="#051a12" stroke="#0d3324" stroke-width="1"/>
+  <rect x="720" y="205" width="4" height="70" fill="#34d399" rx="2"/>
+  <text x="742" y="232" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#e2e8f0">"Check campaign assets for cropping</text>
+  <text x="742" y="252" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#e2e8f0">and text placement."</text>
+
+  <!-- Performance stats -->
+  <text x="720" y="302" font-family="'SF Mono', monospace" font-size="11" fill="#10b981" font-weight="600" letter-spacing="1.5">PERFORMANCE</text>
+
+  <rect x="720" y="312" width="196" height="70" rx="4" fill="#051a12" stroke="#0d3324" stroke-width="1"/>
+  <text x="818" y="342" font-family="'Helvetica Neue', sans-serif" font-size="32" font-weight="700" fill="#10b981" text-anchor="middle">3x</text>
+  <text x="818" y="366" font-family="'Helvetica Neue', sans-serif" font-size="12" fill="#64748b" text-anchor="middle">FASTER THAN ASTRA</text>
+
+  <rect x="928" y="312" width="208" height="70" rx="4" fill="#051a12" stroke="#0d3324" stroke-width="1"/>
+  <text x="1032" y="342" font-family="'Helvetica Neue', sans-serif" font-size="32" font-weight="700" fill="#34d399" text-anchor="middle">50%</text>
+  <text x="1032" y="366" font-family="'Helvetica Neue', sans-serif" font-size="12" fill="#64748b" text-anchor="middle">CHEAPER API PRICE</text>
+
+  <!-- Accessibility frame -->
+  <rect x="720" y="398" width="416" height="88" rx="6" fill="#081e15" stroke="#10b981" stroke-width="1.5"/>
+  <text x="742" y="424" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#10b981" font-weight="600" letter-spacing="1">ACCESSIBILITY = AGENT USABILITY</text>
+  <text x="742" y="446" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#94a3b8">No focus ring = navigation dead end</text>
+  <text x="742" y="466" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#94a3b8">No label = ambiguous agent context</text>
+
+  <!-- Bottom callout -->
+  <rect x="88" y="430" width="580" height="60" rx="6" fill="#051a12" stroke="#0d3324" stroke-width="1"/>
+  <text x="112" y="456" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">Visual reasoning + computer use in one model.</text>
+  <text x="112" y="478" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">ChatGPT Work + Codex. Plus, Pro, Enterprise.</text>
+
+  <!-- Author tag -->
+  <text x="88" y="598" font-family="'SF Mono', monospace" font-size="12" fill="#1a2e25" letter-spacing="2">SENIOR UX DESIGNER PERSPECTIVE</text>
+</svg>
