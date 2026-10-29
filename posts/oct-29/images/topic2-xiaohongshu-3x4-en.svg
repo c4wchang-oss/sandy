@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0800"/>
+      <stop offset="100%" style="stop-color:#130f00"/>
+    </linearGradient>
+    <linearGradient id="amber1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d97706"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg1)"/>
+
+  <!-- Top accent bar -->
+  <rect x="56" y="56" width="788" height="3" fill="url(#amber1)" opacity="0.8"/>
+
+  <!-- Category + date -->
+  <text x="56" y="106" font-family="'SF Mono', 'Fira Code', monospace" font-size="12" fill="#f59e0b" letter-spacing="3" opacity="0.85">AI UX · OCT 29, 2026</text>
+
+  <!-- Tool label -->
+  <rect x="56" y="122" width="160" height="38" rx="4" fill="#120900" stroke="#2d1e00" stroke-width="1"/>
+  <text x="76" y="147" font-family="'SF Mono', monospace" font-size="13" fill="#f59e0b" font-weight="600" letter-spacing="1">KREA 3</text>
+
+  <!-- Main headline -->
+  <text x="56" y="222" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="42" font-weight="700" fill="#ffffff" letter-spacing="-1">LoRA training =</text>
+  <text x="56" y="274" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="42" font-weight="700" fill="#f59e0b" letter-spacing="-1">brand constraint at</text>
+  <text x="56" y="326" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="42" font-weight="700" fill="#f59e0b" letter-spacing="-1">model weight level.</text>
+
+  <!-- Divider -->
+  <rect x="56" y="354" width="60" height="2" fill="#d97706" opacity="0.5"/>
+
+  <!-- Sub-headline -->
+  <text x="56" y="394" font-family="'Helvetica Neue', sans-serif" font-size="17" fill="#94a3b8">2K editing in under 8 seconds.</text>
+  <text x="56" y="418" font-family="'Helvetica Neue', sans-serif" font-size="17" fill="#94a3b8">First edit model trainable on YOUR product.</text>
+
+  <!-- Key distinction box -->
+  <rect x="56" y="450" width="788" height="96" rx="6" fill="#1a1200" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="80" y="480" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#f1f5f9" font-weight="600">Prompt vs LoRA  the real difference:</text>
+  <text x="80" y="508" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#fbbf24">Prompt = text description of what you want</text>
+  <text x="80" y="532" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#fbbf24">LoRA = trained parameter of what you actually look like</text>
+
+  <!-- Feature list -->
+  <rect x="56" y="562" width="788" height="56" rx="6" fill="#120900" stroke="#2d1e00" stroke-width="1"/>
+  <rect x="56" y="562" width="4" height="56" fill="#f59e0b" rx="2"/>
+  <text x="78" y="584" font-family="'SF Mono', monospace" font-size="11" fill="#f59e0b" letter-spacing="1">`</text>
+  <text x="102" y="584" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0" font-weight="600">Regional editing</text>
+  <text x="78" y="605" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#94a3b8">Select one box ’ describe ’ only that updates</text>
+
+  <rect x="56" y="626" width="788" height="56" rx="6" fill="#120900" stroke="#2d1e00" stroke-width="1"/>
+  <rect x="56" y="626" width="4" height="56" fill="#fbbf24" rx="2"/>
+  <text x="78" y="648" font-family="'SF Mono', monospace" font-size="11" fill="#f59e0b" letter-spacing="1">a</text>
+  <text x="102" y="648" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0" font-weight="600">Up to 6 reference images per edit</text>
+  <text x="78" y="669" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#94a3b8">4K output supported for print and large displays</text>
+
+  <rect x="56" y="690" width="788" height="56" rx="6" fill="#120900" stroke="#2d1e00" stroke-width="1"/>
+  <rect x="56" y="690" width="4" height="56" fill="#d97706" rx="2"/>
+  <text x="78" y="712" font-family="'SF Mono', monospace" font-size="11" fill="#f59e0b" letter-spacing="1">b</text>
+  <text x="102" y="712" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0" font-weight="600">Brief quality = training image quality</text>
+  <text x="78" y="733" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#94a3b8">4 blurry shots ’ bad LoRA. 40 consistent shots ’ good LoRA.</text>
+
+  <rect x="56" y="754" width="788" height="56" rx="6" fill="#120900" stroke="#2d1e00" stroke-width="1"/>
+  <rect x="56" y="754" width="4" height="56" fill="#b45309" rx="2"/>
+  <text x="78" y="776" font-family="'SF Mono', monospace" font-size="11" fill="#f59e0b" letter-spacing="1">c</text>
+  <text x="102" y="776" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0" font-weight="600">$0.03 at 1K · $0.06 at 2K per image</text>
+  <text x="78" y="797" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#94a3b8">#2 on CPI-Bench (4.81/5.0) · 10x faster than GPT Image 2</text>
+
+  <!-- Senior designer take -->
+  <text x="56" y="856" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#e2e8f0" font-weight="600">Senior Designer Take:</text>
+  <text x="56" y="882" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">Design system ’ governs layout + components</text>
+  <text x="56" y="906" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">LoRA ’ governs campaign asset appearance</text>
+  <text x="56" y="930" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">Complementary. Both are quality infrastructure.</text>
+
+  <!-- Caveat row -->
+  <rect x="56" y="962" width="788" height="52" rx="4" fill="#0d0800" stroke="#1e293b" stroke-width="1"/>
+  <text x="76" y="983" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#64748b">   Flat pixel output (no editable layers) · No edit endpoint</text>
+  <text x="76" y="1002" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#64748b">Iterate in Figma/Illustrator, not inside Krea</text>
+
+  <!-- Bottom bar -->
+  <rect x="56" y="1140" width="788" height="3" fill="url(#amber1)" opacity="0.4"/>
+  <text x="56" y="1170" font-family="'SF Mono', monospace" font-size="12" fill="#334155" letter-spacing="2">SENIOR UX DESIGNER PERSPECTIVE</text>
+</svg>

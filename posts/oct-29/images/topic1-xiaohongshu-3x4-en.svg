@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#030d09"/>
+      <stop offset="100%" style="stop-color:#061408"/>
+    </linearGradient>
+    <linearGradient id="green1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#16a34a"/>
+      <stop offset="100%" style="stop-color:#22c55e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg1)"/>
+
+  <!-- Top accent bar -->
+  <rect x="56" y="56" width="788" height="3" fill="url(#green1)" opacity="0.8"/>
+
+  <!-- Category + date -->
+  <text x="56" y="106" font-family="'SF Mono', 'Fira Code', monospace" font-size="12" fill="#22c55e" letter-spacing="3" opacity="0.85">AI UX · OCT 29, 2026</text>
+
+  <!-- Tool label -->
+  <rect x="56" y="122" width="220" height="38" rx="4" fill="#061209" stroke="#0d2b17" stroke-width="1"/>
+  <text x="76" y="147" font-family="'SF Mono', monospace" font-size="13" fill="#22c55e" font-weight="600" letter-spacing="1">GITHUB REPLICA</text>
+
+  <!-- Main headline -->
+  <text x="56" y="222" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="44" font-weight="700" fill="#ffffff" letter-spacing="-1">The whole team</text>
+  <text x="56" y="276" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="44" font-weight="700" fill="#ffffff" letter-spacing="-1">prototypes with</text>
+  <text x="56" y="330" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="44" font-weight="700" fill="#22c55e" letter-spacing="-1">your design system.</text>
+
+  <!-- Divider -->
+  <rect x="56" y="360" width="60" height="2" fill="#16a34a" opacity="0.5"/>
+
+  <!-- Sub-headline -->
+  <text x="56" y="400" font-family="'Helvetica Neue', sans-serif" font-size="18" fill="#94a3b8">Open-source. MIT license.</text>
+  <text x="56" y="426" font-family="'Helvetica Neue', sans-serif" font-size="18" fill="#94a3b8">Runs in GitHub Copilot app.</text>
+
+  <!-- Feature list -->
+  <rect x="56" y="460" width="788" height="56" rx="6" fill="#061209" stroke="#0d2b17" stroke-width="1"/>
+  <rect x="56" y="460" width="4" height="56" fill="#22c55e" rx="2"/>
+  <text x="78" y="483" font-family="'SF Mono', monospace" font-size="11" fill="#22c55e" letter-spacing="1">`</text>
+  <text x="102" y="483" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#e2e8f0" font-weight="600">/setup-skills</text>
+  <text x="78" y="504" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#94a3b8">Designers define guidance  team prototypes inside it</text>
+
+  <rect x="56" y="524" width="788" height="56" rx="6" fill="#061209" stroke="#0d2b17" stroke-width="1"/>
+  <rect x="56" y="524" width="4" height="56" fill="#4ade80" rx="2"/>
+  <text x="78" y="547" font-family="'SF Mono', monospace" font-size="11" fill="#22c55e" letter-spacing="1">a</text>
+  <text x="102" y="547" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#e2e8f0" font-weight="600">Real components, not generic AI defaults</text>
+  <text x="78" y="568" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#94a3b8">Approved guidance shapes every prototype the team creates</text>
+
+  <rect x="56" y="588" width="788" height="56" rx="6" fill="#061209" stroke="#0d2b17" stroke-width="1"/>
+  <rect x="56" y="588" width="4" height="56" fill="#16a34a" rx="2"/>
+  <text x="78" y="611" font-family="'SF Mono', monospace" font-size="11" fill="#22c55e" letter-spacing="1">b</text>
+  <text x="102" y="611" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#e2e8f0" font-weight="600">Local-first + Replica Hub</text>
+  <text x="78" y="632" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#94a3b8">Prototype locally; self-host Hub for team feedback</text>
+
+  <rect x="56" y="652" width="788" height="56" rx="6" fill="#061209" stroke="#0d2b17" stroke-width="1"/>
+  <rect x="56" y="652" width="4" height="56" fill="#15803d" rx="2"/>
+  <text x="78" y="675" font-family="'SF Mono', monospace" font-size="11" fill="#22c55e" letter-spacing="1">c</text>
+  <text x="102" y="675" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#e2e8f0" font-weight="600">PM + engineering + design can all prototype</text>
+  <text x="78" y="696" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="#94a3b8">Engineers validate. PMs test. Designers own guardrails.</text>
+
+  <!-- Key insight -->
+  <rect x="56" y="730" width="788" height="100" rx="6" fill="#0a1f12" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="80" y="763" font-family="'Helvetica Neue', sans-serif" font-size="17" fill="#f1f5f9" font-weight="600">The key quote from the docs:</text>
+  <text x="80" y="792" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#4ade80" font-style="italic">"Ask for existing approved components,</text>
+  <text x="80" y="816" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#4ade80" font-style="italic">not visual lookalikes."</text>
+
+  <!-- Senior designer take -->
+  <text x="56" y="875" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#e2e8f0" font-weight="600">Senior Designer Take:</text>
+  <text x="56" y="900" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">Prototype authorship ’ democratized.</text>
+  <text x="56" y="922" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">Constraint authorship ’ still the designer's job.</text>
+  <text x="56" y="944" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">Your DS doc quality = the team's output ceiling.</text>
+
+  <!-- Caveat row -->
+  <rect x="56" y="976" width="788" height="48" rx="4" fill="#030d09" stroke="#1e293b" stroke-width="1"/>
+  <text x="76" y="997" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#64748b">   Requires Copilot plan · Hub is self-hosted (Docker + domain)</text>
+  <text x="76" y="1014" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#64748b">github.com/github/replica</text>
+
+  <!-- Bottom bar -->
+  <rect x="56" y="1140" width="788" height="3" fill="url(#green1)" opacity="0.4"/>
+  <text x="56" y="1170" font-family="'SF Mono', monospace" font-size="12" fill="#334155" letter-spacing="2">SENIOR UX DESIGNER PERSPECTIVE</text>
+</svg>

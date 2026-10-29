@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#030d09"/>
+      <stop offset="100%" style="stop-color:#061408"/>
+    </linearGradient>
+    <linearGradient id="green1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#16a34a"/>
+      <stop offset="100%" style="stop-color:#22c55e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg1)"/>
+
+  <!-- Left accent bar -->
+  <rect x="64" y="64" width="3" height="547" fill="url(#green1)" opacity="0.9"/>
+
+  <!-- Category label -->
+  <text x="88" y="108" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#22c55e" letter-spacing="3" opacity="0.85">AI UX · OCT 29, 2026</text>
+
+  <!-- Main headline -->
+  <text x="88" y="185" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="48" font-weight="700" fill="#ffffff" letter-spacing="-1">Your design system</text>
+  <text x="88" y="243" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="48" font-weight="700" fill="#22c55e" letter-spacing="-1">IS the brief.</text>
+
+  <!-- Divider -->
+  <rect x="88" y="268" width="72" height="2" fill="#16a34a" opacity="0.5"/>
+
+  <!-- Core insight -->
+  <text x="88" y="315" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="19" font-weight="400" fill="#94a3b8">GitHub Replica: open-source AI prototyping</text>
+  <text x="88" y="342" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="19" font-weight="400" fill="#94a3b8">guided by your own components and docs.</text>
+
+  <!-- Feature cards (right side) -->
+  <rect x="720" y="90" width="416" height="56" rx="6" fill="#061209" stroke="#0d2b17" stroke-width="1"/>
+  <rect x="720" y="90" width="4" height="56" fill="#22c55e" rx="2"/>
+  <text x="742" y="113" font-family="'SF Mono', monospace" font-size="11" fill="#22c55e" font-weight="600" letter-spacing="1">/SETUP-SKILLS</text>
+  <text x="742" y="133" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Designers define the guidance once</text>
+
+  <rect x="720" y="154" width="416" height="56" rx="6" fill="#061209" stroke="#0d2b17" stroke-width="1"/>
+  <rect x="720" y="154" width="4" height="56" fill="#4ade80" rx="2"/>
+  <text x="742" y="177" font-family="'SF Mono', monospace" font-size="11" fill="#22c55e" font-weight="600" letter-spacing="1">WHOLE TEAM</text>
+  <text x="742" y="197" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">PM + engineering + design can all prototype</text>
+
+  <rect x="720" y="218" width="416" height="56" rx="6" fill="#061209" stroke="#0d2b17" stroke-width="1"/>
+  <rect x="720" y="218" width="4" height="56" fill="#16a34a" rx="2"/>
+  <text x="742" y="241" font-family="'SF Mono', monospace" font-size="11" fill="#22c55e" font-weight="600" letter-spacing="1">LOCAL-FIRST</text>
+  <text x="742" y="261" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">No server needed to prototype locally</text>
+
+  <rect x="720" y="282" width="416" height="56" rx="6" fill="#061209" stroke="#0d2b17" stroke-width="1"/>
+  <rect x="720" y="282" width="4" height="56" fill="#15803d" rx="2"/>
+  <text x="742" y="305" font-family="'SF Mono', monospace" font-size="11" fill="#22c55e" font-weight="600" letter-spacing="1">REPLICA HUB</text>
+  <text x="742" y="325" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Self-hosted team feedback and comments</text>
+
+  <rect x="720" y="346" width="416" height="56" rx="6" fill="#0a1f12" stroke="#22c55e" stroke-width="1.5"/>
+  <rect x="720" y="346" width="4" height="56" fill="#22c55e" rx="2"/>
+  <text x="742" y="369" font-family="'SF Mono', monospace" font-size="11" fill="#22c55e" font-weight="600" letter-spacing="1">MIT LICENSE</text>
+  <text x="742" y="389" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#f1f5f9" font-weight="600">github.com/github/replica  free</text>
+
+  <!-- Key insight box (bottom left) -->
+  <rect x="88" y="395" width="580" height="80" rx="6" fill="#061209" stroke="#0d2b17" stroke-width="1"/>
+  <text x="112" y="422" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">Prototype authorship ’ democratized.</text>
+  <text x="112" y="446" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">Constraint authorship ’ still the designer's job.</text>
+  <text x="112" y="466" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#4ade80" font-style="italic">Design system quality = output ceiling.</text>
+
+  <!-- Author tag -->
+  <text x="88" y="598" font-family="'SF Mono', monospace" font-size="12" fill="#334155" letter-spacing="2">SENIOR UX DESIGNER PERSPECTIVE</text>
+</svg>

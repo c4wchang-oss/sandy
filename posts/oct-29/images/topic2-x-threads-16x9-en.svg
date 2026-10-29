@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0800"/>
+      <stop offset="100%" style="stop-color:#130f00"/>
+    </linearGradient>
+    <linearGradient id="amber1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d97706"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg1)"/>
+
+  <!-- Left accent bar -->
+  <rect x="64" y="64" width="3" height="547" fill="url(#amber1)" opacity="0.9"/>
+
+  <!-- Category label -->
+  <text x="88" y="108" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#f59e0b" letter-spacing="3" opacity="0.85">AI UX · OCT 29, 2026</text>
+
+  <!-- Main headline -->
+  <text x="88" y="185" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="48" font-weight="700" fill="#ffffff" letter-spacing="-1">LoRA = trained constraint.</text>
+  <text x="88" y="243" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="28" font-weight="400" fill="#f59e0b">Not a prompt. A model parameter.</text>
+
+  <!-- Divider -->
+  <rect x="88" y="268" width="72" height="2" fill="#d97706" opacity="0.5"/>
+
+  <!-- Core insight -->
+  <text x="88" y="315" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="19" font-weight="400" fill="#94a3b8">Krea 3: 2K image editing in under 8 seconds.</text>
+  <text x="88" y="342" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="19" font-weight="400" fill="#94a3b8">First edit model you can train on your product.</text>
+
+  <!-- Feature cards (right side) -->
+  <rect x="720" y="90" width="416" height="56" rx="6" fill="#120900" stroke="#2d1e00" stroke-width="1"/>
+  <rect x="720" y="90" width="4" height="56" fill="#f59e0b" rx="2"/>
+  <text x="742" y="113" font-family="'SF Mono', monospace" font-size="11" fill="#f59e0b" font-weight="600" letter-spacing="1">LORA TRAINING</text>
+  <text x="742" y="133" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">450 images ’ model knows your brand</text>
+
+  <rect x="720" y="154" width="416" height="56" rx="6" fill="#120900" stroke="#2d1e00" stroke-width="1"/>
+  <rect x="720" y="154" width="4" height="56" fill="#fbbf24" rx="2"/>
+  <text x="742" y="177" font-family="'SF Mono', monospace" font-size="11" fill="#f59e0b" font-weight="600" letter-spacing="1">REGIONAL EDITING</text>
+  <text x="742" y="197" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Select one region, describe change, rest holds</text>
+
+  <rect x="720" y="218" width="416" height="56" rx="6" fill="#120900" stroke="#2d1e00" stroke-width="1"/>
+  <rect x="720" y="218" width="4" height="56" fill="#d97706" rx="2"/>
+  <text x="742" y="241" font-family="'SF Mono', monospace" font-size="11" fill="#f59e0b" font-weight="600" letter-spacing="1">SPEED</text>
+  <text x="742" y="261" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">2K in under 8 sec · 10x faster than GPT Image 2</text>
+
+  <rect x="720" y="282" width="416" height="56" rx="6" fill="#120900" stroke="#2d1e00" stroke-width="1"/>
+  <rect x="720" y="282" width="4" height="56" fill="#b45309" rx="2"/>
+  <text x="742" y="305" font-family="'SF Mono', monospace" font-size="11" fill="#f59e0b" font-weight="600" letter-spacing="1">REFERENCES</text>
+  <text x="742" y="325" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#e2e8f0">Up to 6 reference images per edit</text>
+
+  <rect x="720" y="346" width="416" height="56" rx="6" fill="#1a1200" stroke="#f59e0b" stroke-width="1.5"/>
+  <rect x="720" y="346" width="4" height="56" fill="#f59e0b" rx="2"/>
+  <text x="742" y="369" font-family="'SF Mono', monospace" font-size="11" fill="#f59e0b" font-weight="600" letter-spacing="1">PRICING</text>
+  <text x="742" y="389" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#f1f5f9" font-weight="600">$0.03 at 1K · $0.06 at 2K per image</text>
+
+  <!-- Key insight box (bottom left) -->
+  <rect x="88" y="390" width="580" height="82" rx="6" fill="#120900" stroke="#2d1e00" stroke-width="1"/>
+  <text x="112" y="418" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">Prompt = description. LoRA = trained constraint.</text>
+  <text x="112" y="443" font-family="'Helvetica Neue', sans-serif" font-size="15" fill="#94a3b8">Brief quality is now training image quality.</text>
+  <text x="112" y="463" font-family="'Helvetica Neue', sans-serif" font-size="13" fill="#fbbf24" font-style="italic">#2 CPI-Bench · flat pixels, not editable layers</text>
+
+  <!-- Author tag -->
+  <text x="88" y="598" font-family="'SF Mono', monospace" font-size="12" fill="#334155" letter-spacing="2">SENIOR UX DESIGNER PERSPECTIVE</text>
+</svg>
