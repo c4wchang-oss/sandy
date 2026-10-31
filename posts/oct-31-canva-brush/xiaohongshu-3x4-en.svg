@@ -1,0 +1,102 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0A0A0F"/>
+      <stop offset="60%" stop-color="#100E1A"/>
+      <stop offset="100%" stop-color="#0A0A0F"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg)"/>
+
+  <!-- Top accent bar full width -->
+  <rect x="0" y="0" width="900" height="3" fill="#7C3AED"/>
+
+  <!-- Subtle horizontal lines -->
+  <line x1="0" y1="300" x2="900" y2="300" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="600" x2="900" y2="600" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="900" x2="900" y2="900" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Header section -->
+  <rect x="64" y="58" width="150" height="22" rx="3" fill="#7C3AED" fill-opacity="0.2"/>
+  <text x="139" y="73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#A78BFA" text-anchor="middle" letter-spacing="1.5">CANVA BRUSH</text>
+
+  <!-- Main title -->
+  <text x="64" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="50" font-weight="800" fill="#F5F5F5" letter-spacing="-1.5">Not image</text>
+  <text x="64" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="50" font-weight="800" fill="#F5F5F5" letter-spacing="-1.5">generation.</text>
+  <text x="64" y="255" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="50" font-weight="800" fill="#7C3AED" letter-spacing="-1.5">Design editing.</text>
+
+  <!-- Subtitle -->
+  <text x="64" y="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#9CA3AF">The VLM that sees your design</text>
+  <text x="64" y="326" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#9CA3AF">structure and edits precisely.</text>
+
+  <!-- Divider -->
+  <rect x="64" y="358" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Point 1 card -->
+  <rect x="64" y="374" width="772" height="90" rx="8" fill="url(#card1)" stroke="#7C3AED" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="64" y="374" width="4" height="90" rx="2" fill="#7C3AED"/>
+  <text x="82" y="404" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#A78BFA" letter-spacing="0.8">01  SEES STRUCTURE</text>
+  <text x="82" y="427" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Reads your design before touching anything.</text>
+  <text x="82" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Changes only what you asked for.</text>
+
+  <!-- Point 2 card -->
+  <rect x="64" y="478" width="772" height="90" rx="8" fill="url(#card2)" stroke="#7C3AED" stroke-opacity="0.15" stroke-width="1"/>
+  <rect x="64" y="478" width="4" height="90" rx="2" fill="#7C3AED" fill-opacity="0.7"/>
+  <text x="82" y="508" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#A78BFA" letter-spacing="0.8">02  AGENTIC LOOP</text>
+  <text x="82" y="531" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Writes code ’ inspects page ’ continues.</text>
+  <text x="82" y="554" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Self-review is how the model works.</text>
+
+  <!-- Point 3 card -->
+  <rect x="64" y="582" width="772" height="90" rx="8" fill="url(#card2)" stroke="#7C3AED" stroke-opacity="0.12" stroke-width="1"/>
+  <rect x="64" y="582" width="4" height="90" rx="2" fill="#7C3AED" fill-opacity="0.5"/>
+  <text x="82" y="612" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#A78BFA" letter-spacing="0.8">03  FULLY EDITABLE</text>
+  <text x="82" y="635" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Text, layout, colors  all yours after.</text>
+  <text x="82" y="658" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">No locked outputs.</text>
+
+  <!-- Point 4 card -->
+  <rect x="64" y="686" width="772" height="90" rx="8" fill="url(#card2)" stroke="#7C3AED" stroke-opacity="0.10" stroke-width="1"/>
+  <rect x="64" y="686" width="4" height="90" rx="2" fill="#7C3AED" fill-opacity="0.4"/>
+  <text x="82" y="716" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#A78BFA" letter-spacing="0.8">04  TASTE IN THE LOOP</text>
+  <text x="82" y="739" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">RL reward system defined by real designers.</text>
+  <text x="82" y="762" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Quality isn't computed from pixels.</text>
+
+  <!-- Stats section -->
+  <rect x="64" y="800" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Stat 1 -->
+  <text x="200" y="864" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="56" font-weight="800" fill="#F5F5F5" text-anchor="middle">69%</text>
+  <text x="200" y="894" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#6B7280" text-anchor="middle">FASTER EDITING</text>
+
+  <!-- Stat divider -->
+  <line x1="450" y1="820" x2="450" y2="910" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Stat 2 -->
+  <text x="690" y="864" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="56" font-weight="800" fill="#F5F5F5" text-anchor="middle">46%</text>
+  <text x="690" y="894" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#6B7280" text-anchor="middle">LOWER COST / EDIT</text>
+
+  <!-- Divider -->
+  <rect x="64" y="930" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Honest caveat section -->
+  <text x="64" y="968" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#6B7280" letter-spacing="0.8">HONEST READ</text>
+  <text x="64" y="994" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">Canva Pro only at launch. No API yet. The real</text>
+  <text x="64" y="1016" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">test: brand-constrained multi-page editing at scale.</text>
+  <text x="64" y="1038" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">That question isn't answered yet.</text>
+
+  <!-- Bottom brand line -->
+  <rect x="0" y="1130" width="900" height="70" fill="#0D0B15"/>
+  <rect x="0" y="1130" width="900" height="1" fill="#FFFFFF" fill-opacity="0.06"/>
+  <text x="64" y="1172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#4B5563">Senior UX Designer perspective · Oct 31, 2026</text>
+  <circle cx="810" cy="1165" r="18" fill="#7C3AED" fill-opacity="0.15" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="810" y="1171" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#A78BFA" text-anchor="middle">UX</text>
+</svg>
