@@ -1,0 +1,113 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080F0C"/>
+      <stop offset="60%" stop-color="#0D1611"/>
+      <stop offset="100%" stop-color="#080F0C"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="900" height="3" fill="#059669"/>
+
+  <!-- Subtle horizontal lines -->
+  <line x1="0" y1="300" x2="900" y2="300" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="600" x2="900" y2="600" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="900" x2="900" y2="900" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Header section -->
+  <rect x="64" y="58" width="80" height="22" rx="3" fill="#059669" fill-opacity="0.2"/>
+  <text x="104" y="73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#34D399" text-anchor="middle" letter-spacing="1.5">ILSE</text>
+
+  <!-- Main title -->
+  <text x="64" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="800" fill="#F5F5F5" letter-spacing="-1.2">Agent edits the</text>
+  <text x="64" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="800" fill="#F5F5F5" letter-spacing="-1.2">wrong component.</text>
+  <text x="64" y="247" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="800" fill="#059669" letter-spacing="-1.2">Just point at it.</text>
+
+  <!-- Problem statement -->
+  <text x="64" y="295" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" fill="#9CA3AF">Built by a designer who spent 9 years</text>
+  <text x="64" y="319" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" fill="#9CA3AF">describing buttons in words to agents.</text>
+
+  <!-- Divider -->
+  <rect x="64" y="348" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Step cards -->
+  <!-- Step 1 -->
+  <rect x="64" y="364" width="772" height="95" rx="8" fill="url(#card1)" stroke="#059669" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="64" y="364" width="4" height="95" rx="2" fill="#059669"/>
+  <text x="82" y="393" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#34D399" letter-spacing="0.8">01  POINT AND SAY</text>
+  <text x="82" y="418" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Click an element í write what should change.</text>
+  <text x="82" y="441" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Agent gets exact file + line. Not a description.</text>
+
+  <!-- Step 2 -->
+  <rect x="64" y="473" width="772" height="95" rx="8" fill="url(#card2)" stroke="#059669" stroke-opacity="0.15" stroke-width="1"/>
+  <rect x="64" y="473" width="4" height="95" rx="2" fill="#059669" fill-opacity="0.7"/>
+  <text x="82" y="502" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#34D399" letter-spacing="0.8">02  INSTANT PANEL TWEAKS</text>
+  <text x="82" y="527" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Spacing, colors, type with your own tokens.</text>
+  <text x="82" y="550" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Simple changes land instantly. Zero AI spend.</text>
+
+  <!-- Step 3 -->
+  <rect x="64" y="582" width="772" height="95" rx="8" fill="url(#card2)" stroke="#059669" stroke-opacity="0.12" stroke-width="1"/>
+  <rect x="64" y="582" width="4" height="95" rx="2" fill="#059669" fill-opacity="0.5"/>
+  <text x="82" y="611" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#34D399" letter-spacing="0.8">03  AUTO DESIGN.MD</text>
+  <text x="82" y="636" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Ilse reads your components + tokens.</text>
+  <text x="82" y="659" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Writes DESIGN.MD. Agent stops inventing buttons.</text>
+
+  <!-- Step 4 -->
+  <rect x="64" y="691" width="772" height="95" rx="8" fill="url(#card2)" stroke="#059669" stroke-opacity="0.10" stroke-width="1"/>
+  <rect x="64" y="691" width="4" height="95" rx="2" fill="#059669" fill-opacity="0.4"/>
+  <text x="82" y="720" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#34D399" letter-spacing="0.8">04  TEST MODE (PRO)</text>
+  <text x="82" y="745" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Describe a user journey. Ilse walks your app.</text>
+  <text x="82" y="768" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Reports accessibility, errors, layout issues.</text>
+
+  <!-- Divider -->
+  <rect x="64" y="805" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Pattern confirmation section -->
+  <text x="64" y="842" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#6B7280" letter-spacing="0.8">PATTERN CONFIRMED 3◊ IN 2026</text>
+  <text x="64" y="870" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">Visual pointing &gt; text description as agent context.</text>
+
+  <!-- Three tools row -->
+  <rect x="64" y="888" width="235" height="52" rx="6" fill="#059669" fill-opacity="0.08" stroke="#059669" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="181" y="910" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#34D399" text-anchor="middle">MagicPath</text>
+  <text x="181" y="930" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">Canvas elements</text>
+
+  <rect x="314" y="888" width="235" height="52" rx="6" fill="#059669" fill-opacity="0.08" stroke="#059669" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="431" y="910" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#34D399" text-anchor="middle">Skisso</text>
+  <text x="431" y="930" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">Live CSS diff</text>
+
+  <rect x="564" y="888" width="272" height="52" rx="6" fill="#059669" fill-opacity="0.12" stroke="#059669" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="700" y="910" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#34D399" text-anchor="middle">Ilse ê new</text>
+  <text x="700" y="930" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">Dev app layer</text>
+
+  <!-- Divider -->
+  <rect x="64" y="960" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Honest caveats -->
+  <text x="64" y="996" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#6B7280" letter-spacing="0.8">HONEST READ</text>
+  <text x="64" y="1022" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#9CA3AF">React only (Next.js, Vite, Remix, Astro).</text>
+  <text x="64" y="1044" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#9CA3AF">Requires own coding agent subscription.</text>
+  <text x="64" y="1066" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#9CA3AF">Pro pre-sale ships November 2026.</text>
+
+  <!-- Install command -->
+  <rect x="64" y="1086" width="340" height="28" rx="4" fill="#059669" fill-opacity="0.08" stroke="#059669" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="82" y="1104" font-family="'SF Mono', 'Fira Code', monospace" font-size="14" fill="#34D399">npx ilse-design@latest</text>
+
+  <!-- Bottom brand line -->
+  <rect x="0" y="1130" width="900" height="70" fill="#080D0A"/>
+  <rect x="0" y="1130" width="900" height="1" fill="#FFFFFF" fill-opacity="0.06"/>
+  <text x="64" y="1172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#4B5563">Senior UX Designer perspective ∑ Oct 31, 2026</text>
+  <circle cx="810" cy="1165" r="18" fill="#059669" fill-opacity="0.15" stroke="#059669" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="810" y="1171" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#34D399" text-anchor="middle">UX</text>
+</svg>
