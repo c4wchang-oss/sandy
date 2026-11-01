@@ -1,0 +1,79 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="100%" stop-color="#0D1220"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="225" x2="1200" y2="225" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="450" x2="1200" y2="450" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="675" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="675" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="72" y="120" width="4" height="220" rx="2" fill="#3B82F6" opacity="0.9"/>
+
+  <!-- Accent line under headline -->
+  <rect x="76" y="348" width="480" height="1.5" fill="url(#accentLine)"/>
+
+  <!-- Tool label -->
+  <rect x="76" y="100" width="142" height="20" rx="3" fill="url(#tagGrad)"/>
+  <text x="147" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#93C5FD" text-anchor="middle" letter-spacing="1.2">DESIGNMD MCP</text>
+
+  <!-- Main headline -->
+  <text x="76" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="#F5F5F5" letter-spacing="-1.5">Design systems</text>
+  <text x="76" y="254" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="#3B82F6" letter-spacing="-1.5">are now a library.</text>
+  <text x="76" y="322" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="32" font-weight="400" fill="#9CA3AF" letter-spacing="-0.5">Browse. Compare. Remix. Fork.</text>
+
+  <!-- Divider -->
+  <rect x="76" y="370" width="1052" height="1" fill="#FFFFFF" fill-opacity="0.06"/>
+
+  <!-- Three key points row -->
+  <!-- Point 1 -->
+  <text x="76" y="415" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#3B82F6" letter-spacing="0.8">BROWSE</text>
+  <text x="76" y="440" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#D1D5DB">Thousands of real documented</text>
+  <text x="76" y="460" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#D1D5DB">systems from your editor</text>
+
+  <!-- Point 2 -->
+  <text x="460" y="415" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#3B82F6" letter-spacing="0.8">COMPARE</text>
+  <text x="460" y="440" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#D1D5DB">Two systems side by side.</text>
+  <text x="460" y="460" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#D1D5DB">No browser. No screenshots.</text>
+
+  <!-- Point 3 -->
+  <text x="840" y="415" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#3B82F6" letter-spacing="0.8">REMIX &amp; FORK</text>
+  <text x="840" y="440" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#D1D5DB">Start from real design work.</text>
+  <text x="840" y="460" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#D1D5DB">Not from a blank file.</text>
+
+  <!-- Vertical separators -->
+  <line x1="432" y1="398" x2="432" y2="475" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+  <line x1="812" y1="398" x2="812" y2="475" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="580" width="1200" height="95" fill="#080C18"/>
+  <rect x="0" y="580" width="1200" height="1" fill="#FFFFFF" fill-opacity="0.06"/>
+
+  <!-- Bottom label left -->
+  <text x="76" y="628" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#6B7280">DesignMD · Oct 27, 2026 · file ’ format ’ infrastructure</text>
+
+  <!-- Bottom label right  stat -->
+  <text x="1124" y="613" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="700" fill="#F5F5F5" text-anchor="end">4 credits</text>
+  <text x="1124" y="633" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#6B7280" text-anchor="end">any site ’ DESIGN.md</text>
+
+  <!-- Small blue dot accent -->
+  <circle cx="1148" cy="555" r="3" fill="#3B82F6" opacity="0.6"/>
+  <circle cx="1160" cy="555" r="3" fill="#3B82F6" opacity="0.3"/>
+  <circle cx="1172" cy="555" r="3" fill="#3B82F6" opacity="0.15"/>
+</svg>
