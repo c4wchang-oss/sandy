@@ -1,0 +1,100 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0A0A08"/>
+      <stop offset="60%" stop-color="#121008"/>
+      <stop offset="100%" stop-color="#0A0A08"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="cardWarn" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EF4444" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#EF4444" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg)"/>
+
+  <!-- Top accent bar full width -->
+  <rect x="0" y="0" width="900" height="3" fill="#F59E0B"/>
+
+  <!-- Subtle horizontal lines -->
+  <line x1="0" y1="300" x2="900" y2="300" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="600" x2="900" y2="600" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="900" x2="900" y2="900" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Header section -->
+  <rect x="64" y="58" width="138" height="22" rx="3" fill="#F59E0B" fill-opacity="0.2"/>
+  <text x="133" y="73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#FCD34D" text-anchor="middle" letter-spacing="1.5">CANVA MCP GA</text>
+
+  <!-- Main title -->
+  <text x="64" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="50" font-weight="800" fill="#F5F5F5" letter-spacing="-1.5">The pipe is open.</text>
+  <text x="64" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="50" font-weight="800" fill="#F59E0B" letter-spacing="-1.5">Brand governance</text>
+  <text x="64" y="252" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="50" font-weight="800" fill="#F5F5F5" letter-spacing="-1.5">isn't automatic.</text>
+
+  <!-- Subtitle -->
+  <text x="64" y="298" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#9CA3AF">Per-user only. No org-level auth.</text>
+
+  <!-- Divider -->
+  <rect x="64" y="320" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Card 1 -->
+  <rect x="64" y="336" width="772" height="90" rx="8" fill="url(#card1)" stroke="#F59E0B" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="64" y="336" width="4" height="90" rx="2" fill="#F59E0B"/>
+  <text x="82" y="366" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#FCD34D" letter-spacing="0.8">01  SELF-SERVE GA</text>
+  <text x="82" y="389" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Any developer. No waitlist. No approval.</text>
+  <text x="82" y="412" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Connect via Developer Portal OAuth.</text>
+
+  <!-- Card 2 -->
+  <rect x="64" y="440" width="772" height="90" rx="8" fill="url(#card2)" stroke="#F59E0B" stroke-opacity="0.15" stroke-width="1"/>
+  <rect x="64" y="440" width="4" height="90" rx="2" fill="#F59E0B" fill-opacity="0.7"/>
+  <text x="82" y="470" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#FCD34D" letter-spacing="0.8">02  FULL PRODUCTION LOOP</text>
+  <text x="82" y="493" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Create ’ Edit ’ Export. From Claude or Cursor.</text>
+  <text x="82" y="516" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">PDF, PNG, PPTX, MP4. No Canva tab.</text>
+
+  <!-- Card 3  warning tone -->
+  <rect x="64" y="544" width="772" height="90" rx="8" fill="url(#cardWarn)" stroke="#EF4444" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="64" y="544" width="4" height="90" rx="2" fill="#EF4444" fill-opacity="0.7"/>
+  <text x="82" y="574" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#FCA5A5" letter-spacing="0.8">03  PER-USER ONLY</text>
+  <text x="82" y="597" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">No org-level auth. No service account.</text>
+  <text x="82" y="620" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Each designer connects their own account.</text>
+
+  <!-- Card 4  governance -->
+  <rect x="64" y="648" width="772" height="90" rx="8" fill="url(#card2)" stroke="#F59E0B" stroke-opacity="0.10" stroke-width="1"/>
+  <rect x="64" y="648" width="4" height="90" rx="2" fill="#F59E0B" fill-opacity="0.4"/>
+  <text x="82" y="678" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#FCD34D" letter-spacing="0.8">04  THE GOVERNANCE GAP</text>
+  <text x="82" y="701" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Brand consistency = individual judgment now.</text>
+  <text x="82" y="724" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Design the governance layer before connecting.</text>
+
+  <!-- Divider -->
+  <rect x="64" y="762" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Comparison section -->
+  <text x="64" y="800" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#6B7280" letter-spacing="0.8">TWO MODELS</text>
+  <text x="64" y="826" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">Figma MCP = governance by architecture.</text>
+  <text x="64" y="848" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">Canva MCP = governance by individual trust.</text>
+  <text x="64" y="880" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="600" fill="#F5F5F5">Neither is wrong. Both are intentional.</text>
+
+  <!-- Divider -->
+  <rect x="64" y="910" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Solo vs team section -->
+  <text x="64" y="948" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#6B7280" letter-spacing="0.8">WHO THIS IS FOR</text>
+  <text x="64" y="974" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">Solo / small studio: pure upside.</text>
+  <text x="64" y="996" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">30+ team brand lead: audit your governance</text>
+  <text x="64" y="1018" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">layer before your team connects.</text>
+
+  <!-- Bottom brand line -->
+  <rect x="0" y="1130" width="900" height="70" fill="#0C0C08"/>
+  <rect x="0" y="1130" width="900" height="1" fill="#FFFFFF" fill-opacity="0.06"/>
+  <text x="64" y="1172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#4B5563">Senior UX Designer perspective · Nov 1, 2026</text>
+  <circle cx="810" cy="1165" r="18" fill="#F59E0B" fill-opacity="0.15" stroke="#F59E0B" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="810" y="1171" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#FCD34D" text-anchor="middle">UX</text>
+</svg>
