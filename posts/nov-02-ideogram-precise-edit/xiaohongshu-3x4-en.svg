@@ -1,0 +1,114 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060614"/>
+      <stop offset="60%" stop-color="#09081C"/>
+      <stop offset="100%" stop-color="#060614"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="772" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="772" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="regionGrad" x1="0" y1="0" x2="1" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="900" height="3" fill="#6366F1"/>
+
+  <!-- Subtle horizontal lines -->
+  <line x1="0" y1="300" x2="900" y2="300" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="600" x2="900" y2="600" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="900" x2="900" y2="900" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Decorative region selector top-right -->
+  <rect x="790" y="56" width="74" height="74" rx="3" fill="url(#regionGrad)" stroke="#6366F1" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <line x1="790" y1="68" x2="790" y2="56" stroke="#6366F1" stroke-opacity="0.8" stroke-width="2"/>
+  <line x1="790" y1="56" x2="802" y2="56" stroke="#6366F1" stroke-opacity="0.8" stroke-width="2"/>
+  <line x1="864" y1="68" x2="864" y2="56" stroke="#6366F1" stroke-opacity="0.8" stroke-width="2"/>
+  <line x1="852" y1="56" x2="864" y2="56" stroke="#6366F1" stroke-opacity="0.8" stroke-width="2"/>
+  <line x1="790" y1="118" x2="790" y2="130" stroke="#6366F1" stroke-opacity="0.8" stroke-width="2"/>
+  <line x1="790" y1="130" x2="802" y2="130" stroke="#6366F1" stroke-opacity="0.8" stroke-width="2"/>
+  <line x1="864" y1="118" x2="864" y2="130" stroke="#6366F1" stroke-opacity="0.8" stroke-width="2"/>
+  <line x1="852" y1="130" x2="864" y2="130" stroke="#6366F1" stroke-opacity="0.8" stroke-width="2"/>
+  <line x1="827" y1="78" x2="827" y2="108" stroke="#6366F1" stroke-opacity="0.4" stroke-width="1"/>
+  <line x1="812" y1="93" x2="842" y2="93" stroke="#6366F1" stroke-opacity="0.4" stroke-width="1"/>
+  <circle cx="827" cy="93" r="3.5" fill="#6366F1" fill-opacity="0.8"/>
+
+  <!-- Header section -->
+  <rect x="64" y="58" width="196" height="22" rx="3" fill="#6366F1" fill-opacity="0.18"/>
+  <text x="162" y="73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#A5B4FC" text-anchor="middle" letter-spacing="1.5">IDEOGRAM PRECISE EDIT</text>
+
+  <!-- Main title -->
+  <text x="64" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="50" font-weight="800" fill="#F5F5F5" letter-spacing="-1.5">8K surgical edit.</text>
+  <text x="64" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="50" font-weight="800" fill="#6366F1" letter-spacing="-1.5">No downscaling.</text>
+
+  <!-- Subtitle -->
+  <text x="64" y="246" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#9CA3AF">Mark a region. Describe the change.</text>
+  <text x="64" y="272" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#9CA3AF">Everything outside: pixel-for-pixel.</text>
+
+  <!-- Divider -->
+  <rect x="64" y="300" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Card 1 -->
+  <rect x="64" y="316" width="772" height="90" rx="8" fill="url(#card1)" stroke="#6366F1" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="64" y="316" width="4" height="90" rx="2" fill="#6366F1"/>
+  <text x="82" y="346" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#A5B4FC" letter-spacing="0.8">01  THE OLD PROBLEM</text>
+  <text x="82" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">AI editing capped at ~2K. Bigger assets?</text>
+  <text x="82" y="393" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Downscale ’ edit ’ stitch ’ seam visible.</text>
+
+  <!-- Card 2 -->
+  <rect x="64" y="420" width="772" height="90" rx="8" fill="url(#card2)" stroke="#6366F1" stroke-opacity="0.15" stroke-width="1"/>
+  <rect x="64" y="420" width="4" height="90" rx="2" fill="#6366F1" fill-opacity="0.7"/>
+  <text x="82" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#A5B4FC" letter-spacing="0.8">02  CONTEXT WINDOW FIXES THIS</text>
+  <text x="82" y="473" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Mark region (or auto-detect from mask).</text>
+  <text x="82" y="496" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Edit there at original pixels. Rest: untouched.</text>
+
+  <!-- Card 3 -->
+  <rect x="64" y="524" width="772" height="90" rx="8" fill="url(#card2)" stroke="#6366F1" stroke-opacity="0.12" stroke-width="1"/>
+  <rect x="64" y="524" width="4" height="90" rx="2" fill="#6366F1" fill-opacity="0.5"/>
+  <text x="82" y="554" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#A5B4FC" letter-spacing="0.8">03  REAL PRODUCTION USE CASES</text>
+  <text x="82" y="577" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">4K product hero: logo fix. 8K banner: copy update.</text>
+  <text x="82" y="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Composited packaging: one element to swap.</text>
+
+  <!-- Card 4 -->
+  <rect x="64" y="628" width="772" height="90" rx="8" fill="url(#card2)" stroke="#6366F1" stroke-opacity="0.10" stroke-width="1"/>
+  <rect x="64" y="628" width="4" height="90" rx="2" fill="#6366F1" fill-opacity="0.4"/>
+  <text x="82" y="658" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#A5B4FC" letter-spacing="0.8">04  THE RESOLUTION MATH</text>
+  <text x="82" y="681" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Before: 8K ’ downscale to 2K ’ edit ’ seam</text>
+  <text x="82" y="704" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">After: mark 2K region in 8K ’ edit ’ stays 8K</text>
+
+  <!-- Divider -->
+  <rect x="64" y="742" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Honest note -->
+  <text x="64" y="780" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#6B7280" letter-spacing="0.8">HONEST NOTE</text>
+  <text x="64" y="808" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">Still pixel output. No editable layers.</text>
+  <text x="64" y="836" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">Treat as the rendering pass, not source file.</text>
+  <text x="64" y="858" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">Keep source in Figma or Illustrator.</text>
+
+  <!-- Divider -->
+  <rect x="64" y="886" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Pattern section -->
+  <text x="64" y="924" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#6B7280" letter-spacing="0.8">PATTERN EMERGING</text>
+  <text x="64" y="950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">Editable layers ’ Editable SVG vectors</text>
+  <text x="64" y="974" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">’ Full-resolution surgical editing</text>
+  <text x="64" y="1004" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600" fill="#F5F5F5">AI closing the production quality gap.</text>
+  <text x="64" y="1028" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#9CA3AF">One layer at a time.</text>
+
+  <!-- Bottom brand line -->
+  <rect x="0" y="1158" width="900" height="42" fill="#050512"/>
+  <rect x="0" y="1158" width="900" height="1" fill="#FFFFFF" fill-opacity="0.06"/>
+  <text x="64" y="1185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#4B5563">Ideogram Precise Edit · Nov 1, 2026</text>
+  <text x="836" y="1185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#6366F1" text-anchor="end" font-weight="600">@senior_ux</text>
+</svg>
