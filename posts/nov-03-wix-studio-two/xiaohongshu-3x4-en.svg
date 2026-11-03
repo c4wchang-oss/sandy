@@ -1,0 +1,100 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#050810"/>
+      <stop offset="60%" stop-color="#080C18"/>
+      <stop offset="100%" stop-color="#050810"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="772" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="772" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="modeGrad" x1="0" y1="0" x2="1" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="900" height="3" fill="#3B82F6"/>
+
+  <!-- Subtle horizontal lines -->
+  <line x1="0" y1="300" x2="900" y2="300" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="600" x2="900" y2="600" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="900" x2="900" y2="900" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Decorative mode pill top-right -->
+  <rect x="752" y="54" width="88" height="28" rx="14" fill="url(#modeGrad)" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1.5"/>
+  <text x="796" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9" font-weight="600" fill="#93C5FD" text-anchor="middle">AI · CANVAS · REACT</text>
+
+  <!-- Header section -->
+  <rect x="64" y="58" width="154" height="22" rx="3" fill="#3B82F6" fill-opacity="0.18"/>
+  <text x="141" y="73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#93C5FD" text-anchor="middle" letter-spacing="1.5">WIX STUDIO TWO</text>
+
+  <!-- Main title -->
+  <text x="64" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="800" fill="#F5F5F5" letter-spacing="-1.5">The platform that</text>
+  <text x="64" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="800" fill="#F5F5F5" letter-spacing="-1.5">stopped competing</text>
+  <text x="64" y="244" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="800" fill="#3B82F6" letter-spacing="-1.5">with your agent.</text>
+
+  <!-- Subtitle -->
+  <text x="64" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" fill="#9CA3AF">AI + canvas + React. One editor. No handoffs.</text>
+
+  <!-- Divider -->
+  <rect x="64" y="314" width="772" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- Card 1 -->
+  <rect x="64" y="330" width="772" height="96" rx="8" fill="url(#card1)" stroke="#3B82F6" stroke-opacity="0.22" stroke-width="1"/>
+  <rect x="64" y="330" width="4" height="96" rx="2" fill="#3B82F6"/>
+  <text x="82" y="362" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#93C5FD" letter-spacing="0.8">01  THREE MODES, ONE EDITOR</text>
+  <text x="82" y="388" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Generate with Aria 2.0. Refine on canvas.</text>
+  <text x="82" y="412" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Edit React code in browser. Switch freely.</text>
+
+  <!-- Card 2 -->
+  <rect x="64" y="440" width="772" height="96" rx="8" fill="url(#card2)" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <rect x="64" y="440" width="4" height="96" rx="2" fill="#3B82F6" fill-opacity="0.7"/>
+  <text x="82" y="472" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#93C5FD" letter-spacing="0.8">02  SKILLS AT WEB CMS SCALE</text>
+  <text x="82" y="498" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Save standards once. Aria applies every project.</text>
+  <text x="82" y="522" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Constraint lives in the tool, not a Notion doc.</text>
+
+  <!-- Card 3 -->
+  <rect x="64" y="550" width="772" height="96" rx="8" fill="url(#card2)" stroke="#3B82F6" stroke-opacity="0.12" stroke-width="1"/>
+  <rect x="64" y="550" width="4" height="96" rx="2" fill="#3B82F6" fill-opacity="0.5"/>
+  <text x="82" y="582" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#93C5FD" letter-spacing="0.8">03  BYOA  BRING YOUR OWN AGENT</text>
+  <text x="82" y="608" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Build externally. Import. Export standard React.</text>
+  <text x="82" y="632" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Your agent. Your IDE. Your call.</text>
+
+  <!-- Card 4 -->
+  <rect x="64" y="660" width="772" height="96" rx="8" fill="url(#card2)" stroke="#3B82F6" stroke-opacity="0.10" stroke-width="1"/>
+  <rect x="64" y="660" width="4" height="96" rx="2" fill="#3B82F6" fill-opacity="0.4"/>
+  <text x="82" y="692" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#93C5FD" letter-spacing="0.8">04  MCP ARC  NOW INCLUDES WIX CMS</text>
+  <text x="82" y="718" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Webflow ’ Elementor ’ Framer ’ Wix.</text>
+  <text x="82" y="742" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#E5E7EB">Agents manage stores + bookings via MCP.</text>
+
+  <!-- Divider -->
+  <rect x="64" y="770" width="772" height="1" fill="#FFFFFF" fill-opacity="0.06"/>
+
+  <!-- Caveat section -->
+  <text x="64" y="804" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#6B7280" letter-spacing="0.8">HONEST CAVEAT</text>
+  <text x="64" y="830" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#9CA3AF">Standard React export = frontend only.</text>
+  <text x="64" y="854" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#9CA3AF">Wix business data doesn't travel with it.</text>
+
+  <!-- Bottom insight -->
+  <rect x="64" y="890" width="772" height="72" rx="8" fill="#3B82F6" fill-opacity="0.08" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="64" y="922" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="600" fill="#93C5FD" dx="24">AI accelerates the work.</text>
+  <text x="64" y="948" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" fill="#60A5FA" dx="24">You remain the creative director.</text>
+
+  <!-- Bottom bar -->
+  <rect x="64" y="994" width="772" height="1" fill="#FFFFFF" fill-opacity="0.05"/>
+  <text x="64" y="1026" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#4B5563">Wix Studio Two · wix.com/blog/meet-wix-studio-two</text>
+
+  <circle cx="800" cy="1026" r="3" fill="#3B82F6" opacity="0.5"/>
+  <circle cx="816" cy="1026" r="3" fill="#3B82F6" opacity="0.25"/>
+  <circle cx="832" cy="1026" r="3" fill="#3B82F6" opacity="0.12"/>
+</svg>

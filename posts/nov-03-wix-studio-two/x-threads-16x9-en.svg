@@ -1,0 +1,86 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#050810"/>
+      <stop offset="100%" stop-color="#080C18"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="500" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="modeGrad" x1="0" y1="0" x2="1" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="225" x2="1200" y2="225" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="450" x2="1200" y2="450" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="675" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="675" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Decorative: three mode pills (right side) -->
+  <rect x="944" y="155" width="108" height="32" rx="16" fill="url(#modeGrad)" stroke="#3B82F6" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="998" y="175" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#93C5FD" text-anchor="middle">AI GENERATE</text>
+
+  <rect x="958" y="208" width="108" height="32" rx="16" fill="url(#modeGrad)" stroke="#3B82F6" stroke-opacity="0.25" stroke-width="1.5"/>
+  <text x="1012" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#93C5FD" text-anchor="middle">VISUAL CANVAS</text>
+
+  <rect x="972" y="261" width="108" height="32" rx="16" fill="url(#modeGrad)" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1.5"/>
+  <text x="1026" y="281" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#93C5FD" text-anchor="middle">REACT CODE</text>
+
+  <!-- Left accent bar -->
+  <rect x="72" y="110" width="4" height="240" rx="2" fill="#3B82F6" opacity="0.9"/>
+
+  <!-- Accent line under headline -->
+  <rect x="76" y="358" width="480" height="1.5" fill="url(#accentLine)"/>
+
+  <!-- Tool label -->
+  <rect x="76" y="96" width="152" height="20" rx="3" fill="url(#tagGrad)"/>
+  <text x="152" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#93C5FD" text-anchor="middle" letter-spacing="1.2">WIX STUDIO TWO</text>
+
+  <!-- Main headline -->
+  <text x="76" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="700" fill="#F5F5F5" letter-spacing="-1.5">The platform that stopped</text>
+  <text x="76" y="258" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="700" fill="#3B82F6" letter-spacing="-1.5">competing with your agent.</text>
+  <text x="76" y="328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" font-weight="400" fill="#9CA3AF" letter-spacing="-0.5">AI + canvas + React code. One editor. No handoffs.</text>
+
+  <!-- Divider -->
+  <rect x="76" y="378" width="1052" height="1" fill="#FFFFFF" fill-opacity="0.06"/>
+
+  <!-- Three key points row -->
+  <text x="76" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#3B82F6" letter-spacing="0.8">SKILLS PATTERN</text>
+  <text x="76" y="444" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" fill="#D1D5DB">Save standards once.</text>
+  <text x="76" y="464" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" fill="#D1D5DB">Aria applies every project.</text>
+
+  <text x="440" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#3B82F6" letter-spacing="0.8">BYOA  OPEN</text>
+  <text x="440" y="444" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" fill="#D1D5DB">Your agent. Your IDE.</text>
+  <text x="440" y="464" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" fill="#D1D5DB">Standard React export.</text>
+
+  <text x="820" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#3B82F6" letter-spacing="0.8">MCP ARC CLOSED</text>
+  <text x="820" y="444" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" fill="#D1D5DB">Webflow ’ Elementor ’</text>
+  <text x="820" y="464" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" fill="#D1D5DB">Framer ’ Wix. 46 days.</text>
+
+  <!-- Vertical separators -->
+  <line x1="414" y1="404" x2="414" y2="480" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+  <line x1="794" y1="404" x2="794" y2="480" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="572" width="1200" height="1" fill="#FFFFFF" fill-opacity="0.06"/>
+
+  <text x="76" y="620" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#6B7280">Wix Studio Two · Nov 2, 2026 · professional creative director</text>
+
+  <text x="1124" y="607" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#F5F5F5" text-anchor="end">canvas, not agent</text>
+  <text x="1124" y="627" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#6B7280" text-anchor="end">you remain creative director</text>
+
+  <circle cx="1148" cy="548" r="3" fill="#3B82F6" opacity="0.6"/>
+  <circle cx="1160" cy="548" r="3" fill="#3B82F6" opacity="0.3"/>
+  <circle cx="1172" cy="548" r="3" fill="#3B82F6" opacity="0.15"/>
+</svg>
