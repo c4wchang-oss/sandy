@@ -1,0 +1,50 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0D0D0D"/>
+
+  <!-- Subtle 3D grid lines -->
+  <g opacity="0.08" stroke="#8B5CF6" stroke-width="1" fill="none">
+    <line x1="0" y1="150" x2="1200" y2="300"/>
+    <line x1="0" y1="250" x2="1200" y2="340"/>
+    <line x1="0" y1="350" x2="1200" y2="380"/>
+    <line x1="0" y1="450" x2="1200" y2="420"/>
+    <line x1="0" y1="550" x2="1200" y2="460"/>
+    <line x1="200" y1="0" x2="200" y2="675"/>
+    <line x1="400" y1="0" x2="400" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="800" y1="0" x2="800" y2="675"/>
+    <line x1="1000" y1="0" x2="1000" y2="675"/>
+  </g>
+
+  <!-- Accent bar top-left -->
+  <rect x="80" y="80" width="6" height="80" fill="#8B5CF6" rx="3"/>
+
+  <!-- Tool label -->
+  <text x="104" y="104" font-size="13" fill="#8B5CF6" font-weight="600" letter-spacing="2">FIGMA · 2026 年 11 月 12 + 19 日</text>
+
+  <!-- Main headline -->
+  <text x="104" y="168" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">Figma 原生 3D 來了。</text>
+  <text x="104" y="232" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">改變的是整條 pipeline，</text>
+  <text x="104" y="296" font-size="52" fill="#8B5CF6" font-weight="700" letter-spacing="-1">不只是視覺效果。</text>
+
+  <!-- Divider line -->
+  <line x1="104" y1="336" x2="700" y2="336" stroke="#2A2A2A" stroke-width="1.5"/>
+
+  <!-- Key insight rows -->
+  <g font-size="17" fill="#A0A0A0" font-weight="400">
+    <text x="104" y="372">3D 設計 → Figma Motion → Dev Mode CSS → Figma MCP → coding agent</text>
+    <text x="104" y="404">同一條 pipeline，不用切換工具，不用另外解釋數值。</text>
+  </g>
+
+  <!-- Caveat pill -->
+  <rect x="104" y="430" width="600" height="40" rx="6" fill="#1A1A1A" stroke="#2D2D2D" stroke-width="1"/>
+  <text x="124" y="456" font-size="14" fill="#F59E0B" font-weight="600">⚠  注意：</text>
+  <text x="196" y="456" font-size="14" fill="#808080">開啟「Keep nested layers 3D」= parent frame 的 opacity 和 blend modes 停用</text>
+
+  <!-- Bottom tag line -->
+  <text x="104" y="560" font-size="20" fill="#FFFFFF" font-weight="600">3D 設計 → CSS 輸出 → agent 可讀。</text>
+  <text x="104" y="590" font-size="20" fill="#606060" font-weight="400">空間探索到 code handoff 之間的缺口消失了。</text>
+
+  <!-- Bottom right attribution -->
+  <text x="1120" y="640" font-size="13" fill="#3A3A3A" text-anchor="end">Senior UX · AI 工具觀察</text>
+</svg>

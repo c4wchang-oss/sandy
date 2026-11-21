@@ -1,0 +1,97 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#060D1A"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#3B82F6"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.06" stroke="#3B82F6" stroke-width="1" fill="none">
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="0" y1="300" x2="900" y2="300"/>
+    <line x1="0" y1="450" x2="900" y2="450"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="750" x2="900" y2="750"/>
+    <line x1="0" y1="900" x2="900" y2="900"/>
+    <line x1="0" y1="1050" x2="900" y2="1050"/>
+    <line x1="150" y1="0" x2="150" y2="1200"/>
+    <line x1="300" y1="0" x2="300" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="600" y1="0" x2="600" y2="1200"/>
+    <line x1="750" y1="0" x2="750" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="260" height="34" rx="17" fill="#0D1A2E"/>
+  <text x="80" y="82" font-size="13" fill="#3B82F6" font-weight="600" letter-spacing="1">GOOGLE A2UI 1.0 · NOV 2026</text>
+
+  <!-- Main headline -->
+  <text x="60" y="160" font-size="52" fill="#FFFFFF" font-weight="800" letter-spacing="-1">Your design</text>
+  <text x="60" y="222" font-size="52" fill="#FFFFFF" font-weight="800" letter-spacing="-1">system is now</text>
+  <text x="60" y="284" font-size="52" fill="#3B82F6" font-weight="800" letter-spacing="-1">the contract.</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="316" x2="840" y2="316" stroke="#0D1A2E" stroke-width="1.5"/>
+
+  <!-- How it works section -->
+  <text x="60" y="356" font-size="13" fill="#3B82F6" font-weight="600" letter-spacing="2">HOW IT WORKS</text>
+
+  <g font-size="15">
+    <!-- Step 1 -->
+    <circle cx="76" cy="390" r="12" fill="#0D1A2E" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="72" y="395" font-size="11" fill="#3B82F6" font-weight="700" text-anchor="middle">1</text>
+    <text x="102" y="395" fill="#CCCCCC">You define a component catalog</text>
+    <text x="102" y="415" fill="#606060" font-size="13">— every type, property, and nesting rule</text>
+
+    <!-- Step 2 -->
+    <circle cx="76" cy="448" r="12" fill="#0D1A2E" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="72" y="453" font-size="11" fill="#3B82F6" font-weight="700" text-anchor="middle">2</text>
+    <text x="102" y="453" fill="#CCCCCC">Agent picks from your catalog only</text>
+    <text x="102" y="473" fill="#606060" font-size="13">— anything else = parse error, not bad output</text>
+
+    <!-- Step 3 -->
+    <circle cx="76" cy="506" r="12" fill="#0D1A2E" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="72" y="511" font-size="11" fill="#3B82F6" font-weight="700" text-anchor="middle">3</text>
+    <text x="102" y="511" fill="#CCCCCC">App renders with native components</text>
+    <text x="102" y="531" fill="#606060" font-size="13">— your design system controls visual treatment</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="60" y1="560" x2="840" y2="560" stroke="#0D1A2E" stroke-width="1.5"/>
+
+  <!-- Key comparison -->
+  <text x="60" y="596" font-size="13" fill="#606060" font-weight="600" letter-spacing="2">THE DIFFERENCE</text>
+  <rect x="60" y="612" width="368" height="80" rx="8" fill="#0D0D0D" stroke="#1A2A1A" stroke-width="1"/>
+  <text x="84" y="640" font-size="12" fill="#606060" font-weight="600">CONVENTION</text>
+  <text x="84" y="664" font-size="14" fill="#808080">"Please follow these rules"</text>
+  <text x="84" y="684" font-size="12" fill="#606060">Hopes agent reads guidelines</text>
+
+  <rect x="444" y="612" width="396" height="80" rx="8" fill="#0D1A2E" stroke="#1A3B6E" stroke-width="1"/>
+  <text x="468" y="640" font-size="12" fill="#3B82F6" font-weight="600">A2UI ENFORCEMENT</text>
+  <text x="468" y="664" font-size="14" fill="#A0C4FF">"Structurally cannot break rules"</text>
+  <text x="468" y="684" font-size="12" fill="#608080">Architecture enforces constraints</text>
+
+  <!-- Accessibility highlight -->
+  <rect x="60" y="716" width="780" height="80" rx="8" fill="#0D1A2E" stroke="#1A3B6E" stroke-width="1"/>
+  <text x="84" y="748" font-size="14" fill="#3B82F6" font-weight="600">Accessibility is in the protocol spec</text>
+  <text x="84" y="770" font-size="13" fill="#808080">Renderer maps ARIA / SwiftUI semantics / Jetpack Compose by default.</text>
+  <text x="84" y="788" font-size="13" fill="#808080">Not a checklist. The floor.</text>
+
+  <!-- Caveat box -->
+  <rect x="60" y="820" width="780" height="80" rx="8" fill="#1A0808" stroke="#3A1818" stroke-width="1"/>
+  <text x="84" y="848" font-size="13" fill="#F87171" font-weight="700">⚠  THE HONEST CAVEAT</text>
+  <text x="84" y="872" font-size="14" fill="#A05050">Catalog quality = output quality ceiling.</text>
+  <text x="84" y="892" font-size="14" fill="#A05050">A2UI enforces governance. It doesn't fix it.</text>
+
+  <!-- The question -->
+  <text x="60" y="940" font-size="13" fill="#606060" font-weight="600" letter-spacing="2">THE QUESTION FOR YOUR TEAM</text>
+  <text x="60" y="972" font-size="17" fill="#CCCCCC" font-weight="500">Is your design system documented</text>
+  <text x="60" y="996" font-size="17" fill="#CCCCCC" font-weight="500">precisely enough to be a contract?</text>
+  <text x="60" y="1032" font-size="16" fill="#3B82F6">That's the design systems work</text>
+  <text x="60" y="1056" font-size="16" fill="#3B82F6">that actually matters now.</text>
+
+  <!-- Footer -->
+  <line x1="60" y1="1120" x2="840" y2="1120" stroke="#0D1A2E" stroke-width="1"/>
+  <text x="60" y="1150" font-size="13" fill="#1A2A3A">Senior UX · AI Tools · Nov 2026</text>
+  <text x="840" y="1150" font-size="13" fill="#1A2A3A" text-anchor="end">#ux #designsystems #a2ui</text>
+</svg>

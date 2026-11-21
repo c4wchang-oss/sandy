@@ -1,0 +1,97 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#060D1A"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#3B82F6"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.06" stroke="#3B82F6" stroke-width="1" fill="none">
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="0" y1="300" x2="900" y2="300"/>
+    <line x1="0" y1="450" x2="900" y2="450"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="750" x2="900" y2="750"/>
+    <line x1="0" y1="900" x2="900" y2="900"/>
+    <line x1="0" y1="1050" x2="900" y2="1050"/>
+    <line x1="150" y1="0" x2="150" y2="1200"/>
+    <line x1="300" y1="0" x2="300" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="600" y1="0" x2="600" y2="1200"/>
+    <line x1="750" y1="0" x2="750" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="300" height="34" rx="17" fill="#0D1A2E"/>
+  <text x="80" y="82" font-size="13" fill="#3B82F6" font-weight="600" letter-spacing="1">GOOGLE A2UI 1.0 · 2026 年 11 月</text>
+
+  <!-- Main headline -->
+  <text x="60" y="160" font-size="50" fill="#FFFFFF" font-weight="800" letter-spacing="-1">你的 design system</text>
+  <text x="60" y="218" font-size="50" fill="#FFFFFF" font-weight="800" letter-spacing="-1">現在是合約。</text>
+  <text x="60" y="276" font-size="50" fill="#3B82F6" font-weight="800" letter-spacing="-1">不是建議文件。</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="310" x2="840" y2="310" stroke="#0D1A2E" stroke-width="1.5"/>
+
+  <!-- How it works section -->
+  <text x="60" y="350" font-size="13" fill="#3B82F6" font-weight="600" letter-spacing="2">運作方式</text>
+
+  <g font-size="15">
+    <!-- Step 1 -->
+    <circle cx="76" cy="384" r="12" fill="#0D1A2E" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="72" y="389" font-size="11" fill="#3B82F6" font-weight="700" text-anchor="middle">1</text>
+    <text x="102" y="389" fill="#CCCCCC">你定義一個 component catalog</text>
+    <text x="102" y="409" fill="#606060" font-size="13">— 每個類型、屬性和巢狀規則</text>
+
+    <!-- Step 2 -->
+    <circle cx="76" cy="442" r="12" fill="#0D1A2E" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="72" y="447" font-size="11" fill="#3B82F6" font-weight="700" text-anchor="middle">2</text>
+    <text x="102" y="447" fill="#CCCCCC">Agent 只能從你的 catalog 裡選</text>
+    <text x="102" y="467" fill="#606060" font-size="13">— 選不在裡面的 = parse error，不是錯誤輸出</text>
+
+    <!-- Step 3 -->
+    <circle cx="76" cy="500" r="12" fill="#0D1A2E" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="72" y="505" font-size="11" fill="#3B82F6" font-weight="700" text-anchor="middle">3</text>
+    <text x="102" y="505" fill="#CCCCCC">App 用你的 native component 渲染</text>
+    <text x="102" y="525" fill="#606060" font-size="13">— 視覺呈現由你的 design system 控制</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="60" y1="554" x2="840" y2="554" stroke="#0D1A2E" stroke-width="1.5"/>
+
+  <!-- Key comparison -->
+  <text x="60" y="590" font-size="13" fill="#606060" font-weight="600" letter-spacing="2">差別在哪裡</text>
+  <rect x="60" y="606" width="360" height="80" rx="8" fill="#0D0D0D" stroke="#1A2A1A" stroke-width="1"/>
+  <text x="84" y="634" font-size="12" fill="#606060" font-weight="600">CONVENTION</text>
+  <text x="84" y="658" font-size="14" fill="#808080">「請遵守這些規則」</text>
+  <text x="84" y="678" font-size="12" fill="#606060">靠 agent 有沒有讀你的 guideline</text>
+
+  <rect x="436" y="606" width="404" height="80" rx="8" fill="#0D1A2E" stroke="#1A3B6E" stroke-width="1"/>
+  <text x="460" y="634" font-size="12" fill="#3B82F6" font-weight="600">A2UI ENFORCEMENT</text>
+  <text x="460" y="658" font-size="14" fill="#A0C4FF">「架構上無法違反規則」</text>
+  <text x="460" y="678" font-size="12" fill="#608080">constraint 由架構強制執行</text>
+
+  <!-- Accessibility highlight -->
+  <rect x="60" y="710" width="780" height="80" rx="8" fill="#0D1A2E" stroke="#1A3B6E" stroke-width="1"/>
+  <text x="84" y="742" font-size="14" fill="#3B82F6" font-weight="600">Accessibility 寫在 protocol spec 裡</text>
+  <text x="84" y="764" font-size="13" fill="#808080">Renderer 預設對應 ARIA / SwiftUI semantics / Jetpack Compose。</text>
+  <text x="84" y="782" font-size="13" fill="#808080">不是 checklist，是底線。</text>
+
+  <!-- Caveat box -->
+  <rect x="60" y="814" width="780" height="80" rx="8" fill="#1A0808" stroke="#3A1818" stroke-width="1"/>
+  <text x="84" y="842" font-size="13" fill="#F87171" font-weight="700">⚠  老實說的 Caveat</text>
+  <text x="84" y="866" font-size="14" fill="#A05050">Catalog quality = output quality ceiling。</text>
+  <text x="84" y="886" font-size="14" fill="#A05050">A2UI 執行 governance，它不修復 governance。</text>
+
+  <!-- The question -->
+  <text x="60" y="934" font-size="13" fill="#606060" font-weight="600" letter-spacing="2">給你的設計團隊的問題</text>
+  <text x="60" y="966" font-size="17" fill="#CCCCCC" font-weight="500">你的 design system 文件</text>
+  <text x="60" y="990" font-size="17" fill="#CCCCCC" font-weight="500">精確到可以當合約用嗎？</text>
+  <text x="60" y="1026" font-size="16" fill="#3B82F6">這才是現在真正重要的</text>
+  <text x="60" y="1050" font-size="16" fill="#3B82F6">design systems 工作。</text>
+
+  <!-- Footer -->
+  <line x1="60" y1="1120" x2="840" y2="1120" stroke="#0D1A2E" stroke-width="1"/>
+  <text x="60" y="1150" font-size="13" fill="#1A2A3A">Senior UX · AI 工具觀察 · 2026 年 11 月</text>
+  <text x="840" y="1150" font-size="13" fill="#1A2A3A" text-anchor="end">#ux設計 #設計系統 #a2ui</text>
+</svg>
