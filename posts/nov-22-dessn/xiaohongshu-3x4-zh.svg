@@ -1,0 +1,60 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#0D9488"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.05" stroke="#0D9488" stroke-width="1" fill="none">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="400" x2="900" y2="400"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="800" x2="900" y2="800"/>
+    <line x1="0" y1="1000" x2="900" y2="1000"/>
+    <line x1="225" y1="0" x2="225" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="675" y1="0" x2="675" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="210" height="34" rx="17" fill="#0D2420"/>
+  <text x="80" y="82" font-size="13" fill="#0D9488" font-weight="600" letter-spacing="1">DESSN · 2026 年 11 月</text>
+
+  <!-- Main headline block -->
+  <text x="60" y="168" font-size="56" fill="#FFFFFF" font-weight="700" letter-spacing="-1">所有 canvas</text>
+  <text x="60" y="236" font-size="56" fill="#FFFFFF" font-weight="700" letter-spacing="-1">都在對著圖片工作。</text>
+  <text x="60" y="316" font-size="56" fill="#0D9488" font-weight="700" letter-spacing="-1">Dessn 對著</text>
+  <text x="60" y="384" font-size="56" fill="#0D9488" font-weight="700" letter-spacing="-1">你的 app 本身工作。</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="420" x2="840" y2="420" stroke="#202020" stroke-width="1.5"/>
+
+  <!-- Pattern callout -->
+  <text x="60" y="468" font-size="15" fill="#0D9488" font-weight="600" letter-spacing="1">CANVAS-AS-CONTEXT · 第 7 個實例</text>
+
+  <!-- Key points -->
+  <g font-size="20" fill="#CCCCCC" font-weight="400">
+    <text x="60" y="524">01  Agent 在 file:line 讀真實 component</text>
+    <text x="60" y="568">     直接重用——不是視覺近似版本</text>
+    <text x="60" y="628">02  Design system 被 context 本身執行</text>
+    <text x="60" y="672">     不靠文件，因為 canvas 就是 codebase</text>
+    <text x="60" y="732">03  MCP-native · OAuth · remote</text>
+    <text x="60" y="776">     支援 Claude Code、Codex、Cursor、ChatGPT</text>
+    <text x="60" y="836">04  改動以 git patch 帶回</text>
+    <text x="60" y="880">     Canvas 和 local code 保持 1:1 同步</text>
+  </g>
+
+  <!-- Caveat box -->
+  <rect x="60" y="940" width="780" height="90" rx="8" fill="#141414" stroke="#1E2E2C" stroke-width="1.5"/>
+  <text x="80" y="973" font-size="14" fill="#F59E0B" font-weight="600">⚠  誠實的 caveat</text>
+  <text x="80" y="998" font-size="14" fill="#707070">免費方案每 team 每月 50 個 MCP call（讀取也算）。</text>
+  <text x="80" y="1018" font-size="14" fill="#707070">Cloud agent 無法直接寫 frame code — local agent（Claude Code、Cursor）可以。</text>
+
+  <!-- Bottom label -->
+  <text x="60" y="1140" font-size="18" fill="#FFFFFF" font-weight="600">Reference 比描述更有效。</text>
+  <text x="60" y="1168" font-size="17" fill="#505050" font-weight="400">Dessn 是這個原則的邏輯終點。</text>
+
+  <!-- Bottom right attribution -->
+  <text x="840" y="1168" font-size="12" fill="#3A3A3A" text-anchor="end">Senior UX · AI 工具觀察</text>
+</svg>

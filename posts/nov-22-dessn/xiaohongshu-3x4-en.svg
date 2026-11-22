@@ -1,0 +1,61 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#0D9488"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.05" stroke="#0D9488" stroke-width="1" fill="none">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="400" x2="900" y2="400"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="800" x2="900" y2="800"/>
+    <line x1="0" y1="1000" x2="900" y2="1000"/>
+    <line x1="225" y1="0" x2="225" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="675" y1="0" x2="675" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="180" height="34" rx="17" fill="#0D2420"/>
+  <text x="80" y="82" font-size="13" fill="#0D9488" font-weight="600" letter-spacing="1">DESSN · NOV 2026</text>
+
+  <!-- Main headline block -->
+  <text x="60" y="168" font-size="56" fill="#FFFFFF" font-weight="700" letter-spacing="-1">Every canvas</text>
+  <text x="60" y="236" font-size="56" fill="#FFFFFF" font-weight="700" letter-spacing="-1">works from</text>
+  <text x="60" y="304" font-size="56" fill="#FFFFFF" font-weight="700" letter-spacing="-1">pictures.</text>
+  <text x="60" y="380" font-size="56" fill="#0D9488" font-weight="700" letter-spacing="-1">Dessn works</text>
+  <text x="60" y="448" font-size="56" fill="#0D9488" font-weight="700" letter-spacing="-1">from your app.</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="490" x2="840" y2="490" stroke="#202020" stroke-width="1.5"/>
+
+  <!-- Pattern callout -->
+  <text x="60" y="540" font-size="15" fill="#0D9488" font-weight="600" letter-spacing="1">CANVAS-AS-CONTEXT · 7TH INSTANCE</text>
+
+  <!-- Key points -->
+  <g font-size="20" fill="#CCCCCC" font-weight="400">
+    <text x="60" y="596">01  Agent reads real components at file:line</text>
+    <text x="60" y="640">     Reuses actual source — not visual lookalikes</text>
+    <text x="60" y="700">02  Design system enforced by context</text>
+    <text x="60" y="744">     Not by docs. Because it IS the codebase.</text>
+    <text x="60" y="804">03  MCP-native · OAuth · remote</text>
+    <text x="60" y="848">     Claude Code, Codex, Cursor, ChatGPT</text>
+    <text x="60" y="908">04  Changes return as git patches</text>
+    <text x="60" y="952">     Canvas and local code stay 1:1</text>
+  </g>
+
+  <!-- Caveat box -->
+  <rect x="60" y="1000" width="780" height="80" rx="8" fill="#141414" stroke="#1E2E2C" stroke-width="1.5"/>
+  <text x="80" y="1033" font-size="14" fill="#F59E0B" font-weight="600">⚠  Honest caveats</text>
+  <text x="80" y="1058" font-size="14" fill="#707070">Free: 50 MCP calls/month total (reads count). Cloud agents</text>
+  <text x="80" y="1076" font-size="14" fill="#707070">can't write frame code directly — local agents (Claude Code, Cursor) can.</text>
+
+  <!-- Bottom label -->
+  <text x="60" y="1150" font-size="17" fill="#FFFFFF" font-weight="600">Reference beats description.</text>
+  <text x="60" y="1174" font-size="17" fill="#505050" font-weight="400">Dessn is where that principle ends up.</text>
+
+  <!-- Bottom right attribution -->
+  <text x="840" y="1174" font-size="12" fill="#3A3A3A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>
