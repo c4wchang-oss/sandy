@@ -1,0 +1,56 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0D0D0D"/>
+
+  <!-- Subtle node graph lines in background -->
+  <g opacity="0.07" stroke="#F97316" stroke-width="1" fill="none">
+    <!-- Horizontal flow lines suggesting node connections -->
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="300" y1="0" x2="300" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
+  </g>
+  <!-- Node dots at intersections -->
+  <g fill="#F97316" opacity="0.15">
+    <circle cx="300" cy="180" r="5"/>
+    <circle cx="600" cy="180" r="5"/>
+    <circle cx="900" cy="180" r="5"/>
+    <circle cx="300" cy="360" r="5"/>
+    <circle cx="600" cy="360" r="5"/>
+    <circle cx="900" cy="360" r="5"/>
+  </g>
+
+  <!-- Accent bar top-left -->
+  <rect x="80" y="80" width="6" height="80" fill="#F97316" rx="3"/>
+
+  <!-- Tool label -->
+  <text x="104" y="104" font-size="13" fill="#F97316" font-weight="600" letter-spacing="2">ADOBE FIREFLY · NOV 10, 2026</text>
+
+  <!-- Main headline -->
+  <text x="104" y="168" font-size="50" fill="#FFFFFF" font-weight="700" letter-spacing="-1">Runway Oct 27.</text>
+  <text x="104" y="230" font-size="50" fill="#FFFFFF" font-weight="700" letter-spacing="-1">Figma Oct 30.</text>
+  <text x="104" y="300" font-size="50" fill="#F97316" font-weight="700" letter-spacing="-1">Adobe Nov 10. 15 days.</text>
+
+  <!-- Divider -->
+  <line x1="104" y1="336" x2="740" y2="336" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Key insight rows -->
+  <g font-size="17" fill="#A0A0A0" font-weight="400">
+    <text x="104" y="372">3 platforms converged on a node-based workflow canvas. Same bet: encode expert process → team runs it.</text>
+    <text x="104" y="404">Graph: public beta (model comparison, subgraphs). Builder: private beta, waitlist.</text>
+  </g>
+
+  <!-- Caveat pill -->
+  <rect x="104" y="430" width="560" height="40" rx="6" fill="#161616" stroke="#262626" stroke-width="1"/>
+  <text x="124" y="456" font-size="14" fill="#F59E0B" font-weight="600">⚠  Caveat:</text>
+  <text x="210" y="456" font-size="14" fill="#808080">Graph = public beta, not GA. Builder = private beta waitlist. Most interesting = least accessible.</text>
+
+  <!-- Bottom tag line -->
+  <text x="104" y="560" font-size="20" fill="#FFFFFF" font-weight="600">The workflow canvas is the new creative production interface.</text>
+  <text x="104" y="590" font-size="20" fill="#606060" font-weight="400">Encode the process. Deploy it. Stop being the bottleneck.</text>
+
+  <!-- Bottom right attribution -->
+  <text x="1120" y="640" font-size="13" fill="#3A3A3A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>
