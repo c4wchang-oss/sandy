@@ -1,0 +1,60 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0D0D0D"/>
+
+  <!-- Subtle diagonal skill-file background -->
+  <g opacity="0.04" stroke="#8B5CF6" stroke-width="1" fill="none">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="240" y1="0" x2="240" y2="675"/>
+    <line x1="480" y1="0" x2="480" y2="675"/>
+    <line x1="720" y1="0" x2="720" y2="675"/>
+    <line x1="960" y1="0" x2="960" y2="675"/>
+  </g>
+
+  <!-- Accent bar top-left -->
+  <rect x="80" y="80" width="6" height="80" fill="#8B5CF6" rx="3"/>
+
+  <!-- Tool label -->
+  <text x="104" y="104" font-size="13" fill="#8B5CF6" font-weight="600" letter-spacing="2">SKILLUX · NOV 2026</text>
+
+  <!-- Main headline -->
+  <text x="104" y="168" font-size="47" fill="#FFFFFF" font-weight="700" letter-spacing="-1">AI agents can now buy</text>
+  <text x="104" y="228" font-size="47" fill="#FFFFFF" font-weight="700" letter-spacing="-1">UX judgment for $1.99.</text>
+  <text x="104" y="296" font-size="47" fill="#8B5CF6" font-weight="700" letter-spacing="-1">That's the floor. You own the ceiling.</text>
+
+  <!-- Divider -->
+  <line x1="104" y1="332" x2="800" y2="332" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Floor/Ceiling split visualization -->
+  <!-- Ceiling block -->
+  <rect x="104" y="354" width="520" height="68" rx="6" fill="#1A0F2E" stroke="#6D28D9" stroke-width="1"/>
+  <text x="124" y="380" font-size="13" fill="#8B5CF6" font-weight="700" letter-spacing="1">CEILING · YOURS</text>
+  <text x="124" y="406" font-size="14" fill="#A78BFA">Brand visual language · Component architecture · Product IA decisions</text>
+
+  <!-- Floor block -->
+  <rect x="104" y="434" width="520" height="68" rx="6" fill="#141414" stroke="#3F3F3F" stroke-width="1"/>
+  <text x="124" y="460" font-size="13" fill="#606060" font-weight="700" letter-spacing="1">FLOOR · SKILLUX</text>
+  <text x="124" y="486" font-size="14" fill="#808080">Hover states · Empty states · Loading patterns · Spacing rhythm</text>
+
+  <!-- Right side: install command -->
+  <rect x="660" y="354" width="460" height="148" rx="8" fill="#0F0A1E" stroke="#4C1D95" stroke-width="1"/>
+  <text x="680" y="385" font-size="13" fill="#6D28D9" font-weight="600" letter-spacing="1">INSTALL</text>
+  <text x="680" y="420" font-size="22" fill="#A78BFA" font-weight="700" font-family="monospace, Courier New">npx skillux add</text>
+  <text x="680" y="452" font-size="22" fill="#C4B5FD" font-weight="700" font-family="monospace, Courier New">&lt;slug&gt;</text>
+  <text x="680" y="484" font-size="13" fill="#4C1D95">→ .cursor/skills/   ~/.claude/skills/</text>
+
+  <!-- Caveat pill -->
+  <rect x="104" y="528" width="600" height="36" rx="6" fill="#161616" stroke="#262626" stroke-width="1"/>
+  <text x="124" y="552" font-size="14" fill="#F59E0B" font-weight="600">⚠  Caveat:</text>
+  <text x="210" y="552" font-size="14" fill="#808080">Generic UX floor ≠ brand ceiling. No pack encodes your product's specific visual language.</text>
+
+  <!-- Bottom reframe -->
+  <text x="104" y="606" font-size="18" fill="#FFFFFF" font-weight="600">Skillux makes clearing the floor cheaper.</text>
+  <text x="104" y="636" font-size="18" fill="#606060" font-weight="400">The ceiling work is what you're actually paid for.</text>
+
+  <!-- Bottom right attribution -->
+  <text x="1120" y="660" font-size="13" fill="#3A3A3A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>

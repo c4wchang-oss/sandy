@@ -1,0 +1,60 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0D0D0D"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#8B5CF6" stroke-width="1" fill="none">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="240" y1="0" x2="240" y2="675"/>
+    <line x1="480" y1="0" x2="480" y2="675"/>
+    <line x1="720" y1="0" x2="720" y2="675"/>
+    <line x1="960" y1="0" x2="960" y2="675"/>
+  </g>
+
+  <!-- Accent bar top-left -->
+  <rect x="80" y="80" width="6" height="80" fill="#8B5CF6" rx="3"/>
+
+  <!-- Tool label -->
+  <text x="104" y="104" font-size="13" fill="#8B5CF6" font-weight="600" letter-spacing="2">SKILLUX · 2026 年 11 月</text>
+
+  <!-- Main headline -->
+  <text x="104" y="172" font-size="47" fill="#FFFFFF" font-weight="700" letter-spacing="-0.5">AI agent 現在可以用 $1.99</text>
+  <text x="104" y="232" font-size="47" fill="#FFFFFF" font-weight="700" letter-spacing="-0.5">買到 UX 設計判斷力了。</text>
+  <text x="104" y="300" font-size="47" fill="#8B5CF6" font-weight="700" letter-spacing="-0.5">那是 floor。Ceiling 還是你的。</text>
+
+  <!-- Divider -->
+  <line x1="104" y1="336" x2="820" y2="336" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Floor/Ceiling split visualization -->
+  <!-- Ceiling block -->
+  <rect x="104" y="358" width="560" height="68" rx="6" fill="#1A0F2E" stroke="#6D28D9" stroke-width="1"/>
+  <text x="124" y="384" font-size="13" fill="#8B5CF6" font-weight="700" letter-spacing="1">CEILING · 你的責任</text>
+  <text x="124" y="410" font-size="14" fill="#A78BFA">品牌視覺語言 · Component 架構 · 產品 IA 決策</text>
+
+  <!-- Floor block -->
+  <rect x="104" y="438" width="560" height="68" rx="6" fill="#141414" stroke="#3F3F3F" stroke-width="1"/>
+  <text x="124" y="464" font-size="13" fill="#606060" font-weight="700" letter-spacing="1">FLOOR · SKILLUX 負責</text>
+  <text x="124" y="490" font-size="14" fill="#808080">Hover 狀態 · Empty state · Loading pattern · 間距節奏</text>
+
+  <!-- Right side: install command -->
+  <rect x="700" y="358" width="420" height="148" rx="8" fill="#0F0A1E" stroke="#4C1D95" stroke-width="1"/>
+  <text x="720" y="390" font-size="13" fill="#6D28D9" font-weight="600" letter-spacing="1">安裝指令</text>
+  <text x="720" y="430" font-size="20" fill="#A78BFA" font-weight="700" font-family="monospace, Courier New">npx skillux</text>
+  <text x="720" y="462" font-size="20" fill="#C4B5FD" font-weight="700" font-family="monospace, Courier New">add &lt;slug&gt;</text>
+  <text x="720" y="494" font-size="12" fill="#4C1D95">→ .cursor/skills/ / ~/.claude/skills/</text>
+
+  <!-- Caveat pill -->
+  <rect x="104" y="528" width="700" height="36" rx="6" fill="#161616" stroke="#262626" stroke-width="1"/>
+  <text x="124" y="552" font-size="14" fill="#F59E0B" font-weight="600">⚠  Caveat：</text>
+  <text x="216" y="552" font-size="14" fill="#808080">通用 UX floor ≠ 品牌 ceiling。沒有任何 pack 能編碼你產品的具體視覺語言。</text>
+
+  <!-- Bottom reframe -->
+  <text x="104" y="606" font-size="18" fill="#FFFFFF" font-weight="600">Skillux 讓清除 floor 的成本變便宜了。</text>
+  <text x="104" y="636" font-size="18" fill="#606060" font-weight="400">Ceiling 的工作才是你真正被付錢做的事。</text>
+
+  <!-- Bottom right attribution -->
+  <text x="1120" y="660" font-size="13" fill="#3A3A3A" text-anchor="end">Senior UX · AI 工具</text>
+</svg>
