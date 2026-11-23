@@ -1,0 +1,61 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#10B981"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.05" stroke="#10B981" stroke-width="1" fill="none">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="400" x2="900" y2="400"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="800" x2="900" y2="800"/>
+    <line x1="0" y1="1000" x2="900" y2="1000"/>
+    <line x1="225" y1="0" x2="225" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="675" y1="0" x2="675" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="260" height="34" rx="17" fill="#0A1F14"/>
+  <text x="80" y="82" font-size="13" fill="#10B981" font-weight="600" letter-spacing="1">TOKENS BY UI COLORS · 2026 年 11 月</text>
+
+  <!-- Main headline block -->
+  <text x="60" y="168" font-size="56" fill="#FFFFFF" font-weight="700" letter-spacing="-1">你的 DESIGN.md</text>
+  <text x="60" y="236" font-size="56" fill="#FFFFFF" font-weight="700" letter-spacing="-1">應該來自</text>
+  <text x="60" y="304" font-size="56" fill="#FFFFFF" font-weight="700" letter-spacing="-1">你的設計決策，</text>
+  <text x="60" y="380" font-size="56" fill="#10B981" font-weight="700" letter-spacing="-1">不是你的</text>
+  <text x="60" y="448" font-size="56" fill="#10B981" font-weight="700" letter-spacing="-1">production drift。</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="484" x2="840" y2="484" stroke="#202020" stroke-width="1.5"/>
+
+  <!-- Pattern callout -->
+  <text x="60" y="528" font-size="14" fill="#10B981" font-weight="600" letter-spacing="1">DESIGN.md 生成路線 · 意圖優先實例</text>
+
+  <!-- Key points -->
+  <g font-size="20" fill="#CCCCCC" font-weight="400">
+    <text x="60" y="578">01  建立 primitive → 語意角色</text>
+    <text x="60" y="618">     Agent 得到 context，不只是 hex 值</text>
+    <text x="60" y="670">02  匯出前在真實 UI 預覽</text>
+    <text x="60" y="710">     在進 agent context 前先抓出問題</text>
+    <text x="60" y="762">03  匯出：CSS variables + DESIGN.md</text>
+    <text x="60" y="802">     支援 Claude Design、Vercel、Gamma、Adobe</text>
+    <text x="60" y="854">04  掃描式工具繼承已部署的狀態</text>
+    <text x="60" y="894">     這個工具只繼承你的意圖</text>
+  </g>
+
+  <!-- Caveat box -->
+  <rect x="60" y="944" width="780" height="80" rx="8" fill="#141414" stroke="#1E2E22" stroke-width="1.5"/>
+  <text x="80" y="977" font-size="14" fill="#F59E0B" font-weight="600">⚠  Honest caveat</text>
+  <text x="80" y="1002" font-size="14" fill="#707070">靜態匯出——不跟 Figma variable 或 code 保持 live sync。</text>
+  <text x="80" y="1020" font-size="14" fill="#707070">新專案的正確答案，不是大規模維護既有 DS 的答案。</text>
+
+  <!-- Bottom label -->
+  <text x="60" y="1118" font-size="17" fill="#FFFFFF" font-weight="600">Brief 品質就是 quality ceiling。</text>
+  <text x="60" y="1144" font-size="17" fill="#505050" font-weight="400">確保你的 DESIGN.md 反映的是你的決策，而不是 production debt。</text>
+
+  <!-- Bottom right attribution -->
+  <text x="840" y="1178" font-size="12" fill="#3A3A3A" text-anchor="end">Senior UX · AI 工具</text>
+</svg>

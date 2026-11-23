@@ -1,0 +1,61 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#10B981"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.05" stroke="#10B981" stroke-width="1" fill="none">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="400" x2="900" y2="400"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="800" x2="900" y2="800"/>
+    <line x1="0" y1="1000" x2="900" y2="1000"/>
+    <line x1="225" y1="0" x2="225" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="675" y1="0" x2="675" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="260" height="34" rx="17" fill="#0A1F14"/>
+  <text x="80" y="82" font-size="13" fill="#10B981" font-weight="600" letter-spacing="1">TOKENS BY UI COLORS · NOV 2026</text>
+
+  <!-- Main headline block -->
+  <text x="60" y="168" font-size="54" fill="#FFFFFF" font-weight="700" letter-spacing="-1">Your DESIGN.md</text>
+  <text x="60" y="232" font-size="54" fill="#FFFFFF" font-weight="700" letter-spacing="-1">should come from</text>
+  <text x="60" y="296" font-size="54" fill="#FFFFFF" font-weight="700" letter-spacing="-1">your decisions.</text>
+  <text x="60" y="368" font-size="54" fill="#10B981" font-weight="700" letter-spacing="-1">Not your production</text>
+  <text x="60" y="432" font-size="54" fill="#10B981" font-weight="700" letter-spacing="-1">drift.</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="468" x2="840" y2="468" stroke="#202020" stroke-width="1.5"/>
+
+  <!-- Pattern callout -->
+  <text x="60" y="514" font-size="14" fill="#10B981" font-weight="600" letter-spacing="1">DESIGN.md ARC · INTENT-FIRST INSTANCE</text>
+
+  <!-- Key points -->
+  <g font-size="20" fill="#CCCCCC" font-weight="400">
+    <text x="60" y="566">01  Build primitives → semantic roles</text>
+    <text x="60" y="606">     Agent gets context, not just hex values</text>
+    <text x="60" y="660">02  Preview in real UI before exporting</text>
+    <text x="60" y="700">     Catch failures before they reach the agent</text>
+    <text x="60" y="754">03  Export: CSS variables + DESIGN.md</text>
+    <text x="60" y="794">     Works with Claude Design, Vercel, Gamma, Adobe</text>
+    <text x="60" y="848">04  Scan-based tools inherit deployed state</text>
+    <text x="60" y="888">     This one inherits only your intent</text>
+  </g>
+
+  <!-- Caveat box -->
+  <rect x="60" y="940" width="780" height="80" rx="8" fill="#141414" stroke="#1E2E22" stroke-width="1.5"/>
+  <text x="80" y="973" font-size="14" fill="#F59E0B" font-weight="600">⚠  Honest caveat</text>
+  <text x="80" y="998" font-size="14" fill="#707070">Static export — no live sync with Figma variables or code.</text>
+  <text x="80" y="1016" font-size="14" fill="#707070">Right answer for new projects. Not for maintaining existing DS at scale.</text>
+
+  <!-- Bottom label -->
+  <text x="60" y="1118" font-size="17" fill="#FFFFFF" font-weight="600">Brief quality is the quality ceiling.</text>
+  <text x="60" y="1144" font-size="17" fill="#505050" font-weight="400">Make sure yours reflects your decisions, not your production debt.</text>
+
+  <!-- Bottom right attribution -->
+  <text x="840" y="1178" font-size="12" fill="#3A3A3A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>
