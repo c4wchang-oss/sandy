@@ -1,0 +1,84 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0D0D0D"/>
+
+  <!-- Subtle pipeline grid background -->
+  <g opacity="0.04" stroke="#7C3AED" stroke-width="1" fill="none">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="300" y1="0" x2="300" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
+  </g>
+
+  <!-- Accent bar -->
+  <rect x="80" y="80" width="6" height="80" fill="#7C3AED" rx="3"/>
+
+  <!-- Tool label -->
+  <text x="104" y="104" font-size="13" fill="#7C3AED" font-weight="600" letter-spacing="2">FIGMA AGENT · NOV 23, 2026</text>
+
+  <!-- Main headline -->
+  <text x="104" y="168" font-size="44" fill="#FFFFFF" font-weight="700" letter-spacing="-1">The pipeline is complete.</text>
+  <text x="104" y="224" font-size="44" fill="#A78BFA" font-weight="700" letter-spacing="-1">Research → Canvas → Handoff → Slides.</text>
+
+  <!-- Divider -->
+  <line x1="104" y1="254" x2="1100" y2="254" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Pipeline stages — 4 boxes -->
+  <!-- FigJam -->
+  <rect x="80" y="274" width="230" height="110" rx="6" fill="#150C2E" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="100" y="302" font-size="12" fill="#7C3AED" font-weight="700" letter-spacing="1">NEW · FIGJAM</text>
+  <text x="100" y="326" font-size="16" fill="#FFFFFF" font-weight="600">Research</text>
+  <text x="100" y="348" font-size="13" fill="#A78BFA">Synthesis</text>
+  <text x="100" y="368" font-size="12" fill="#6D28D9">Transcripts + notes → board</text>
+
+  <!-- Arrow -->
+  <text x="324" y="334" font-size="22" fill="#4B5563">→</text>
+
+  <!-- Design Canvas -->
+  <rect x="358" y="274" width="230" height="110" rx="6" fill="#141414" stroke="#3F3F3F" stroke-width="1"/>
+  <text x="378" y="302" font-size="12" fill="#6B7280" font-weight="700" letter-spacing="1">EXISTING · CANVAS</text>
+  <text x="378" y="326" font-size="16" fill="#D1D5DB" font-weight="600">Design</text>
+  <text x="378" y="348" font-size="13" fill="#9CA3AF">Execution</text>
+  <text x="378" y="368" font-size="12" fill="#4B5563">Generate + iterate</text>
+
+  <!-- Arrow -->
+  <text x="602" y="334" font-size="22" fill="#4B5563">→</text>
+
+  <!-- Dev Mode -->
+  <rect x="636" y="274" width="230" height="110" rx="6" fill="#141414" stroke="#3F3F3F" stroke-width="1"/>
+  <text x="656" y="302" font-size="12" fill="#6B7280" font-weight="700" letter-spacing="1">NOV 19 · DEV MODE</text>
+  <text x="656" y="326" font-size="16" fill="#D1D5DB" font-weight="600">Handoff</text>
+  <text x="656" y="348" font-size="13" fill="#9CA3AF">Engineering</text>
+  <text x="656" y="368" font-size="12" fill="#4B5563">Code snippets + asset export</text>
+
+  <!-- Arrow -->
+  <text x="880" y="334" font-size="22" fill="#4B5563">→</text>
+
+  <!-- Slides -->
+  <rect x="914" y="274" width="230" height="110" rx="6" fill="#150C2E" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="934" y="302" font-size="12" fill="#7C3AED" font-weight="700" letter-spacing="1">NEW · SLIDES</text>
+  <text x="934" y="326" font-size="16" fill="#FFFFFF" font-weight="600">Communication</text>
+  <text x="934" y="348" font-size="13" fill="#A78BFA">Stakeholder</text>
+  <text x="934" y="368" font-size="12" fill="#6D28D9">Adapt deck per audience</text>
+
+  <!-- The honest caveat section -->
+  <rect x="80" y="406" width="680" height="62" rx="6" fill="#141414" stroke="#2E2429" stroke-width="1.5"/>
+  <text x="100" y="432" font-size="14" fill="#F59E0B" font-weight="600">⚠  Caveat:</text>
+  <text x="184" y="432" font-size="14" fill="#808080">The agent works from what you bring in.</text>
+  <text x="100" y="456" font-size="14" fill="#606060">Scattered, unstructured research artifacts → organized scatter. The input is now the brief.</text>
+
+  <!-- Key insight box -->
+  <rect x="786" y="406" width="358" height="62" rx="6" fill="#0F0A1E" stroke="#4C1D95" stroke-width="1"/>
+  <text x="806" y="432" font-size="13" fill="#6D28D9" font-weight="600" letter-spacing="1">ALL PAID PLANS</text>
+  <text x="806" y="456" font-size="14" fill="#A78BFA">Connectors: design files, transcripts,</text>
+
+  <!-- Bottom reframe -->
+  <text x="80" y="528" font-size="20" fill="#FFFFFF" font-weight="600">The bottleneck moved from context assembly to intake quality.</text>
+  <text x="80" y="556" font-size="17" fill="#606060">Structure your research artifacts before the agent can help you think faster.</text>
+
+  <!-- Attribution -->
+  <text x="1120" y="660" font-size="13" fill="#3A3A3A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>

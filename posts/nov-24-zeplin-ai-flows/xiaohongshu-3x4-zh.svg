@@ -1,0 +1,96 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#0D9488"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#0D9488" stroke-width="1" fill="none">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="400" x2="900" y2="400"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="800" x2="900" y2="800"/>
+    <line x1="0" y1="1000" x2="900" y2="1000"/>
+    <line x1="225" y1="0" x2="225" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="675" y1="0" x2="675" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="320" height="34" rx="17" fill="#042F2E"/>
+  <text x="80" y="82" font-size="13" fill="#0D9488" font-weight="600" letter-spacing="1">ZEPLIN AI FLOWS · 2026 年 11 月 9 日 · BETA</text>
+
+  <!-- Main headline block -->
+  <text x="60" y="168" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">速度不是重點。</text>
+  <text x="60" y="244" font-size="44" fill="#2DD4BF" font-weight="700" letter-spacing="-1">AI 抓出的邊緣情況</text>
+  <text x="60" y="300" font-size="44" fill="#2DD4BF" font-weight="700" letter-spacing="-1">才是。</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="334" x2="840" y2="334" stroke="#202020" stroke-width="1.5"/>
+
+  <!-- Quote from Zeplin's own testing -->
+  <rect x="60" y="358" width="780" height="98" rx="6" fill="#042F2E" stroke="#0D9488" stroke-width="1.5"/>
+  <text x="80" y="386" font-size="13" fill="#0D9488" font-weight="600" letter-spacing="1">來自 ZEPLIN 自己的測試</text>
+  <text x="80" y="412" font-size="15" fill="#2DD4BF" font-weight="600">「一個沒有 screen 的 error path。」</text>
+  <text x="80" y="436" font-size="15" fill="#2DD4BF">「一個沒有退路的 dead end。」</text>
+  <text x="80" y="454" font-size="14" fill="#5EEAD4">「一個我們提到了但從來沒有設計的邊緣情況。」</text>
+
+  <!-- Flow diagram -->
+  <text x="60" y="494" font-size="13" fill="#0D9488" font-weight="600" letter-spacing="1">運作方式</text>
+
+  <!-- Screens row -->
+  <rect x="60" y="512" width="140" height="68" rx="5" fill="#141414" stroke="#374151" stroke-width="1"/>
+  <text x="80" y="538" font-size="11" fill="#6B7280">SCREEN</text>
+  <text x="80" y="560" font-size="14" fill="#D1D5DB" font-weight="600">註冊</text>
+
+  <line x1="200" y1="546" x2="236" y2="546" stroke="#374151" stroke-width="1.5"/>
+  <polygon points="236,541 244,546 236,551" fill="#374151"/>
+
+  <rect x="244" y="512" width="140" height="68" rx="5" fill="#141414" stroke="#374151" stroke-width="1"/>
+  <text x="264" y="538" font-size="11" fill="#6B7280">SCREEN</text>
+  <text x="264" y="560" font-size="14" fill="#D1D5DB" font-weight="600">驗證信箱</text>
+
+  <line x1="384" y1="546" x2="420" y2="546" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="420,541 428,546 420,551" fill="#EF4444"/>
+
+  <rect x="428" y="512" width="140" height="68" rx="5" fill="#1C0000" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="448" y="538" font-size="11" fill="#EF4444" font-weight="700">⚠  缺失</text>
+  <text x="448" y="560" font-size="13" fill="#F87171">錯誤狀態</text>
+
+  <text x="590" y="552" font-size="22" fill="#EF4444">?</text>
+
+  <rect x="620" y="512" width="220" height="68" rx="5" fill="#042F2E" stroke="#0D9488" stroke-width="1"/>
+  <text x="640" y="538" font-size="11" fill="#0D9488" font-weight="700">AI 標出缺口</text>
+  <text x="640" y="556" font-size="13" fill="#2DD4BF">還沒設計。</text>
+  <text x="640" y="572" font-size="12" fill="#5EEAD4">你怎麼處理這個？</text>
+
+  <!-- Brief quality caveat -->
+  <rect x="60" y="602" width="780" height="80" rx="8" fill="#141414" stroke="#2E2429" stroke-width="1.5"/>
+  <text x="80" y="630" font-size="14" fill="#F59E0B" font-weight="600">⚠  誠實的前提——AI 讀名稱，不讀像素</text>
+  <text x="80" y="654" font-size="14" fill="#707070">「Screen 32」→ 能連接。「登入錯誤」→ 能標出缺失。</text>
+  <text x="80" y="672" font-size="13" fill="#505050">Brief 品質 = screen 命名品質。</text>
+
+  <!-- 5 things section -->
+  <text x="60" y="724" font-size="13" fill="#0D9488" font-weight="600" letter-spacing="1">值得知道的事</text>
+
+  <text x="60" y="752" font-size="15" fill="#2DD4BF" font-weight="600">1. 缺口報告才是價值所在</text>
+  <text x="60" y="776" font-size="14" fill="#606060">跑它是為了發現你還沒設計的東西</text>
+
+  <text x="60" y="808" font-size="15" fill="#2DD4BF" font-weight="600">2. 也能在現有的混亂 flow 上工作</text>
+  <text x="60" y="832" font-size="14" fill="#606060">加一個 screen，描述它屬於哪裡，AI 連接它</text>
+
+  <text x="60" y="864" font-size="15" fill="#2DD4BF" font-weight="600">3. 所有方案 Beta — Beta 期間免費</text>
+  <text x="60" y="888" font-size="14" fill="#606060">值得在你一直想要 review 的複雜 flow 上跑</text>
+
+  <text x="60" y="920" font-size="15" fill="#2DD4BF" font-weight="600">4. 你還是要決定如何處理每個缺口</text>
+  <text x="60" y="944" font-size="14" fill="#606060">Screen？Placeholder？範圍外？那是你的判斷。</text>
+
+  <!-- Bottom reframe -->
+  <text x="60" y="1000" font-size="17" fill="#FFFFFF" font-weight="600">20 分鐘的 flow 在 1 分鐘完成是附帶效果。</text>
+  <text x="60" y="1026" font-size="17" fill="#FFFFFF" font-weight="600">它浮現的邊緣情況才是產品。</text>
+  <text x="60" y="1054" font-size="15" fill="#505050">Senior 判斷力決定怎麼處理它們。</text>
+
+  <!-- Attribution -->
+  <text x="840" y="1178" font-size="12" fill="#3A3A3A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>
