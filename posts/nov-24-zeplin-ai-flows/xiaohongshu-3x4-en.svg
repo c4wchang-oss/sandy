@@ -1,0 +1,97 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#0D9488"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#0D9488" stroke-width="1" fill="none">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="400" x2="900" y2="400"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="800" x2="900" y2="800"/>
+    <line x1="0" y1="1000" x2="900" y2="1000"/>
+    <line x1="225" y1="0" x2="225" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="675" y1="0" x2="675" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="310" height="34" rx="17" fill="#042F2E"/>
+  <text x="80" y="82" font-size="13" fill="#0D9488" font-weight="600" letter-spacing="1">ZEPLIN AI FLOWS · NOV 9, 2026 · BETA</text>
+
+  <!-- Main headline block -->
+  <text x="60" y="168" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">The speed isn't</text>
+  <text x="60" y="232" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">the story.</text>
+  <text x="60" y="310" font-size="44" fill="#2DD4BF" font-weight="700" letter-spacing="-1">The edge cases</text>
+  <text x="60" y="366" font-size="44" fill="#2DD4BF" font-weight="700" letter-spacing="-1">AI caught are.</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="400" x2="840" y2="400" stroke="#202020" stroke-width="1.5"/>
+
+  <!-- Quote from Zeplin's own testing -->
+  <rect x="60" y="424" width="780" height="98" rx="6" fill="#042F2E" stroke="#0D9488" stroke-width="1.5"/>
+  <text x="80" y="452" font-size="13" fill="#0D9488" font-weight="600" letter-spacing="1">FROM ZEPLIN'S OWN TESTING</text>
+  <text x="80" y="478" font-size="15" fill="#2DD4BF" font-weight="600">"An error path with no screen."</text>
+  <text x="80" y="502" font-size="15" fill="#2DD4BF">"A dead end with no way back."</text>
+  <text x="80" y="520" font-size="14" fill="#5EEAD4">"An edge case we mentioned but never designed."</text>
+
+  <!-- Flow diagram -->
+  <text x="60" y="560" font-size="13" fill="#0D9488" font-weight="600" letter-spacing="1">HOW IT WORKS</text>
+
+  <!-- Screens row -->
+  <rect x="60" y="578" width="140" height="68" rx="5" fill="#141414" stroke="#374151" stroke-width="1"/>
+  <text x="80" y="604" font-size="11" fill="#6B7280">SCREEN</text>
+  <text x="80" y="626" font-size="14" fill="#D1D5DB" font-weight="600">Sign Up</text>
+
+  <line x1="200" y1="612" x2="236" y2="612" stroke="#374151" stroke-width="1.5"/>
+  <polygon points="236,607 244,612 236,617" fill="#374151"/>
+
+  <rect x="244" y="578" width="140" height="68" rx="5" fill="#141414" stroke="#374151" stroke-width="1"/>
+  <text x="264" y="604" font-size="11" fill="#6B7280">SCREEN</text>
+  <text x="264" y="626" font-size="14" fill="#D1D5DB" font-weight="600">Email Verify</text>
+
+  <line x1="384" y1="612" x2="420" y2="612" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="420,607 428,612 420,617" fill="#EF4444"/>
+
+  <rect x="428" y="578" width="140" height="68" rx="5" fill="#1C0000" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="448" y="604" font-size="11" fill="#EF4444" font-weight="700">⚠  MISSING</text>
+  <text x="448" y="626" font-size="13" fill="#F87171">Error State</text>
+
+  <text x="590" y="618" font-size="22" fill="#EF4444">?</text>
+
+  <rect x="620" y="578" width="220" height="68" rx="5" fill="#042F2E" stroke="#0D9488" stroke-width="1"/>
+  <text x="640" y="604" font-size="11" fill="#0D9488" font-weight="700">AI FLAGGED</text>
+  <text x="640" y="622" font-size="13" fill="#2DD4BF">Not designed yet.</text>
+  <text x="640" y="638" font-size="12" fill="#5EEAD4">What do you do with this?</text>
+
+  <!-- Brief quality caveat -->
+  <rect x="60" y="668" width="780" height="80" rx="8" fill="#141414" stroke="#2E2429" stroke-width="1.5"/>
+  <text x="80" y="696" font-size="14" fill="#F59E0B" font-weight="600">⚠  Honest caveat — AI reads names, not pixels</text>
+  <text x="80" y="720" font-size="14" fill="#707070">"Screen 32" → AI can connect it. "Login Error" → AI can flag it's missing.</text>
+  <text x="80" y="738" font-size="13" fill="#505050">Brief quality = screen naming quality here.</text>
+
+  <!-- 5 things section -->
+  <text x="60" y="790" font-size="13" fill="#0D9488" font-weight="600" letter-spacing="1">WHAT TO KNOW</text>
+
+  <text x="60" y="818" font-size="15" fill="#2DD4BF" font-weight="600">1. The gap report is the value</text>
+  <text x="60" y="842" font-size="14" fill="#606060">Run it to discover what you haven't designed yet</text>
+
+  <text x="60" y="874" font-size="15" fill="#2DD4BF" font-weight="600">2. Works on existing messy flows too</text>
+  <text x="60" y="898" font-size="14" fill="#606060">Add a screen, describe where it fits, AI connects it</text>
+
+  <text x="60" y="930" font-size="15" fill="#2DD4BF" font-weight="600">3. Beta on all plans — free during beta</text>
+  <text x="60" y="954" font-size="14" fill="#606060">Worth running against any complex flow you've been meaning to review</text>
+
+  <text x="60" y="986" font-size="15" fill="#2DD4BF" font-weight="600">4. You still decide what to do with each gap</text>
+  <text x="60" y="1010" font-size="14" fill="#606060">Screen? Placeholder? Out of scope? That's your call.</text>
+
+  <!-- Bottom reframe -->
+  <text x="60" y="1066" font-size="17" fill="#FFFFFF" font-weight="600">The 20-min flow in under 1 minute is the side effect.</text>
+  <text x="60" y="1092" font-size="17" fill="#FFFFFF" font-weight="600">The edge cases it surfaces are the product.</text>
+  <text x="60" y="1120" font-size="15" fill="#505050">Senior judgment still decides what to do with them.</text>
+
+  <!-- Attribution -->
+  <text x="840" y="1178" font-size="12" fill="#3A3A3A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>
