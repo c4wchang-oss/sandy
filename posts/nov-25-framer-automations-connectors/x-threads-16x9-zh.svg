@@ -1,0 +1,75 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0D0D0D"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#F59E0B" stroke-width="1" fill="none">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="300" y1="0" x2="300" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
+  </g>
+
+  <!-- Accent bar -->
+  <rect x="80" y="80" width="6" height="80" fill="#F59E0B" rx="3"/>
+
+  <!-- Tool label -->
+  <text x="104" y="104" font-size="13" fill="#F59E0B" font-weight="600" letter-spacing="2">FRAMER AUTOMATIONS · 2026 年 11 月 24 日</text>
+
+  <!-- Main headline -->
+  <text x="104" y="168" font-size="44" fill="#FFFFFF" font-weight="700" letter-spacing="-1">運行你的網站的 Agent。</text>
+  <text x="104" y="224" font-size="40" fill="#FCD34D" font-weight="700" letter-spacing="-1">不是幫你建造——是按排程運行它。</text>
+
+  <!-- Divider -->
+  <line x1="104" y1="254" x2="1100" y2="254" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Three boxes for the 3 features -->
+  <!-- Automations box -->
+  <rect x="80" y="274" width="316" height="110" rx="6" fill="#1A1200" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="100" y="302" font-size="12" fill="#F59E0B" font-weight="700" letter-spacing="1">AUTOMATIONS</text>
+  <text x="100" y="326" font-size="16" fill="#FFFFFF" font-weight="600">排程 agent 工作流</text>
+  <text x="100" y="348" font-size="13" fill="#FCD34D">發布 / 表單 / 排程 / A/B 測試</text>
+  <text x="100" y="368" font-size="12" fill="#92400E">SEO 稽核 → 每次發布後到 Slack</text>
+
+  <!-- Plus -->
+  <text x="411" y="334" font-size="22" fill="#78350F">+</text>
+
+  <!-- Connectors box -->
+  <rect x="436" y="274" width="316" height="110" rx="6" fill="#1A1200" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="456" y="302" font-size="12" fill="#F59E0B" font-weight="700" letter-spacing="1">CONNECTORS</text>
+  <text x="456" y="326" font-size="16" fill="#FFFFFF" font-weight="600">跨工具讀取 + 寫入</text>
+  <text x="456" y="348" font-size="13" fill="#FCD34D">Slack · Notion · Ahrefs · BigQuery</text>
+  <text x="456" y="368" font-size="12" fill="#92400E">Google Analytics · Sheets · 更多</text>
+
+  <!-- Plus -->
+  <text x="767" y="334" font-size="22" fill="#78350F">+</text>
+
+  <!-- Slack Agent box -->
+  <rect x="790" y="274" width="314" height="110" rx="6" fill="#1A1200" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="810" y="302" font-size="12" fill="#F59E0B" font-weight="700" letter-spacing="1">SLACK AGENT</text>
+  <text x="810" y="326" font-size="16" fill="#FFFFFF" font-weight="600">從 Slack @Framer</text>
+  <text x="810" y="348" font-size="13" fill="#FCD34D">詢問 · 分析 · 快速編輯</text>
+  <text x="810" y="368" font-size="12" fill="#92400E">不需要開啟 Framer</text>
+
+  <!-- Trust architecture note -->
+  <rect x="80" y="406" width="680" height="62" rx="6" fill="#141414" stroke="#2E2429" stroke-width="1.5"/>
+  <text x="100" y="432" font-size="14" fill="#F59E0B" font-weight="600">信任架構：</text>
+  <text x="193" y="432" font-size="14" fill="#808080">表單送出 → 資料，不是指令。</text>
+  <text x="100" y="456" font-size="13" fill="#606060">Prompt injection 防護烤進了產品架構。這是正確的做法。</text>
+
+  <!-- Caveat box -->
+  <rect x="786" y="406" width="318" height="62" rx="6" fill="#100D00" stroke="#78350F" stroke-width="1"/>
+  <text x="806" y="428" font-size="12" fill="#92400E" font-weight="600" letter-spacing="1">放大效應</text>
+  <text x="806" y="450" font-size="13" fill="#B45309">Automation 頻率在兩個方向</text>
+  <text x="806" y="466" font-size="13" fill="#B45309">放大指令品質。</text>
+
+  <!-- Bottom reframe -->
+  <text x="80" y="528" font-size="20" fill="#FFFFFF" font-weight="600">問題不是「我們能自動化這個嗎？」而是「我們的指令夠精確嗎？」</text>
+  <text x="80" y="556" font-size="17" fill="#606060">把專家工作流編碼成系統。團隊來執行。專家成為架構師，不再是瓶頸。</text>
+
+  <!-- Attribution -->
+  <text x="1120" y="660" font-size="13" fill="#3A3A3A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>
