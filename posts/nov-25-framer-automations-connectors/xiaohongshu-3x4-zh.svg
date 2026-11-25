@@ -1,0 +1,79 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#F59E0B"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#F59E0B" stroke-width="1" fill="none">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="400" x2="900" y2="400"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="800" x2="900" y2="800"/>
+    <line x1="0" y1="1000" x2="900" y2="1000"/>
+    <line x1="225" y1="0" x2="225" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="675" y1="0" x2="675" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="310" height="34" rx="17" fill="#1A1200"/>
+  <text x="80" y="82" font-size="13" fill="#F59E0B" font-weight="600" letter-spacing="1">FRAMER · 2026 年 11 月 24 日</text>
+
+  <!-- Main headline block -->
+  <text x="60" y="168" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">運行你的網站的</text>
+  <text x="60" y="232" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">Agent。</text>
+  <text x="60" y="310" font-size="38" fill="#FCD34D" font-weight="700" letter-spacing="-1">不是幫你建造——</text>
+  <text x="60" y="360" font-size="38" fill="#FCD34D" font-weight="700" letter-spacing="-1">是按排程運行它。</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="392" x2="840" y2="392" stroke="#202020" stroke-width="1.5"/>
+
+  <!-- Feature label -->
+  <text x="60" y="430" font-size="13" fill="#F59E0B" font-weight="600" letter-spacing="2">發布了什麼 — 三個組件</text>
+
+  <!-- Automations -->
+  <rect x="60" y="450" width="780" height="78" rx="6" fill="#1A1200" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="80" y="478" font-size="14" fill="#F59E0B" font-weight="700">AUTOMATIONS — 排程 agent 工作流</text>
+  <text x="80" y="502" font-size="14" fill="#FCD34D">發布 / 表單送出 / 排程 / A/B 測試</text>
+  <text x="80" y="518" font-size="12" fill="#92400E">SEO 稽核 → 每次發布後到 Slack。每日分析摘要。Lead 導向。</text>
+
+  <!-- Connectors -->
+  <rect x="60" y="544" width="780" height="78" rx="6" fill="#1A1200" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="80" y="572" font-size="14" fill="#F59E0B" font-weight="700">CONNECTORS — 跨工具讀取 + 寫入</text>
+  <text x="80" y="596" font-size="14" fill="#FCD34D">Slack · Notion · Ahrefs · BigQuery · Google Analytics</text>
+  <text x="80" y="612" font-size="12" fill="#92400E">不只是讀取——是寫入。有人需要負責這個設定頁面。</text>
+
+  <!-- Slack Agent -->
+  <rect x="60" y="638" width="780" height="62" rx="6" fill="#141414" stroke="#78350F" stroke-width="1"/>
+  <text x="80" y="664" font-size="14" fill="#B45309" font-weight="700">SLACK AGENT — 在頻道或 DM @Framer</text>
+  <text x="80" y="684" font-size="13" fill="#606060">詢問網站狀況、提取分析、做快速編輯，不需要開啟 Framer</text>
+
+  <!-- Trust architecture note -->
+  <rect x="60" y="722" width="780" height="80" rx="8" fill="#0F0A00" stroke="#78350F" stroke-width="1.5"/>
+  <text x="80" y="750" font-size="14" fill="#F59E0B" font-weight="600">值得注意的信任架構：</text>
+  <text x="80" y="774" font-size="14" fill="#A0A0A0">表單送出 → 資料，不是指令。</text>
+  <text x="80" y="794" font-size="13" fill="#606060">Prompt injection 防護明確在架構中。正確的做法。</text>
+
+  <!-- The caveat section -->
+  <text x="60" y="842" font-size="13" fill="#F59E0B" font-weight="600" letter-spacing="2">前提</text>
+
+  <text x="60" y="874" font-size="15" fill="#FCD34D" font-weight="600">Automation 頻率在兩個方向放大指令品質</text>
+  <text x="60" y="898" font-size="14" fill="#606060">好指令 → 在自動化頻率下的一致品質。</text>
+  <text x="60" y="918" font-size="14" fill="#606060">模糊指令 → 在 automation 頻率下的一致平庸。</text>
+
+  <text x="60" y="958" font-size="15" fill="#FCD34D" font-weight="600">Connectors 給的是寫入權限，不只是讀取</text>
+  <text x="60" y="982" font-size="14" fill="#606060">在團隊層面：誰負責 Connectors 設定頁面？</text>
+
+  <text x="60" y="1022" font-size="15" fill="#FCD34D" font-weight="600">工作流即機構知識，再次出現</text>
+  <text x="60" y="1046" font-size="14" fill="#606060">Runway App Studio → Figma Weave → Adobe Firefly Graph → 現在 Framer</text>
+
+  <!-- Bottom reframe -->
+  <text x="60" y="1100" font-size="17" fill="#FFFFFF" font-weight="600">問題不是「我們能自動化這個嗎？」</text>
+  <text x="60" y="1126" font-size="17" fill="#FFFFFF" font-weight="600">而是「我們的指令夠精確嗎？」</text>
+  <text x="60" y="1152" font-size="15" fill="#505050">編碼專家工作流。團隊執行。專家成為架構師。</text>
+
+  <!-- Attribution -->
+  <text x="840" y="1178" font-size="12" fill="#3A3A3A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>

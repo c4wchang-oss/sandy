@@ -1,0 +1,81 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#3B82F6"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#3B82F6" stroke-width="1" fill="none">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="400" x2="900" y2="400"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="800" x2="900" y2="800"/>
+    <line x1="0" y1="1000" x2="900" y2="1000"/>
+    <line x1="225" y1="0" x2="225" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="675" y1="0" x2="675" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="360" height="34" rx="17" fill="#0A1628"/>
+  <text x="80" y="82" font-size="13" fill="#3B82F6" font-weight="600" letter-spacing="1">FIGMA MCP ALLOWLIST · 2026 年 11 月 17 日</text>
+
+  <!-- Main headline block -->
+  <text x="60" y="168" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">誰授權了 Cursor</text>
+  <text x="60" y="232" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">讀取你的</text>
+  <text x="60" y="296" font-size="52" fill="#93C5FD" font-weight="700" letter-spacing="-1">design</text>
+  <text x="60" y="360" font-size="52" fill="#93C5FD" font-weight="700" letter-spacing="-1">system？</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="392" x2="840" y2="392" stroke="#202020" stroke-width="1.5"/>
+
+  <!-- Before / After comparison -->
+  <text x="60" y="430" font-size="13" fill="#3B82F6" font-weight="600" letter-spacing="2">改變了什麼 — 11 月 17 日</text>
+
+  <!-- Before -->
+  <rect x="60" y="450" width="376" height="78" rx="6" fill="#141414" stroke="#3F3F3F" stroke-width="1"/>
+  <text x="80" y="478" font-size="13" fill="#6B7280" font-weight="700">之前</text>
+  <text x="80" y="502" font-size="14" fill="#9CA3AF">任何有 Cursor 的人：只有個人授權</text>
+  <text x="80" y="518" font-size="12" fill="#4B5563">沒有 admin 層。沒有 scope 能見度。</text>
+
+  <!-- After -->
+  <rect x="464" y="450" width="376" height="78" rx="6" fill="#0A1628" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="484" y="478" font-size="13" fill="#3B82F6" font-weight="700">之後</text>
+  <text x="484" y="502" font-size="14" fill="#FFFFFF">只有 admin 批准的 app，在 scope 層面</text>
+  <text x="484" y="518" font-size="12" fill="#1D4ED8">Org / Enterprise 方案</text>
+
+  <!-- Enterprise-managed auth -->
+  <rect x="60" y="544" width="780" height="78" rx="6" fill="#0A1628" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="80" y="572" font-size="14" fill="#3B82F6" font-weight="700">更深的層：企業管理授權</text>
+  <text x="80" y="596" font-size="14" fill="#93C5FD">Okta XAA 或 Claude auto-connect → 不需要個別登入</text>
+  <text x="80" y="612" font-size="12" fill="#1D4ED8">需要 SAML SSO。Admin 代表所有人做信任決策。</text>
+
+  <!-- Operational warning -->
+  <rect x="60" y="638" width="780" height="80" rx="8" fill="#1A0000" stroke="#991B1B" stroke-width="1.5"/>
+  <text x="80" y="664" font-size="14" fill="#EF4444" font-weight="600">⚠  操作警告</text>
+  <text x="80" y="688" font-size="14" fill="#A0A0A0">撥動開關會立即中斷所有現有連接。</text>
+  <text x="80" y="706" font-size="13" fill="#606060">稽核 → 預先批准 → 然後更改政策。任何其他順序都會破壞你的團隊工作流。</text>
+
+  <!-- Key points section -->
+  <text x="60" y="762" font-size="13" fill="#3B82F6" font-weight="600" letter-spacing="2">重要事項</text>
+
+  <text x="60" y="794" font-size="15" fill="#93C5FD" font-weight="600">1. Scope 層面的批准，不只是連接許可</text>
+  <text x="60" y="818" font-size="14" fill="#606060">讀取檔案內容、建立留言、寫入 canvas——每個 scope 分別批准</text>
+
+  <text x="60" y="858" font-size="15" fill="#93C5FD" font-weight="600">2. 只適用於 Org/Enterprise</text>
+  <text x="60" y="882" font-size="14" fill="#606060">Professional/Starter 保持「allow all apps」——小型團隊還沒有這個治理工具</text>
+
+  <text x="60" y="922" font-size="15" fill="#93C5FD" font-weight="600">3. 相同的約束執行模式</text>
+  <text x="60" y="946" font-size="14" fill="#606060">慣例 → 架構。A2UI 1.0（11 月 11 日）為 UI 生成做了同樣的事。不同的層。</text>
+
+  <!-- Bottom reframe -->
+  <text x="60" y="1000" font-size="17" fill="#FFFFFF" font-weight="600">問題不是「我們的 agent 能存取 Figma 嗎？」</text>
+  <text x="60" y="1026" font-size="17" fill="#FFFFFF" font-weight="600">它們可以。它們會。</text>
+  <text x="60" y="1066" font-size="15" fill="#606060">問題是：誰決定了哪些 agent 可以存取</text>
+  <text x="60" y="1090" font-size="15" fill="#606060">你的 design system 的哪些部分？</text>
+  <text x="60" y="1130" font-size="15" fill="#3B82F6" font-weight="600">你現在知道答案嗎？</text>
+
+  <!-- Attribution -->
+  <text x="840" y="1178" font-size="12" fill="#3A3A3A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>

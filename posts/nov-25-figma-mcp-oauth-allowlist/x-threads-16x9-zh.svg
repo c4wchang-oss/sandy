@@ -1,0 +1,75 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0D0D0D"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#3B82F6" stroke-width="1" fill="none">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="300" y1="0" x2="300" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
+  </g>
+
+  <!-- Accent bar -->
+  <rect x="80" y="80" width="6" height="80" fill="#3B82F6" rx="3"/>
+
+  <!-- Tool label -->
+  <text x="104" y="104" font-size="13" fill="#3B82F6" font-weight="600" letter-spacing="2">FIGMA MCP ALLOWLIST · 2026 年 11 月 17 日</text>
+
+  <!-- Main headline -->
+  <text x="104" y="168" font-size="44" fill="#FFFFFF" font-weight="700" letter-spacing="-1">誰授權了 Cursor</text>
+  <text x="104" y="224" font-size="44" fill="#93C5FD" font-weight="700" letter-spacing="-1">讀取你的 design system？</text>
+
+  <!-- Divider -->
+  <line x1="104" y1="254" x2="1100" y2="254" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Before / After / New layer boxes -->
+  <!-- Before -->
+  <rect x="80" y="274" width="316" height="110" rx="6" fill="#141414" stroke="#3F3F3F" stroke-width="1"/>
+  <text x="100" y="302" font-size="12" fill="#6B7280" font-weight="700" letter-spacing="1">11 月 17 日之前</text>
+  <text x="100" y="326" font-size="16" fill="#D1D5DB" font-weight="600">任何有 Cursor 的人</text>
+  <text x="100" y="348" font-size="13" fill="#9CA3AF">只有個人授權</text>
+  <text x="100" y="368" font-size="12" fill="#4B5563">沒有 admin 層。沒有 scope 能見度。</text>
+
+  <!-- Arrow -->
+  <text x="411" y="334" font-size="22" fill="#1D4ED8">→</text>
+
+  <!-- After -->
+  <rect x="436" y="274" width="316" height="110" rx="6" fill="#0A1628" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="456" y="302" font-size="12" fill="#3B82F6" font-weight="700" letter-spacing="1">11 月 17 日之後</text>
+  <text x="456" y="326" font-size="16" fill="#FFFFFF" font-weight="600">只有 admin 批准的 app</text>
+  <text x="456" y="348" font-size="13" fill="#93C5FD">需要 Scope 層面的批准</text>
+  <text x="456" y="368" font-size="12" fill="#1D4ED8">只適用於 Org / Enterprise 方案</text>
+
+  <!-- Plus -->
+  <text x="767" y="334" font-size="22" fill="#1D4ED8">+</text>
+
+  <!-- Enterprise-managed auth -->
+  <rect x="790" y="274" width="314" height="110" rx="6" fill="#0A1628" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="810" y="302" font-size="12" fill="#3B82F6" font-weight="700" letter-spacing="1">更深的層</text>
+  <text x="810" y="326" font-size="16" fill="#FFFFFF" font-weight="600">企業管理授權</text>
+  <text x="810" y="348" font-size="13" fill="#93C5FD">Okta XAA 或 Claude auto-connect</text>
+  <text x="810" y="368" font-size="12" fill="#1D4ED8">需要 SAML SSO</text>
+
+  <!-- Operational warning -->
+  <rect x="80" y="406" width="680" height="62" rx="6" fill="#141414" stroke="#991B1B" stroke-width="1.5"/>
+  <text x="100" y="432" font-size="14" fill="#EF4444" font-weight="600">⚠  操作警告：</text>
+  <text x="206" y="432" font-size="14" fill="#808080">撥動開關會立即中斷所有現有連接。</text>
+  <text x="100" y="456" font-size="13" fill="#606060">正確的順序：稽核 → 預先批准現有連接 → 然後更改政策。</text>
+
+  <!-- Constraint frame -->
+  <rect x="786" y="406" width="318" height="62" rx="6" fill="#060D1A" stroke="#1E3A5F" stroke-width="1"/>
+  <text x="806" y="428" font-size="12" fill="#1D4ED8" font-weight="600" letter-spacing="1">約束執行層級</text>
+  <text x="806" y="450" font-size="13" fill="#3B82F6">慣例 → 架構</text>
+  <text x="806" y="466" font-size="13" fill="#3B82F6">和 A2UI 1.0 相同的模式</text>
+
+  <!-- Bottom reframe -->
+  <text x="80" y="528" font-size="20" fill="#FFFFFF" font-weight="600">問題不是「我們的 agent 能存取 Figma 嗎？」它們可以，而且它們會。</text>
+  <text x="80" y="556" font-size="17" fill="#606060">問題是：誰決定了哪些 agent 可以存取你的 design system 的哪些部分？</text>
+
+  <!-- Attribution -->
+  <text x="1120" y="660" font-size="13" fill="#3A3A3A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>
