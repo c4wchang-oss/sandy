@@ -1,0 +1,81 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#10B981"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#10B981" stroke-width="1" fill="none">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="400" x2="900" y2="400"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="800" x2="900" y2="800"/>
+    <line x1="0" y1="1000" x2="900" y2="1000"/>
+    <line x1="225" y1="0" x2="225" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="675" y1="0" x2="675" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="360" height="34" rx="17" fill="#051A10"/>
+  <text x="80" y="82" font-size="13" fill="#10B981" font-weight="600" letter-spacing="1">ONLOOK 2.0 · NOV 19, 2026 · FREE</text>
+
+  <!-- Main headline block -->
+  <text x="60" y="168" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">Canvas on your</text>
+  <text x="60" y="232" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">real codebase.</text>
+  <text x="60" y="310" font-size="38" fill="#6EE7B7" font-weight="700" letter-spacing="-1">Free. Open source.</text>
+  <text x="60" y="360" font-size="38" fill="#6EE7B7" font-weight="700" letter-spacing="-1">BYOA.</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="392" x2="840" y2="392" stroke="#1A1A1A" stroke-width="1.5"/>
+
+  <!-- Feature label -->
+  <text x="60" y="430" font-size="13" fill="#10B981" font-weight="600" letter-spacing="2">HOW IT WORKS — 4 KEY MECHANICS</text>
+
+  <!-- Git Worktree -->
+  <rect x="60" y="450" width="780" height="80" rx="6" fill="#051A10" stroke="#10B981" stroke-width="1.5"/>
+  <text x="80" y="478" font-size="14" fill="#10B981" font-weight="700">GIT WORKTREE — Safe, non-destructive exploration</text>
+  <text x="80" y="502" font-size="14" fill="#6EE7B7">Separate branch · main checkout never touched</text>
+  <text x="80" y="520" font-size="12" fill="#064E3B">Every change stays in worktree → reaches repo only as normal PR</text>
+
+  <!-- Visual Pointing -->
+  <rect x="60" y="546" width="780" height="80" rx="6" fill="#051A10" stroke="#10B981" stroke-width="1.5"/>
+  <text x="80" y="574" font-size="14" fill="#10B981" font-weight="700">VISUAL POINTING — Click element → agent gets exact reference</text>
+  <text x="80" y="598" font-size="14" fill="#6EE7B7">File path + component + line context · not a screenshot description</text>
+  <text x="80" y="616" font-size="12" fill="#064E3B">4th instance: MagicPath → Skisso → Ilse → Onlook</text>
+
+  <!-- BYOA -->
+  <rect x="60" y="642" width="780" height="80" rx="6" fill="#051A10" stroke="#10B981" stroke-width="1.5"/>
+  <text x="80" y="670" font-size="14" fill="#10B981" font-weight="700">BYOA — Your Claude Code or ChatGPT subscription</text>
+  <text x="80" y="694" font-size="14" fill="#6EE7B7">Agent runs on your machine · source build: no account needed</text>
+  <text x="80" y="712" font-size="12" fill="#064E3B">Apache 2.0 · no Onlook server between you and your code</text>
+
+  <!-- Multi-version Explore -->
+  <rect x="60" y="738" width="780" height="64" rx="6" fill="#141414" stroke="#047857" stroke-width="1"/>
+  <text x="80" y="764" font-size="14" fill="#047857" font-weight="700">MULTI-VERSION EXPLORE — 10 live frames, side by side</text>
+  <text x="80" y="784" font-size="13" fill="#505050">Each frame = real browser running actual product · Preview mode: interact live</text>
+
+  <!-- Comparison section -->
+  <text x="60" y="832" font-size="13" fill="#10B981" font-weight="600" letter-spacing="2">VS DESSN (NOV 22)</text>
+
+  <text x="60" y="864" font-size="15" fill="#6EE7B7" font-weight="600">Same end state: canvas = production code.</text>
+  <text x="60" y="888" font-size="14" fill="#606060">Dessn: cloud-first · MCP OAuth · Figma-like UI · 50 calls/month free</text>
+  <text x="60" y="908" font-size="14" fill="#606060">Onlook: local-first · desktop app · free · Apache 2.0 · no call limits</text>
+
+  <!-- Caveats section -->
+  <text x="60" y="948" font-size="13" fill="#10B981" font-weight="600" letter-spacing="2">HONEST CAVEATS</text>
+
+  <text x="60" y="980" font-size="14" fill="#6EE7B7" font-weight="600">Mac only right now · Windows coming</text>
+  <text x="60" y="1004" font-size="14" fill="#6EE7B7" font-weight="600">AI features: requires Claude or ChatGPT subscription</text>
+  <text x="60" y="1028" font-size="14" fill="#606060">v2.0.2 still early · verify your tech stack with v2</text>
+  <text x="60" y="1052" font-size="14" fill="#606060">Skills doc quality = output ceiling (same as Cursor/Claude Code)</text>
+
+  <!-- Bottom reframe -->
+  <text x="60" y="1100" font-size="17" fill="#FFFFFF" font-weight="600">Not an "AI design tool."</text>
+  <text x="60" y="1126" font-size="17" fill="#FFFFFF" font-weight="600">A designer's canvas for the production codebase.</text>
+  <text x="60" y="1152" font-size="15" fill="#505050">Canvas is free. Brief intelligence is yours to build.</text>
+
+  <!-- Attribution -->
+  <text x="840" y="1178" font-size="12" fill="#2A3A2A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>
