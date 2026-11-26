@@ -1,0 +1,82 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#F97316"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#F97316" stroke-width="1" fill="none">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="400" x2="900" y2="400"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="800" x2="900" y2="800"/>
+    <line x1="0" y1="1000" x2="900" y2="1000"/>
+    <line x1="225" y1="0" x2="225" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="675" y1="0" x2="675" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="390" height="34" rx="17" fill="#1A0D00"/>
+  <text x="80" y="82" font-size="13" fill="#F97316" font-weight="600" letter-spacing="1">CLAUDE INSTALL AS APP · NOV 24, 2026</text>
+
+  <!-- Main headline block -->
+  <text x="60" y="168" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">Artifact →</text>
+  <text x="60" y="232" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">Installed Tool.</text>
+  <text x="60" y="310" font-size="38" fill="#FDBA74" font-weight="700" letter-spacing="-1">Brief → Artifact → Dock.</text>
+  <text x="60" y="360" font-size="38" fill="#FDBA74" font-weight="700" letter-spacing="-1">Sequence closed.</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="392" x2="840" y2="392" stroke="#202020" stroke-width="1.5"/>
+
+  <!-- Feature label -->
+  <text x="60" y="430" font-size="13" fill="#F97316" font-weight="600" letter-spacing="2">THREE PERMISSION TIERS</text>
+
+  <!-- Default -->
+  <rect x="60" y="450" width="780" height="62" rx="6" fill="#141414" stroke="#78350F" stroke-width="1"/>
+  <text x="80" y="476" font-size="14" fill="#B45309" font-weight="700">DEFAULT — Same as browser tab · no new surface area</text>
+  <text x="80" y="498" font-size="13" fill="#606060">Safe starting point for all installed artifacts</text>
+
+  <!-- App Permissions -->
+  <rect x="60" y="528" width="780" height="80" rx="6" fill="#1A0D00" stroke="#F97316" stroke-width="1.5"/>
+  <text x="80" y="556" font-size="14" fill="#F97316" font-weight="700">APP PERMISSIONS — Notifications + OS integration</text>
+  <text x="80" y="580" font-size="14" fill="#FDBA74">Notifications · global shortcuts · always-on-top windows</text>
+  <text x="80" y="600" font-size="12" fill="#78350F">Menu bar items (macOS) · system tray (Windows) · explicit consent required</text>
+
+  <!-- Full Access -->
+  <rect x="60" y="624" width="780" height="80" rx="6" fill="#1A0D00" stroke="#F97316" stroke-width="1.5"/>
+  <text x="80" y="652" font-size="14" fill="#F97316" font-weight="700">FULL ACCESS — Run programs · read/write/delete files</text>
+  <text x="80" y="676" font-size="14" fill="#FDBA74">Without asking each time · only for artifacts you authored</text>
+  <text x="80" y="696" font-size="12" fill="#78350F">External artifacts show warning · Team/Enterprise: admin controls this tier</text>
+
+  <!-- Trust architecture note -->
+  <rect x="60" y="722" width="780" height="80" rx="8" fill="#0F0700" stroke="#78350F" stroke-width="1.5"/>
+  <text x="80" y="750" font-size="14" fill="#F97316" font-weight="600">The key trust decision:</text>
+  <text x="80" y="774" font-size="14" fill="#A0A0A0">Permission is per version. Every edit resets the grant.</text>
+  <text x="80" y="798" font-size="13" fill="#606060">If consent covers silent updates, that's not consent — it's a checkbox from a while ago.</text>
+
+  <!-- The governance section -->
+  <text x="60" y="842" font-size="13" fill="#F97316" font-weight="600" letter-spacing="2">THE GOVERNANCE GAP</text>
+
+  <text x="60" y="874" font-size="15" fill="#FDBA74" font-weight="600">Share link → anyone can install it as an app.</text>
+  <text x="60" y="898" font-size="14" fill="#606060">Solo: low risk. Team: who governs which artifacts your team</text>
+  <text x="60" y="918" font-size="14" fill="#606060">can install and at what permission tier? Not in product yet.</text>
+
+  <text x="60" y="958" font-size="15" fill="#FDBA74" font-weight="600">Team plan: app feature on, full access off until admin enables.</text>
+  <text x="60" y="982" font-size="14" fill="#606060">Enterprise: entire feature off until owner enables it in Org settings.</text>
+
+  <!-- Caveats section -->
+  <text x="60" y="1022" font-size="13" fill="#F97316" font-weight="600" letter-spacing="2">HONEST CAVEATS</text>
+
+  <text x="60" y="1054" font-size="14" fill="#606060">Requires internet + Claude account to stay open (not local-first)</text>
+  <text x="60" y="1074" font-size="14" fill="#606060">Claude Docs, Slides, Sheets: cannot be installed as apps</text>
+  <text x="60" y="1094" font-size="14" fill="#606060">HIPAA orgs + hybrid deployments: excluded from this feature</text>
+
+  <!-- Bottom reframe -->
+  <text x="60" y="1130" font-size="17" fill="#FFFFFF" font-weight="600">Not "build apps faster."</text>
+  <text x="60" y="1154" font-size="17" fill="#FFFFFF" font-weight="600">The tool you describe is the tool you run from Dock.</text>
+
+  <!-- Attribution -->
+  <text x="840" y="1178" font-size="12" fill="#3A2A1A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>

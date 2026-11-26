@@ -1,0 +1,81 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent band -->
+  <rect width="900" height="6" fill="#10B981"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#10B981" stroke-width="1" fill="none">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="400" x2="900" y2="400"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="800" x2="900" y2="800"/>
+    <line x1="0" y1="1000" x2="900" y2="1000"/>
+    <line x1="225" y1="0" x2="225" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="675" y1="0" x2="675" y2="1200"/>
+  </g>
+
+  <!-- Tool badge -->
+  <rect x="60" y="60" width="360" height="34" rx="17" fill="#051A10"/>
+  <text x="80" y="82" font-size="13" fill="#10B981" font-weight="600" letter-spacing="1">ONLOOK 2.0 · 2026 年 11 月 19 日 · 免費</text>
+
+  <!-- Main headline block -->
+  <text x="60" y="168" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">Canvas 疊在你真實的</text>
+  <text x="60" y="232" font-size="52" fill="#FFFFFF" font-weight="700" letter-spacing="-1">Codebase 上。</text>
+  <text x="60" y="310" font-size="38" fill="#6EE7B7" font-weight="700" letter-spacing="-1">免費。開源。</text>
+  <text x="60" y="360" font-size="38" fill="#6EE7B7" font-weight="700" letter-spacing="-1">BYOA。</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="392" x2="840" y2="392" stroke="#1A1A1A" stroke-width="1.5"/>
+
+  <!-- Feature label -->
+  <text x="60" y="430" font-size="13" fill="#10B981" font-weight="600" letter-spacing="2">運作方式 — 4 個核心機制</text>
+
+  <!-- Git Worktree -->
+  <rect x="60" y="450" width="780" height="80" rx="6" fill="#051A10" stroke="#10B981" stroke-width="1.5"/>
+  <text x="80" y="478" font-size="14" fill="#10B981" font-weight="700">GIT WORKTREE — 安全、非破壞性探索</text>
+  <text x="80" y="502" font-size="14" fill="#6EE7B7">獨立分支 · 主 checkout 永遠不被觸碰</text>
+  <text x="80" y="520" font-size="12" fill="#064E3B">所有更改停留在 worktree → 只通過一般 PR 到達 repo</text>
+
+  <!-- Visual Pointing -->
+  <rect x="60" y="546" width="780" height="80" rx="6" fill="#051A10" stroke="#10B981" stroke-width="1.5"/>
+  <text x="80" y="574" font-size="14" fill="#10B981" font-weight="700">視覺指向 — 點擊元素 → agent 取得精確參考</text>
+  <text x="80" y="598" font-size="14" fill="#6EE7B7">檔案路徑 + component + 行級 context · 不是截圖描述</text>
+  <text x="80" y="616" font-size="12" fill="#064E3B">第四個實例：MagicPath → Skisso → Ilse → Onlook</text>
+
+  <!-- BYOA -->
+  <rect x="60" y="642" width="780" height="80" rx="6" fill="#051A10" stroke="#10B981" stroke-width="1.5"/>
+  <text x="80" y="670" font-size="14" fill="#10B981" font-weight="700">BYOA — 你的 Claude Code 或 ChatGPT 訂閱</text>
+  <text x="80" y="694" font-size="14" fill="#6EE7B7">Agent 在你的機器上運行 · 原始碼編譯：不需要帳號</text>
+  <text x="80" y="712" font-size="12" fill="#064E3B">Apache 2.0 · 你和你的程式碼之間沒有 Onlook 伺服器</text>
+
+  <!-- Multi-version Explore -->
+  <rect x="60" y="738" width="780" height="64" rx="6" fill="#141414" stroke="#047857" stroke-width="1"/>
+  <text x="80" y="764" font-size="14" fill="#047857" font-weight="700">多版本探索 — 10 個 live frame，並排展示</text>
+  <text x="80" y="784" font-size="13" fill="#505050">每個 frame = 真實瀏覽器運行實際產品 · Preview 模式：live 互動</text>
+
+  <!-- Comparison section -->
+  <text x="60" y="832" font-size="13" fill="#10B981" font-weight="600" letter-spacing="2">對比 DESSN（11 月 22 日）</text>
+
+  <text x="60" y="864" font-size="15" fill="#6EE7B7" font-weight="600">相同終態：canvas = production code。</text>
+  <text x="60" y="888" font-size="14" fill="#606060">Dessn：雲端優先 · MCP OAuth · Figma 式 UI · 每月 50 次呼叫免費</text>
+  <text x="60" y="908" font-size="14" fill="#606060">Onlook：本地優先 · 桌面 app · 免費 · Apache 2.0 · 無呼叫限制</text>
+
+  <!-- Caveats section -->
+  <text x="60" y="948" font-size="13" fill="#10B981" font-weight="600" letter-spacing="2">誠實的前提</text>
+
+  <text x="60" y="980" font-size="14" fill="#6EE7B7" font-weight="600">目前僅支援 Mac · Windows 即將推出</text>
+  <text x="60" y="1004" font-size="14" fill="#6EE7B7" font-weight="600">AI 功能需要 Claude 或 ChatGPT 訂閱</text>
+  <text x="60" y="1028" font-size="14" fill="#606060">v2.0.2 仍然早期 · 請先驗證你的技術堆疊</text>
+  <text x="60" y="1052" font-size="14" fill="#606060">Skills 文件品質 = 輸出上限（和 Cursor/Claude Code 一樣）</text>
+
+  <!-- Bottom reframe -->
+  <text x="60" y="1100" font-size="17" fill="#FFFFFF" font-weight="600">不是「AI 設計工具」。</text>
+  <text x="60" y="1126" font-size="17" fill="#FFFFFF" font-weight="600">是 production codebase 的設計師 canvas 層。</text>
+  <text x="60" y="1152" font-size="15" fill="#505050">Canvas 是免費的。Brief 智識是你需要建立的。</text>
+
+  <!-- Attribution -->
+  <text x="840" y="1178" font-size="12" fill="#2A3A2A" text-anchor="end">Senior UX · AI Tools</text>
+</svg>
