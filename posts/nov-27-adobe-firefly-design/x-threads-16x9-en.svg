@@ -1,0 +1,75 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0D0D0D"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#8B5CF6" stroke-width="1" fill="none">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="300" y1="0" x2="300" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
+  </g>
+
+  <!-- Accent bar -->
+  <rect x="80" y="80" width="6" height="80" fill="#8B5CF6" rx="3"/>
+
+  <!-- Tool label -->
+  <text x="104" y="104" font-size="13" fill="#8B5CF6" font-weight="600" letter-spacing="2">ADOBE FIREFLY DESIGN · NOV 25, 2026 · BETA</text>
+
+  <!-- Main headline -->
+  <text x="104" y="168" font-size="44" fill="#FFFFFF" font-weight="700" letter-spacing="-1">6 CC apps → one workspace.</text>
+  <text x="104" y="224" font-size="38" fill="#C4B5FD" font-weight="700" letter-spacing="-1">Raster · Vector · Motion · 3D · Print.</text>
+
+  <!-- Divider -->
+  <line x1="104" y1="254" x2="1100" y2="254" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Three key items -->
+  <!-- Plan Mode box -->
+  <rect x="80" y="274" width="316" height="120" rx="6" fill="#120D1A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="100" y="302" font-size="12" fill="#8B5CF6" font-weight="700" letter-spacing="1">PLAN MODE</text>
+  <text x="100" y="326" font-size="16" fill="#FFFFFF" font-weight="600">Agent proposes</text>
+  <text x="100" y="348" font-size="13" fill="#C4B5FD">You approve — then it runs</text>
+  <text x="100" y="372" font-size="12" fill="#6D28D9">Two-phase trust architecture</text>
+
+  <!-- Arrow -->
+  <text x="411" y="340" font-size="22" fill="#4C1D95">→</text>
+
+  <!-- Brand Preferences box -->
+  <rect x="436" y="274" width="316" height="120" rx="6" fill="#120D1A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="456" y="302" font-size="12" fill="#8B5CF6" font-weight="700" letter-spacing="1">BRAND PREFERENCES</text>
+  <text x="456" y="326" font-size="16" fill="#FFFFFF" font-weight="600">Upload guidelines once</text>
+  <text x="456" y="348" font-size="13" fill="#C4B5FD">Agent reads every generation</text>
+  <text x="456" y="372" font-size="12" fill="#6D28D9">Reference input, not enforcement</text>
+
+  <!-- Arrow -->
+  <text x="767" y="340" font-size="22" fill="#4C1D95">→</text>
+
+  <!-- Local MCP box -->
+  <rect x="790" y="274" width="314" height="120" rx="6" fill="#120D1A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="810" y="302" font-size="12" fill="#8B5CF6" font-weight="700" letter-spacing="1">LOCAL MCP (2027)</text>
+  <text x="810" y="326" font-size="16" fill="#FFFFFF" font-weight="600">Claude → PS · AI · PR</text>
+  <text x="810" y="348" font-size="13" fill="#C4B5FD">Edit production files directly</text>
+  <text x="810" y="372" font-size="12" fill="#6D28D9">Layers stay editable</text>
+
+  <!-- Pipeline frame note -->
+  <rect x="80" y="416" width="680" height="62" rx="6" fill="#141414" stroke="#4C1D95" stroke-width="1.5"/>
+  <text x="100" y="442" font-size="14" fill="#8B5CF6" font-weight="600">The arc:</text>
+  <text x="174" y="442" font-size="14" fill="#808080">Web MCP (Webflow → Framer) closed in 46 days.</text>
+  <text x="100" y="466" font-size="13" fill="#606060">Desktop creative production MCPs are the next wave. Local MCP is the signal it's real.</text>
+
+  <!-- Honest caveat box -->
+  <rect x="786" y="416" width="318" height="62" rx="6" fill="#100A1A" stroke="#4C1D95" stroke-width="1"/>
+  <text x="806" y="438" font-size="12" fill="#6D28D9" font-weight="600" letter-spacing="1">HONEST CAVEAT</text>
+  <text x="806" y="458" font-size="13" fill="#7C3AED">Firefly Design + Agent = beta.</text>
+  <text x="806" y="474" font-size="13" fill="#7C3AED">Local MCP = early 2027. Not now.</text>
+
+  <!-- Bottom reframe -->
+  <text x="80" y="528" font-size="20" fill="#FFFFFF" font-weight="600">Not "AI tools in Photoshop." The production stack collapses into one agent-readable workspace.</text>
+  <text x="80" y="556" font-size="17" fill="#606060">When local MCP ships: external agents treat CC the same way they treat Figma files.</text>
+
+  <!-- Attribution -->
+  <text x="1120" y="660" font-size="13" fill="#2D1B69" text-anchor="end">Senior UX · AI Tools</text>
+</svg>

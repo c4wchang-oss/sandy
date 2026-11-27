@@ -1,0 +1,72 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="900" height="6" fill="#8B5CF6"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#8B5CF6" stroke-width="1" fill="none">
+    <line x1="0" y1="300" x2="900" y2="300"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="900" x2="900" y2="900"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+  </g>
+
+  <!-- Header section -->
+  <rect x="60" y="60" width="6" height="100" fill="#8B5CF6" rx="3"/>
+  <text x="84" y="90" font-size="13" fill="#8B5CF6" font-weight="600" letter-spacing="2">ADOBE FIREFLY DESIGN</text>
+  <text x="84" y="112" font-size="13" fill="#6D28D9" letter-spacing="1">2026 年 11 月 25 日 · BETA</text>
+
+  <!-- Main title -->
+  <text x="84" y="176" font-size="46" fill="#FFFFFF" font-weight="700" letter-spacing="-2">6 個 CC app</text>
+  <text x="84" y="234" font-size="46" fill="#FFFFFF" font-weight="700" letter-spacing="-2">→ 一個</text>
+  <text x="84" y="292" font-size="46" fill="#C4B5FD" font-weight="700" letter-spacing="-2">workspace。</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="322" x2="840" y2="322" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Section 1: What it is -->
+  <text x="60" y="362" font-size="13" fill="#8B5CF6" font-weight="700" letter-spacing="2">合併了什麼</text>
+  <rect x="60" y="378" width="780" height="96" rx="6" fill="#120D1A" stroke="#2D1B69" stroke-width="1"/>
+  <text x="80" y="406" font-size="16" fill="#FFFFFF" font-weight="600">點陣・向量・動態・3D・印刷</text>
+  <text x="80" y="430" font-size="14" fill="#C4B5FD">以前：6 個不同的 CC app</text>
+  <text x="80" y="454" font-size="13" fill="#6D28D9">Creative Agent 進駐 Premiere・Illustrator・InDesign・After Effects</text>
+
+  <!-- Section 2: Plan Mode -->
+  <text x="60" y="504" font-size="13" fill="#8B5CF6" font-weight="700" letter-spacing="2">01 / PLAN MODE</text>
+  <rect x="60" y="520" width="780" height="90" rx="6" fill="#120D1A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="80" y="548" font-size="16" fill="#FFFFFF" font-weight="600">Agent 提案 → 你批准 → 執行</text>
+  <text x="80" y="572" font-size="14" fill="#C4B5FD">兩階段信任架構，應用在平台層</text>
+  <text x="80" y="596" font-size="13" fill="#6D28D9">Brief 品質 = 品質天花板。一直都是。</text>
+
+  <!-- Section 3: Brand Preferences -->
+  <text x="60" y="642" font-size="13" fill="#8B5CF6" font-weight="700" letter-spacing="2">02 / 品牌偏好設定</text>
+  <rect x="60" y="658" width="780" height="90" rx="6" fill="#120D1A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="80" y="686" font-size="16" fill="#FFFFFF" font-weight="600">上傳指南一次。每次生成都讀取。</text>
+  <text x="80" y="710" font-size="14" fill="#C4B5FD">格式・顏色・品牌指南・角色・產品</text>
+  <text x="80" y="734" font-size="13" fill="#6D28D9">參考輸入，不是約束執行</text>
+
+  <!-- Section 4: Local MCP -->
+  <text x="60" y="780" font-size="13" fill="#8B5CF6" font-weight="700" letter-spacing="2">03 / LOCAL MCP（2027 年初）</text>
+  <rect x="60" y="796" width="780" height="90" rx="6" fill="#120D1A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="80" y="824" font-size="16" fill="#FFFFFF" font-weight="600">Claude/Cursor → PS・AI・PR・AE</text>
+  <text x="80" y="848" font-size="14" fill="#C4B5FD">直接編輯生產檔案。圖層保持可編輯。</text>
+  <text x="80" y="872" font-size="13" fill="#6D28D9">Private beta。現在還沒有。最值得關注的。</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="910" x2="840" y2="910" stroke="#222222" stroke-width="1"/>
+
+  <!-- Honest caveat -->
+  <text x="60" y="944" font-size="13" fill="#6D28D9" font-weight="700" letter-spacing="2">誠實的前提</text>
+  <text x="60" y="972" font-size="14" fill="#808080">· Firefly Design：beta，時間不明</text>
+  <text x="60" y="998" font-size="14" fill="#808080">· Creative Agent：各 app beta 程度不均</text>
+  <text x="60" y="1024" font-size="14" fill="#808080">· Local MCP：private beta，2027 年初</text>
+  <text x="60" y="1050" font-size="14" fill="#808080">· 品牌偏好設定 = 參考，不是執行</text>
+
+  <!-- Bottom reframe -->
+  <line x1="60" y1="1080" x2="840" y2="1080" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="60" y="1110" font-size="18" fill="#FFFFFF" font-weight="700">Local MCP 出貨時：外部 agent</text>
+  <text x="60" y="1138" font-size="18" fill="#C4B5FD" font-weight="700">對待 CC 就像對待 Figma 檔案。</text>
+  <text x="60" y="1170" font-size="13" fill="#4C1D95">Senior UX · AI 工具</text>
+</svg>

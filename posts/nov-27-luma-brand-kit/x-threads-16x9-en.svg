@@ -1,0 +1,67 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0D0D0D"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#06B6D4" stroke-width="1" fill="none">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="300" y1="0" x2="300" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
+  </g>
+
+  <!-- Accent bar -->
+  <rect x="80" y="80" width="6" height="80" fill="#06B6D4" rx="3"/>
+
+  <!-- Tool label -->
+  <text x="104" y="104" font-size="13" fill="#06B6D4" font-weight="600" letter-spacing="2">LUMA BRAND KIT + CHARACTER LIBRARY · NOV 25, 2026 · BETA</text>
+
+  <!-- Main headline -->
+  <text x="104" y="168" font-size="44" fill="#FFFFFF" font-weight="700" letter-spacing="-1">The face is now a brand asset.</text>
+  <text x="104" y="224" font-size="38" fill="#67E8F9" font-weight="700" letter-spacing="-1">#brandkit + @character = constraint composition.</text>
+
+  <!-- Divider -->
+  <line x1="104" y1="254" x2="1100" y2="254" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Two main feature boxes -->
+  <!-- Brand Kit box -->
+  <rect x="80" y="274" width="490" height="130" rx="6" fill="#071A1E" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="100" y="302" font-size="12" fill="#06B6D4" font-weight="700" letter-spacing="1">BRAND KIT</text>
+  <text x="100" y="326" font-size="16" fill="#FFFFFF" font-weight="600">AI source of truth for logos, fonts, colors</text>
+  <text x="100" y="348" font-size="13" fill="#67E8F9">Tie to board with #brandkit → every generation reads it</text>
+  <text x="100" y="368" font-size="13" fill="#67E8F9">Or drop website URL → Luma drafts for you</text>
+  <text x="100" y="390" font-size="12" fill="#155E75">Reference input · research preview beta</text>
+
+  <!-- Arrow -->
+  <text x="585" y="344" font-size="22" fill="#164E63">+</text>
+
+  <!-- Character Library box -->
+  <rect x="612" y="274" width="490" height="130" rx="6" fill="#071A1E" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="632" y="302" font-size="12" fill="#06B6D4" font-weight="700" letter-spacing="1">CHARACTER LIBRARY</text>
+  <text x="632" y="326" font-size="16" fill="#FFFFFF" font-weight="600">Face, body, wardrobe, expressions saved once</text>
+  <text x="632" y="348" font-size="13" fill="#67E8F9">Call with @character — model uses as source of truth</text>
+  <text x="632" y="368" font-size="13" fill="#67E8F9">First: face = named brand asset, not re-uploaded image</text>
+  <text x="632" y="390" font-size="12" fill="#155E75">New resource type at same level as a logo</text>
+
+  <!-- Monitor vs enforce -->
+  <rect x="80" y="424" width="680" height="62" rx="6" fill="#141414" stroke="#164E63" stroke-width="1.5"/>
+  <text x="100" y="450" font-size="14" fill="#06B6D4" font-weight="600">Evaluate ≠ enforce.</text>
+  <text x="210" y="450" font-size="14" fill="#808080">Agent flags brand drift. It doesn't architecturally prevent it.</text>
+  <text x="100" y="474" font-size="13" fill="#606060">Monitoring is not prevention. Know the level you're buying before running 100 assets unattended.</text>
+
+  <!-- URL caveat box -->
+  <rect x="786" y="424" width="318" height="62" rx="6" fill="#071214" stroke="#164E63" stroke-width="1"/>
+  <text x="806" y="446" font-size="12" fill="#155E75" font-weight="600" letter-spacing="1">URL CAVEAT</text>
+  <text x="806" y="466" font-size="13" fill="#0E7490">URL draft reads deployed state.</text>
+  <text x="806" y="482" font-size="13" fill="#0E7490">Audit before running at scale.</text>
+
+  <!-- Bottom reframe -->
+  <text x="80" y="528" font-size="20" fill="#FFFFFF" font-weight="600">Not "AI with brand colors." The face is a named constraint. The brief is a resource graph.</text>
+  <text x="80" y="556" font-size="17" fill="#606060">Reference beats description. This is the same principle applied to character identity.</text>
+
+  <!-- Attribution -->
+  <text x="1120" y="660" font-size="13" fill="#083344" text-anchor="end">Senior UX · AI Tools</text>
+</svg>

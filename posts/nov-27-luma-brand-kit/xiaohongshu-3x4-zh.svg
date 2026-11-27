@@ -1,0 +1,74 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="900" height="6" fill="#06B6D4"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#06B6D4" stroke-width="1" fill="none">
+    <line x1="0" y1="300" x2="900" y2="300"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="900" x2="900" y2="900"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+  </g>
+
+  <!-- Header section -->
+  <rect x="60" y="60" width="6" height="100" fill="#06B6D4" rx="3"/>
+  <text x="84" y="90" font-size="13" fill="#06B6D4" font-weight="600" letter-spacing="2">LUMA BRAND KIT</text>
+  <text x="84" y="112" font-size="13" fill="#155E75" letter-spacing="1">+ CHARACTER LIBRARY · 2026 年 11 月 25 日 · BETA</text>
+
+  <!-- Main title -->
+  <text x="84" y="176" font-size="44" fill="#FFFFFF" font-weight="700" letter-spacing="-2">臉現在是</text>
+  <text x="84" y="234" font-size="44" fill="#FFFFFF" font-weight="700" letter-spacing="-2">品牌素材。</text>
+  <text x="84" y="292" font-size="36" fill="#67E8F9" font-weight="700" letter-spacing="-2">和 logo 同等級。</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="322" x2="840" y2="322" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- The problem -->
+  <text x="60" y="362" font-size="13" fill="#06B6D4" font-weight="700" letter-spacing="2">問題</text>
+  <rect x="60" y="378" width="780" height="80" rx="6" fill="#071A1E" stroke="#164E63" stroke-width="1"/>
+  <text x="80" y="406" font-size="15" fill="#FFFFFF" font-weight="600">AI 即興發揮。Logo 偏移。角色臉到第三</text>
+  <text x="80" y="430" font-size="15" fill="#67E8F9">場景就漂移了。這不是 prompt 問題。</text>
+  <text x="80" y="448" font-size="13" fill="#155E75">是約束架構問題。</text>
+
+  <!-- Brand Kit section -->
+  <text x="60" y="494" font-size="13" fill="#06B6D4" font-weight="700" letter-spacing="2">BRAND KIT</text>
+  <rect x="60" y="510" width="780" height="100" rx="6" fill="#071A1E" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="80" y="538" font-size="15" fill="#FFFFFF" font-weight="600">Logo・字體・顏色・產品・品牌規則</text>
+  <text x="80" y="560" font-size="13" fill="#67E8F9">用 #brandkit 綁定 board</text>
+  <text x="80" y="580" font-size="13" fill="#67E8F9">每次生成都讀取。不需要重新提示。</text>
+  <text x="80" y="598" font-size="12" fill="#155E75">或：網站 URL → Luma 起草供審查</text>
+
+  <!-- Character Library section -->
+  <text x="60" y="644" font-size="13" fill="#06B6D4" font-weight="700" letter-spacing="2">CHARACTER LIBRARY</text>
+  <rect x="60" y="660" width="780" height="100" rx="6" fill="#071A1E" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="80" y="688" font-size="15" fill="#FFFFFF" font-weight="600">臉・身體・服裝・表情儲存一次</text>
+  <text x="80" y="710" font-size="13" fill="#67E8F9">在任何 board 用 @character 呼叫</text>
+  <text x="80" y="730" font-size="13" fill="#67E8F9">第一個：臉 = 命名約束，不是重新上傳的圖像</text>
+  <text x="80" y="748" font-size="12" fill="#155E75">和 logo 同等級的新資源類型</text>
+
+  <!-- Workflow -->
+  <text x="60" y="790" font-size="13" fill="#06B6D4" font-weight="700" letter-spacing="2">工作流程</text>
+  <rect x="60" y="806" width="780" height="80" rx="6" fill="#071A1E" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="80" y="834" font-size="14" fill="#FFFFFF">打開 board → #brandkit + @character → 描述 brief</text>
+  <text x="80" y="856" font-size="14" fill="#67E8F9">Agent 讀取兩者。生成一致的活動素材。</text>
+  <text x="80" y="874" font-size="12" fill="#155E75">100 個素材的活動，品牌一致</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="910" x2="840" y2="910" stroke="#222222" stroke-width="1"/>
+
+  <!-- Honest caveats -->
+  <text x="60" y="944" font-size="13" fill="#155E75" font-weight="700" letter-spacing="2">誠實的前提</text>
+  <text x="60" y="972" font-size="14" fill="#808080">· Brand Kit：research preview（beta）</text>
+  <text x="60" y="998" font-size="14" fill="#808080">· 「評估對齊」= 監控，不是執行</text>
+  <text x="60" y="1024" font-size="14" fill="#808080">· URL 草稿 = 已部署狀態，不是設計意圖</text>
+  <text x="60" y="1050" font-size="14" fill="#808080">· 規模跑之前先審計草稿</text>
+
+  <!-- Bottom reframe -->
+  <line x1="60" y1="1080" x2="840" y2="1080" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="60" y="1110" font-size="18" fill="#FFFFFF" font-weight="700">參考勝過描述。</text>
+  <text x="60" y="1138" font-size="18" fill="#67E8F9" font-weight="700">Brief = 資源圖，不是段落。</text>
+  <text x="60" y="1170" font-size="13" fill="#083344">Senior UX · AI 工具</text>
+</svg>

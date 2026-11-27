@@ -1,0 +1,72 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="900" height="6" fill="#8B5CF6"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#8B5CF6" stroke-width="1" fill="none">
+    <line x1="0" y1="300" x2="900" y2="300"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="900" x2="900" y2="900"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+  </g>
+
+  <!-- Header section -->
+  <rect x="60" y="60" width="6" height="100" fill="#8B5CF6" rx="3"/>
+  <text x="84" y="90" font-size="13" fill="#8B5CF6" font-weight="600" letter-spacing="2">ADOBE FIREFLY DESIGN</text>
+  <text x="84" y="112" font-size="13" fill="#6D28D9" letter-spacing="1">NOV 25, 2026 · BETA</text>
+
+  <!-- Main title -->
+  <text x="84" y="176" font-size="48" fill="#FFFFFF" font-weight="700" letter-spacing="-2">6 CC apps</text>
+  <text x="84" y="234" font-size="48" fill="#FFFFFF" font-weight="700" letter-spacing="-2">→ one</text>
+  <text x="84" y="292" font-size="48" fill="#C4B5FD" font-weight="700" letter-spacing="-2">workspace.</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="322" x2="840" y2="322" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Section 1: What it is -->
+  <text x="60" y="362" font-size="13" fill="#8B5CF6" font-weight="700" letter-spacing="2">WHAT IT COMBINES</text>
+  <rect x="60" y="378" width="780" height="96" rx="6" fill="#120D1A" stroke="#2D1B69" stroke-width="1"/>
+  <text x="80" y="406" font-size="16" fill="#FFFFFF" font-weight="600">Raster · Vector · Motion · 3D · Print</text>
+  <text x="80" y="430" font-size="14" fill="#C4B5FD">Previously: 6 separate CC apps</text>
+  <text x="80" y="454" font-size="13" fill="#6D28D9">Creative Agent across Premiere · Illustrator · InDesign · After Effects</text>
+
+  <!-- Section 2: Plan Mode -->
+  <text x="60" y="504" font-size="13" fill="#8B5CF6" font-weight="700" letter-spacing="2">01 / PLAN MODE</text>
+  <rect x="60" y="520" width="780" height="90" rx="6" fill="#120D1A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="80" y="548" font-size="16" fill="#FFFFFF" font-weight="600">Agent proposes → you approve → it runs</text>
+  <text x="80" y="572" font-size="14" fill="#C4B5FD">Two-phase trust architecture at the platform layer</text>
+  <text x="80" y="596" font-size="13" fill="#6D28D9">Brief quality = quality ceiling. Same as always.</text>
+
+  <!-- Section 3: Brand Preferences -->
+  <text x="60" y="642" font-size="13" fill="#8B5CF6" font-weight="700" letter-spacing="2">02 / BRAND PREFERENCES</text>
+  <rect x="60" y="658" width="780" height="90" rx="6" fill="#120D1A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="80" y="686" font-size="16" fill="#FFFFFF" font-weight="600">Upload guidelines once. Agent reads every time.</text>
+  <text x="80" y="710" font-size="14" fill="#C4B5FD">Formats · colors · brand guidelines · characters · products</text>
+  <text x="80" y="734" font-size="13" fill="#6D28D9">Reference input, not constraint enforcement</text>
+
+  <!-- Section 4: Local MCP -->
+  <text x="60" y="780" font-size="13" fill="#8B5CF6" font-weight="700" letter-spacing="2">03 / LOCAL MCP (EARLY 2027)</text>
+  <rect x="60" y="796" width="780" height="90" rx="6" fill="#120D1A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="80" y="824" font-size="16" fill="#FFFFFF" font-weight="600">Claude/Cursor → PS · Illustrator · Premiere · AE</text>
+  <text x="80" y="848" font-size="14" fill="#C4B5FD">Edit production files directly. Layers stay editable.</text>
+  <text x="80" y="872" font-size="13" fill="#6D28D9">Private beta. Not available yet. The one to watch.</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="910" x2="840" y2="910" stroke="#222222" stroke-width="1"/>
+
+  <!-- Honest caveat -->
+  <text x="60" y="944" font-size="13" fill="#6D28D9" font-weight="700" letter-spacing="2">HONEST CAVEATS</text>
+  <text x="60" y="972" font-size="14" fill="#808080">· Firefly Design: beta, timeline unclear</text>
+  <text x="60" y="998" font-size="14" fill="#808080">· Creative Agent: uneven beta across apps</text>
+  <text x="60" y="1024" font-size="14" fill="#808080">· Local MCP: private beta, early 2027</text>
+  <text x="60" y="1050" font-size="14" fill="#808080">· Brand prefs = reference, not enforcement</text>
+
+  <!-- Bottom reframe -->
+  <line x1="60" y1="1080" x2="840" y2="1080" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="60" y="1110" font-size="18" fill="#FFFFFF" font-weight="700">When local MCP ships: agents treat CC</text>
+  <text x="60" y="1138" font-size="18" fill="#C4B5FD" font-weight="700">the same way they treat Figma files.</text>
+  <text x="60" y="1170" font-size="13" fill="#4C1D95">Senior UX · AI Tools</text>
+</svg>
