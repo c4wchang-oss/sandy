@@ -1,0 +1,75 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0D0D0D"/>
+
+  <!-- Subtle grid background -->
+  <g opacity="0.04" stroke="#8B5CF6" stroke-width="1" fill="none">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="300" y1="0" x2="300" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
+  </g>
+
+  <!-- Accent bar -->
+  <rect x="80" y="80" width="6" height="80" fill="#8B5CF6" rx="3"/>
+
+  <!-- Tool label -->
+  <text x="104" y="104" font-size="13" fill="#8B5CF6" font-weight="600" letter-spacing="2">ADOBE FIREFLY DESIGN · 2026 年 11 月 25 日 · BETA</text>
+
+  <!-- Main headline -->
+  <text x="104" y="168" font-size="42" fill="#FFFFFF" font-weight="700" letter-spacing="-1">6 個 CC app → 一個 workspace。</text>
+  <text x="104" y="224" font-size="36" fill="#C4B5FD" font-weight="700" letter-spacing="-1">點陣・向量・動態・3D・印刷。</text>
+
+  <!-- Divider -->
+  <line x1="104" y1="254" x2="1100" y2="254" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Three key items -->
+  <!-- Plan Mode box -->
+  <rect x="80" y="274" width="316" height="120" rx="6" fill="#120D1A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="100" y="302" font-size="12" fill="#8B5CF6" font-weight="700" letter-spacing="1">PLAN MODE</text>
+  <text x="100" y="326" font-size="16" fill="#FFFFFF" font-weight="600">Agent 先提案</text>
+  <text x="100" y="350" font-size="13" fill="#C4B5FD">你批准——然後執行</text>
+  <text x="100" y="374" font-size="12" fill="#6D28D9">兩階段信任架構</text>
+
+  <!-- Arrow -->
+  <text x="411" y="340" font-size="22" fill="#4C1D95">→</text>
+
+  <!-- Brand Preferences box -->
+  <rect x="436" y="274" width="316" height="120" rx="6" fill="#120D1A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="456" y="302" font-size="12" fill="#8B5CF6" font-weight="700" letter-spacing="1">品牌偏好設定</text>
+  <text x="456" y="326" font-size="16" fill="#FFFFFF" font-weight="600">上傳指南一次</text>
+  <text x="456" y="350" font-size="13" fill="#C4B5FD">每次生成都讀取</text>
+  <text x="456" y="374" font-size="12" fill="#6D28D9">參考輸入，不是約束執行</text>
+
+  <!-- Arrow -->
+  <text x="767" y="340" font-size="22" fill="#4C1D95">→</text>
+
+  <!-- Local MCP box -->
+  <rect x="790" y="274" width="314" height="120" rx="6" fill="#120D1A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="810" y="302" font-size="12" fill="#8B5CF6" font-weight="700" letter-spacing="1">LOCAL MCP（2027 年）</text>
+  <text x="810" y="326" font-size="16" fill="#FFFFFF" font-weight="600">Claude → PS · AI · PR</text>
+  <text x="810" y="350" font-size="13" fill="#C4B5FD">直接編輯生產檔案</text>
+  <text x="810" y="374" font-size="12" fill="#6D28D9">圖層保持可編輯</text>
+
+  <!-- Pipeline frame note -->
+  <rect x="80" y="416" width="680" height="62" rx="6" fill="#141414" stroke="#4C1D95" stroke-width="1.5"/>
+  <text x="100" y="442" font-size="14" fill="#8B5CF6" font-weight="600">弧線：</text>
+  <text x="156" y="442" font-size="14" fill="#808080">Web MCP（Webflow → Framer）46 天完成。</text>
+  <text x="100" y="466" font-size="13" fill="#606060">桌面創意生產 MCP 是下一波。Local MCP 是它是真實的信號。</text>
+
+  <!-- Honest caveat box -->
+  <rect x="786" y="416" width="318" height="62" rx="6" fill="#100A1A" stroke="#4C1D95" stroke-width="1"/>
+  <text x="806" y="438" font-size="12" fill="#6D28D9" font-weight="600" letter-spacing="1">誠實的前提</text>
+  <text x="806" y="458" font-size="13" fill="#7C3AED">Firefly Design + Agent = beta。</text>
+  <text x="806" y="474" font-size="13" fill="#7C3AED">Local MCP = 2027 年初。現在還沒。</text>
+
+  <!-- Bottom reframe -->
+  <text x="80" y="528" font-size="19" fill="#FFFFFF" font-weight="600">不是「Photoshop 裡的 AI 工具」。生產堆疊折疊成一個 agent 可讀的 workspace。</text>
+  <text x="80" y="556" font-size="16" fill="#606060">Local MCP 出貨時：外部 agent 對待 CC 就像對待 Figma 檔案一樣。</text>
+
+  <!-- Attribution -->
+  <text x="1120" y="660" font-size="13" fill="#2D1B69" text-anchor="end">Senior UX · AI 工具</text>
+</svg>

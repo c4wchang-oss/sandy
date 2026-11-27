@@ -1,0 +1,74 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0D0D0D"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="900" height="6" fill="#06B6D4"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#06B6D4" stroke-width="1" fill="none">
+    <line x1="0" y1="300" x2="900" y2="300"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="900" x2="900" y2="900"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+  </g>
+
+  <!-- Header section -->
+  <rect x="60" y="60" width="6" height="100" fill="#06B6D4" rx="3"/>
+  <text x="84" y="90" font-size="13" fill="#06B6D4" font-weight="600" letter-spacing="2">LUMA BRAND KIT</text>
+  <text x="84" y="112" font-size="13" fill="#155E75" letter-spacing="1">+ CHARACTER LIBRARY · NOV 25, 2026 · BETA</text>
+
+  <!-- Main title -->
+  <text x="84" y="176" font-size="46" fill="#FFFFFF" font-weight="700" letter-spacing="-2">The face is</text>
+  <text x="84" y="234" font-size="46" fill="#FFFFFF" font-weight="700" letter-spacing="-2">now a brand</text>
+  <text x="84" y="292" font-size="46" fill="#67E8F9" font-weight="700" letter-spacing="-2">asset.</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="322" x2="840" y2="322" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- The problem -->
+  <text x="60" y="362" font-size="13" fill="#06B6D4" font-weight="700" letter-spacing="2">THE PROBLEM</text>
+  <rect x="60" y="378" width="780" height="80" rx="6" fill="#071A1E" stroke="#164E63" stroke-width="1"/>
+  <text x="80" y="406" font-size="15" fill="#FFFFFF" font-weight="600">AI improvises. Logo shifts. Character face</text>
+  <text x="80" y="430" font-size="15" fill="#67E8F9">drifts by scene three. Not a prompt problem.</text>
+  <text x="80" y="448" font-size="13" fill="#155E75">It's a constraint architecture problem.</text>
+
+  <!-- Brand Kit section -->
+  <text x="60" y="494" font-size="13" fill="#06B6D4" font-weight="700" letter-spacing="2">BRAND KIT</text>
+  <rect x="60" y="510" width="780" height="100" rx="6" fill="#071A1E" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="80" y="538" font-size="15" fill="#FFFFFF" font-weight="600">Logos · fonts · colors · products · rules</text>
+  <text x="80" y="560" font-size="13" fill="#67E8F9">Tie to board with #brandkit</text>
+  <text x="80" y="580" font-size="13" fill="#67E8F9">Every generation reads it. No re-prompting.</text>
+  <text x="80" y="598" font-size="12" fill="#155E75">Or: website URL → Luma drafts for review</text>
+
+  <!-- Character Library section -->
+  <text x="60" y="644" font-size="13" fill="#06B6D4" font-weight="700" letter-spacing="2">CHARACTER LIBRARY</text>
+  <rect x="60" y="660" width="780" height="100" rx="6" fill="#071A1E" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="80" y="688" font-size="15" fill="#FFFFFF" font-weight="600">Face · body · wardrobe · expressions saved</text>
+  <text x="80" y="710" font-size="13" fill="#67E8F9">Call with @character in any board</text>
+  <text x="80" y="730" font-size="13" fill="#67E8F9">First: face = named constraint, not re-uploaded image</text>
+  <text x="80" y="748" font-size="12" fill="#155E75">New resource type at same level as a logo</text>
+
+  <!-- Workflow -->
+  <text x="60" y="790" font-size="13" fill="#06B6D4" font-weight="700" letter-spacing="2">WORKFLOW</text>
+  <rect x="60" y="806" width="780" height="80" rx="6" fill="#071A1E" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="80" y="834" font-size="14" fill="#FFFFFF">Open board → #brandkit + @character → describe brief</text>
+  <text x="80" y="856" font-size="14" fill="#67E8F9">Agent reads both. Generates consistent campaign assets.</text>
+  <text x="80" y="874" font-size="12" fill="#155E75">100-asset campaign at brand consistency</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="910" x2="840" y2="910" stroke="#222222" stroke-width="1"/>
+
+  <!-- Honest caveats -->
+  <text x="60" y="944" font-size="13" fill="#155E75" font-weight="700" letter-spacing="2">HONEST CAVEATS</text>
+  <text x="60" y="972" font-size="14" fill="#808080">· Brand Kit: research preview (beta)</text>
+  <text x="60" y="998" font-size="14" fill="#808080">· "Evaluates alignment" = monitoring, not enforcement</text>
+  <text x="60" y="1024" font-size="14" fill="#808080">· URL draft = deployed state, not design intent</text>
+  <text x="60" y="1050" font-size="14" fill="#808080">· Audit before running 100 assets unattended</text>
+
+  <!-- Bottom reframe -->
+  <line x1="60" y1="1080" x2="840" y2="1080" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="60" y="1110" font-size="18" fill="#FFFFFF" font-weight="700">Reference beats description.</text>
+  <text x="60" y="1138" font-size="18" fill="#67E8F9" font-weight="700">Brief = resource graph, not paragraph.</text>
+  <text x="60" y="1170" font-size="13" fill="#083344">Senior UX · AI Tools</text>
+</svg>
