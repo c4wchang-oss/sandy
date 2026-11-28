@@ -1,0 +1,82 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'PingFang TC', 'Noto Sans TC', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0A0A0F"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#6366F1" stroke-width="1" fill="none">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="300" y1="0" x2="300" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
+  </g>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="78" width="6" height="88" fill="#6366F1" rx="3"/>
+
+  <!-- Source label -->
+  <text x="104" y="102" font-size="12" fill="#6366F1" font-weight="600" letter-spacing="2">GOOGLE STITCH RAPID + STITCH LOOP · 2026 年 11 月 · GOOGLE LABS</text>
+
+  <!-- Main headline -->
+  <text x="104" y="156" font-size="44" fill="#FFFFFF" font-weight="700" letter-spacing="-1">Brief 現在是你產品的</text>
+  <text x="104" y="208" font-size="44" fill="#A5B4FC" font-weight="700" letter-spacing="-1">live 效能數據。</text>
+
+  <!-- Divider -->
+  <line x1="104" y1="234" x2="1116" y2="234" stroke="#1E1E2E" stroke-width="1.5"/>
+
+  <!-- Left panel: Stitch Rapid -->
+  <rect x="80" y="254" width="484" height="264" rx="8" fill="#0D0D1A" stroke="#6366F1" stroke-width="1.5"/>
+  <text x="104" y="285" font-size="11" fill="#6366F1" font-weight="700" letter-spacing="2">STITCH RAPID · 11 月 11 日</text>
+  <text x="104" y="313" font-size="20" fill="#FFFFFF" font-weight="700">Pipeline 前端。</text>
+  <text x="104" y="337" font-size="14" fill="#A5B4FC">Prompt → 多螢幕流程，約 5 秒</text>
+
+  <!-- Decision vs Generative badge -->
+  <rect x="104" y="354" width="280" height="28" rx="4" fill="#1E1B4B"/>
+  <text x="116" y="373" font-size="12" fill="#A5B4FC" font-weight="600">Gemini Decisions API · 判別模型，非生成式</text>
+
+  <text x="104" y="410" font-size="13" fill="#818CF8">→ 從有約束的選項空間中選擇</text>
+  <text x="104" y="430" font-size="13" fill="#818CF8">→ 7 個設計系統作為生成參數</text>
+  <text x="104" y="450" font-size="13" fill="#818CF8">→ 速度來自約束，不是生成能力</text>
+
+  <rect x="104" y="466" width="430" height="30" rx="4" fill="#0A0A14" stroke="#2D2D5E" stroke-width="1"/>
+  <text x="118" y="486" font-size="12" fill="#4B5563">⚠ Session 不儲存 · 早期 MVP · 關閉前請下載</text>
+
+  <!-- Middle arrow -->
+  <text x="582" y="393" font-size="28" fill="#4B5563" font-weight="300">→</text>
+
+  <!-- Right panel: Stitch Loop -->
+  <rect x="636" y="254" width="484" height="264" rx="8" fill="#0D0D1A" stroke="#6366F1" stroke-width="1.5"/>
+  <text x="660" y="285" font-size="11" fill="#6366F1" font-weight="700" letter-spacing="2">STITCH LOOP · 11 月 18 日 · 僅限候補名單</text>
+  <text x="660" y="313" font-size="20" fill="#FFFFFF" font-weight="700">Pipeline 後端。</text>
+  <text x="660" y="337" font-size="14" fill="#A5B4FC">後發布 agent · live metrics → PR</text>
+
+  <!-- 4-step loop labels -->
+  <text x="660" y="370" font-size="12" fill="#6366F1" font-weight="700">四步循環</text>
+
+  <rect x="660" y="380" width="88" height="24" rx="4" fill="#1E1B4B"/>
+  <text x="668" y="397" font-size="11" fill="#A5B4FC" font-weight="600">1 建議</text>
+
+  <rect x="758" y="380" width="88" height="24" rx="4" fill="#1E1B4B"/>
+  <text x="766" y="397" font-size="11" fill="#A5B4FC" font-weight="600">2 方案</text>
+
+  <rect x="856" y="380" width="80" height="24" rx="4" fill="#1E1B4B"/>
+  <text x="866" y="397" font-size="11" fill="#A5B4FC" font-weight="600">3 建構</text>
+
+  <rect x="946" y="380" width="80" height="24" rx="4" fill="#1E1B4B"/>
+  <text x="956" y="397" font-size="11" fill="#A5B4FC" font-weight="600">4 反思</text>
+
+  <text x="660" y="430" font-size="13" fill="#818CF8">→ 安全性 · 延遲 · 無障礙功能（預設 loop）</text>
+  <text x="660" y="450" font-size="13" fill="#818CF8">→ 在沙盒中寫程式碼 → 開 GitHub PR</text>
+  <text x="660" y="470" font-size="13" fill="#818CF8">→ 監控 live metrics · 沒有任何東西自行合併</text>
+
+  <rect x="660" y="490" width="430" height="20" rx="4" fill="#0A0A14" stroke="#2D2D5E" stroke-width="1"/>
+  <text x="674" y="505" font-size="11" fill="#4B5563">Brief = 你產品的 live 效能數據</text>
+
+  <!-- Bottom caption -->
+  <text x="104" y="560" font-size="13" fill="#374151">Stitch Rapid · stitch.google.com · 2026 年 11 月 11 日</text>
+  <text x="104" y="578" font-size="13" fill="#374151">Stitch Loop · blog.google · 2026 年 11 月 18 日</text>
+  <text x="104" y="604" font-size="13" fill="#374151">Senior UX Designer 視角</text>
+  <line x1="104" y1="624" x2="300" y2="624" stroke="#1E1E2E" stroke-width="1"/>
+</svg>
